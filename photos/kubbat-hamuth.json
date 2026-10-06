@@ -1,0 +1,35 @@
+{
+  "id": "kubbat-hamuth",
+  "photo": {
+    "src": "images/kubbat-hamuth.webp",
+    "thumb": "images/kubbat-hamuth-thumb.webp",
+    "width": 960,
+    "height": 543,
+    "alt": "Kubba dumplings in deep red beetroot broth, two cut open to show meat filling, with flatbread, pickles and hummus",
+    "focus": [
+      64,
+      55
+    ],
+    "credit": {
+      "title": "Red Kubbeh soup with pita, pickled cucumbers and hummus",
+      "author": "Maor X",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Maor_X",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_Kubbeh_soup_with_pita,_pickled_cucumbers_and_hummus.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Red_Kubbeh_soup_with_pita%2C_pickled_cucumbers_and_hummus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "kibbeh soup"
+  },
+  "queries": [
+    "kubba hamuth",
+    "kubba shalgham",
+    "kibbeh soup",
+    "كبة حامض"
+  ]
+}

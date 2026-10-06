@@ -1,0 +1,35 @@
+{
+  "id": "banana-oat-cookies",
+  "photo": {
+    "src": "images/banana-oat-cookies.webp",
+    "thumb": "images/banana-oat-cookies-thumb.webp",
+    "width": 960,
+    "height": 1275,
+    "alt": "Soft oat cookies studded with raisins spread across a white plate",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Oatmeal cookies on a plate",
+      "author": "Evan Prodromou",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:EvanProdromou",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oatmeal_cookies_on_a_plate.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c07",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Oatmeal_cookies_on_a_plate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "oatmeal raisin cookies"
+  },
+  "queries": [
+    "banana oat cookies",
+    "oatmeal raisin cookies",
+    "banana oatmeal cookies",
+    "oat cookies"
+  ]
+}

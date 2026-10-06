@@ -1,0 +1,35 @@
+{
+  "id": "margat-bamya",
+  "photo": {
+    "src": "images/margat-bamya.webp",
+    "thumb": "images/margat-bamya-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Bamya stew of whole okra and lamb pieces in tomato sauce with white basmati rice on a floral plate",
+    "focus": [
+      50,
+      58
+    ],
+    "credit": {
+      "title": "Du bamia avec du riz en février 2022",
+      "author": "Benoît Prieur",
+      "authorUrl": "https://www.wikidata.org/wiki/Q42790984",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Du_bamia_avec_du_riz_en_f%C3%A9vrier_2022.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Du_bamia_avec_du_riz_en_f%C3%A9vrier_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "okra stew"
+  },
+  "queries": [
+    "bamya lamb stew",
+    "مرقة بامية",
+    "okra stew",
+    "bamia"
+  ]
+}

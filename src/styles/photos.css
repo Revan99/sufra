@@ -1,0 +1,308 @@
+/* Recipe photos (RecipeImage): a frame per place a recipe is shown. The photo fills its frame (object-fit: cover,
+   positioned on the food); a recipe without one, or whose photo can't load, draws its plate in the same spot. */
+
+.ri {
+  position: relative;
+  display: block;
+  flex: none;
+}
+
+.ri-has-photo {
+  overflow: hidden;
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+}
+
+/* A hairline over the photo's edge, so white-plate photos keep their shape on light cards and dark ones on dark. */
+.ri-has-photo::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 7%);
+  pointer-events: none;
+}
+
+/* Dark mode: take the glare off bright, white-background photos and light the hairline instead. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .ri-img {
+    filter: brightness(0.9);
+  }
+
+  :root:not([data-theme='light']) .ri-has-photo::after {
+    box-shadow: inset 0 0 0 1px rgb(255 255 255 / 9%);
+  }
+}
+
+:root[data-theme='dark'] .ri-img {
+  filter: brightness(0.9);
+}
+
+:root[data-theme='dark'] .ri-has-photo::after {
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 9%);
+}
+
+.ri-img {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+  /* While loading, and in the instant before a failed photo becomes a plate, show no alt text over the frame. */
+  color: transparent;
+}
+
+.ri-plate {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+/* Today's meal cards: where the plate was, a little larger on wide screens. */
+.ri-meal {
+  inline-size: 4.75rem;
+  block-size: 4.75rem;
+}
+
+/* Swap options and the Add to a day sheet's header. */
+.ri-option {
+  inline-size: 3.25rem;
+  block-size: 3.25rem;
+}
+
+.ri-option.ri-has-photo {
+  border-radius: var(--r-sm);
+}
+
+.ri-sheet {
+  inline-size: 3.5rem;
+  block-size: 3.5rem;
+  margin-block-start: var(--s-1);
+}
+
+.sheet-head-text {
+  flex: 1;
+  min-inline-size: 0;
+}
+
+/* Recipe page hero: a 4:3 photo across the column on phones and tablets. */
+.recipe-media {
+  justify-self: stretch;
+  display: grid;
+  gap: var(--s-2);
+  margin: 0;
+  min-inline-size: 0;
+}
+
+.ri-hero.ri-has-photo {
+  inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-1);
+}
+
+/* Credits: under the hero photo, and in the Photo credits list. */
+.photo-credit {
+  color: var(--ink-2);
+  font-size: var(--fs-xs);
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+.photo-credit a {
+  color: inherit;
+  text-decoration-color: var(--line-strong);
+}
+
+.photo-credit a:hover {
+  color: var(--ink);
+}
+
+/* A 44 px tap band for the small credit links, without moving the text. */
+.recipe-media .photo-credit a {
+  position: relative;
+}
+
+.recipe-media .photo-credit a::before {
+  content: '';
+  position: absolute;
+  inset: -12px -2px;
+}
+
+/* Settings › About: the link to Photo credits. */
+.settings-link {
+  display: flex;
+  align-items: center;
+  gap: var(--s-3);
+  min-block-size: var(--tap);
+  margin-block-start: var(--s-3);
+  padding: var(--s-2) var(--s-3);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  background: var(--surface);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.settings-link:hover {
+  border-color: var(--line-strong);
+  background: var(--surface-2);
+}
+
+.settings-link > .icon {
+  flex: none;
+  color: var(--ink-2);
+}
+
+.settings-link-text {
+  display: grid;
+  flex: 1;
+  min-inline-size: 0;
+}
+
+.settings-link-title {
+  font-weight: 650;
+}
+
+.settings-link-hint {
+  color: var(--ink-2);
+  font-size: var(--fs-sm);
+}
+
+/* The Photo credits screen. */
+.credits-title {
+  margin-block-end: var(--s-2);
+}
+
+.credits-intro {
+  max-inline-size: 42rem;
+  color: var(--ink-2);
+}
+
+.credits-count {
+  margin-block: var(--s-5) var(--s-3);
+}
+
+.credit-list {
+  display: grid;
+  gap: var(--s-3);
+  max-inline-size: 48rem;
+}
+
+.credit-item {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: start;
+  gap: var(--s-4);
+  padding: var(--s-4);
+}
+
+.ri-credit {
+  inline-size: 4.5rem;
+  block-size: 4.5rem;
+}
+
+.credit-text {
+  display: grid;
+  gap: var(--s-1);
+  min-inline-size: 0;
+}
+
+.credit-recipe {
+  font-size: var(--fs-lg);
+}
+
+.credit-recipe a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.credit-recipe a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+.credit-list .photo-credit {
+  font-size: var(--fs-sm);
+}
+
+.credit-list .photo-credit a {
+  display: inline-block;
+  min-block-size: var(--tap);
+  padding-block: 0.7rem;
+  margin-block: -0.7rem;
+}
+
+/* Phone rows in Recipes keep their small square (see recipe.css); wider screens get a photo across each card. */
+@media (min-width: 600px) {
+  .recipe-card {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto 1fr auto;
+  }
+
+  .ri-card.recipe-card-plate {
+    inline-size: auto;
+    block-size: auto;
+    aspect-ratio: 16 / 10;
+    margin: calc(-1 * var(--s-4)) calc(-1 * var(--s-4)) 0;
+    border-radius: calc(var(--r-lg) - 1px) calc(var(--r-lg) - 1px) 0 0;
+    background: var(--surface-2);
+  }
+
+  .ri-card.ri-fallback {
+    display: grid;
+    place-items: center;
+  }
+
+  /* Big enough to hold its own beside the photo cards around it (the frame is about 12rem tall). */
+  .ri-card .ri-plate {
+    inline-size: 8.5rem;
+    block-size: 8.5rem;
+  }
+
+  .ri-hero.ri-has-photo {
+    max-inline-size: 36rem;
+  }
+
+  .recipe-hero.has-photo {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--s-5);
+  }
+}
+
+@media (min-width: 900px) {
+  .ri-meal {
+    inline-size: 6.5rem;
+    block-size: 6.5rem;
+  }
+
+  .recipe-hero.has-photo {
+    grid-template-columns: clamp(17rem, 30vw, 26rem) minmax(0, 1fr);
+    align-items: start;
+    gap: var(--s-8);
+  }
+
+  .ri-hero.ri-has-photo {
+    max-inline-size: none;
+  }
+}
+
+@media (hover: hover) {
+  .recipe-card .ri-img {
+    transition: transform var(--dur-2) var(--ease);
+  }
+
+  .recipe-card:hover .ri-img {
+    transform: scale(1.03);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .recipe-card .ri-img {
+    transition: none;
+  }
+
+  .recipe-card:hover .ri-img {
+    transform: none;
+  }
+}

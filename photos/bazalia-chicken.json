@@ -1,0 +1,35 @@
+{
+  "id": "bazalia-chicken",
+  "photo": {
+    "src": "images/bazalia-chicken.webp",
+    "thumb": "images/bazalia-chicken-thumb.webp",
+    "width": 960,
+    "height": 960,
+    "alt": "Green peas and meat in a thick tomato sauce, topped with chopped parsley, in a glass bowl",
+    "focus": [
+      50,
+      48
+    ],
+    "credit": {
+      "title": "Ragoût viande, petits pois, Tunisie 2018 DSC 7726",
+      "author": "Habib M'henni",
+      "authorUrl": "https://www.wikidata.org/wiki/Q105725266",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rago%C3%BBt_viande,_petits_pois,_Tunisie_2018_DSC_7726.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Rago%C3%BBt_viande%2C_petits_pois%2C_Tunisie_2018_DSC_7726.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "green pea stew"
+  },
+  "queries": [
+    "margat bazalia",
+    "green pea stew",
+    "مرقة بزاليا",
+    "bazella"
+  ]
+}

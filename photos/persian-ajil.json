@@ -1,0 +1,34 @@
+{
+  "id": "persian-ajil",
+  "photo": {
+    "src": "images/persian-ajil.webp",
+    "thumb": "images/persian-ajil-thumb.webp",
+    "width": 960,
+    "height": 1280,
+    "alt": "Round wooden board of almonds, walnuts, pistachios, raisins and dried berries around a mixed nut centre",
+    "focus": [
+      50,
+      48
+    ],
+    "credit": {
+      "title": "Haft Mewa, Nowruz",
+      "author": "Waleedkabul",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Waleedkabul",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haft_Mewa,_Nowruz.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c15",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Haft_Mewa%2C_Nowruz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Nowruz nuts"
+  },
+  "queries": [
+    "ajil",
+    "mixed nuts pistachios raisins bowl",
+    "Nowruz nuts"
+  ]
+}

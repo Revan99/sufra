@@ -1,0 +1,36 @@
+{
+  "id": "kurdish-shifta",
+  "photo": {
+    "src": "images/kurdish-shifta.webp",
+    "thumb": "images/kurdish-shifta-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Pan-seared flat beef patties on a white plate with a grilled green pepper, tomato and a little rice",
+    "focus": [
+      50,
+      58
+    ],
+    "credit": {
+      "title": "Turkish meatballs",
+      "author": "E4024",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:E4024",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turkish_meatballs.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c18",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Turkish_meatballs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "izgara köfte"
+  },
+  "queries": [
+    "شفته",
+    "kofta patties",
+    "izgara köfte",
+    "kafta",
+    "shifta kebab"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "balik-ekmek",
+  "photo": {
+    "src": "images/balik-ekmek.webp",
+    "thumb": "images/balik-ekmek-thumb.webp",
+    "width": 960,
+    "height": 567,
+    "alt": "Crusty white roll filled with a grilled mackerel fillet, lettuce and sliced onion, wrapped in white paper",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Balik ekmek Galata Bridge",
+      "author": "Benreis",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Benreis",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Balik_ekmek_Galata_Bridge.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c04",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Balik_ekmek_Galata_Bridge.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "balık ekmek"
+  },
+  "queries": [
+    "balık ekmek",
+    "balik ekmek",
+    "mackerel sandwich"
+  ]
+}

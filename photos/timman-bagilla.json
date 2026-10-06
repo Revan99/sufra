@@ -1,0 +1,35 @@
+{
+  "id": "timman-bagilla",
+  "photo": {
+    "src": "images/timman-bagilla.webp",
+    "thumb": "images/timman-bagilla-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Platter of dill rice with fava beans and saffron-tinted grains, with pieces of braised meat around the edge",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Baghali Polo 2",
+      "author": "MRG90",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:MRG90",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baghali_Polo_2.png",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Baghali_Polo_2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "baghali polo"
+  },
+  "queries": [
+    "timman bagilla",
+    "baghali polo",
+    "dill rice fava beans",
+    "تمن باگلة"
+  ]
+}

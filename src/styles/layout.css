@@ -1,0 +1,211 @@
+/* App shell: bottom tab bar on phones, a side navigation from 900 px, centred content. */
+
+.app {
+  min-block-size: 100dvh;
+}
+
+.main {
+  display: block;
+  padding-block: calc(env(safe-area-inset-top) + var(--s-3)) calc(var(--nav-h) + env(safe-area-inset-bottom) + var(--s-10));
+  padding-inline: max(var(--gutter), env(safe-area-inset-left), env(safe-area-inset-right));
+  inline-size: 100%;
+  max-inline-size: var(--content-max);
+  margin-inline: auto;
+}
+
+.main:focus {
+  outline: none;
+}
+
+/* Navigation */
+.nav {
+  position: fixed;
+  inset-inline: 0;
+  inset-block-end: 0;
+  z-index: 20;
+  padding-block-end: env(safe-area-inset-bottom);
+  padding-inline: env(safe-area-inset-left) env(safe-area-inset-right);
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
+  border-block-start: 1px solid var(--line);
+  backdrop-filter: saturate(1.4) blur(14px);
+  -webkit-backdrop-filter: saturate(1.4) blur(14px);
+}
+
+.nav-brand {
+  display: none;
+}
+
+.nav-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  max-inline-size: 36rem;
+  margin-inline: auto;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  min-block-size: var(--nav-h);
+  padding-block: var(--s-1);
+  color: var(--ink-2);
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: var(--r-md);
+}
+
+.nav-link .icon {
+  inline-size: 1.75rem;
+  block-size: 1.75rem;
+  padding: 2px;
+  border-radius: var(--r-pill);
+  transition: background-color var(--dur-2) var(--ease);
+}
+
+.nav-link[aria-current='page'] {
+  color: var(--primary);
+  font-weight: 650;
+}
+
+.nav-link[aria-current='page'] .icon {
+  inline-size: 3.25rem;
+  background: var(--primary-soft);
+  color: var(--primary-soft-ink);
+  padding-inline: 14px;
+}
+
+.nav-link:focus-visible {
+  outline-offset: -3px;
+}
+
+/* Screen headers */
+.screen-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-3);
+  min-block-size: 3.5rem;
+  margin-block-end: var(--s-4);
+}
+
+.screen-title {
+  font-size: var(--fs-2xl);
+}
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--s-2);
+  color: var(--ink-2);
+  font-size: var(--fs-xs);
+  font-weight: 650;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-3);
+  margin-block-end: var(--s-3);
+}
+
+.section-title {
+  font-size: var(--fs-xl);
+}
+
+@media (min-width: 600px) {
+  :root {
+    --gutter: 1.5rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .app {
+    display: grid;
+    grid-template-columns: var(--nav-w) minmax(0, 1fr);
+  }
+
+  /* The nav column runs the full page height; its content stays in view. */
+  .nav {
+    position: static;
+    padding: 0;
+    border-block-start: 0;
+    border-inline-end: 1px solid var(--line);
+    background: var(--surface);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+
+  .nav-inner {
+    position: sticky;
+    inset-block-start: 0;
+    padding: var(--s-6) var(--s-4);
+  }
+
+  .nav-brand {
+    display: flex;
+    align-items: center;
+    gap: var(--s-3);
+    min-block-size: var(--tap);
+    margin-block-end: var(--s-8);
+    padding-inline: var(--s-2);
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .nav-brand-name {
+    font-family: var(--font-serif);
+    font-size: var(--fs-xl);
+    font-weight: 600;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-1);
+    max-inline-size: none;
+  }
+
+  .nav-link {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: var(--s-3);
+    min-block-size: var(--tap);
+    padding-inline: var(--s-3);
+    font-size: var(--fs-md);
+  }
+
+  .nav-link .icon,
+  .nav-link[aria-current='page'] .icon {
+    inline-size: 1.5rem;
+    block-size: 1.5rem;
+    padding: 0;
+    background: none;
+    color: inherit;
+  }
+
+  .nav-link:hover {
+    background: var(--surface-2);
+    color: var(--ink);
+  }
+
+  .nav-link[aria-current='page'] {
+    background: var(--primary-soft);
+    color: var(--primary-soft-ink);
+  }
+
+  .main {
+    padding-block: var(--s-8) var(--s-12);
+    padding-inline: var(--s-10);
+  }
+
+  .screen-title {
+    font-size: var(--fs-3xl);
+  }
+}

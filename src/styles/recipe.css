@@ -1,0 +1,427 @@
+/* Recipe page and the Recipes browser. */
+
+.back-btn {
+  padding-inline: var(--s-3) var(--s-4);
+}
+
+.recipe-hero {
+  display: grid;
+  justify-items: start;
+  gap: var(--s-4);
+  margin-block-end: var(--s-6);
+}
+
+.recipe-plate {
+  justify-self: center;
+  inline-size: 7rem;
+  block-size: 7rem;
+}
+
+.recipe-intro {
+  display: grid;
+  gap: var(--s-2);
+  min-inline-size: 0;
+}
+
+.recipe-title {
+  font-size: var(--fs-2xl);
+}
+
+.native-lg {
+  font-size: var(--fs-lg);
+}
+
+.recipe-desc {
+  color: var(--ink-2);
+  font-size: var(--fs-lg);
+  max-inline-size: 40rem;
+}
+
+.facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-2);
+  margin-block-start: var(--s-1);
+}
+
+.fact {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-1);
+  padding: var(--s-1) var(--s-3);
+  border-radius: var(--r-pill);
+  background: var(--surface-2);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+}
+
+.recipe-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--s-2);
+  margin-block-start: var(--s-3);
+}
+
+.recipe-actions .fav-btn {
+  border-color: var(--line-strong);
+}
+
+/* Phones: ingredients, method, then nutrition and allergens (DOM order). Wide screens: two columns, with nutrition
+   and allergens under the ingredients, beside the method. */
+.recipe-grid {
+  display: grid;
+  gap: var(--s-4);
+  align-items: start;
+}
+
+.fine-print-start {
+  text-align: start;
+}
+
+.recipe-col {
+  display: grid;
+  gap: var(--s-4);
+  min-inline-size: 0;
+}
+
+/* Nutrition */
+.nutrients {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--s-3) var(--s-4);
+}
+
+.nutrient dt {
+  color: var(--ink-2);
+  font-size: var(--fs-sm);
+}
+
+.nutrient dd {
+  display: flex;
+  flex-direction: column;
+}
+
+.nutrient-value {
+  font-size: var(--fs-lg);
+  font-weight: 650;
+}
+
+.nutrient-pct {
+  color: var(--ink-2);
+  font-size: var(--fs-xs);
+}
+
+.nutrient-kcal,
+.nutrient-protein {
+  padding: var(--s-2) var(--s-3);
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+}
+
+.notes {
+  display: grid;
+  gap: var(--s-2);
+  margin-block-start: var(--s-2);
+  padding-inline-start: var(--s-5);
+  list-style: disc;
+}
+
+.notes li::marker {
+  color: var(--olive);
+}
+
+/* Ingredients */
+.ingredients {
+  margin-block-start: var(--s-2);
+}
+
+.ingredient {
+  display: grid;
+  grid-template-columns: 5.75rem minmax(0, 1fr);
+  gap: var(--s-3);
+  padding-block: var(--s-2);
+  border-block-end: 1px dotted var(--line-strong);
+}
+
+.ingredient:last-child {
+  border-block-end: 0;
+}
+
+.ingredient-amount {
+  font-weight: 650;
+}
+
+.ingredient-prep,
+.ingredient-opt {
+  color: var(--ink-2);
+}
+
+.ingredient-grams {
+  margin-inline-start: var(--s-2);
+  color: var(--ink-2);
+  font-size: var(--fs-xs);
+  white-space: nowrap;
+}
+
+/* Steps */
+.steps {
+  display: grid;
+  gap: var(--s-1);
+}
+
+.step-label {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr);
+  gap: var(--s-3);
+  padding: var(--s-3) var(--s-2);
+  border-radius: var(--r-md);
+  cursor: pointer;
+}
+
+.step-label:hover {
+  background: var(--surface-2);
+}
+
+.step-label:has(:focus-visible) {
+  outline: 2.5px solid var(--focus);
+  outline-offset: 0;
+}
+
+.step-check {
+  position: absolute;
+  opacity: 0;
+  inset: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.step-num {
+  display: grid;
+  place-items: center;
+  inline-size: 2rem;
+  block-size: 2rem;
+  border: 1.5px solid var(--primary);
+  border-radius: 50%;
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.step-text {
+  padding-block-start: 0.2rem;
+  font-size: 1.0625rem;
+  line-height: 1.55;
+}
+
+.step.is-done .step-num {
+  border-color: var(--olive);
+  background: var(--olive);
+  color: var(--surface);
+}
+
+.step.is-done .step-text {
+  color: var(--ink-2);
+  text-decoration: line-through;
+  text-decoration-color: color-mix(in srgb, var(--ink-2) 60%, transparent);
+}
+
+/* Browse. Phones: search, the meal chips (wrapping, never cut off) and a Filters button for the rest. */
+.browse-controls {
+  display: grid;
+  gap: var(--s-2) var(--s-3);
+  margin-block-end: var(--s-2);
+}
+
+.browse-controls fieldset.filter-row {
+  gap: var(--s-1);
+}
+
+.chip-radio {
+  padding-inline: 0.625rem;
+}
+
+.filters-toggle {
+  justify-self: start;
+}
+
+.filters-toggle[aria-expanded='true'] .filters-chevron {
+  transform: rotate(180deg);
+}
+
+.filters-panel.is-collapsed {
+  display: none;
+}
+
+.results-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-3);
+  min-block-size: var(--tap);
+  margin-block-end: var(--s-2);
+}
+
+.results-count {
+  color: var(--ink-2);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+}
+
+.recipe-grid-list {
+  display: grid;
+  gap: var(--s-3);
+}
+
+.recipe-card-plate {
+  inline-size: 5.25rem;
+  block-size: 5.25rem;
+}
+
+/* Phones: compact rows (small plate, name, time, kcal; add and favorite at the end). */
+@media (max-width: 599.98px) {
+  .recipe-card {
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: center;
+    gap: var(--s-1) var(--s-3);
+    padding: var(--s-3);
+  }
+
+  .recipe-card-plate {
+    inline-size: 3.5rem;
+    block-size: 3.5rem;
+  }
+
+  .recipe-card .eyebrow,
+  .recipe-card .native,
+  .recipe-card .badges,
+  .recipe-card .figure-note,
+  .recipe-card-add .btn-label {
+    display: none;
+  }
+
+  .recipe-card .meal-name {
+    font-size: var(--fs-md);
+  }
+
+  .recipe-card .meta,
+  .recipe-card .figures {
+    display: inline;
+    margin: 0;
+    font-size: var(--fs-sm);
+  }
+
+  .recipe-card .figure {
+    white-space: nowrap;
+  }
+
+  .recipe-card .figures .figure + .figure {
+    display: none;
+  }
+
+  .recipe-card .meta::after {
+    content: ' · ';
+  }
+
+  .recipe-card .outside {
+    margin-block-start: 2px;
+  }
+
+  .recipe-card-actions {
+    grid-column: auto;
+    gap: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  .recipe-card-add {
+    inline-size: var(--tap);
+    padding: 0;
+    border-color: transparent;
+    background: transparent;
+  }
+}
+
+@media (min-width: 600px) {
+  .recipe-hero {
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: center;
+    gap: var(--s-8);
+  }
+
+  .recipe-plate {
+    inline-size: 11rem;
+    block-size: 11rem;
+  }
+
+  .nutrients {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .recipe-grid-list {
+    grid-template-columns: repeat(auto-fill, minmax(17.5rem, 1fr));
+  }
+
+  /* Cards in a row share its height, with their action rows lined up at the bottom. */
+  .recipe-grid-list > li {
+    display: grid;
+  }
+
+  .recipe-card {
+    grid-template-rows: 1fr auto;
+  }
+
+  .browse-controls {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .filters-toggle {
+    display: none;
+  }
+
+  .filters-panel.is-collapsed {
+    display: flex;
+  }
+}
+
+@media (min-width: 900px) {
+  .recipe-title {
+    font-size: var(--fs-3xl);
+  }
+
+  .recipe-plate {
+    inline-size: 13rem;
+    block-size: 13rem;
+  }
+
+  .recipe-grid {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 'ingredients method' 'facts method';
+    gap: var(--s-4) var(--s-6);
+  }
+
+  .recipe-col-ingredients {
+    grid-area: ingredients;
+  }
+
+  .recipe-col-method {
+    grid-area: method;
+  }
+
+  .recipe-col-facts {
+    grid-area: facts;
+  }
+
+  .nutrients {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .browse-controls fieldset.filter-row {
+    gap: var(--s-2);
+  }
+
+  .chip-radio {
+    padding-inline: var(--s-4);
+  }
+}

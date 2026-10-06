@@ -1,0 +1,34 @@
+{
+  "id": "lahmacun",
+  "photo": {
+    "src": "images/lahmacun.webp",
+    "thumb": "images/lahmacun-thumb.webp",
+    "width": 960,
+    "height": 698,
+    "alt": "Thin lahmacun on a white plate topped with parsley, tomato, red onion rings and a lemon wedge",
+    "focus": [
+      50,
+      48
+    ],
+    "credit": {
+      "title": "Lahmacun",
+      "author": "No machine-readable author provided. Rainer Zenz assumed (based on copyright claims).",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Rainer_Zenz",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lahmacun.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Lahmacun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "lahmajoun"
+  },
+  "queries": [
+    "lahmacun",
+    "lahmajoun",
+    "لحم بعجين"
+  ]
+}

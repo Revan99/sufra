@@ -1,0 +1,34 @@
+{
+  "id": "dates-with-walnuts",
+  "photo": {
+    "src": "images/dates-with-walnuts.webp",
+    "thumb": "images/dates-with-walnuts-thumb.webp",
+    "width": 960,
+    "height": 633,
+    "alt": "Three soft dates split open and packed with walnut pieces on a white fluted plate",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "تمر محشي",
+      "author": "Rotana Nawwaf Al Hasanat",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Rotana_Nawwaf_Al_Hasanat",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D8%AA%D9%85%D8%B1_%D9%85%D8%AD%D8%B4%D9%8A.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c11",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/%D8%AA%D9%85%D8%B1_%D9%85%D8%AD%D8%B4%D9%8A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "stuffed dates"
+  },
+  "queries": [
+    "dates stuffed walnuts",
+    "stuffed dates",
+    "dates walnuts"
+  ]
+}

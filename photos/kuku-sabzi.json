@@ -1,0 +1,36 @@
+{
+  "id": "kuku-sabzi",
+  "photo": {
+    "src": "images/kuku-sabzi.webp",
+    "thumb": "images/kuku-sabzi-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Whole round kuku sabzi, a dark green herb frittata, on a floral plate with a fork and fresh herbs",
+    "focus": [
+      52,
+      50
+    ],
+    "credit": {
+      "title": "Քուքուի մատուցում",
+      "author": "Chaojoker",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Chaojoker",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D5%94%D5%B8%D6%82%D6%84%D5%B8%D6%82%D5%AB_%D5%B4%D5%A1%D5%BF%D5%B8%D6%82%D6%81%D5%B8%D6%82%D5%B4.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/%D5%94%D5%B8%D6%82%D6%84%D5%B8%D6%82%D5%AB_%D5%B4%D5%A1%D5%BF%D5%B8%D6%82%D6%81%D5%B8%D6%82%D5%B4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "کوکو سبزی"
+  },
+  "queries": [
+    "Kuku sabzi",
+    "Kookoo sabzi",
+    "کوکو سبزی",
+    "Kookoo sabzi",
+    "کوکو سبزی"
+  ]
+}

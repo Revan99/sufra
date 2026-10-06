@@ -1,0 +1,35 @@
+{
+  "id": "mirza-ghasemi",
+  "photo": {
+    "src": "images/mirza-ghasemi.webp",
+    "thumb": "images/mirza-ghasemi-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Oval platter of smoky mashed eggplant cooked with tomato and egg, topped with browned garlic",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Mirza-Qasemi dish",
+      "author": "Diako1971",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Diako1971",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mirza-Qasemi_dish.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Mirza-Qasemi_dish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "mirza ghasemi"
+  },
+  "queries": [
+    "mirza ghasemi",
+    "mirza qasemi",
+    "میرزا قاسمی",
+    "mirza ghassemi"
+  ]
+}

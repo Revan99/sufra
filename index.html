@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="Healthy halal meals planned every day: breakfast, lunch, dinner and snacks, with full recipes." />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#FBF6EE" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Sufra" />
+    <link rel="icon" href="./icon.svg" type="image/svg+xml" />
+    <link rel="icon" href="./icons/icon-192.png" type="image/png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <title>Sufra</title>
+    <script>
+      // Apply a saved manual theme before first paint (no flash). Mirrors src/ui/theme.ts.
+      try {
+        var saved = JSON.parse(localStorage.getItem('sufra:v1') || 'null');
+        var theme = saved && saved.theme;
+        var dark = theme === 'dark' || (theme !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches);
+        if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme;
+        document.querySelector('meta[name="theme-color"]').content = dark ? '#1A1511' : '#FBF6EE';
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>Sufra needs JavaScript to plan your meals.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

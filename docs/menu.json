@@ -1,0 +1,2708 @@
+{
+  "chunks": [
+    {
+      "chunk": "breakfast-middle-eastern",
+      "dishes": [
+        {
+          "id": "bagilla-bil-dihin",
+          "name": "Iraqi Fava Beans with Egg on Bread",
+          "nativeName": "Bagilla bil Dihin",
+          "cuisine": "iraqi",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "Dried broad beans soaked overnight and simmered with cumin until tender, spooned with their broth over torn whole-wheat bread and topped with a poached egg, with a measured spoon of olive oil instead of the traditional ghee (canned fava beans are too salty for a 700 mg breakfast).",
+          "mainProtein": "beans",
+          "diet": "vegetarian",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": false,
+          "quick": false,
+          "keyIngredients": [
+            "fava beans (broad beans), dried",
+            "whole-wheat flatbread",
+            "egg, whole, raw",
+            "olive oil, extra virgin",
+            "lemon juice",
+            "cumin, ground"
+          ]
+        },
+        {
+          "id": "iraqi-makhlama",
+          "name": "Iraqi Eggs with Minced Beef and Tomato",
+          "nativeName": "Makhlama",
+          "cuisine": "iraqi",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "Extra-lean minced beef browned with onion, tomato and green pepper, finished with eggs stirred through in the pan and served with whole-wheat bread and fresh herbs; 95% lean beef keeps the saturated fat of meat plus egg in range.",
+          "mainProtein": "eggs",
+          "diet": "meat",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": false,
+          "quick": true,
+          "keyIngredients": [
+            "beef, ground, 95% lean, raw",
+            "egg, whole, raw",
+            "tomato, raw",
+            "onion, raw",
+            "green bell pepper, raw",
+            "whole-wheat bread",
+            "olive oil, extra virgin"
+          ]
+        },
+        {
+          "id": "iraqi-lablabi",
+          "name": "Iraqi Chickpeas in Cumin Broth",
+          "nativeName": "Lablabi",
+          "cuisine": "iraqi",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "The Baghdad winter street breakfast: chickpeas simmered in a light onion and cumin broth, finished with lemon, black pepper and a small drizzle of olive oil.",
+          "mainProtein": "chickpeas",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "chickpeas, canned, low-sodium, drained",
+            "onion, raw",
+            "cumin, ground",
+            "lemon juice",
+            "olive oil, extra virgin",
+            "parsley, fresh"
+          ]
+        },
+        {
+          "id": "iraqi-hareesa",
+          "name": "Iraqi Wheat and Chicken Porridge",
+          "nativeName": "Hareesa",
+          "cuisine": "iraqi",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "Whole wheat berries slow-cooked with chicken breast until thick and creamy, seasoned with cinnamon and measured salt instead of the usual ghee and sugar topping.",
+          "mainProtein": "chicken",
+          "diet": "meat",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "wheat berries, hard red, dry",
+            "chicken breast, skinless, raw",
+            "onion, raw",
+            "cinnamon, ground",
+            "olive oil, extra virgin"
+          ]
+        },
+        {
+          "id": "kurdish-cheese-herb-plate",
+          "name": "Kurdish Bread, Cheese and Herb Breakfast Plate",
+          "nativeName": "Nan û Penîr û Sewze",
+          "cuisine": "kurdish",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "The everyday Kurdish breakfast spread of whole-wheat flatbread, a big handful of fresh herbs, cucumber, tomato and a few walnuts, with only a small piece of white cheese (about 15 g) and a bowl of thick yogurt; the yogurt, not more cheese, supplies the protein, keeping sodium and saturated fat in range.",
+          "mainProtein": "dairy",
+          "diet": "vegetarian",
+          "glutenFree": false,
+          "dairyFree": false,
+          "nutFree": false,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "whole-wheat flatbread",
+            "white cheese (feta-style)",
+            "Greek yogurt, plain, nonfat",
+            "walnuts",
+            "mint, fresh",
+            "tarragon, fresh",
+            "cucumber, raw",
+            "tomato, raw"
+          ]
+        },
+        {
+          "id": "persian-adasi",
+          "name": "Persian Lentil Breakfast Stew",
+          "nativeName": "Adasi",
+          "cuisine": "persian",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "Green lentils simmered with onion, turmeric and a little potato until thick, finished with cumin and lemon; a traditional Persian breakfast that needs no bread.",
+          "mainProtein": "lentils",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "lentils, green or brown, dry",
+            "onion, raw",
+            "potato, raw",
+            "turmeric, ground",
+            "cumin, ground",
+            "olive oil, extra virgin",
+            "lemon juice"
+          ]
+        },
+        {
+          "id": "zaatar-manakish",
+          "name": "Whole-Wheat Za'atar Manakish with Salad",
+          "nativeName": "Man'oushet Za'atar",
+          "cuisine": "levantine",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "Whole-wheat flatbread baked with a thin za'atar and olive-oil topping, served with tomato, cucumber and mint to fold inside; whole-wheat dough supplies the protein and fiber.",
+          "mainProtein": "wheat",
+          "diet": "vegan",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "whole-wheat flour",
+            "yeast, dry",
+            "za'atar blend",
+            "olive oil, extra virgin",
+            "tomato, raw",
+            "cucumber, raw",
+            "mint, fresh"
+          ]
+        },
+        {
+          "id": "turkish-cilbir",
+          "name": "Turkish Poached Eggs on Garlic Yogurt",
+          "nativeName": "Çılbır",
+          "cuisine": "turkish",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "Poached eggs on thick garlicky nonfat yogurt, drizzled with olive oil warmed with Aleppo pepper instead of butter, with whole-wheat bread for dipping; nonfat yogurt keeps two eggs within the saturated-fat limit.",
+          "mainProtein": "eggs",
+          "diet": "vegetarian",
+          "glutenFree": false,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": false,
+          "quick": true,
+          "keyIngredients": [
+            "egg, whole, raw",
+            "Greek yogurt, plain, nonfat",
+            "garlic, raw",
+            "olive oil, extra virgin",
+            "Aleppo pepper (pul biber)",
+            "whole-wheat bread"
+          ]
+        },
+        {
+          "id": "fattet-hummus",
+          "name": "Chickpea Fatteh with Yogurt",
+          "nativeName": "Fattet Hummus",
+          "cuisine": "levantine",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "Oven-toasted whole-wheat pita layered with warm chickpeas and a garlic yogurt-tahini sauce, dusted with cumin and paprika; baked rather than fried bread and no nut topping keep it light.",
+          "mainProtein": "chickpeas",
+          "diet": "vegetarian",
+          "glutenFree": false,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "chickpeas, canned, low-sodium, drained",
+            "whole-wheat pita",
+            "plain yogurt, low-fat",
+            "tahini",
+            "garlic, raw",
+            "cumin, ground"
+          ]
+        },
+        {
+          "id": "menemen",
+          "name": "Turkish Scrambled Eggs with Peppers and Tomato",
+          "nativeName": "Menemen",
+          "cuisine": "turkish",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "The Turkish breakfast pan of green peppers and ripe tomatoes cooked down until jammy, with eggs stirred through until just set and whole-wheat bread for mopping up. A lighter version: a couple of teaspoons of olive oil instead of butter and plenty of vegetables keep saturated fat under 10% of energy.",
+          "mainProtein": "eggs",
+          "diet": "vegetarian",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": false,
+          "quick": true,
+          "keyIngredients": [
+            "tomato",
+            "egg",
+            "green bell pepper",
+            "whole-wheat bread",
+            "olive oil",
+            "parsley"
+          ]
+        },
+        {
+          "id": "msabbaha",
+          "name": "Warm Chickpeas with Tahini and Lemon",
+          "nativeName": "Msabbaha",
+          "cuisine": "levantine",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "The Palestinian and Lebanese breakfast of warm whole chickpeas folded into a lemony tahini and garlic sauce, finished with cumin, paprika and a thread of olive oil. Low-sodium chickpeas and a modest spoon of tahini make it a lighter bowl with about 15 g of fiber and 20 g of protein, and no bread keeps it gluten-free.",
+          "mainProtein": "chickpeas",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "chickpeas, low-sodium (canned, drained)",
+            "water",
+            "tahini",
+            "lemon juice",
+            "parsley",
+            "olive oil"
+          ]
+        },
+        {
+          "id": "ezogelin-corbasi",
+          "name": "Red Lentil, Bulgur and Mint Soup",
+          "nativeName": "Ezogelin Çorbası",
+          "cuisine": "turkish",
+          "slots": [
+            "breakfast",
+            "lunch",
+            "dinner"
+          ],
+          "concept": "The red lentil and bulgur soup from Gaziantep in south-east Turkey, where it is eaten for breakfast, seasoned with tomato and pepper paste and finished with dried mint sizzled in olive oil. Olive oil instead of butter and measured pepper paste keep it light, with about 17 g of protein and 9 g of fiber per bowl.",
+          "mainProtein": "lentils",
+          "diet": "vegan",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "water",
+            "red lentils (dried)",
+            "onion",
+            "fine bulgur (dry)",
+            "tomato paste (no salt added)",
+            "lemon juice"
+          ]
+        },
+        {
+          "id": "persian-lubia",
+          "name": "Persian Street-Style Spiced Beans",
+          "nativeName": "Lubia Pokhteh",
+          "cuisine": "persian",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "The winter street breakfast of Tehran: red beans simmered with onion and turmeric until soft and soupy, then sharpened with lemon and black pepper. Low-sodium canned beans make a quick, lighter version with no added fat and about 13 g of fiber per bowl.",
+          "mainProtein": "beans",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "red kidney beans, low-sodium (canned, drained)",
+            "water",
+            "onion",
+            "lemon juice",
+            "turmeric, ground",
+            "black pepper, ground"
+          ]
+        },
+        {
+          "id": "labneh-zaatar-plate",
+          "name": "Labneh and Za'atar Breakfast Plate",
+          "nativeName": "Labneh w Za'atar",
+          "cuisine": "levantine",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "The Levantine breakfast table on one plate: thick strained yogurt swirled with olive oil and za'atar, with cucumber, tomato, mint, a few olives and warm whole-wheat pita. A lighter version made with nonfat strained yogurt, so it carries over 25 g of protein with very little saturated fat.",
+          "mainProtein": "dairy",
+          "diet": "vegetarian",
+          "glutenFree": false,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "greek yogurt, plain, nonfat",
+            "tomato",
+            "cucumber",
+            "whole-wheat pita",
+            "black olives",
+            "olive oil"
+          ]
+        },
+        {
+          "id": "ispanakli-yumurta",
+          "name": "Spinach and Eggs with Garlic Yogurt",
+          "nativeName": "Ispanaklı Yumurta",
+          "cuisine": "turkish",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "A Turkish home breakfast of wilted spinach and onion with eggs cooked in hollows on top, served with cool garlic yogurt and a dusting of Aleppo pepper. A lighter version with nonfat yogurt and a little olive oil instead of butter: about 40 g of protein, no bread, and gluten-free.",
+          "mainProtein": "eggs",
+          "diet": "vegetarian",
+          "glutenFree": true,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": false,
+          "quick": true,
+          "keyIngredients": [
+            "spinach",
+            "greek yogurt, plain, nonfat",
+            "egg",
+            "onion",
+            "olive oil",
+            "garlic"
+          ]
+        },
+        {
+          "id": "kuku-sibzamini",
+          "name": "Persian Potato Kuku",
+          "nativeName": "Kuku Sibzamini",
+          "cuisine": "persian",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "A thick Persian potato and egg cake scented with turmeric and spring onion, pan-cooked until golden on both sides and served in wedges with fresh tomato. This lighter version uses no flour and just a measured spoon of olive oil instead of the usual shallow-frying.",
+          "mainProtein": "eggs",
+          "diet": "vegetarian",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": false,
+          "quick": false,
+          "keyIngredients": [
+            "potato",
+            "egg",
+            "tomato",
+            "onion",
+            "scallion (green onion)",
+            "olive oil"
+          ]
+        },
+        {
+          "id": "gozleme",
+          "name": "Turkish Spinach and White Cheese Flatbread",
+          "nativeName": "Ispanaklı Peynirli Gözleme",
+          "cuisine": "turkish",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "Thin hand-rolled whole-wheat flatbreads folded around spinach, onion and crumbled white cheese and cooked on a dry griddle, as at Turkish village markets. A lighter version: whole-wheat dough, a modest amount of cheese and only a light brush of olive oil instead of butter, for about 10 g of fiber per gözleme.",
+          "mainProtein": "dairy",
+          "diet": "vegetarian",
+          "glutenFree": false,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "whole-wheat flour",
+            "spinach",
+            "water",
+            "onion",
+            "feta or white cheese (brined)",
+            "olive oil"
+          ]
+        },
+        {
+          "id": "fereni",
+          "name": "Persian Rose and Cardamom Rice Pudding",
+          "nativeName": "Fereni",
+          "cuisine": "persian",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "A silky warm pudding of rice flour cooked in milk and scented with rosewater and cardamom, a classic Persian breakfast and pre-dawn meal in Ramadan. This lighter version uses 1% milk and a measured spoon of sugar, and chopped dates and pomegranate seeds replace the usual pistachios, for about 13 g of protein a bowl.",
+          "mainProtein": "dairy",
+          "diet": "vegetarian",
+          "glutenFree": true,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "milk, 1%",
+            "pomegranate seeds (arils)",
+            "rice flour",
+            "medjool dates",
+            "sugar",
+            "rose water"
+          ]
+        },
+        {
+          "id": "patatesli-yumurta",
+          "name": "Turkish Potato and Egg Skillet",
+          "nativeName": "Patatesli Yumurta",
+          "cuisine": "turkish",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "A Turkish home breakfast of small potato cubes cooked soft and golden with onion and green pepper, with eggs stirred through until just set and finished with parsley and pul biber, served with sliced tomato. A lighter version with a spoon of olive oil instead of butter and potatoes instead of bread: gluten-free, with about 15 g of protein a plate.",
+          "mainProtein": "eggs",
+          "diet": "vegetarian",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": false,
+          "quick": true,
+          "keyIngredients": [
+            "potato",
+            "egg",
+            "tomato",
+            "onion",
+            "green bell pepper",
+            "water"
+          ]
+        }
+      ]
+    },
+    {
+      "chunk": "lunch-kurdish-iraqi",
+      "dishes": [
+        {
+          "id": "shorbat-adas",
+          "name": "Iraqi Red Lentil Soup",
+          "nativeName": "Shorbat Adas",
+          "cuisine": "iraqi",
+          "slots": [
+            "breakfast",
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Red lentils simmered with onion, carrot, cumin and turmeric, blended smooth and finished with lemon; sold as a winter street breakfast across Iraq, and a generous bowl is a full meal with no cream or butter.",
+          "mainProtein": "lentils",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "red lentils, dry",
+            "onion, raw",
+            "carrot, raw",
+            "cumin, ground",
+            "turmeric, ground",
+            "olive oil, extra virgin",
+            "lemon juice"
+          ]
+        },
+        {
+          "id": "kurdish-sawar-chickpeas",
+          "name": "Kurdish Bulgur Pilaf with Chickpeas and Tomato",
+          "nativeName": "Sawar",
+          "cuisine": "kurdish",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Coarse bulgur cooked Kurdish-style with onion, tomato paste and chickpeas in one pot, served with a cucumber and herb salad; whole grain and legumes make it filling.",
+          "mainProtein": "chickpeas",
+          "diet": "vegan",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "bulgur, coarse, dry",
+            "chickpeas, canned, low-sodium, drained",
+            "onion, raw",
+            "tomato paste",
+            "olive oil, extra virgin",
+            "cucumber, raw"
+          ]
+        },
+        {
+          "id": "kurdish-kallane",
+          "name": "Kurdish Leek and Herb Stuffed Flatbread",
+          "nativeName": "Kallane",
+          "cuisine": "kurdish",
+          "slots": [
+            "breakfast",
+            "lunch",
+            "dinner"
+          ],
+          "concept": "The Sulaymaniyah griddle bread: thin whole-wheat dough folded around a filling of leeks, spring onions and herbs and cooked on a dry pan with a light brush of oil.",
+          "mainProtein": "wheat",
+          "diet": "vegan",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "whole-wheat flour",
+            "leek, raw",
+            "scallion, raw",
+            "parsley, fresh",
+            "olive oil, extra virgin",
+            "sumac"
+          ]
+        },
+        {
+          "id": "kurdish-dokhawa",
+          "name": "Kurdish Yogurt Soup with Rice and Chickpeas",
+          "nativeName": "Dokhawa",
+          "cuisine": "kurdish",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Warm yogurt soup with rice, chickpeas and fresh herbs, stabilized with a spoon of rice flour instead of egg and finished with dried mint; a comforting Erbil classic.",
+          "mainProtein": "dairy",
+          "diet": "vegetarian",
+          "glutenFree": true,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "Greek yogurt, plain, 2%",
+            "plain yogurt, low-fat",
+            "rice, short-grain, raw",
+            "rice flour, white",
+            "chickpeas, canned, low-sodium, drained",
+            "dill, fresh",
+            "mint, dried"
+          ]
+        },
+        {
+          "id": "kurdish-mung-bean-soup",
+          "name": "Kurdish Mung Bean and Rice Soup",
+          "nativeName": "Shorbay Mash",
+          "cuisine": "kurdish",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Whole mung beans simmered with a little rice, onion, tomato and dried mint into a thick Kurdish winter soup; high in fiber and protein with only a spoon of oil.",
+          "mainProtein": "mung beans",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "mung beans, whole, dry",
+            "rice, basmati, raw",
+            "onion, raw",
+            "tomato paste",
+            "mint, dried",
+            "olive oil, extra virgin"
+          ]
+        },
+        {
+          "id": "timman-bagilla",
+          "name": "Iraqi Dill Rice with Fava Beans and Chicken",
+          "nativeName": "Timman Bagilla",
+          "cuisine": "iraqi",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Basmati rice steamed with fava beans, fresh dill and baharat, served with skinless chicken simmered in its own broth; the beans stretch the rice into a high-fiber plate.",
+          "mainProtein": "chicken",
+          "diet": "meat",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "rice, basmati, raw",
+            "fava beans (broad beans), frozen",
+            "dill, fresh",
+            "chicken thigh, skinless, boneless, raw",
+            "baharat spice blend",
+            "olive oil, extra virgin"
+          ]
+        },
+        {
+          "id": "kubbat-hamuth",
+          "name": "Iraqi Rice Kubba in Sour Turnip Soup",
+          "nativeName": "Kubbat Hamuth",
+          "cuisine": "iraqi",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Rice-dough kubba stuffed with lean minced beef, simmered (never fried) in a lemony broth of turnips, beetroot, chard and chickpeas.",
+          "mainProtein": "beef",
+          "diet": "meat",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "rice, short-grain, raw",
+            "beef, ground, 95% lean, raw",
+            "turnip, raw",
+            "beetroot, raw",
+            "Swiss chard, raw",
+            "chickpeas, canned, low-sodium, drained",
+            "lemon juice"
+          ]
+        },
+        {
+          "id": "iraqi-dolma",
+          "name": "Iraqi Dolma with Vine Leaves and Stuffed Vegetables",
+          "nativeName": "Dolma (Yapragh)",
+          "cuisine": "iraqi",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Onions, peppers, zucchini and vine leaves stuffed with rice, lean minced lamb leg, herbs and tomato, simmered in a sour pomegranate-lemon broth; fresh or frozen vine leaves instead of brined jarred ones (far too salty), and more vegetables and less meat than usual.",
+          "mainProtein": "lamb",
+          "diet": "meat",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "grape leaves, fresh or frozen, raw",
+            "rice, short-grain, raw",
+            "lamb leg, lean, raw (minced)",
+            "onion, raw",
+            "zucchini, raw",
+            "green bell pepper, raw",
+            "tomato paste",
+            "pomegranate molasses",
+            "lemon juice"
+          ]
+        },
+        {
+          "id": "iraqi-qeema",
+          "name": "Iraqi Lamb and Split Chickpea Stew",
+          "nativeName": "Qeema",
+          "cuisine": "iraqi",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "The Karbala and Najaf stew of minced lean lamb leg and split chickpeas cooked down with tomato, dried lime and warm spices, served over basmati rice; lean leg meat rather than fatty ready-minced lamb keeps saturated fat in range.",
+          "mainProtein": "lamb",
+          "diet": "meat",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "lamb leg, lean, raw (minced)",
+            "split chickpeas (chana dal), dry",
+            "tomato paste",
+            "dried lime (noomi basra)",
+            "rice, basmati, raw",
+            "onion, raw"
+          ]
+        },
+        {
+          "id": "kurdish-shifta",
+          "name": "Kurdish Herb Beef Patties with Bulgur Salad",
+          "nativeName": "Shifta",
+          "cuisine": "kurdish",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Lean minced beef mixed with parsley, onion and spices, shaped into flat patties and pan-seared with a teaspoon of oil, served with whole-wheat flatbread and a sumac onion, tomato and cucumber salad.",
+          "mainProtein": "beef",
+          "diet": "meat",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "beef, ground, 90% lean, raw",
+            "parsley, fresh",
+            "onion, raw",
+            "whole-wheat flatbread",
+            "tomato, raw",
+            "cucumber, raw",
+            "sumac"
+          ]
+        },
+        {
+          "id": "mutabbaq-samak",
+          "name": "Basra Fish with Spiced Rice",
+          "nativeName": "Mutabbag Simach",
+          "cuisine": "iraqi",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Southern Iraqi layered fish and rice: white fish pan-seared in a little oil instead of deep-fried, set over basmati rice cooked with onion, turmeric, loomi and baharat.",
+          "mainProtein": "fish",
+          "diet": "pescatarian",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "white fish fillet (cod or tilapia), raw",
+            "rice, basmati, raw",
+            "onion, raw",
+            "turmeric, ground",
+            "dried lime (noomi basra)",
+            "baharat spice blend",
+            "olive oil, extra virgin"
+          ]
+        },
+        {
+          "id": "bazalia-chicken",
+          "name": "Iraqi Pea and Chicken Stew with Rice",
+          "nativeName": "Margat Bazalia",
+          "cuisine": "iraqi",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Green peas and diced chicken breast simmered in a tomato and baharat sauce, served with basmati rice; the everyday Iraqi maraq made with lean meat and plenty of peas.",
+          "mainProtein": "chicken",
+          "diet": "meat",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "green peas, frozen",
+            "chicken breast, skinless, raw",
+            "tomato paste",
+            "onion, raw",
+            "baharat spice blend",
+            "rice, basmati, raw"
+          ]
+        }
+      ]
+    },
+    {
+      "chunk": "lunch-mediterranean",
+      "dishes": [
+        {
+          "id": "mujaddara",
+          "name": "Lentils and Rice with Caramelized Onions",
+          "nativeName": "Mujaddara",
+          "cuisine": "levantine",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Brown lentils and rice cooked together with cumin and topped with onions slowly caramelized in a measured spoon of olive oil (not fried), served with a tomato-cucumber salad.",
+          "mainProtein": "lentils",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "lentils, green or brown, dry",
+            "rice, basmati, raw",
+            "onion, raw",
+            "cumin, ground",
+            "olive oil, extra virgin",
+            "tomato, raw",
+            "cucumber, raw"
+          ]
+        },
+        {
+          "id": "mercimek-koftesi",
+          "name": "Red Lentil and Bulgur Patties in Lettuce",
+          "nativeName": "Mercimek Köftesi",
+          "cuisine": "turkish",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Red lentils cooked until soft, kneaded with fine bulgur, pepper paste, spring onion and parsley, shaped by hand and eaten in lettuce leaves with lemon; no frying at all.",
+          "mainProtein": "lentils",
+          "diet": "vegan",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "red lentils, dry",
+            "bulgur, fine, dry",
+            "red pepper paste (biber salçası)",
+            "scallion, raw",
+            "parsley, fresh",
+            "romaine lettuce, raw",
+            "lemon juice"
+          ]
+        },
+        {
+          "id": "baked-falafel-bowl",
+          "name": "Baked Falafel Bowl with Tahini",
+          "nativeName": "",
+          "cuisine": "levantine",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Falafel of soaked dried chickpeas, herbs and spices baked on an oiled tray instead of deep-fried, served over a chopped salad with lemon-tahini sauce.",
+          "mainProtein": "chickpeas",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "chickpeas, dried",
+            "parsley, fresh",
+            "coriander leaves, fresh",
+            "onion, raw",
+            "tahini",
+            "romaine lettuce, raw",
+            "tomato, raw"
+          ]
+        },
+        {
+          "id": "kuku-sabzi",
+          "name": "Persian Herb Frittata",
+          "nativeName": "Kuku Sabzi",
+          "cuisine": "persian",
+          "slots": [
+            "breakfast",
+            "lunch",
+            "dinner"
+          ],
+          "concept": "A thick frittata that is mostly herbs (parsley, coriander, dill, chives) bound with eggs, studded with walnuts and barberries and cooked with little oil, served with whole-wheat lavash and a Shirazi salad; the bread balances the eggs so saturated fat stays in range.",
+          "mainProtein": "eggs",
+          "diet": "vegetarian",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": false,
+          "eggFree": false,
+          "quick": true,
+          "keyIngredients": [
+            "egg, whole, raw",
+            "parsley, fresh",
+            "coriander leaves, fresh",
+            "dill, fresh",
+            "walnuts",
+            "barberries, dried",
+            "whole-wheat flatbread (lavash)",
+            "cucumber, raw",
+            "tomato, raw"
+          ]
+        },
+        {
+          "id": "freekeh-chickpea-salad",
+          "name": "Freekeh Salad with Chickpeas, Herbs and Feta",
+          "nativeName": "Salatet Freekeh",
+          "cuisine": "levantine",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Smoky cracked freekeh tossed with chickpeas, cucumber, tomato, mint and parsley in a lemon-sumac dressing, with a small crumble of feta; a whole-grain salad that works as a full meal.",
+          "mainProtein": "chickpeas",
+          "diet": "vegetarian",
+          "glutenFree": false,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "freekeh, cracked, dry",
+            "chickpeas, canned, low-sodium, drained",
+            "cucumber, raw",
+            "tomato, raw",
+            "feta cheese",
+            "mint, fresh",
+            "lemon juice",
+            "sumac"
+          ]
+        },
+        {
+          "id": "piyaz-with-tuna",
+          "name": "Turkish White Bean Salad with Tuna",
+          "nativeName": "Ton Balıklı Piyaz",
+          "cuisine": "turkish",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "White beans, sliced red onion, tomato and parsley dressed with lemon, sumac and olive oil, topped with water-packed tuna; a no-cook high-protein salad.",
+          "mainProtein": "fish",
+          "diet": "pescatarian",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "cannellini beans, canned, drained",
+            "tuna, canned in water, drained",
+            "red onion, raw",
+            "tomato, raw",
+            "parsley, fresh",
+            "sumac",
+            "olive oil, extra virgin"
+          ]
+        },
+        {
+          "id": "balik-ekmek",
+          "name": "Grilled Mackerel Sandwich with Onion Salad",
+          "nativeName": "Balık Ekmek",
+          "cuisine": "turkish",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Istanbul's waterfront favorite: mackerel fillets grilled in a dry pan and tucked into whole-wheat bread with lettuce, sumac onions and tomato, finished with lemon.",
+          "mainProtein": "fish",
+          "diet": "pescatarian",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "mackerel fillet, Atlantic, raw",
+            "whole-wheat bread roll",
+            "romaine lettuce, raw",
+            "red onion, raw",
+            "tomato, raw",
+            "sumac",
+            "lemon juice"
+          ]
+        },
+        {
+          "id": "musakhan",
+          "name": "Sumac Chicken with Onions on Whole-Wheat Flatbread",
+          "nativeName": "Musakhan",
+          "cuisine": "levantine",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Palestinian roast chicken with plenty of sumac-braised onions, served on whole-wheat taboon-style bread with a fraction of the usual oil and no fried pine nuts.",
+          "mainProtein": "chicken",
+          "diet": "meat",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "chicken thigh, skinless, boneless, raw",
+            "onion, raw",
+            "sumac",
+            "whole-wheat flatbread",
+            "olive oil, extra virgin",
+            "allspice, ground"
+          ]
+        },
+        {
+          "id": "lahmacun",
+          "name": "Turkish Thin Flatbread with Spiced Beef",
+          "nativeName": "Lahmacun",
+          "cuisine": "turkish",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Thin whole-wheat rounds spread with lean minced beef, tomato, pepper and parsley, baked hot and rolled up with lemon, parsley and a crunchy salad.",
+          "mainProtein": "beef",
+          "diet": "meat",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "whole-wheat flour",
+            "beef, ground, 90% lean, raw",
+            "tomato, raw",
+            "red bell pepper, raw",
+            "onion, raw",
+            "parsley, fresh",
+            "lemon juice"
+          ]
+        },
+        {
+          "id": "loobia-polo",
+          "name": "Persian Green Bean Rice with Beef",
+          "nativeName": "Loobia Polo",
+          "cuisine": "persian",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Basmati rice layered and steamed with green beans and lean beef cooked in tomato, cinnamon and turmeric; more beans and less rice than the classic.",
+          "mainProtein": "beef",
+          "diet": "meat",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "rice, basmati, raw",
+            "green beans, raw",
+            "beef, round, lean, raw",
+            "tomato paste",
+            "onion, raw",
+            "cinnamon, ground",
+            "turmeric, ground"
+          ]
+        }
+      ]
+    },
+    {
+      "chunk": "dinner-kurdish-iraqi",
+      "dishes": [
+        {
+          "id": "lighter-quzi",
+          "name": "Lighter Iraqi Quzi with Lamb and Spiced Rice",
+          "nativeName": "",
+          "cuisine": "iraqi",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "The festive Iraqi platter scaled for every day: lean lamb leg slow-braised with baharat and loomi over basmati rice with peas and carrots, topped with a few toasted almonds and raisins.",
+          "mainProtein": "lamb",
+          "diet": "meat",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": false,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "lamb leg, lean, raw",
+            "rice, basmati, raw",
+            "green peas, frozen",
+            "carrot, raw",
+            "almonds",
+            "raisins",
+            "baharat spice blend"
+          ]
+        },
+        {
+          "id": "iraqi-vegetable-biryani",
+          "name": "Iraqi Vegetable and Chickpea Biryani",
+          "nativeName": "",
+          "cuisine": "iraqi",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "A lighter meatless take on Iraqi biryani: basmati rice with toasted vermicelli, chickpeas, peas, carrots and oven-roasted potato cubes, perfumed with biryani spices and cooked with measured oil instead of ghee.",
+          "mainProtein": "chickpeas",
+          "diet": "vegan",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "rice, basmati, raw",
+            "vermicelli, dry",
+            "chickpeas, canned, low-sodium, drained",
+            "green peas, frozen",
+            "carrot, raw",
+            "potato, raw",
+            "biryani spice blend"
+          ]
+        },
+        {
+          "id": "baked-maqluba",
+          "name": "Baked Eggplant and Cauliflower Maqluba",
+          "nativeName": "",
+          "cuisine": "iraqi",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "The upside-down rice pot layered with oven-roasted (not fried) eggplant and cauliflower, chickpeas and tomato, flipped at the table and served with cucumber-yogurt salad.",
+          "mainProtein": "chickpeas",
+          "diet": "vegetarian",
+          "glutenFree": true,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "rice, basmati, raw",
+            "eggplant, raw",
+            "cauliflower, raw",
+            "chickpeas, canned, low-sodium, drained",
+            "tomato, raw",
+            "plain yogurt, low-fat",
+            "cucumber, raw"
+          ]
+        },
+        {
+          "id": "masgouf-baked-fish",
+          "name": "Masgouf-Style Baked Fish",
+          "nativeName": "",
+          "cuisine": "iraqi",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Baghdad's riverside fish reworked for the oven: fillets brushed with turmeric and tamarind, roasted under a topping of tomato and onion and served, as in Baghdad, with whole-wheat flatbread and a chopped salad.",
+          "mainProtein": "fish",
+          "diet": "pescatarian",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "carp or tilapia fillet, raw",
+            "tamarind paste",
+            "turmeric, ground",
+            "tomato, raw",
+            "onion, raw",
+            "whole-wheat flatbread",
+            "cucumber, raw",
+            "olive oil, extra virgin"
+          ]
+        },
+        {
+          "id": "tepsi-baytinjan",
+          "name": "Iraqi Eggplant and Meatball Casserole",
+          "nativeName": "Tepsi Baytinjan",
+          "cuisine": "iraqi",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Layers of oven-roasted eggplant (not fried), potato, onion, tomato and small lean-beef meatballs baked in a tangy tomato sauce; served with a little rice.",
+          "mainProtein": "beef",
+          "diet": "meat",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "eggplant, raw",
+            "beef, ground, 90% lean, raw",
+            "potato, raw",
+            "tomato, raw",
+            "onion, raw",
+            "tomato paste",
+            "rice, basmati, raw"
+          ]
+        },
+        {
+          "id": "kubba-siniyah",
+          "name": "Baked Tray Kubba",
+          "nativeName": "Kubba Siniyah",
+          "cuisine": "iraqi",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "A bulgur and lean-beef shell pressed into a tray around a spiced onion and minced-meat filling, scored and baked with a brush of oil rather than fried as individual kubba.",
+          "mainProtein": "beef",
+          "diet": "meat",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "bulgur, fine, dry",
+            "beef, ground, 95% lean, raw",
+            "onion, raw",
+            "baharat spice blend",
+            "olive oil, extra virgin",
+            "parsley, fresh"
+          ]
+        },
+        {
+          "id": "margat-bamya",
+          "name": "Iraqi Okra and Lamb Stew",
+          "nativeName": "Margat Bamya",
+          "cuisine": "iraqi",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Baby okra and cubes of lean lamb simmered in a garlicky tomato broth soured with lemon, served with basmati rice; the okra is added whole, not fried first.",
+          "mainProtein": "lamb",
+          "diet": "meat",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "okra, frozen",
+            "lamb leg, lean, raw",
+            "tomato paste",
+            "garlic, raw",
+            "lemon juice",
+            "rice, basmati, raw"
+          ]
+        },
+        {
+          "id": "tashreeb-dijaj",
+          "name": "Iraqi Chicken Tashreeb with Chickpeas",
+          "nativeName": "Tashreeb Dijaj",
+          "cuisine": "iraqi",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Chicken simmered with chickpeas, onion, loomi and turmeric, the broth ladled over torn whole-wheat flatbread; skinless chicken keeps the fat low.",
+          "mainProtein": "chicken",
+          "diet": "meat",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "chicken thigh, skinless, bone-in, raw",
+            "chickpeas, canned, low-sodium, drained",
+            "onion, raw",
+            "dried lime (noomi basra)",
+            "turmeric, ground",
+            "whole-wheat flatbread"
+          ]
+        },
+        {
+          "id": "iraqi-lamb-tikka",
+          "name": "Iraqi Lamb Tikka Skewers",
+          "nativeName": "",
+          "cuisine": "iraqi",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Lean lamb cubes marinated briefly in onion juice, lemon and black pepper, grilled on skewers with tomatoes and onions and served with sumac salad and whole-wheat flatbread.",
+          "mainProtein": "lamb",
+          "diet": "meat",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "lamb leg, lean, raw",
+            "onion, raw",
+            "tomato, raw",
+            "lemon juice",
+            "sumac",
+            "parsley, fresh",
+            "whole-wheat flatbread"
+          ]
+        },
+        {
+          "id": "brinj-u-fasulya",
+          "name": "Kurdish Rice with White Bean Stew",
+          "nativeName": "Brinj u Fasulya",
+          "cuisine": "kurdish",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "The Kurdish household staple: white beans simmered in a tomato and onion stew, spooned over rice, here made without meat and with only a spoon of oil.",
+          "mainProtein": "beans",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "cannellini beans, canned, drained",
+            "rice, basmati, raw",
+            "tomato paste",
+            "tomatoes, canned, diced",
+            "onion, raw",
+            "olive oil, extra virgin"
+          ]
+        },
+        {
+          "id": "maraq-sbenagh",
+          "name": "Iraqi Spinach Stew with Lamb and Chickpeas",
+          "nativeName": "Margat Sbenagh",
+          "cuisine": "iraqi",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Spinach wilted into an onion, garlic and coriander base with chickpeas and a squeeze of lemon, served over rice; a meatless version of the Iraqi green stew.",
+          "mainProtein": "chickpeas",
+          "diet": "meat",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "spinach, frozen",
+            "chickpeas, canned, low-sodium, drained",
+            "onion, raw",
+            "garlic, raw",
+            "coriander, ground",
+            "lemon juice",
+            "rice, basmati, raw"
+          ]
+        },
+        {
+          "id": "kurdish-rishta",
+          "name": "Kurdish Noodle and Lentil Soup",
+          "nativeName": "Shorbay Rishta",
+          "cuisine": "kurdish",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Brown lentils and whole-wheat noodles simmered in a herby broth with spinach and dried mint, finished with a swirl of mint oil made with a single spoon of oil.",
+          "mainProtein": "lentils",
+          "diet": "vegan",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "lentils, green or brown, dry",
+            "noodles, whole-wheat, dry",
+            "spinach, raw",
+            "onion, raw",
+            "mint, dried",
+            "olive oil, extra virgin"
+          ]
+        },
+        {
+          "id": "kurdish-chicken-kebab",
+          "name": "Kurdish Chicken Kebab with Grilled Vegetables and Rice",
+          "nativeName": "Kebabî Mirîşk",
+          "cuisine": "kurdish",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Chicken cubes marinated in yogurt, tomato paste, garlic and Aleppo pepper, grilled on skewers the way Erbil and Sulaymaniyah kebab houses do, with charred eggplant, peppers and tomatoes, sumac onions and plain rice. Breast meat and nonfat yogurt keep it lean, with over 40 g protein in 30 minutes.",
+          "mainProtein": "chicken",
+          "diet": "meat",
+          "glutenFree": true,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "chicken breast, skinless (raw)",
+            "water",
+            "eggplant",
+            "tomato",
+            "basmati rice (raw)",
+            "green bell pepper"
+          ]
+        },
+        {
+          "id": "masi-birjaw",
+          "name": "Kurdish Grilled Fish with Sumac Onions and Roast Potatoes",
+          "nativeName": "Masî Birjaw",
+          "cuisine": "kurdish",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "The lakeside meal of Dukan and Darbandikhan: carp fillets rubbed with garlic, turmeric and lemon and grilled until the skin crisps, served with a tomato, sumac onion and parsley salad. Oven-roasted potato wedges stand in for the usual fried potatoes, keeping it around 450 kcal with 34 g protein.",
+          "mainProtein": "fish",
+          "diet": "pescatarian",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "potato",
+            "carp fillet (raw)",
+            "tomato",
+            "red onion",
+            "lemon juice",
+            "parsley"
+          ]
+        },
+        {
+          "id": "savar-bi-nisk",
+          "name": "Kurdish Bulgur and Green Lentil Pilaf with Caramelized Onions",
+          "nativeName": "Savar bi Nîsk",
+          "cuisine": "kurdish",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Coarse bulgur cooked in one pot with green lentils, tomato paste and cumin, heaped with slow-browned onions and served with a lemony tomato and cucumber salad; a village staple across Kurdistan. Two whole foods together give about 21 g plant protein and 15 g fiber per plate.",
+          "mainProtein": "lentils",
+          "diet": "vegan",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "water",
+            "onion",
+            "tomato",
+            "green or brown lentils (dried)",
+            "coarse bulgur (dry)",
+            "cucumber"
+          ]
+        },
+        {
+          "id": "kurdish-chickpea-spinach-stew",
+          "name": "Kurdish Chickpea and Spinach Stew with Rice",
+          "nativeName": "",
+          "cuisine": "kurdish",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "An everyday Kurdish home stew: chickpeas simmered in an onion, garlic and tomato base with turmeric and Aleppo pepper, with fresh spinach wilted in and dried mint and lemon to finish, spooned over rice. Low-sodium chickpeas and plenty of greens give over 11 g fiber in 30 minutes.",
+          "mainProtein": "chickpeas",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "water",
+            "chickpeas, low-sodium (canned, drained)",
+            "spinach",
+            "basmati rice (raw)",
+            "onion",
+            "tomato paste (no salt added)"
+          ]
+        },
+        {
+          "id": "meftune",
+          "name": "Kurdish Lamb and Eggplant Stew with Sumac and Garlic",
+          "nativeName": "Meftûne",
+          "cuisine": "kurdish",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "The sour, garlicky stew of Diyarbakır (Amed): lean lamb braised with tomato and pepper, then simmered with eggplant and finished with crushed garlic and sumac, served with rice. Roasting the eggplant instead of frying it, and using lean leg, makes a lighter plate with about 28 g protein and 8 g fiber.",
+          "mainProtein": "lamb",
+          "diet": "meat",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "water",
+            "eggplant",
+            "lamb leg, lean (raw)",
+            "tomato",
+            "basmati rice (raw)",
+            "green bell pepper"
+          ]
+        },
+        {
+          "id": "margat-fasoulia-khadra",
+          "name": "Iraqi Green Bean and Chicken Stew with Rice",
+          "nativeName": "Margat Fasoulia Khadra",
+          "cuisine": "iraqi",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "The summer maraq of Baghdad: green beans and chicken simmered in a tomato and baharat sauce soured with a dried lime, served with basmati rice. Lean breast meat stands in for the usual lamb, giving a lighter plate with about 34 g protein and 7 g fiber in 30 minutes.",
+          "mainProtein": "chicken",
+          "diet": "meat",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "water",
+            "green beans",
+            "chicken breast, skinless (raw)",
+            "basmati rice (raw)",
+            "tomato",
+            "onion"
+          ]
+        },
+        {
+          "id": "iraqi-kichri",
+          "name": "Iraqi Rice and Red Lentils with Tomato Salad",
+          "nativeName": "Kichri",
+          "cuisine": "iraqi",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "The soft Baghdadi pot of rice and red lentils cooked together with onion, garlic and cumin, an old Thursday-night and winter supper, served with a sumac tomato and cucumber salad. More lentil than rice gives nearly 20 g plant protein and 10 g fiber in 30 minutes.",
+          "mainProtein": "lentils",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "water",
+            "tomato",
+            "red lentils (dried)",
+            "cucumber",
+            "basmati rice (raw)",
+            "onion"
+          ]
+        },
+        {
+          "id": "margat-qarnabeet",
+          "name": "Iraqi Cauliflower and Chickpea Stew with Rice",
+          "nativeName": "Margat Qarnabeet",
+          "cuisine": "iraqi",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Golden cauliflower simmered in a garlicky tomato and baharat sauce, finished with lemon and served over rice. A lighter, meatless take on the Baghdadi stew: the florets are pan-browned in a little oil instead of deep-fried and chickpeas replace the lamb, for about 13 g fiber in 30 minutes.",
+          "mainProtein": "chickpeas",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "water",
+            "cauliflower",
+            "chickpeas, low-sodium (canned, drained)",
+            "basmati rice (raw)",
+            "onion",
+            "tomato paste (no salt added)"
+          ]
+        },
+        {
+          "id": "siniyat-dijaj",
+          "name": "Iraqi Baked Chicken and Potato Tray",
+          "nativeName": "Siniyat Dijaj",
+          "cuisine": "iraqi",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "A Friday family tray from Iraqi home kitchens: skinless chicken thighs baked over potatoes, onions and peppers in a baharat, garlic and tomato sauce, covered with tomato slices so everything steams, then browns. Measured oil and lean thighs keep it around 470 kcal with 36 g protein.",
+          "mainProtein": "chicken",
+          "diet": "meat",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "potato",
+            "chicken thigh, skinless, boneless (raw)",
+            "tomato",
+            "water",
+            "green bell pepper",
+            "onion"
+          ]
+        },
+        {
+          "id": "margat-simach",
+          "name": "Basra Fish Curry with Tamarind and Rice",
+          "nativeName": "Margat Simach",
+          "cuisine": "iraqi",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "The southern Iraqi fish stew from the port of Basra, where Indian spices met the Gulf: white fish poached in a tomato, onion and curry sauce soured with tamarind and dried lime, served with basmati rice. Poaching instead of frying keeps it light, with about 34 g protein in 30 minutes.",
+          "mainProtein": "fish",
+          "diet": "pescatarian",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "water",
+            "sea bass fillet (raw)",
+            "tomato",
+            "basmati rice (raw)",
+            "onion",
+            "green bell pepper"
+          ]
+        },
+        {
+          "id": "kurdish-chicken-bulgur-pilaf",
+          "name": "Kurdish Chicken and Bulgur Pilaf with Peppers",
+          "nativeName": "",
+          "cuisine": "kurdish",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "A one-pot sawar from Kurdish kitchens: coarse bulgur simmered with chicken, green peppers, tomato and Aleppo pepper until it soaks up every bit of sauce, served with a cucumber, parsley and mint salad. Whole-grain bulgur and lean chicken give about 36 g protein and 12 g fiber per plate.",
+          "mainProtein": "chicken",
+          "diet": "meat",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "water",
+            "chicken breast, skinless (raw)",
+            "coarse bulgur (dry)",
+            "green bell pepper",
+            "tomato",
+            "cucumber"
+          ]
+        }
+      ]
+    },
+    {
+      "chunk": "dinner-mediterranean",
+      "dishes": [
+        {
+          "id": "joojeh-kabab",
+          "name": "Persian Saffron Chicken Kebab",
+          "nativeName": "Joojeh Kabab",
+          "cuisine": "persian",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Chicken breast marinated in saffron, lemon, onion and yogurt, grilled on skewers with tomatoes and served with brown basmati rice and a Shirazi salad instead of buttered chelow.",
+          "mainProtein": "chicken",
+          "diet": "meat",
+          "glutenFree": true,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "chicken breast, skinless, raw",
+            "plain yogurt, low-fat",
+            "saffron",
+            "lemon juice",
+            "onion, raw",
+            "tomato, raw",
+            "rice, brown basmati, raw"
+          ]
+        },
+        {
+          "id": "ghormeh-sabzi",
+          "name": "Persian Herb Stew with Lamb and Kidney Beans",
+          "nativeName": "Ghormeh Sabzi",
+          "cuisine": "persian",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Lean lamb and kidney beans slow-cooked with a mountain of sautéed parsley, coriander, leek and fenugreek and soured with dried limes; the herbs are sautéed in a measured spoon of oil, served with basmati rice.",
+          "mainProtein": "lamb",
+          "diet": "meat",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "lamb leg, lean, raw",
+            "kidney beans, canned, low-sodium, drained",
+            "parsley, fresh",
+            "coriander leaves, fresh",
+            "leek, raw",
+            "fenugreek leaves, dried",
+            "dried lime (noomi basra)",
+            "rice, basmati, raw"
+          ]
+        },
+        {
+          "id": "kofta-bil-tahini",
+          "name": "Baked Kofta with Potatoes in Tahini Sauce",
+          "nativeName": "Kofta bil Tahini",
+          "cuisine": "levantine",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Lean beef and parsley kofta baked on a tray with sliced potatoes, onions and tomatoes under a thin lemon-tahini sauce, served with a green salad.",
+          "mainProtein": "beef",
+          "diet": "meat",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "beef, ground, 95% lean, raw",
+            "parsley, fresh",
+            "potato, raw",
+            "onion, raw",
+            "tomato, raw",
+            "tahini",
+            "lemon juice"
+          ]
+        },
+        {
+          "id": "samke-harra",
+          "name": "Lebanese Spicy Baked Fish",
+          "nativeName": "Samke Harra",
+          "cuisine": "levantine",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "White fish fillets baked under a Beirut-style topping of coriander, garlic, chili and lemon sautéed in a little olive oil, served with boiled new potatoes and a chopped salad.",
+          "mainProtein": "fish",
+          "diet": "pescatarian",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "white fish fillet (cod or sea bass), raw",
+            "coriander leaves, fresh",
+            "garlic, raw",
+            "red chili pepper, raw",
+            "lemon juice",
+            "potato, raw",
+            "olive oil, extra virgin"
+          ]
+        },
+        {
+          "id": "mirza-ghasemi",
+          "name": "Smoky Eggplant with Tomato and Eggs",
+          "nativeName": "Mirza Ghasemi",
+          "cuisine": "persian",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "The Caspian dish of charred, mashed eggplant cooked with garlic, tomato and turmeric, with eggs stirred through at the end, served with brown rice (charring the eggplant and the rice take it past 30 minutes).",
+          "mainProtein": "eggs",
+          "diet": "vegetarian",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": false,
+          "quick": false,
+          "keyIngredients": [
+            "eggplant, raw",
+            "egg, whole, raw",
+            "tomato, raw",
+            "garlic, raw",
+            "turmeric, ground",
+            "rice, brown, raw",
+            "olive oil, extra virgin"
+          ]
+        },
+        {
+          "id": "mucver",
+          "name": "Turkish Zucchini Fritters with Garlic Yogurt",
+          "nativeName": "Mücver",
+          "cuisine": "turkish",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Grated, squeezed zucchini with eggs, dill, spring onion and a little whole-wheat flour, pan-seared as thin fritters in measured oil (never deep-fried), with nonfat garlic yogurt and a tomato salad; left without the usual feta so saturated fat stays in range.",
+          "mainProtein": "eggs",
+          "diet": "vegetarian",
+          "glutenFree": false,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": false,
+          "quick": true,
+          "keyIngredients": [
+            "zucchini, raw",
+            "egg, whole, raw",
+            "whole-wheat flour",
+            "dill, fresh",
+            "scallion, raw",
+            "Greek yogurt, plain, nonfat",
+            "olive oil, extra virgin",
+            "tomato, raw"
+          ]
+        },
+        {
+          "id": "coban-kavurma",
+          "name": "Turkish Shepherd's Lamb Sauté with Bulgur Pilaf",
+          "nativeName": "Çoban Kavurma",
+          "cuisine": "turkish",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Small cubes of lean lamb leg seared in a measured spoon of olive oil with green peppers, onion and tomato and a little pepper paste, served with coarse bulgur pilaf; a 30-minute pan dish with lean meat and plenty of vegetables.",
+          "mainProtein": "lamb",
+          "diet": "meat",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "lamb leg, lean, raw",
+            "green bell pepper, raw",
+            "tomato, raw",
+            "onion, raw",
+            "red pepper paste (biber salçası)",
+            "bulgur, coarse, dry",
+            "olive oil, extra virgin"
+          ]
+        },
+        {
+          "id": "balik-bugulama",
+          "name": "Turkish Steamed Fish with Vegetables",
+          "nativeName": "Balık Buğulama",
+          "cuisine": "turkish",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Fish fillets gently steamed in a covered pan over sliced potatoes, tomatoes, peppers and onion with lemon and dill; a one-pan dinner with only a spoon of olive oil.",
+          "mainProtein": "fish",
+          "diet": "pescatarian",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "white fish fillet (sea bass or cod), raw",
+            "potato, raw",
+            "tomato, raw",
+            "green bell pepper, raw",
+            "onion, raw",
+            "dill, fresh",
+            "lemon juice"
+          ]
+        },
+        {
+          "id": "tavuk-sis",
+          "name": "Turkish Chicken Skewers with Bulgur Pilaf",
+          "nativeName": "Tavuk Şiş",
+          "cuisine": "turkish",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Chicken breast marinated in yogurt, tomato and pepper paste, cumin and pul biber, grilled on skewers with green peppers and served with bulgur pilaf and a shepherd's salad with sumac onions. A 30-minute grill plate with over 40 g of protein and 10 g of fiber; nonfat yogurt and a measured spoon of pepper paste keep it lean and low in salt.",
+          "mainProtein": "chicken",
+          "diet": "meat",
+          "glutenFree": false,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "chicken breast, skinless (raw)",
+            "water",
+            "tomato",
+            "cucumber",
+            "green bell pepper",
+            "coarse bulgur (dry)"
+          ]
+        },
+        {
+          "id": "freekeh-bi-djaj",
+          "name": "Levantine Freekeh with Chicken",
+          "nativeName": "Freekeh bi Djaj",
+          "cuisine": "levantine",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Smoky cracked green wheat simmered in chicken broth with onion and seven-spice and finished with browned chicken, served with a lemony tomato and cucumber salad. A quicker, lighter take on the Palestinian and Lebanese feast dish, with breast meat instead of a whole poached chicken and no fried nut topping, for about 40 g of protein and almost 10 g of fiber a plate.",
+          "mainProtein": "chicken",
+          "diet": "meat",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "chicken broth, low-sodium",
+            "chicken breast, skinless (raw)",
+            "freekeh, cracked (dry)",
+            "tomato",
+            "cucumber",
+            "onion"
+          ]
+        },
+        {
+          "id": "sabzi-polo-ba-mahi",
+          "name": "Persian Herb Rice with Turmeric Fish",
+          "nativeName": "Sabzi Polo ba Mahi",
+          "cuisine": "persian",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "The Nowruz plate of basmati rice packed with parsley, dill, coriander, spring onion and garlic, served with pan-seared turmeric fish, lemon and a Shirazi salad. This quick, lighter version cooks the rice by absorption with a little olive oil instead of steaming it with butter for a tahdig, and sears the fish rather than frying it.",
+          "mainProtein": "fish",
+          "diet": "pescatarian",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "sea bass fillet (raw)",
+            "water",
+            "tomato",
+            "cucumber",
+            "basmati rice (raw)",
+            "parsley"
+          ]
+        },
+        {
+          "id": "etsiz-nohut",
+          "name": "Turkish Chickpea Stew with Bulgur Pilaf",
+          "nativeName": "Etsiz Nohut Yemeği",
+          "cuisine": "turkish",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "The Turkish home-cooking staple of chickpeas simmered in a tomato and pepper-paste sauce with onion and green pepper, served next to bulgur pilaf, here made without meat. Low-sodium canned chickpeas make it a 30-minute vegan dinner with about 17 g of protein and 16 g of fiber a plate, seasoned mostly by the pepper paste with very little added salt.",
+          "mainProtein": "chickpeas",
+          "diet": "vegan",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "water",
+            "chickpeas, low-sodium (canned, drained)",
+            "tomato",
+            "coarse bulgur (dry)",
+            "onion",
+            "green bell pepper"
+          ]
+        },
+        {
+          "id": "baghala-ghatogh",
+          "name": "Caspian Broad Bean and Dill Stew with Eggs",
+          "nativeName": "Baghala Ghatogh",
+          "cuisine": "persian",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "A favourite of Gilan on Iran's Caspian coast: broad beans simmered with plenty of garlic, dill and turmeric, finished with eggs cooked on top and served with plain kateh rice. Frozen broad beans make it a 30-minute vegetarian dinner with about 20 g of protein and 8 g of fiber, cooked in a measured spoon of olive oil instead of the usual generous pour.",
+          "mainProtein": "beans",
+          "diet": "vegetarian",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": false,
+          "quick": true,
+          "keyIngredients": [
+            "water",
+            "green fava beans (frozen)",
+            "basmati rice (raw)",
+            "egg",
+            "dill",
+            "garlic"
+          ]
+        },
+        {
+          "id": "adas-polo",
+          "name": "Persian Rice with Lentils, Dates and Raisins",
+          "nativeName": "Adas Polo",
+          "cuisine": "persian",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Saffron-scented basmati rice steamed with green lentils and cinnamon and topped with golden onions, raisins and dates, the sweet and savory pilaf of Iranian winter nights. Made vegan and lighter with olive oil instead of butter, it brings about 18 g of protein and 9 g of fiber a plate, sweetened only by the fruit.",
+          "mainProtein": "lentils",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "water",
+            "basmati rice (raw)",
+            "onion",
+            "green or brown lentils (dried)",
+            "medjool dates",
+            "raisins"
+          ]
+        },
+        {
+          "id": "alinazik",
+          "name": "Gaziantep Smoky Eggplant Yogurt with Lamb",
+          "nativeName": "Alinazik Kebabı",
+          "cuisine": "turkish",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "The Gaziantep classic: flame-charred eggplant mashed into garlicky yogurt and topped with small cubes of lamb cooked with tomato, green pepper and pepper paste, served with bulgur pilaf. A lighter version with lean leg meat, nonfat strained yogurt and olive oil instead of butter, at about 44 g of protein and 16 g of fiber a plate.",
+          "mainProtein": "lamb",
+          "diet": "meat",
+          "glutenFree": false,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "eggplant",
+            "lamb leg, lean (raw)",
+            "water",
+            "greek yogurt, plain, nonfat",
+            "tomato",
+            "coarse bulgur (dry)"
+          ]
+        }
+      ]
+    },
+    {
+      "chunk": "snacks-middle-eastern",
+      "dishes": [
+        {
+          "id": "hummus-veg-sticks",
+          "name": "Hummus with Vegetable Sticks",
+          "nativeName": "Hummus bi Tahina",
+          "cuisine": "levantine",
+          "slots": [
+            "snack"
+          ],
+          "concept": "Chickpeas blended with tahini, lemon, garlic and cumin (a spoon of olive oil, measured salt) served with carrot, cucumber and pepper sticks instead of bread.",
+          "mainProtein": "chickpeas",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "chickpeas, canned, low-sodium, drained",
+            "tahini",
+            "lemon juice",
+            "garlic, raw",
+            "carrot, raw",
+            "cucumber, raw",
+            "red bell pepper, raw"
+          ]
+        },
+        {
+          "id": "baba-ghanoush",
+          "name": "Baba Ghanoush with Vegetables",
+          "nativeName": "",
+          "cuisine": "levantine",
+          "slots": [
+            "snack"
+          ],
+          "concept": "Oven-charred eggplant mashed with garlic, lemon, tomato, pepper and parsley and a little pomegranate, scooped up with cucumber and radish slices.",
+          "mainProtein": "vegetables",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "eggplant, raw",
+            "tomato, raw",
+            "green bell pepper, raw",
+            "parsley, fresh",
+            "lemon juice",
+            "olive oil, extra virgin",
+            "cucumber, raw"
+          ]
+        },
+        {
+          "id": "roasted-chickpeas-sumac",
+          "name": "Crunchy Roasted Chickpeas with Cumin and Sumac",
+          "nativeName": "Qudameh",
+          "cuisine": "levantine",
+          "slots": [
+            "snack"
+          ],
+          "concept": "Canned chickpeas dried, tossed with a teaspoon of oil, cumin, sumac and a pinch of salt, and roasted for about 35 minutes until crisp; a crunchy high-fiber alternative to salted nuts.",
+          "mainProtein": "chickpeas",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "chickpeas, canned, low-sodium, drained",
+            "olive oil, extra virgin",
+            "cumin, ground",
+            "sumac",
+            "salt"
+          ]
+        },
+        {
+          "id": "dates-with-walnuts",
+          "name": "Dates Stuffed with Walnuts",
+          "nativeName": "Tamur w Joz",
+          "cuisine": "iraqi",
+          "slots": [
+            "snack"
+          ],
+          "concept": "Iraqi dates with the stone replaced by a walnut half, a portion of three; whole fruit gives the sweetness, so there is no added sugar.",
+          "mainProtein": "nuts",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": false,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "dates, medjool or zahdi",
+            "walnuts"
+          ]
+        },
+        {
+          "id": "tabbouleh",
+          "name": "Tabbouleh with Lettuce Leaves",
+          "nativeName": "",
+          "cuisine": "levantine",
+          "slots": [
+            "snack"
+          ],
+          "concept": "The Lebanese parsley salad with a little fine bulgur, tomato, mint and spring onion in lemon and a measured spoon of olive oil, scooped up with crisp lettuce leaves; a light, fiber-rich bite with no frying or cheese.",
+          "mainProtein": "grain",
+          "diet": "vegan",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "parsley, fresh",
+            "bulgur, fine, dry",
+            "tomato, raw",
+            "mint, fresh",
+            "scallion, raw",
+            "lemon juice",
+            "olive oil, extra virgin",
+            "romaine lettuce, raw"
+          ]
+        },
+        {
+          "id": "kurdish-jajik",
+          "name": "Kurdish Cucumber and Mint Yogurt",
+          "nativeName": "Jajik",
+          "cuisine": "kurdish",
+          "slots": [
+            "snack"
+          ],
+          "concept": "Thick nonfat yogurt stirred with grated cucumber, garlic, dried mint and a little dill, eaten from a bowl with a spoon or with vegetable sticks; nonfat yogurt because low-fat yogurt on its own is over the saturated-fat limit.",
+          "mainProtein": "dairy",
+          "diet": "vegetarian",
+          "glutenFree": true,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "Greek yogurt, plain, nonfat",
+            "cucumber, raw",
+            "garlic, raw",
+            "mint, dried",
+            "dill, fresh",
+            "salt"
+          ]
+        },
+        {
+          "id": "kurdish-mastaw",
+          "name": "Kurdish Minty Yogurt Drink",
+          "nativeName": "Mastaw",
+          "cuisine": "kurdish",
+          "slots": [
+            "snack"
+          ],
+          "concept": "Nonfat plain yogurt whisked with cold water, crushed dried mint; the Kurdish summer drink with protein and no sugar, left unsalted because the yogurt already brings about 190 mg of sodium a glass.",
+          "mainProtein": "dairy",
+          "diet": "vegetarian",
+          "glutenFree": true,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "plain yogurt, nonfat",
+            "water",
+            "mint, dried"
+          ]
+        },
+        {
+          "id": "persian-ajil",
+          "name": "Persian Nut and Dried Fruit Mix",
+          "nativeName": "Ajil",
+          "cuisine": "persian",
+          "slots": [
+            "snack"
+          ],
+          "concept": "A small portioned bowl of unsalted pistachios, almonds, roasted chickpeas, dried mulberries and raisins, the Nowruz snack without the salted coating.",
+          "mainProtein": "nuts",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": false,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "pistachios, unsalted",
+            "almonds",
+            "roasted chickpeas (leblebi), unsalted",
+            "mulberries, dried",
+            "raisins"
+          ]
+        },
+        {
+          "id": "iraqi-shalgham",
+          "name": "Iraqi Boiled Turnips with Date Syrup",
+          "nativeName": "Shalgham",
+          "cuisine": "iraqi",
+          "slots": [
+            "snack"
+          ],
+          "concept": "The Baghdad winter street snack: whole turnips simmered until tender and sweet, halved and eaten hot with a pinch of salt and a teaspoon of date syrup (dibis) drizzled over; a naturally sweet, very low-fat snack.",
+          "mainProtein": "vegetables",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "turnip, boiled and drained",
+            "date syrup (dibis)",
+            "salt"
+          ]
+        },
+        {
+          "id": "muhammara",
+          "name": "Muhammara with Vegetable Sticks",
+          "nativeName": "",
+          "cuisine": "levantine",
+          "slots": [
+            "snack"
+          ],
+          "concept": "Aleppo's red pepper and walnut dip made with fresh peppers charred under the grill (jarred roasted peppers are brined and too salty for a snack), cumin, lemon and a teaspoon of pomegranate molasses, without breadcrumbs, served with cucumber and celery sticks.",
+          "mainProtein": "nuts",
+          "diet": "vegan",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": false,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "red bell pepper, raw",
+            "walnuts",
+            "pomegranate molasses",
+            "cumin, ground",
+            "lemon juice",
+            "cucumber, raw",
+            "celery, raw"
+          ]
+        },
+        {
+          "id": "spinach-fatayer",
+          "name": "Baked Spinach Triangles",
+          "nativeName": "Fatayer bi Sabanekh",
+          "cuisine": "levantine",
+          "slots": [
+            "snack"
+          ],
+          "concept": "Small whole-wheat dough triangles filled with spinach, onion, sumac and lemon and baked, not fried; two pieces make a filling savory snack.",
+          "mainProtein": "wheat",
+          "diet": "vegan",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "whole-wheat flour",
+            "yeast, dry",
+            "spinach, raw",
+            "onion, raw",
+            "sumac",
+            "lemon juice",
+            "olive oil, extra virgin"
+          ]
+        },
+        {
+          "id": "etsiz-cig-kofte",
+          "name": "Urfa Spiced Bulgur Bites in Lettuce",
+          "nativeName": "Etsiz Çiğ Köfte",
+          "cuisine": "turkish",
+          "slots": [
+            "snack"
+          ],
+          "concept": "The meatless çiğ köfte of Şanlıurfa: fine bulgur kneaded with hot pepper flakes, tomato and pepper paste, onion and herbs until it holds together, then shaped by hand and wrapped in crisp lettuce with a squeeze of lemon. No cooking, about 180 kcal and 6 g of fiber a serving, and lighter on salt than the street version, with a measured spoon of pepper paste and only a pinch of salt.",
+          "mainProtein": "grain",
+          "diet": "vegan",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "romaine lettuce",
+            "fine bulgur (dry)",
+            "water",
+            "onion",
+            "tomato paste (no salt added)",
+            "lemon juice"
+          ]
+        },
+        {
+          "id": "batata-harra",
+          "name": "Lebanese Spicy Potatoes with Coriander",
+          "nativeName": "Batata Harra",
+          "cuisine": "levantine",
+          "slots": [
+            "snack"
+          ],
+          "concept": "The Lebanese mezze of crisp potato cubes tossed with garlic, chili, coriander and lemon. This lighter version pan-roasts the potatoes in a little olive oil instead of deep-frying them, for about 170 kcal a bowl with very little salt.",
+          "mainProtein": "vegetables",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "potato",
+            "coriander leaves (cilantro)",
+            "lemon juice",
+            "olive oil",
+            "garlic",
+            "red chili pepper"
+          ]
+        },
+        {
+          "id": "balila",
+          "name": "Warm Chickpeas with Cumin and Lemon",
+          "nativeName": "Balila",
+          "cuisine": "levantine",
+          "slots": [
+            "snack"
+          ],
+          "concept": "The Levantine street snack of warm whole chickpeas tossed with garlic, cumin, lemon and a thread of olive oil and eaten from a small bowl with a spoon. Made with chickpeas cooked without salt, a bowl has about 200 kcal, 9 g of protein and 8 g of fiber and very little sodium.",
+          "mainProtein": "chickpeas",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "water",
+            "chickpeas (cooked from dried)",
+            "lemon juice",
+            "parsley",
+            "olive oil",
+            "garlic"
+          ]
+        },
+        {
+          "id": "mast-o-khiar",
+          "name": "Persian Yogurt with Cucumber, Raisins and Mint",
+          "nativeName": "Mast-o-Khiar",
+          "cuisine": "persian",
+          "slots": [
+            "snack"
+          ],
+          "concept": "The Persian summer bowl of thick yogurt stirred with diced cucumber, raisins, dried mint and dill, sweet and savory at once and eaten with a spoon. Nonfat strained yogurt gives over 10 g of protein a bowl, and the usual walnuts are left out so it stays nut-free.",
+          "mainProtein": "dairy",
+          "diet": "vegetarian",
+          "glutenFree": true,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "greek yogurt, plain, nonfat",
+            "cucumber",
+            "raisins",
+            "dill",
+            "dried mint",
+            "salt"
+          ]
+        }
+      ]
+    },
+    {
+      "chunk": "desserts",
+      "dishes": [
+        {
+          "id": "greek-yogurt-parfait",
+          "name": "Greek Yogurt Berry Parfait with Pumpkin Seeds",
+          "nativeName": "",
+          "cuisine": "western",
+          "slots": [
+            "snack"
+          ],
+          "concept": "Layers of plain nonfat Greek yogurt, mixed berries and toasted pumpkin seeds with a dusting of cinnamon; seeds replace sugary granola, and nonfat yogurt keeps saturated fat in range.",
+          "mainProtein": "dairy",
+          "diet": "vegetarian",
+          "glutenFree": true,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "Greek yogurt, plain, nonfat",
+            "blueberries, raw",
+            "raspberries, raw",
+            "pumpkin seeds, hulled",
+            "cinnamon, ground"
+          ]
+        },
+        {
+          "id": "date-oat-energy-balls",
+          "name": "Date, Oat and Almond Energy Balls",
+          "nativeName": "",
+          "cuisine": "western",
+          "slots": [
+            "snack"
+          ],
+          "concept": "No-bake bites of dates, rolled oats, almond butter, cocoa and chia blitzed together and rolled; sweet from whole dates only, portioned at two balls.",
+          "mainProtein": "nuts",
+          "diet": "vegan",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": false,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "dates, medjool or zahdi",
+            "oats, rolled, dry",
+            "almond butter, unsalted",
+            "cocoa powder, unsweetened",
+            "chia seeds"
+          ]
+        },
+        {
+          "id": "banana-oat-cookies",
+          "name": "Banana Oat Raisin Cookies",
+          "nativeName": "",
+          "cuisine": "western",
+          "slots": [
+            "snack"
+          ],
+          "concept": "Soft baked cookies of mashed ripe banana, rolled oats, raisins, cinnamon and ground flaxseed with no added sugar, butter or egg.",
+          "mainProtein": "grain",
+          "diet": "vegan",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "banana, raw",
+            "oats, rolled, dry",
+            "raisins",
+            "flaxseed, ground",
+            "cinnamon, ground"
+          ]
+        },
+        {
+          "id": "kurdish-shir-birinj",
+          "name": "Kurdish Rice Pudding with Rosewater and Cardamom",
+          "nativeName": "Shirbirinj",
+          "cuisine": "kurdish",
+          "slots": [
+            "snack"
+          ],
+          "concept": "The chilled milk-and-rice dessert served in Kurdish homes and at Ramadan iftar, scented with rosewater and cardamom and dusted with cinnamon. Made with 1% milk and a measured spoon of sugar, it is lighter than the classic yet still creamy, with about 10 g of protein per bowl.",
+          "mainProtein": "dairy",
+          "diet": "vegetarian",
+          "glutenFree": true,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "milk, 1%",
+            "water",
+            "short-grain rice (raw)",
+            "sugar",
+            "rose water",
+            "cinnamon, ground"
+          ]
+        },
+        {
+          "id": "kleicha",
+          "name": "Iraqi Date-Filled Cookies",
+          "nativeName": "Kleicha",
+          "cuisine": "iraqi",
+          "slots": [
+            "snack"
+          ],
+          "concept": "Iraq's national cookie (Kurds bake the same kulîçe for Eid): cardamom pastry rolled around date paste, sliced into spirals and glazed with saffron. This lighter dessert uses half whole-wheat flour and sunflower oil instead of butter or ghee, and is sweetened only by the dates, about 170 kcal for two cookies.",
+          "mainProtein": "grain",
+          "diet": "vegan",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "zahdi dates",
+            "all-purpose flour",
+            "whole-wheat flour",
+            "water",
+            "sunflower oil",
+            "baking powder"
+          ]
+        },
+        {
+          "id": "kuru-kayisi-hosafi",
+          "name": "Dried Apricot and Raisin Compote",
+          "nativeName": "Hoşaf",
+          "cuisine": "turkish",
+          "slots": [
+            "snack"
+          ],
+          "concept": "A chilled dessert of dried apricots and raisins simmered with cinnamon and cloves until they swell in their own golden syrup, a Ramadan and holiday favourite across Turkey and Kurdistan. Unlike the classic, it has no added sugar: the fruit alone sweetens the juice.",
+          "mainProtein": "fruit",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "water",
+            "dried apricots",
+            "raisins",
+            "cinnamon stick",
+            "cloves, whole"
+          ]
+        },
+        {
+          "id": "mast-u-hingiv",
+          "name": "Yogurt with Honey and Walnuts",
+          "nativeName": "Mast û Hingiv",
+          "cuisine": "kurdish",
+          "slots": [
+            "snack"
+          ],
+          "concept": "The simplest Kurdish dessert: thick strained yogurt with a drizzle of mountain honey and toasted walnuts. Using nonfat yogurt and a single measured teaspoon of honey per bowl keeps it light, with about 20 g of protein in each serving.",
+          "mainProtein": "dairy",
+          "diet": "vegetarian",
+          "glutenFree": true,
+          "dairyFree": false,
+          "nutFree": false,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "greek yogurt, plain, nonfat",
+            "walnuts",
+            "honey",
+            "cinnamon, ground"
+          ]
+        },
+        {
+          "id": "elma-tatlisi",
+          "name": "Baked Apples Stuffed with Walnuts and Dates",
+          "nativeName": "Elma Tatlısı",
+          "cuisine": "turkish",
+          "slots": [
+            "snack"
+          ],
+          "concept": "A lighter take on the Turkish dessert of apple halves filled with walnuts: instead of poaching in sugar syrup, the apples bake soft with a date, walnut and cinnamon filling and a clove in each half. No added sugar, and about 7 g of fiber per serving.",
+          "mainProtein": "fruit",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": false,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "apple",
+            "water",
+            "medjool dates",
+            "walnuts",
+            "cinnamon, ground",
+            "cloves, whole"
+          ]
+        },
+        {
+          "id": "pomegranate-orange-rosewater",
+          "name": "Orange and Pomegranate with Rosewater and Mint",
+          "nativeName": "",
+          "cuisine": "persian",
+          "slots": [
+            "snack"
+          ],
+          "concept": "A simple no-cook fruit dessert with Persian flavours: juicy orange rounds scattered with pomegranate seeds, splashed with rosewater and a pinch of cardamom and finished with fresh mint. Under 100 kcal a plate, with no added sugar.",
+          "mainProtein": "fruit",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "orange",
+            "pomegranate seeds (arils)",
+            "rose water",
+            "fresh mint",
+            "cardamom, ground"
+          ]
+        }
+      ]
+    }
+  ]
+}

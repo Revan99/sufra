@@ -1,0 +1,35 @@
+{
+  "id": "roasted-chickpeas-sumac",
+  "photo": {
+    "src": "images/roasted-chickpeas-sumac.webp",
+    "thumb": "images/roasted-chickpeas-sumac-thumb.webp",
+    "width": 800,
+    "height": 600,
+    "alt": "Pile of golden, crunchy roasted chickpeas with toasted brown spots on a dark wooden table",
+    "focus": [
+      55,
+      55
+    ],
+    "credit": {
+      "title": "Leblebi",
+      "author": "Physicistjedi",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leblebi.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Leblebi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "roasted chickpeas"
+  },
+  "queries": [
+    "roasted chickpeas",
+    "leblebi roasted chickpeas",
+    "crunchy chickpeas snack",
+    "spiced roasted chickpeas",
+    "oven roasted chickpeas"
+  ]
+}

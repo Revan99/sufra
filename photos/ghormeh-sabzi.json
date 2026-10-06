@@ -1,0 +1,35 @@
+{
+  "id": "ghormeh-sabzi",
+  "photo": {
+    "src": "images/ghormeh-sabzi.webp",
+    "thumb": "images/ghormeh-sabzi-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Close-up of dark green herb stew with red kidney beans and tender lamb on a white square plate",
+    "focus": [
+      45,
+      50
+    ],
+    "credit": {
+      "title": "חורשט סבזי",
+      "author": "Edsel Little",
+      "authorUrl": "https://www.flickr.com/people/edsel_/",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D7%97%D7%95%D7%A8%D7%A9%D7%98_%D7%A1%D7%91%D7%96%D7%99.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/%D7%97%D7%95%D7%A8%D7%A9%D7%98_%D7%A1%D7%91%D7%96%D7%99.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "ghormeh sabzi"
+  },
+  "queries": [
+    "ghormeh sabzi",
+    "qormeh sabzi",
+    "قورمه سبزی",
+    "Persian herb stew"
+  ]
+}

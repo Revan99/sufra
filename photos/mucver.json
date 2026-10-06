@@ -1,0 +1,35 @@
+{
+  "id": "mucver",
+  "photo": {
+    "src": "images/mucver.webp",
+    "thumb": "images/mucver-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Golden zucchini fritters flecked with dill on a white plate",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Zucchini Fritters - Lunch at Yanyali Fehmi Lokantasi (6421047753)",
+      "author": "William Neuheisel from DC, US",
+      "authorUrl": "https://www.flickr.com/people/7678722@N07",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zucchini_Fritters_-_Lunch_at_Yanyali_Fehmi_Lokantasi_(6421047753).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Zucchini_Fritters_-_Lunch_at_Yanyali_Fehmi_Lokantasi_%286421047753%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "mücver"
+  },
+  "queries": [
+    "mücver",
+    "mucver",
+    "zucchini fritters",
+    "kabak mücveri"
+  ]
+}

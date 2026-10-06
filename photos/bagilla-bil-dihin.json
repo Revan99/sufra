@@ -1,0 +1,35 @@
+{
+  "id": "bagilla-bil-dihin",
+  "photo": {
+    "src": "images/bagilla-bil-dihin.webp",
+    "thumb": "images/bagilla-bil-dihin-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Broad beans and roasted cherry tomatoes around a fried egg on soaked bread, with spring onion and an orange wedge",
+    "focus": [
+      50,
+      45
+    ],
+    "credit": {
+      "title": "باقلاء بالدهن",
+      "author": "Ayat Jaryan",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Ayat_Jaryan",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D8%A8%D8%A7%D9%82%D9%84%D8%A7%D8%A1_%D8%A8%D8%A7%D9%84%D8%AF%D9%87%D9%86.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/%D8%A8%D8%A7%D9%82%D9%84%D8%A7%D8%A1_%D8%A8%D8%A7%D9%84%D8%AF%D9%87%D9%86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "باقلاء بالدهن"
+  },
+  "queries": [
+    "bagilla bil dihin",
+    "baqilla",
+    "باقلاء بالدهن",
+    "tashreeb baqilla"
+  ]
+}

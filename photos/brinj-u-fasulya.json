@@ -1,0 +1,35 @@
+{
+  "id": "brinj-u-fasulya",
+  "photo": {
+    "src": "images/brinj-u-fasulya.webp",
+    "thumb": "images/brinj-u-fasulya-thumb.webp",
+    "width": 960,
+    "height": 1280,
+    "alt": "White beans in tomato sauce with chopped parsley in a bowl, with a mound of rice pilaf on a plate behind",
+    "focus": [
+      50,
+      62
+    ],
+    "credit": {
+      "title": "Kuru fasulye and sesam pilaf",
+      "author": "E4024",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:E4024",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kuru_fasulye_and_sesam_pilaf.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c04",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Kuru_fasulye_and_sesam_pilaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "kuru fasulye pilav"
+  },
+  "queries": [
+    "fasulya rice",
+    "فاصوليا بيضاء",
+    "Kurdish white bean stew",
+    "kuru fasulye pilav"
+  ]
+}

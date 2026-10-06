@@ -1,0 +1,34 @@
+{
+  "id": "mercimek-koftesi",
+  "photo": {
+    "src": "images/mercimek-koftesi.webp",
+    "thumb": "images/mercimek-koftesi-thumb.webp",
+    "width": 960,
+    "height": 960,
+    "alt": "Red lentil and bulgur patties with parsley piled on lettuce leaves, topped with lemon wedges",
+    "focus": [
+      55,
+      62
+    ],
+    "credit": {
+      "title": "Lentil meatballs",
+      "author": "İmmortalance",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:%C4%B0mmortalance",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lentil_meatballs.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c05",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Lentil_meatballs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Mercimek köftesi"
+  },
+  "queries": [
+    "Mercimek köftesi",
+    "mercimek koftesi lettuce",
+    "red lentil kofte"
+  ]
+}

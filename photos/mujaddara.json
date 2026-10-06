@@ -1,0 +1,33 @@
+{
+  "id": "mujaddara",
+  "photo": {
+    "src": "images/mujaddara.webp",
+    "thumb": "images/mujaddara-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Rice and brown lentils under a thick layer of caramelized onions on an oval platter",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Mujaddara",
+      "author": "Bazel",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mujaddara.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Mujaddara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Mujaddara"
+  },
+  "queries": [
+    "Mujaddara",
+    "mujadara lentils rice onions",
+    "مجدرة"
+  ]
+}

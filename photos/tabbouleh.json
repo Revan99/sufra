@@ -1,0 +1,34 @@
+{
+  "id": "tabbouleh",
+  "photo": {
+    "src": "images/tabbouleh.webp",
+    "thumb": "images/tabbouleh-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Parsley-heavy tabbouleh with diced tomato and lemon slices on a metal platter lined with crisp pale leaves",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "صحن تبولة",
+      "author": "Aziz1005",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Aziz1005",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D8%B5%D8%AD%D9%86_%D8%AA%D8%A8%D9%88%D9%84%D8%A9.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c16",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/%D8%B5%D8%AD%D9%86_%D8%AA%D8%A8%D9%88%D9%84%D8%A9.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "تبولة"
+  },
+  "queries": [
+    "tabbouleh",
+    "tabouleh salad",
+    "تبولة"
+  ]
+}

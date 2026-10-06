@@ -1,0 +1,33 @@
+{
+  "id": "hummus-veg-sticks",
+  "photo": {
+    "src": "images/hummus-veg-sticks.webp",
+    "thumb": "images/hummus-veg-sticks-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Small white bowls of hummus dusted with paprika, filled with red, yellow and green pepper strips, carrot and cucumber sticks",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Small bowls of hummus with sliced vegetables",
+      "author": "Nilo Velez",
+      "authorUrl": "https://www.nilovelez.com",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://wordpress.org/photos/photo/53685c112c/",
+      "source": "wordpress",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c09",
+    "imageUrl": "https://pd.w.org/2025/06/53685c112c78ddf2.12208580-2048x1365.jpg",
+    "query": "hummus vegetable sticks"
+  },
+  "queries": [
+    "hummus crudites",
+    "hummus vegetable sticks"
+  ]
+}

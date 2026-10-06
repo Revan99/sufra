@@ -1,0 +1,35 @@
+{
+  "id": "iraqi-lamb-tikka",
+  "photo": {
+    "src": "images/iraqi-lamb-tikka.webp",
+    "thumb": "images/iraqi-lamb-tikka-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Grilled lamb skewers with flatbread, rice pilaf, charred green peppers and sumac onion salad on a white plate",
+    "focus": [
+      50,
+      45
+    ],
+    "credit": {
+      "title": "2023-01-20 Lamb Shish Kebab",
+      "author": "Maksym Kozlenko",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Maxim75",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023-01-20_Lamb_Shish_Kebab.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/2023-01-20_Lamb_Shish_Kebab.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "lamb shish kebab"
+  },
+  "queries": [
+    "Iraqi tikka",
+    "تكة لحم",
+    "lamb tikka skewers",
+    "lamb shish kebab"
+  ]
+}

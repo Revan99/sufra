@@ -1,0 +1,35 @@
+{
+  "id": "balik-bugulama",
+  "photo": {
+    "src": "images/balik-bugulama.webp",
+    "thumb": "images/balik-bugulama-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Sea bass steamed in a tomato broth with potato, carrot and parsley in a white bowl",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Levrek bugulama",
+      "author": "E4024",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:E4024",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Levrek_bugulama.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Levrek_bugulama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "levrek buğulama"
+  },
+  "queries": [
+    "balık buğulama",
+    "balik bugulama",
+    "fish buğulama",
+    "levrek buğulama"
+  ]
+}

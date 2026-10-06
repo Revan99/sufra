@@ -1,0 +1,34 @@
+{
+  "id": "kurdish-jajik",
+  "photo": {
+    "src": "images/kurdish-jajik.webp",
+    "thumb": "images/kurdish-jajik-thumb.webp",
+    "width": 960,
+    "height": 840,
+    "alt": "White bowl of thick yogurt with grated cucumber, topped with a mint sprig and fresh dill",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Cacik-1",
+      "author": "Rainer Zenz",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Rainer_Zenz",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cacik-1.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Cacik-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "cacık"
+  },
+  "queries": [
+    "cacık",
+    "jajik yogurt cucumber",
+    "cacik"
+  ]
+}

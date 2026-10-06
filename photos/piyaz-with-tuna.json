@@ -1,0 +1,35 @@
+{
+  "id": "piyaz-with-tuna",
+  "photo": {
+    "src": "images/piyaz-with-tuna.webp",
+    "thumb": "images/piyaz-with-tuna-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "White beans with flaked tuna, red onion, cherry tomatoes and chopped green leaves in a white bowl",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Insalata di Fagioli e Tonno – Bohnensalat mit Thunfisch (7327273414)",
+      "author": "Katrin Gilger",
+      "authorUrl": "https://www.flickr.com/people/26242865@N04",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Insalata_di_Fagioli_e_Tonno_%E2%80%93_Bohnensalat_mit_Thunfisch_(7327273414).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Insalata_di_Fagioli_e_Tonno_%E2%80%93_Bohnensalat_mit_Thunfisch_%287327273414%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "tonno e fagioli"
+  },
+  "queries": [
+    "ton balıklı piyaz",
+    "tonno e fagioli",
+    "tuna bean salad",
+    "piyaz"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "joojeh-kabab",
+  "photo": {
+    "src": "images/joojeh-kabab.webp",
+    "thumb": "images/joojeh-kabab-thumb.webp",
+    "width": 960,
+    "height": 939,
+    "alt": "Charred saffron chicken kebab skewers grilling over glowing coals beside blistered tomatoes",
+    "focus": [
+      50,
+      40
+    ],
+    "credit": {
+      "title": "Jujeh Kabab by Taha.7.13",
+      "author": "طاها حجتی",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jujeh_Kabab_by_Taha.7.13.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c04",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Jujeh_Kabab_by_Taha.7.13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "jujeh kabab"
+  },
+  "queries": [
+    "joojeh kabab",
+    "jujeh kabab",
+    "جوجه کباب",
+    "Persian saffron chicken kebab"
+  ]
+}

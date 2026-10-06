@@ -1,0 +1,35 @@
+{
+  "id": "kurdish-dokhawa",
+  "photo": {
+    "src": "images/kurdish-dokhawa.webp",
+    "thumb": "images/kurdish-dokhawa-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Creamy yogurt soup in a white bowl, drizzled with olive oil and sprinkled with dried mint",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Yayla soup with a surprise",
+      "author": "E4024",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:E4024",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yayla_soup_with_a_surprise.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c10",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Yayla_soup_with_a_surprise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "yayla çorbası"
+  },
+  "queries": [
+    "dokhawa",
+    "yayla çorbası",
+    "yogurt soup rice",
+    "dovga"
+  ]
+}

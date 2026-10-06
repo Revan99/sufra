@@ -1,0 +1,35 @@
+{
+  "id": "baba-ghanoush",
+  "photo": {
+    "src": "images/baba-ghanoush.webp",
+    "thumb": "images/baba-ghanoush-thumb.webp",
+    "width": 960,
+    "height": 681,
+    "alt": "White bowl of chunky smoky eggplant dip with parsley and a lemon slice, pita and snap peas behind",
+    "focus": [
+      32,
+      65
+    ],
+    "credit": {
+      "title": "Baba Ganoush 05of05 (8735238183)",
+      "author": "Breville USA",
+      "authorUrl": "https://www.flickr.com/people/38102750@N06",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baba_Ganoush_05of05_(8735238183).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c13",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Baba_Ganoush_05of05_%288735238183%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "baba ganoush"
+  },
+  "queries": [
+    "baba ghanoush",
+    "baba ganoush",
+    "mutabbal eggplant",
+    "بابا غنوج"
+  ]
+}

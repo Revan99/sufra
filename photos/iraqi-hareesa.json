@@ -1,0 +1,35 @@
+{
+  "id": "iraqi-hareesa",
+  "photo": {
+    "src": "images/iraqi-hareesa.webp",
+    "thumb": "images/iraqi-hareesa-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Thick wheat and meat porridge topped with cinnamon sticks and a pat of butter on a blue patterned plate",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Harees",
+      "author": "Miansari66",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Miansari66",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harees.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c05",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Harees.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "harees"
+  },
+  "queries": [
+    "harees",
+    "hareesa wheat chicken",
+    "هريسة قمح",
+    "haleem wheat"
+  ]
+}

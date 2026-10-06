@@ -1,0 +1,34 @@
+{
+  "id": "fattet-hummus",
+  "photo": {
+    "src": "images/fattet-hummus.webp",
+    "thumb": "images/fattet-hummus-thumb.webp",
+    "width": 960,
+    "height": 1354,
+    "alt": "Glass bowl of chickpeas over yogurt and toasted pita, topped with pine nuts, sumac and mint, crisp pita around the rim",
+    "focus": [
+      50,
+      48
+    ],
+    "credit": {
+      "title": "فتة حمص Fattet hummus (Las Siete Orillas project)",
+      "author": "El Mono Español",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:El_Mono_Espa%C3%B1ol",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D9%81%D8%AA%D8%A9_%D8%AD%D9%85%D8%B5_Fattet_hummus_(Las_Siete_Orillas_project).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c09",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/%D9%81%D8%AA%D8%A9_%D8%AD%D9%85%D8%B5_Fattet_hummus_%28Las_Siete_Orillas_project%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "fattet hummus"
+  },
+  "queries": [
+    "fatteh",
+    "fattet hummus",
+    "فتة حمص"
+  ]
+}

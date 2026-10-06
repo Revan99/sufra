@@ -1,0 +1,35 @@
+{
+  "id": "shorbat-adas",
+  "photo": {
+    "src": "images/shorbat-adas.webp",
+    "thumb": "images/shorbat-adas-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Smooth orange red lentil soup in a white bowl, topped with chili flakes and dried mint, with a lemon wedge",
+    "focus": [
+      45,
+      40
+    ],
+    "credit": {
+      "title": "Red lentil soup from Turkey",
+      "author": "E4024",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:E4024",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_lentil_soup_from_Turkey.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c13",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Red_lentil_soup_from_Turkey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "red lentil soup"
+  },
+  "queries": [
+    "shorbat adas",
+    "Iraqi lentil soup",
+    "red lentil soup",
+    "شوربة عدس"
+  ]
+}

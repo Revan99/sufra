@@ -1,0 +1,559 @@
+/* Today, meal cards, Week and onboarding. */
+
+/* Date navigation (Today and Week). The eyebrow row has a fixed height and holds the relative day and the
+   "Back to today" pill, and phones get a short date, so paging never moves the arrows or the content below. */
+.date-nav {
+  display: grid;
+  grid-template-columns: var(--tap) minmax(0, 1fr) var(--tap);
+  grid-template-areas: 'prev title next';
+  align-items: end;
+}
+
+.date-nav > :nth-child(1) {
+  grid-area: prev;
+}
+
+.date-nav > :nth-child(2) {
+  grid-area: title;
+}
+
+.date-nav > :nth-child(3) {
+  grid-area: next;
+}
+
+.date-nav-title {
+  display: grid;
+  gap: 2px;
+  min-inline-size: 0;
+  text-align: center;
+}
+
+.date-nav-eyebrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s-2);
+  block-size: 2rem;
+}
+
+.date-nav-eyebrow .today-pill {
+  min-block-size: 1.875rem;
+  padding-inline: var(--s-3);
+  font-size: var(--fs-xs);
+}
+
+.date-nav .screen-title {
+  font-size: var(--fs-xl);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.date-long {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .date-long {
+    display: inline;
+  }
+
+  .date-short {
+    display: none;
+  }
+}
+
+.nav-arrow {
+  border-color: var(--line);
+  background: var(--surface);
+}
+
+/* Today layout */
+.today-grid {
+  display: grid;
+  gap: var(--s-6);
+}
+
+.today-meals .section-head {
+  min-block-size: var(--tap);
+}
+
+.meal-list {
+  display: grid;
+  gap: var(--s-3);
+}
+
+/* Day summary: compact on phones so a whole meal card fits above the tab bar. */
+.summary {
+  padding: var(--s-4);
+}
+
+.summary-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--s-2) var(--s-3);
+}
+
+.summary-kcal {
+  color: var(--ink-2);
+  font-size: var(--fs-sm);
+  font-weight: 550;
+}
+
+.summary-big {
+  color: var(--ink);
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.meter {
+  position: relative;
+  block-size: 0.625rem;
+  margin-block: var(--s-3) var(--s-2);
+  border-radius: var(--r-pill);
+  background: var(--surface-2);
+}
+
+.meter-caption {
+  display: flex;
+  align-items: center;
+  gap: var(--s-2);
+  margin-block-end: var(--s-3);
+  color: var(--ink-2);
+  font-size: var(--fs-xs);
+}
+
+.band-swatch {
+  flex: none;
+  inline-size: 1rem;
+  block-size: 0.625rem;
+  border-radius: var(--r-pill);
+  background: color-mix(in srgb, var(--olive) 22%, transparent);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--olive) 45%, transparent);
+}
+
+.meter-band {
+  position: absolute;
+  inset-block: -3px;
+  border-radius: var(--r-pill);
+  background: color-mix(in srgb, var(--olive) 22%, transparent);
+}
+
+.meter-fill {
+  position: absolute;
+  inset-block: 0;
+  inset-inline-start: 0;
+  border-radius: var(--r-pill);
+  transition: inline-size var(--dur-2) var(--ease);
+}
+
+.meter-in {
+  background: var(--olive);
+}
+
+.meter-under {
+  background: var(--saffron);
+}
+
+.meter-over {
+  background: var(--status-over);
+}
+
+.meter-target {
+  position: absolute;
+  inset-block: -5px;
+  inline-size: 2px;
+  margin-inline-start: -1px;
+  border-radius: 1px;
+  background: var(--ink);
+}
+
+.split {
+  display: flex;
+  gap: 2px;
+  block-size: 0.5rem;
+  overflow: hidden;
+  border-radius: var(--r-pill);
+}
+
+.split-seg {
+  flex-basis: 0;
+  min-inline-size: 2px;
+}
+
+.seg-protein,
+.dot-protein {
+  background: var(--protein);
+}
+
+.seg-carbs,
+.dot-carbs {
+  background: var(--carbs);
+}
+
+.seg-fat,
+.dot-fat {
+  background: var(--fat);
+}
+
+.split-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-1) var(--s-4);
+  margin-block-start: var(--s-2);
+  color: var(--ink-2);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+}
+
+.split-legend li {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-1);
+  white-space: nowrap;
+}
+
+.macros {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) repeat(3, minmax(0, 1fr));
+  gap: var(--s-2) var(--s-3);
+  margin-block-start: var(--s-3);
+  padding-block-start: var(--s-3);
+  border-block-start: 1px solid var(--line);
+}
+
+.macro dt {
+  color: var(--ink-2);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+}
+
+.macro dd {
+  display: flex;
+  align-items: center;
+  gap: 2px var(--s-1);
+  font-size: var(--fs-sm);
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+.macro-wide {
+  grid-column: 1 / -1;
+}
+
+.macro.is-high dd > .num {
+  color: var(--status-over);
+}
+
+.status-xs {
+  padding: 0 var(--s-2);
+  font-size: var(--fs-xs);
+}
+
+.macro-ok {
+  color: var(--olive);
+}
+
+.day-note {
+  margin-block-start: var(--s-3);
+  color: var(--ink-2);
+  font-size: var(--fs-sm);
+  text-align: center;
+}
+
+.day-note-warn {
+  padding: var(--s-2) var(--s-3);
+  border-radius: var(--r-md);
+  background: var(--status-under-bg);
+  color: var(--status-under);
+  font-weight: 550;
+  text-align: start;
+}
+
+.day-note p + p {
+  margin-block-start: var(--s-1);
+}
+
+.today-fine-print {
+  margin-block-start: var(--s-2);
+  font-size: var(--fs-xs);
+}
+
+/* Phones: the estimates note goes under the meals, so the first meal card fits above the tab bar. */
+@media (max-width: 899.98px) {
+  .today-aside {
+    display: contents;
+  }
+
+  .today-grid {
+    gap: var(--s-4);
+  }
+
+  .today-fine-print {
+    order: 1;
+    margin: 0;
+  }
+
+  .day-note {
+    margin-block-start: calc(var(--s-4) * -1 + var(--s-3));
+  }
+}
+
+@media (min-width: 600px) {
+  .summary {
+    padding: var(--s-5);
+  }
+
+  .summary-big {
+    font-size: 2.5rem;
+  }
+
+  .macro dd {
+    font-size: var(--fs-md);
+  }
+}
+
+.dot {
+  flex: none;
+  inline-size: 0.625rem;
+  block-size: 0.625rem;
+  border-radius: 50%;
+}
+
+/* Meal and recipe cards */
+.meal-card,
+.recipe-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: var(--s-3) var(--s-4);
+  padding: var(--s-4);
+  transition: border-color var(--dur-1) var(--ease), box-shadow var(--dur-1) var(--ease);
+}
+
+.meal-card:hover,
+.recipe-card:hover {
+  border-color: var(--line-strong);
+}
+
+.meal-card:has(.stretched:focus-visible),
+.recipe-card:has(.stretched:focus-visible),
+.day-card:has(.stretched:focus-visible) {
+  outline: 2.5px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.stretched {
+  color: inherit;
+  text-decoration: none;
+}
+
+.stretched::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: inherit;
+}
+
+.stretched:focus-visible {
+  outline: none;
+}
+
+.meal-main,
+.recipe-card-main {
+  min-inline-size: 0;
+}
+
+.meal-name {
+  margin-block-start: 2px;
+  font-size: var(--fs-lg);
+}
+
+.meal-card .stretched:hover,
+.recipe-card .stretched:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+.native {
+  color: var(--ink-2);
+  font-family: var(--font-serif);
+  font-size: var(--fs-sm);
+  font-style: italic;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--s-1) var(--s-2);
+  margin-block-start: var(--s-1);
+  color: var(--ink-2);
+  font-size: var(--fs-sm);
+}
+
+.meta-time {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.figures {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--s-1) var(--s-3);
+  margin-block-start: var(--s-2);
+}
+
+.figure {
+  font-weight: 650;
+}
+
+.figure-note {
+  color: var(--ink-2);
+  font-size: var(--fs-xs);
+}
+
+/* A button that explains the portion; it takes taps across a 44 px band. */
+.portion-chip {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 1px var(--s-2);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-pill);
+  background: var(--surface-2);
+  color: var(--ink);
+  font-size: var(--fs-xs);
+  font-weight: 650;
+}
+
+.portion-chip::before {
+  content: '';
+  position: absolute;
+  inset: -12px -4px;
+}
+
+.portion-chip[aria-expanded='true'] {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+  color: var(--primary-soft-ink);
+}
+
+.portion-help {
+  position: relative;
+  z-index: 1;
+  margin-block-start: var(--s-2);
+  padding: var(--s-2) var(--s-3);
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+  color: var(--ink);
+  font-size: var(--fs-sm);
+}
+
+.conflict {
+  display: grid;
+  gap: var(--s-1);
+  margin-block-start: var(--s-2);
+  color: var(--status-over);
+  font-size: var(--fs-sm);
+  font-weight: 650;
+}
+
+.conflict li {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--s-1);
+}
+
+.conflict .icon {
+  flex: none;
+  margin-block-start: 2px;
+}
+
+.meal-card.has-conflict {
+  border-color: var(--status-over);
+}
+
+.pick-tag {
+  padding: 0 var(--s-2);
+  border-radius: var(--r-pill);
+  background: var(--primary-soft);
+  color: var(--primary-soft-ink);
+  letter-spacing: 0.02em;
+}
+
+.meal-actions,
+.recipe-card-actions {
+  position: relative;
+  z-index: 1;
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: var(--s-2);
+  padding-block-start: var(--s-3);
+  border-block-start: 1px solid var(--line);
+}
+
+.meal-actions .fav-btn,
+.recipe-card-actions .fav-btn {
+  margin-inline-start: auto;
+}
+
+.outside {
+  margin-block-start: var(--s-2);
+  color: var(--ink-2);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+}
+
+.unfilled {
+  border-style: dashed;
+  box-shadow: none;
+  background: transparent;
+}
+
+.unfilled-mark {
+  display: grid;
+  place-items: center;
+  inline-size: 3rem;
+  block-size: 3rem;
+  border-radius: 50%;
+  background: var(--status-under-bg);
+  color: var(--status-under);
+}
+
+.unfilled-text {
+  margin-block: var(--s-2);
+  color: var(--ink-2);
+  font-size: var(--fs-sm);
+}
+
+.reasons {
+  display: grid;
+  gap: var(--s-1);
+  margin-block-end: var(--s-3);
+  padding-inline-start: var(--s-4);
+  list-style: disc;
+  font-size: var(--fs-sm);
+}
+
+.reason-unlock {
+  color: var(--status-in);
+  font-weight: 600;
+}
+
+.unfilled-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-2);
+}

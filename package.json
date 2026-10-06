@@ -1,0 +1,35 @@
+{
+  "name": "sufra",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Daily healthy halal meal plans with recipes: breakfast, lunch, dinner and snacks",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -p tsconfig.json",
+    "report": "node scripts/report.mjs",
+    "audit:age": "node scripts/audit-package-age.mjs",
+    "verify": "pnpm typecheck && pnpm test && pnpm build && pnpm audit:age",
+    "photos": "node scripts/photos/manifest.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@11.11.0",
+  "dependencies": {
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.5",
+    "@vitejs/plugin-react": "6.1.1",
+    "typescript": "6.0.3",
+    "vite": "8.2.2",
+    "vitest": "4.1.11"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "kurdish-mastaw",
+  "photo": {
+    "src": "images/kurdish-mastaw.webp",
+    "thumb": "images/kurdish-mastaw-thumb.webp",
+    "width": 960,
+    "height": 1452,
+    "alt": "Glass tumbler filled with cold, frothy white yogurt drink on a dark wooden table",
+    "focus": [
+      50,
+      45
+    ],
+    "credit": {
+      "title": "Selbst gemachter Ayran im original-türkischen Glas",
+      "author": "Manfred&Barbara Aulbach",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Manfred%26Barbara_Aulbach",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Selbst_gemachter_Ayran_im_original-t%C3%BCrkischen_Glas.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c16",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Selbst_gemachter_Ayran_im_original-t%C3%BCrkischen_Glas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "ayran glass"
+  },
+  "queries": [
+    "ماستاو",
+    "دوغ",
+    "ayran glass",
+    "doogh drink"
+  ]
+}

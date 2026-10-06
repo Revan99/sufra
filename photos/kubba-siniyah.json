@@ -1,0 +1,35 @@
+{
+  "id": "kubba-siniyah",
+  "photo": {
+    "src": "images/kubba-siniyah.webp",
+    "thumb": "images/kubba-siniyah-thumb.webp",
+    "width": 960,
+    "height": 639,
+    "alt": "Baked tray kubba in a round pan, scored into diamonds and dotted with pine nuts, beside spring onions",
+    "focus": [
+      52,
+      50
+    ],
+    "credit": {
+      "title": "Kibbeh Bil Sanieh",
+      "author": "Amaiursancho5",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Amaiursancho5",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kibbeh_Bil_Sanieh.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Kibbeh_Bil_Sanieh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "kibbeh bil sanieh"
+  },
+  "queries": [
+    "kubba siniyah",
+    "كبة صينية",
+    "kibbeh bil sanieh",
+    "baked kibbeh tray"
+  ]
+}

@@ -1,0 +1,645 @@
+/* Week, Shopping, Settings, onboarding, and the wide-screen layouts of Today. */
+
+/* Week */
+.week-average {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--s-1) var(--s-3);
+  margin-block-end: var(--s-4);
+  padding: var(--s-3) var(--s-4);
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+  font-weight: 600;
+}
+
+.week-grid {
+  display: grid;
+  gap: var(--s-3);
+}
+
+.day-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: var(--s-1) var(--s-3);
+  padding: var(--s-4);
+}
+
+.day-card.is-today {
+  border-color: var(--primary);
+  box-shadow: inset 0 3px 0 var(--primary), var(--shadow-1);
+}
+
+.day-card:hover {
+  border-color: var(--line-strong);
+}
+
+.day-card-title {
+  font-size: var(--fs-lg);
+}
+
+.day-card-title .stretched {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0 var(--s-2);
+}
+
+.day-card-date {
+  color: var(--ink-2);
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  font-weight: 500;
+}
+
+.day-card-kcal {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0 var(--s-2);
+  font-size: var(--fs-sm);
+  font-weight: 650;
+}
+
+.day-card-status {
+  font-size: var(--fs-xs);
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+.status-text-in {
+  color: var(--status-in);
+}
+
+.status-text-under {
+  color: var(--status-under);
+}
+
+.status-text-over {
+  color: var(--status-over);
+}
+
+.day-card.is-past {
+  background: color-mix(in srgb, var(--surface) 55%, var(--bg));
+}
+
+.dot-status {
+  inline-size: 0.625rem;
+  block-size: 0.625rem;
+  border-radius: 50%;
+}
+
+.status-dot-in {
+  background: var(--olive);
+}
+
+.status-dot-under {
+  background: var(--saffron);
+}
+
+.status-dot-over {
+  background: var(--status-over);
+}
+
+.mini-meter {
+  position: relative;
+  grid-column: 1 / -1;
+  block-size: 0.375rem;
+  margin-block: var(--s-1) var(--s-2);
+  border-radius: var(--r-pill);
+  background: var(--surface-2);
+}
+
+.day-meals {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: var(--s-2);
+}
+
+.day-meals li {
+  display: grid;
+  line-height: 1.3;
+}
+
+.day-meal-slot {
+  color: var(--ink-2);
+  font-size: 0.6875rem;
+  font-weight: 650;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.day-meal-name {
+  font-size: var(--fs-sm);
+}
+
+.day-card-warn {
+  grid-column: 1 / -1;
+  color: var(--status-under);
+  font-size: var(--fs-xs);
+  font-weight: 650;
+}
+
+/* Shopping */
+.shop-controls {
+  margin-block-end: var(--s-3);
+}
+
+.shop-controls .segmented {
+  margin-block-start: 0;
+}
+
+.shop-dates {
+  color: var(--ink-2);
+  font-size: var(--fs-sm);
+  text-align: center;
+}
+
+.shop-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--s-2) var(--s-3);
+  margin-block-end: var(--s-3);
+}
+
+.shop-progress {
+  font-weight: 650;
+}
+
+.shop-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-2);
+}
+
+.shop-groups {
+  display: grid;
+  gap: var(--s-3);
+}
+
+.shop-group {
+  padding: var(--s-4) var(--s-4) var(--s-2);
+}
+
+.shop-list {
+  margin-block-start: var(--s-2);
+}
+
+.shop-item + .shop-item {
+  border-block-start: 1px solid var(--line);
+}
+
+.shop-item {
+  padding-block: var(--s-1) var(--s-2);
+}
+
+.shop-label {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.5rem minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--s-3);
+  min-block-size: var(--tap);
+  cursor: pointer;
+}
+
+.shop-check {
+  position: absolute;
+  opacity: 0;
+  inset: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.shop-box {
+  display: grid;
+  place-items: center;
+  inline-size: 1.5rem;
+  block-size: 1.5rem;
+  border: 1.5px solid var(--line-strong);
+  border-radius: 0.4rem;
+  background: var(--surface);
+  color: transparent;
+}
+
+.shop-check:checked + .shop-box {
+  border-color: var(--olive);
+  background: var(--olive);
+  color: var(--surface);
+}
+
+.shop-check:focus-visible + .shop-box {
+  outline: 2.5px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.shop-name {
+  min-inline-size: 0;
+  font-weight: 600;
+}
+
+/* "For Shakshuka" or "For 5 recipes" (expands), under the name. */
+.shop-for {
+  margin-inline-start: calc(1.5rem + var(--s-3));
+  color: var(--ink-2);
+  font-size: var(--fs-xs);
+}
+
+.shop-for summary {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  min-block-size: 2rem;
+  border-radius: var(--r-sm);
+  cursor: pointer;
+  list-style: none;
+  font-weight: 600;
+}
+
+/* Takes taps across 44 px: the extra band reaches down into the gap before the next item, never up into the
+   checkbox row above it. */
+.shop-for summary::before {
+  content: '';
+  position: absolute;
+  inset: 0 -4px calc(2rem - var(--tap));
+}
+
+.shop-for summary::-webkit-details-marker {
+  display: none;
+}
+
+.shop-for-chevron {
+  transition: transform var(--dur-2) var(--ease);
+}
+
+.shop-for[open] .shop-for-chevron {
+  transform: rotate(180deg);
+}
+
+.shop-for p {
+  padding-block-end: var(--s-1);
+}
+
+.shop-amount {
+  display: grid;
+  justify-items: end;
+  font-weight: 650;
+  text-align: end;
+  white-space: nowrap;
+}
+
+.shop-count {
+  color: var(--ink-2);
+  font-size: var(--fs-xs);
+  font-weight: 500;
+}
+
+.is-checked .shop-name,
+.is-checked .shop-amount {
+  color: var(--ink-2);
+  text-decoration: line-through;
+}
+
+.staples-summary {
+  display: flex;
+  align-items: center;
+  gap: var(--s-2);
+  min-block-size: var(--tap);
+  cursor: pointer;
+  list-style: none;
+}
+
+.staples-summary::-webkit-details-marker {
+  display: none;
+}
+
+.staples-count {
+  padding: 0 var(--s-2);
+  border-radius: var(--r-pill);
+  background: var(--surface-2);
+  color: var(--ink-2);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+}
+
+.staples-chevron {
+  margin-inline-start: auto;
+  color: var(--ink-2);
+  transition: transform var(--dur-2) var(--ease);
+}
+
+.staples[open] .staples-chevron {
+  transform: rotate(180deg);
+}
+
+/* Settings */
+.settings-grid {
+  display: grid;
+  gap: var(--s-4);
+}
+
+.picked {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-2);
+  margin-block-end: var(--s-3);
+}
+
+.picker .search-field {
+  margin-block-end: var(--s-2);
+}
+
+.picker-results {
+  display: grid;
+  gap: 2px;
+}
+
+.picker-option {
+  display: flex;
+  align-items: center;
+  gap: var(--s-2);
+  inline-size: 100%;
+  min-block-size: var(--tap);
+  padding-inline: var(--s-3);
+  border: 0;
+  border-radius: var(--r-md);
+  background: transparent;
+  text-align: start;
+}
+
+.picker-option:hover {
+  background: var(--surface-2);
+}
+
+.picker-option-text {
+  display: grid;
+  flex: 1;
+  min-inline-size: 0;
+}
+
+.picker-option-desc {
+  color: var(--ink-2);
+  font-size: var(--fs-xs);
+}
+
+.picker-option-count,
+.chip-count {
+  flex: none;
+  color: var(--ink-2);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+}
+
+.picker-family {
+  padding-block: var(--s-2);
+  background: var(--surface-2);
+}
+
+.picker-total {
+  margin-block: 0 var(--s-3);
+}
+
+.settings-conflicts {
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.settings-conflicts p {
+  flex: 1 1 12rem;
+}
+
+.picker-option .icon {
+  color: var(--primary);
+}
+
+/* Onboarding */
+.onboarding {
+  display: grid;
+  place-items: center;
+  min-block-size: 100dvh;
+  padding: calc(env(safe-area-inset-top) + var(--s-6)) var(--gutter) calc(env(safe-area-inset-bottom) + var(--s-6));
+  background:
+    radial-gradient(40rem 24rem at 100% 0%, color-mix(in srgb, var(--saffron) 16%, transparent), transparent 70%),
+    radial-gradient(36rem 26rem at 0% 100%, color-mix(in srgb, var(--olive) 12%, transparent), transparent 70%),
+    var(--bg);
+}
+
+.onboarding:not(.onboarding-welcome) {
+  place-items: start center;
+  padding-block-start: calc(env(safe-area-inset-top) + 12dvh);
+}
+
+.onb-card {
+  display: grid;
+  gap: var(--s-3);
+  inline-size: 100%;
+  max-inline-size: 32rem;
+}
+
+.onboarding-welcome .onb-card {
+  justify-items: center;
+  text-align: center;
+}
+
+.onb-title {
+  font-size: var(--fs-2xl);
+}
+
+.onboarding-welcome .onb-title {
+  margin-block-start: var(--s-4);
+  font-size: var(--fs-3xl);
+}
+
+.onb-lead {
+  color: var(--ink-2);
+  font-size: var(--fs-lg);
+}
+
+.onb-actions {
+  display: grid;
+  gap: var(--s-2);
+  inline-size: 100%;
+  margin-block-start: var(--s-6);
+}
+
+.onb-defaults {
+  max-inline-size: 24rem;
+}
+
+.onb-progress {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.onb-dots {
+  display: flex;
+  gap: 6px;
+}
+
+.onb-dots li {
+  inline-size: 1.75rem;
+  block-size: 4px;
+  border-radius: var(--r-pill);
+  background: var(--line-strong);
+  opacity: 0.45;
+}
+
+.onb-dots li.is-done {
+  background: var(--primary);
+  opacity: 1;
+}
+
+.onb-summary {
+  margin-block-start: var(--s-2);
+  font-weight: 650;
+}
+
+.onb-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--s-3);
+  margin-block-start: var(--s-6);
+}
+
+.onb-nav .btn {
+  min-inline-size: 0;
+  white-space: normal;
+  text-align: center;
+}
+
+.onb-nav .btn-primary {
+  flex: 0 1 auto;
+}
+
+/* Wider screens */
+@media (min-width: 600px) {
+  .week-grid {
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  }
+
+  .shop-controls {
+    display: flex;
+    align-items: flex-end;
+    gap: var(--s-4);
+  }
+
+  .shop-controls .shop-dates {
+    padding-block-end: 0.8rem;
+  }
+
+  .shop-controls .segmented {
+    flex: 0 1 26rem;
+    margin: 0;
+  }
+}
+
+@media (min-width: 900px) {
+  .date-nav {
+    grid-template-columns: minmax(0, 1fr) auto auto;
+    grid-template-areas: 'title prev next';
+    column-gap: var(--s-2);
+  }
+
+  .date-nav-title {
+    text-align: start;
+  }
+
+  .date-nav-eyebrow {
+    justify-content: flex-start;
+  }
+
+  .date-nav .screen-title {
+    font-size: var(--fs-3xl);
+  }
+
+  /* Wide meal cards: actions in a column at the end instead of a row underneath. */
+  .today-meals .meal-card {
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: start;
+  }
+
+  .today-meals .meal-actions {
+    grid-column: auto;
+    flex-direction: column;
+    align-items: stretch;
+    padding-block-start: 0;
+    border-block-start: 0;
+  }
+
+  .today-meals .meal-actions .fav-btn {
+    align-self: flex-end;
+    margin-inline-start: 0;
+  }
+
+  /* Mid widths: as many readable day columns as fit; the full 7-day row needs 1280 px. */
+  .week-grid {
+    grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+    gap: var(--s-2);
+  }
+
+  .day-card {
+    grid-template-columns: minmax(0, 1fr);
+    align-content: start;
+    padding: var(--s-3);
+  }
+
+  .day-card-title {
+    font-size: var(--fs-md);
+  }
+
+  .day-card-title .stretched {
+    display: grid;
+  }
+
+  .shop-groups {
+    display: block;
+    columns: 2 22rem;
+    column-gap: var(--s-4);
+  }
+
+  .shop-group {
+    break-inside: avoid;
+    margin-block-end: var(--s-4);
+  }
+
+  .settings-grid {
+    display: block;
+    columns: 2 22rem;
+    column-gap: var(--s-4);
+  }
+
+  .settings-section {
+    break-inside: avoid;
+    margin-block-end: var(--s-4);
+  }
+
+  .onb-title {
+    font-size: var(--fs-3xl);
+  }
+}
+
+@media (min-width: 1280px) {
+  .week-grid {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+}
+
+/* Summary beside the meals only when both columns get a comfortable width (side nav takes the rest). */
+@media (min-width: 1180px) {
+  .today-grid {
+    grid-template-columns: minmax(18rem, 22rem) minmax(0, 1fr);
+    align-items: start;
+    gap: var(--s-8);
+  }
+
+  .today-aside {
+    position: sticky;
+    inset-block-start: var(--s-6);
+  }
+}

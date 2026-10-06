@@ -1,0 +1,34 @@
+{
+  "id": "zaatar-manakish",
+  "photo": {
+    "src": "images/zaatar-manakish.webp",
+    "thumb": "images/zaatar-manakish-thumb.webp",
+    "width": 960,
+    "height": 656,
+    "alt": "Two round flatbreads baked with a thick za'atar, sesame and olive oil topping on a wooden board",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Israeli zaatar manakeesh",
+      "author": "Nsaum75",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Nsaum75",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Israeli_zaatar_manakeesh.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Israeli_zaatar_manakeesh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "manaeesh"
+  },
+  "queries": [
+    "manakish zaatar",
+    "manaeesh",
+    "منقوشة زعتر"
+  ]
+}

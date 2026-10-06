@@ -1,0 +1,35 @@
+{
+  "id": "kurdish-rishta",
+  "photo": {
+    "src": "images/kurdish-rishta.webp",
+    "thumb": "images/kurdish-rishta-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Thick green noodle soup with lentils, beans and wilted greens in a wide white bowl",
+    "focus": [
+      46,
+      56
+    ],
+    "credit": {
+      "title": "Ash Reshteh",
+      "author": "AilinParsa",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:AilinParsa",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ash_Reshteh.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Ash_Reshteh.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "ash reshteh"
+  },
+  "queries": [
+    "rishta soup",
+    "shorbat rishta",
+    "ash reshteh",
+    "lentil noodle soup"
+  ]
+}

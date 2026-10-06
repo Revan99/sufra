@@ -1,0 +1,34 @@
+{
+  "id": "loobia-polo",
+  "photo": {
+    "src": "images/loobia-polo.webp",
+    "thumb": "images/loobia-polo-thumb.webp",
+    "width": 960,
+    "height": 635,
+    "alt": "Saffron rice with green beans and beef pieces on an oval white plate, with two slices of crispy tahdig",
+    "focus": [
+      50,
+      60
+    ],
+    "credit": {
+      "title": "Loobia Polo",
+      "author": "مانفی",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:%D9%85%D8%A7%D9%86%D9%81%DB%8C",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loobia_Polo.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Loobia_Polo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "loobia polo"
+  },
+  "queries": [
+    "loobia polo",
+    "lubia polo",
+    "لوبیا پلو"
+  ]
+}

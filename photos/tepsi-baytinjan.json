@@ -1,0 +1,35 @@
+{
+  "id": "tepsi-baytinjan",
+  "photo": {
+    "src": "images/tepsi-baytinjan.webp",
+    "thumb": "images/tepsi-baytinjan-thumb.webp",
+    "width": 960,
+    "height": 1280,
+    "alt": "Iraqi tepsi in the pan: roasted eggplant, meat, tomatoes, onion rings and green pepper baked in tomato sauce",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "أكلة التبسي العراقية",
+      "author": "Zahraa alshammari",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Zahraa_alshammari",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D8%A3%D9%83%D9%84%D8%A9_%D8%A7%D9%84%D8%AA%D8%A8%D8%B3%D9%8A_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%D9%8A%D8%A9.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/%D8%A3%D9%83%D9%84%D8%A9_%D8%A7%D9%84%D8%AA%D8%A8%D8%B3%D9%8A_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%D9%8A%D8%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "تبسي باذنجان"
+  },
+  "queries": [
+    "tepsi baytinjan",
+    "تبسي باذنجان",
+    "Iraqi eggplant casserole meatballs",
+    "tepsi"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "baked-falafel-bowl",
+  "photo": {
+    "src": "images/baked-falafel-bowl.webp",
+    "thumb": "images/baked-falafel-bowl-thumb.webp",
+    "width": 960,
+    "height": 768,
+    "alt": "Falafel with a pot of creamy white sauce dusted with paprika, cucumber slices, tomato wedges and lettuce on a white plate",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Falafel (49728839526)",
+      "author": "やましこ",
+      "authorUrl": "https://www.flickr.com/people/183837926@N03",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Falafel_(49728839526).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c16",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Falafel_%2849728839526%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "falafel plate"
+  },
+  "queries": [
+    "falafel bowl",
+    "falafel salad tahini",
+    "falafel plate"
+  ]
+}

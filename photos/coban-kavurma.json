@@ -1,0 +1,35 @@
+{
+  "id": "coban-kavurma",
+  "photo": {
+    "src": "images/coban-kavurma.webp",
+    "thumb": "images/coban-kavurma-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Lamb cubes stir-fried with green and red peppers, tomato wedges, shallots and mushrooms in a dark pan",
+    "focus": [
+      50,
+      45
+    ],
+    "credit": {
+      "title": "Kavurma (close up)",
+      "author": "E4024",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:E4024",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kavurma_(close_up).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c07",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Kavurma_%28close_up%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "çoban kavurma"
+  },
+  "queries": [
+    "çoban kavurma",
+    "coban kavurma",
+    "kavurma lamb peppers",
+    "sac kavurma"
+  ]
+}

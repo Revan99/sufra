@@ -1,0 +1,36 @@
+{
+  "id": "greek-yogurt-parfait",
+  "photo": {
+    "src": "images/greek-yogurt-parfait.webp",
+    "thumb": "images/greek-yogurt-parfait-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Three small glasses of layered yogurt topped with granola and fresh blueberries on a white dish",
+    "focus": [
+      45,
+      50
+    ],
+    "credit": {
+      "title": "Yogurt parfait with granola and blueberries in shot glasses with silverware spoons (17098581522)",
+      "author": "Personal Creations",
+      "authorUrl": "https://www.flickr.com/people/127294011@N07",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yogurt_parfait_with_granola_and_blueberries_in_shot_glasses_with_silverware_spoons_(17098581522).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c08",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Yogurt_parfait_with_granola_and_blueberries_in_shot_glasses_with_silverware_spoons_%2817098581522%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "yogurt parfait"
+  },
+  "queries": [
+    "yogurt parfait berries",
+    "yogurt parfait",
+    "greek yogurt berries granola",
+    "yogurt with raspberries and blueberries",
+    "yogurt berries pumpkin seeds"
+  ]
+}

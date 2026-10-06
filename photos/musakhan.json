@@ -1,0 +1,34 @@
+{
+  "id": "musakhan",
+  "photo": {
+    "src": "images/musakhan.webp",
+    "thumb": "images/musakhan-thumb.webp",
+    "width": 960,
+    "height": 636,
+    "alt": "Roast chicken legs on taboon flatbreads spread with sumac onions and topped with pine nuts on a white platter",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Mushakhan Dish",
+      "author": "Kokaly",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Kokaly",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mushakhan_Dish.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Mushakhan_Dish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "musakhan"
+  },
+  "queries": [
+    "musakhan",
+    "msakhan",
+    "مسخن"
+  ]
+}

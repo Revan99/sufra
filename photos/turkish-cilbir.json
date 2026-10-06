@@ -1,0 +1,34 @@
+{
+  "id": "turkish-cilbir",
+  "photo": {
+    "src": "images/turkish-cilbir.webp",
+    "thumb": "images/turkish-cilbir-thumb.webp",
+    "width": 960,
+    "height": 638,
+    "alt": "Poached eggs with runny yolks on thick yogurt, drizzled with red pepper oil and topped with sautéed wild garlic",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Çılbır with duck-fat sautéed Ramps (14826584557)",
+      "author": "Premshree Pillai from Brooklyn, NY, US",
+      "authorUrl": "https://www.flickr.com/people/18645779@N00",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%87%C4%B1lb%C4%B1r_with_duck-fat_saut%C3%A9ed_Ramps_(14826584557).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/%C3%87%C4%B1lb%C4%B1r_with_duck-fat_saut%C3%A9ed_Ramps_%2814826584557%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "çılbır"
+  },
+  "queries": [
+    "çılbır",
+    "cilbir",
+    "Turkish eggs yogurt"
+  ]
+}

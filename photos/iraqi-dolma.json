@@ -1,0 +1,33 @@
+{
+  "id": "iraqi-dolma",
+  "photo": {
+    "src": "images/iraqi-dolma.webp",
+    "thumb": "images/iraqi-dolma-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Iraqi dolma in a glass dish: rolled vine leaves, stuffed zucchini, onions, eggplants and tomatoes around braised lamb",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Iraqi Dolma",
+      "author": "Hill93",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Hill93",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iraqi_Dolma.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c06",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Iraqi_Dolma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Iraqi dolma"
+  },
+  "queries": [
+    "Iraqi dolma",
+    "dolma vine leaves stuffed vegetables"
+  ]
+}

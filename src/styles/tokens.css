@@ -1,0 +1,201 @@
+/* Sufra design tokens. Warm cookbook palette: cream paper, warm ink, terracotta and saffron, olive, pomegranate.
+   Macro colours are an Okabe-Ito style blue / orange / reddish purple set, distinguishable with colour-vision
+   deficiencies, and always paired with a text label. Text pairs meet WCAG AA in both themes. */
+
+:root {
+  color-scheme: light;
+
+  /* Surfaces and ink */
+  --bg: #fbf6ee;
+  --surface: #fffdf9;
+  --surface-2: #f3eadc;
+  --surface-3: #eadfcd;
+  --raised: #fffdf9;
+  --ink: #2a2118;
+  --ink-2: #6a5b4b;
+  --line: #e6dacb;
+  --line-strong: #8c7b68;
+  --scrim: rgb(42 33 24 / 45%);
+
+  /* Brand */
+  --primary: #a6461f;
+  --primary-hover: #8e3a17;
+  --primary-ink: #ffffff;
+  --primary-soft: #f6e4d7;
+  --primary-soft-ink: #8a3714;
+  --saffron: #d9a441;
+  --olive: #556426;
+  --olive-soft: #e8edd5;
+  --fav: #a61e36;
+  --fav-soft: #f7dde1;
+  --danger: #a3261c;
+  --danger-ink: #ffffff;
+  --focus: #1d5fa0;
+
+  /* Status of the day's kcal */
+  --status-in: #4d5c20;
+  --status-in-bg: #e8edd5;
+  --status-under: #7a5300;
+  --status-under-bg: #f8ead0;
+  --status-over: #9a2a1c;
+  --status-over-bg: #f8e0da;
+
+  /* Macros */
+  --protein: #1f6fa8;
+  --carbs: #b86e00;
+  --fat: #9c4a86;
+  --fiber: #556426;
+
+  /* Plates */
+  --plate-shadow: rgb(84 60 32 / 10%);
+  --plate-rim: #f6efe3;
+  --plate-ring: #e7dac6;
+  --plate-well: #fffbf4;
+  --plate-accent-1: #2f5d8a;
+  --plate-accent-2: #b4532a;
+  --plate-accent-3: #6b7a34;
+  --plate-accent-4: #c28a24;
+
+  /* Elevation */
+  --shadow-1: 0 1px 2px rgb(74 52 28 / 6%), 0 2px 10px rgb(74 52 28 / 5%);
+  --shadow-2: 0 2px 6px rgb(74 52 28 / 8%), 0 12px 32px rgb(74 52 28 / 12%);
+
+  /* Type */
+  --font-serif: ui-serif, 'New York', 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Noto Serif', serif;
+  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'Noto Sans Arabic', 'Helvetica Neue', Arial, sans-serif;
+  --fs-xs: 0.8125rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.375rem;
+  --fs-2xl: 1.75rem;
+  --fs-3xl: 2.25rem;
+  --lh-tight: 1.2;
+  --lh-body: 1.5;
+
+  /* Space, 4 px grid */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.25rem;
+  --s-6: 1.5rem;
+  --s-8: 2rem;
+  --s-10: 2.5rem;
+  --s-12: 3rem;
+  --gutter: 1rem;
+
+  /* Shape */
+  --r-sm: 0.5rem;
+  --r-md: 0.75rem;
+  --r-lg: 1.125rem;
+  --r-xl: 1.5rem;
+  --r-pill: 999px;
+  --tap: 2.75rem;
+
+  /* Motion */
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --dur-1: 120ms;
+  --dur-2: 220ms;
+
+  /* Layout */
+  --nav-h: 4rem;
+  --nav-w: 15rem;
+  --content-max: 72rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+    --bg: #1a1511;
+    --surface: #241d17;
+    --surface-2: #30271f;
+    --surface-3: #3b3128;
+    --raised: #4a3d31;
+    --ink: #f3eadf;
+    --ink-2: #c2b3a1;
+    --line: #3b3129;
+    --line-strong: #8a7865;
+    --scrim: rgb(0 0 0 / 60%);
+    --primary: #ee9a6c;
+    --primary-hover: #f4ae86;
+    --primary-ink: #1a1511;
+    --primary-soft: #45291c;
+    --primary-soft-ink: #f4b28c;
+    --saffron: #e6b95c;
+    --olive: #b5c67e;
+    --olive-soft: #2d3420;
+    --fav: #f27d8f;
+    --fav-soft: #47232b;
+    --danger: #f08a7c;
+    --danger-ink: #1a1511;
+    --focus: #8cc4f5;
+    --status-in: #c3d28e;
+    --status-in-bg: #2d3420;
+    --status-under: #ecc275;
+    --status-under-bg: #3f3219;
+    --status-over: #f4a597;
+    --status-over-bg: #47241e;
+    --protein: #6cb4ee;
+    --carbs: #e9a93b;
+    --fat: #d98cc4;
+    --fiber: #b5c67e;
+    --plate-shadow: rgb(0 0 0 / 35%);
+    --plate-rim: #ddd2c0;
+    --plate-ring: #c8baa4;
+    --plate-well: #ebe2d3;
+    --plate-accent-1: #2f5d8a;
+    --plate-accent-2: #a64a24;
+    --plate-accent-3: #5e6b2c;
+    --plate-accent-4: #a77518;
+    --shadow-1: 0 1px 2px rgb(0 0 0 / 30%);
+    --shadow-2: 0 4px 12px rgb(0 0 0 / 40%), 0 16px 40px rgb(0 0 0 / 35%);
+  }
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #1a1511;
+  --surface: #241d17;
+  --surface-2: #30271f;
+  --surface-3: #3b3128;
+  --raised: #4a3d31;
+  --ink: #f3eadf;
+  --ink-2: #c2b3a1;
+  --line: #3b3129;
+  --line-strong: #8a7865;
+  --scrim: rgb(0 0 0 / 60%);
+  --primary: #ee9a6c;
+  --primary-hover: #f4ae86;
+  --primary-ink: #1a1511;
+  --primary-soft: #45291c;
+  --primary-soft-ink: #f4b28c;
+  --saffron: #e6b95c;
+  --olive: #b5c67e;
+  --olive-soft: #2d3420;
+  --fav: #f27d8f;
+  --fav-soft: #47232b;
+  --danger: #f08a7c;
+  --danger-ink: #1a1511;
+  --focus: #8cc4f5;
+  --status-in: #c3d28e;
+  --status-in-bg: #2d3420;
+  --status-under: #ecc275;
+  --status-under-bg: #3f3219;
+  --status-over: #f4a597;
+  --status-over-bg: #47241e;
+  --protein: #6cb4ee;
+  --carbs: #e9a93b;
+  --fat: #d98cc4;
+  --fiber: #b5c67e;
+  --plate-shadow: rgb(0 0 0 / 35%);
+  --plate-rim: #ddd2c0;
+  --plate-ring: #c8baa4;
+  --plate-well: #ebe2d3;
+  --plate-accent-1: #2f5d8a;
+  --plate-accent-2: #a64a24;
+  --plate-accent-3: #5e6b2c;
+  --plate-accent-4: #a77518;
+  --shadow-1: 0 1px 2px rgb(0 0 0 / 30%);
+  --shadow-2: 0 4px 12px rgb(0 0 0 / 40%), 0 16px 40px rgb(0 0 0 / 35%);
+}
