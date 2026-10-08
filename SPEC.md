@@ -1,6 +1,6 @@
 # Sufra spec
 
-Sufra (سفرة, the spread a meal is laid on) is an offline-first web app (PWA) that suggests healthy **halal** meals every day: breakfast, lunch, dinner and 0-2 snacks, each with a full recipe. Plans are balanced to the user's calorie and protein targets and respect their diet and allergies. The food is Kurdish, plus dishes close to Kurdish cooking from the neighbouring Iraqi, Turkish, Persian and Levantine kitchens, and simple, easy desserts (planned as snacks). No other cuisines. The UI is English first and ready for translation (Sorani Kurdish and Arabic, RTL, come later).
+Sufra (سفرة, the spread a meal is laid on) is an offline-first web app (PWA) that suggests healthy **halal** meals every day: breakfast, lunch, dinner and 0-2 snacks, each with a full recipe. Plans are balanced to the user's calorie and protein targets and respect their diet and allergies. The food is built on Kurdish home cooking and its Iraqi, Turkish, Persian and Levantine neighbours, plus healthy dishes from other kitchens and simple, easy desserts (planned as snacks). The UI is English first and ready for translation (Sorani Kurdish and Arabic, RTL, come later).
 
 Everything runs in the browser. There is no backend, account or network call. Recipes ship with the app.
 
@@ -43,7 +43,7 @@ scripts/                      report.mjs, audit-package-age.mjs, icon generation
 
 ### Recipes (`src/data/recipes/<chunk>.ts`)
 
-- **Cuisine scope.** Only Kurdish dishes and close neighbours: `kurdish`, `iraqi`, `turkish`, `persian`, `levantine`. Desserts go in `recipes/desserts.ts` with slot `snack`; they should be easy to make and may come from any kitchen when they're simple (fruit, yogurt, oat or date sweets), though regional ones (rice pudding, kleicha, hoşaf) come first.
+- **Cuisine scope.** Kurdish dishes and their close neighbours (`kurdish`, `iraqi`, `turkish`, `persian`, `levantine`) are the core of the library. Dishes from other kitchens are welcome when they are clearly healthy (whole grains, legumes, vegetables, lean protein or oily fish) and go in the `*-international` chunks. Desserts go in `recipes/desserts.ts` with slot `snack`, and should be easy to make.
 
 - `ingredients[].grams` is for the whole recipe. `qty` and `unit` are the human amount for the whole recipe and must agree with the grams. Useful weights: 1 tbsp oil 13.5 g, 1 tsp salt 6 g, 1 tsp ground spice 2-3 g, 1 garlic clove 3-5 g, 1 medium onion 110 g, 1 medium tomato 120 g, 1 large egg 50 g, 1 cup cooked rice 160-190 g, 1 cup dry red lentils 190 g, 1 cup plain yogurt 245 g, 1 cup chopped parsley 60 g.
 - **Measure the salt.** No "salt to taste" without grams: sodium has to be real.

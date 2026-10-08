@@ -396,7 +396,7 @@ export const en = {
 
   // About
   'about.title': 'About Sufra',
-  'about.body': 'Sufra (سفرة) is the spread a meal is laid on. It suggests a healthy breakfast, lunch, dinner and snacks every day, built on Kurdish home cooking and dishes from its Iraqi, Turkish, Persian and Levantine neighbours, plus a few easy desserts.',
+  'about.body': 'Sufra (سفرة) is the spread a meal is laid on. It suggests a healthy breakfast, lunch, dinner and snacks every day, built on Kurdish home cooking and dishes from its Iraqi, Turkish, Persian and Levantine neighbours, plus healthy favourites from around the world and a few easy desserts.',
   'about.halalTitle': 'Halal',
   'about.halal': 'Every recipe is halal: no pork, no alcohol (including wine vinegar and vanilla extract), no gelatin and no blood. Buy halal (zabiha) meat and poultry, and check the notes on each recipe for cheese, stock and soy sauce.',
   'about.nutritionTitle': 'Nutrition',

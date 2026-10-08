@@ -2703,6 +2703,887 @@
           ]
         }
       ]
+    },
+    {
+      "chunk": "breakfast-international",
+      "dishes": [
+        {
+          "id": "berry-overnight-oats",
+          "name": "Berry Overnight Oats with Greek Yogurt",
+          "nativeName": "",
+          "cuisine": "western",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "Rolled oats soaked overnight in skim milk and nonfat Greek yogurt with chia, cinnamon, mashed banana and berries, so breakfast is ready in the fridge. Whole grain, seeds and fruit give about 13 g of fiber a jar, the banana sweetens it with no added sugar, and the yogurt brings over 20 g of protein.",
+          "mainProtein": "dairy",
+          "diet": "vegetarian",
+          "glutenFree": false,
+          "dairyFree": false,
+          "nutFree": false,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "milk, skim",
+            "greek yogurt, plain, nonfat",
+            "mixed berries (frozen, unsweetened)",
+            "banana",
+            "rolled oats (dry)",
+            "chia seeds"
+          ]
+        },
+        {
+          "id": "tofu-scramble-toast",
+          "name": "Tofu Scramble with Spinach on Whole-Grain Toast",
+          "nativeName": "",
+          "cuisine": "western",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "Firm tofu crumbled into a golden turmeric and cumin scramble with spinach and cherry tomatoes, piled on whole-wheat toast with sliced avocado. A plant-based answer to scrambled eggs with about 35 g of protein, almost no saturated fat and plenty of fiber.",
+          "mainProtein": "tofu",
+          "diet": "vegan",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "firm tofu",
+            "cherry tomato",
+            "whole-wheat bread",
+            "spinach",
+            "onion",
+            "avocado"
+          ]
+        },
+        {
+          "id": "besan-chilla",
+          "name": "Chickpea Flour Pancakes with Vegetables",
+          "nativeName": "Besan Chilla",
+          "cuisine": "south-asian",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "The North Indian savoury pancake: a thin chickpea-flour batter full of onion, tomato, spinach, ginger and coriander, cooked on a lightly oiled pan. Chickpea flour makes it naturally gluten-free and egg-free with about 15 g of protein and 8 g of fiber a plate, using only a couple of teaspoons of oil.",
+          "mainProtein": "chickpea flour",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "water",
+            "chickpea flour (besan)",
+            "tomato",
+            "red onion",
+            "spinach",
+            "lemon"
+          ]
+        },
+        {
+          "id": "huevos-rancheros",
+          "name": "Huevos Rancheros with Black Beans",
+          "nativeName": "",
+          "cuisine": "latin-american",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "The Mexican ranch breakfast: warm corn tortillas topped with smashed black beans, a fried egg and a quick cooked tomato and jalapeño salsa, finished with avocado, coriander and lime. Corn tortillas and low-sodium beans instead of cheese and fried refried beans give about 25 g of protein and 16 g of fiber a plate.",
+          "mainProtein": "eggs",
+          "diet": "vegetarian",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": false,
+          "quick": true,
+          "keyIngredients": [
+            "tomato",
+            "black beans, low-sodium (canned, drained)",
+            "egg",
+            "corn tortilla",
+            "onion",
+            "avocado"
+          ]
+        },
+        {
+          "id": "mango-chia-pudding",
+          "name": "Mango Chia Pudding",
+          "nativeName": "",
+          "cuisine": "western",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "Chia seeds set in cardamom-scented unsweetened soy milk and layered with a fresh mango and lime purée and diced mango, topped with pumpkin seeds. Ready in 20 minutes, sweetened only by the fruit, with about 10 g of fiber a glass and soy milk for protein.",
+          "mainProtein": "soy milk",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "soy milk, unsweetened",
+            "mango",
+            "chia seeds",
+            "lime",
+            "pumpkin seeds (pepitas)",
+            "cardamom, ground"
+          ]
+        },
+        {
+          "id": "white-bean-avocado-toast",
+          "name": "Smashed White Bean and Avocado Toast",
+          "nativeName": "",
+          "cuisine": "western",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "Cannellini beans and ripe avocado smashed with lemon, garlic and chili flakes on thick whole-wheat toast, topped with cherry tomatoes, rocket and pumpkin seeds. The beans turn avocado toast into a filling breakfast with about 19 g of protein and 15 g of fiber, and the fat is the heart-healthy kind.",
+          "mainProtein": "beans",
+          "diet": "vegan",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "cannellini beans (canned, drained)",
+            "cherry tomato",
+            "avocado",
+            "whole-wheat bread",
+            "lemon",
+            "arugula (rocket)"
+          ]
+        },
+        {
+          "id": "chicken-congee",
+          "name": "Chicken and Brown Rice Congee with Greens",
+          "nativeName": "Jook",
+          "cuisine": "east-asian",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "The Cantonese breakfast rice porridge, made with brown rice and simmered with ginger and chicken until soft and silky, then finished with shiitake, bok choy, spring onion and a few drops of sesame oil. Brown rice and greens give it fiber, lean chicken over 20 g of protein, and ginger and white pepper season it instead of soy sauce.",
+          "mainProtein": "chicken",
+          "diet": "meat",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "water",
+            "chicken broth, low-sodium",
+            "chicken breast, skinless (raw)",
+            "bok choy",
+            "brown rice (raw)",
+            "shiitake mushroom"
+          ]
+        },
+        {
+          "id": "quinoa-banana-porridge",
+          "name": "Quinoa Porridge with Banana and Peanut Butter",
+          "nativeName": "",
+          "cuisine": "western",
+          "slots": [
+            "breakfast"
+          ],
+          "concept": "Quinoa simmered in unsweetened soy milk with cinnamon until creamy, sweetened with mashed banana and topped with sliced banana, peanut butter and ground flaxseed. A gluten-free, plant-based porridge with about 19 g of protein and 10 g of fiber a bowl and no added sugar.",
+          "mainProtein": "grain",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": false,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "soy milk, unsweetened",
+            "water",
+            "banana",
+            "quinoa (dry)",
+            "peanut butter, natural, unsalted",
+            "ground flaxseed"
+          ]
+        }
+      ]
+    },
+    {
+      "chunk": "lunch-international",
+      "dishes": [
+        {
+          "id": "chana-masala",
+          "name": "Chickpea Curry with Brown Rice",
+          "nativeName": "Chana Masala",
+          "cuisine": "south-asian",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "The North Indian chickpea curry: chickpeas simmered in a thick onion, tomato and ginger masala with cumin, coriander and garam masala, finished with lemon and fresh coriander and served with brown basmati. Low-sodium chickpeas, fresh tomatoes and a modest spoon of oil make it a lighter vegan plate with about 17 g of fiber and 20 g of plant protein.",
+          "mainProtein": "chickpeas",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "water",
+            "chickpeas, low-sodium (canned, drained)",
+            "tomato",
+            "brown rice (raw)",
+            "onion",
+            "lemon juice"
+          ]
+        },
+        {
+          "id": "dal-palak",
+          "name": "Lentil and Spinach Dal with Brown Rice",
+          "nativeName": "Dal Palak",
+          "cuisine": "south-asian",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Everyday Indian comfort food: red lentils simmered soft with turmeric, a big pile of spinach stirred through, then finished with a sizzling tadka of mustard seeds, cumin, garlic, ginger and tomato and served over brown rice. Lentils and spinach make it a vegan bowl high in fiber, plant protein, iron and folate, with only a spoon of oil per two bowls.",
+          "mainProtein": "lentils",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "water",
+            "spinach",
+            "tomato",
+            "red lentils (dried)",
+            "brown rice (raw)",
+            "onion"
+          ]
+        },
+        {
+          "id": "lighter-chicken-tikka-masala",
+          "name": "Lighter Chicken Tikka Masala",
+          "nativeName": "",
+          "cuisine": "south-asian",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "The curry-house favourite made lighter: chicken breast marinated in spiced yogurt and charred under the grill, then simmered in a tomato, onion and fenugreek sauce finished with thick nonfat yogurt instead of cream and butter. Served with brown rice, it gives around 50 g of protein with very little saturated fat.",
+          "mainProtein": "chicken",
+          "diet": "meat",
+          "glutenFree": true,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "water",
+            "chicken breast, skinless (raw)",
+            "tomato",
+            "greek yogurt, plain, nonfat",
+            "brown rice (raw)",
+            "onion"
+          ]
+        },
+        {
+          "id": "tofu-broccoli-stir-fry",
+          "name": "Tofu and Broccoli Stir-Fry with Brown Rice",
+          "nativeName": "",
+          "cuisine": "east-asian",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Golden pan-crisped tofu and broccoli tossed with red pepper in a glossy ginger, garlic and soy glaze over brown rice, on the table in 25 minutes. Tofu gives complete plant protein and calcium, and a measured spoon of reduced-sodium soy sauce with plenty of ginger keeps the salt well down.",
+          "mainProtein": "tofu",
+          "diet": "vegan",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "brown rice (cooked)",
+            "broccoli",
+            "firm tofu",
+            "water",
+            "red bell pepper",
+            "scallion (green onion)"
+          ]
+        },
+        {
+          "id": "halal-chicken-teriyaki",
+          "name": "Chicken Teriyaki with Vegetables",
+          "nativeName": "Tori no Teriyaki",
+          "cuisine": "east-asian",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Seared chicken breast and crisp broccoli, carrot and snow peas tossed in a glossy homemade teriyaki glaze of reduced-sodium soy sauce, ginger, garlic, rice vinegar and a single spoon of honey, over brown rice. The glaze leaves out the alcohol-based seasonings of the classic, so it is halal, and has far less sugar and salt than bottled teriyaki sauce.",
+          "mainProtein": "chicken",
+          "diet": "meat",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "chicken breast, skinless (raw)",
+            "brown rice (cooked)",
+            "broccoli",
+            "snow peas",
+            "water",
+            "carrot"
+          ]
+        },
+        {
+          "id": "vegetable-bibimbap",
+          "name": "Vegetable Bibimbap with Egg",
+          "nativeName": "Yachae Bibimbap",
+          "cuisine": "east-asian",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "The Korean mixed rice bowl: brown rice topped with garlicky spinach, bean sprouts, carrot, zucchini and shiitake, a fried egg and a spicy-sweet chili sauce stirred through at the table. Five vegetables and whole-grain rice make it a fiber-rich vegetarian meal, and a homemade chili-flake sauce stands in for salty, sugary bottled paste.",
+          "mainProtein": "eggs",
+          "diet": "vegetarian",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": false,
+          "quick": true,
+          "keyIngredients": [
+            "water",
+            "brown rice (cooked)",
+            "spinach",
+            "mung bean sprouts",
+            "zucchini",
+            "egg"
+          ]
+        },
+        {
+          "id": "salmon-poke-bowl",
+          "name": "Salmon Poke Bowl with Edamame",
+          "nativeName": "",
+          "cuisine": "western",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "The Hawaiian raw-fish bowl: cubes of sushi-grade salmon dressed with reduced-sodium soy sauce, ginger, lime and sesame over brown rice, with edamame, crunchy vegetables and avocado. Oily fish brings omega-3 fats and edamame adds plant protein and fiber; roast the salmon instead if you prefer it cooked.",
+          "mainProtein": "fish",
+          "diet": "pescatarian",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "water",
+            "brown rice (cooked)",
+            "salmon fillet, atlantic (raw)",
+            "edamame, shelled (frozen)",
+            "cucumber",
+            "avocado"
+          ]
+        },
+        {
+          "id": "thai-green-fish-curry",
+          "name": "Lighter Thai Green Fish Curry",
+          "nativeName": "Gaeng Khiao Wan Pla",
+          "cuisine": "southeast-asian",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Thai green curry with flaky white fish, eggplant, green beans and red pepper in a fragrant lemongrass and lime broth, served with brown rice. A lighter version: about 2 tbsp of coconut milk per bowl topped up with water instead of a whole can, and a vegetarian paste with no shrimp paste, so it stays lean, with about 35 g of protein and saturated fat under 10% of energy.",
+          "mainProtein": "fish",
+          "diet": "pescatarian",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "water",
+            "cod fillet (raw)",
+            "brown rice (raw)",
+            "eggplant",
+            "green beans",
+            "red bell pepper"
+          ]
+        },
+        {
+          "id": "soba-edamame-salad",
+          "name": "Soba Noodle and Edamame Salad",
+          "nativeName": "",
+          "cuisine": "east-asian",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Chilled buckwheat noodles tossed with edamame, cucumber, carrot, red cabbage and scallions in a sesame, ginger and lime dressing, ready in 25 minutes and good packed for lunch. Edamame and buckwheat give over 20 g of plant protein, and the dressing leans on lime and ginger so it needs only a spoon of soy sauce.",
+          "mainProtein": "edamame",
+          "diet": "vegan",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "water",
+            "edamame, shelled (frozen)",
+            "soba noodles (dry)",
+            "cucumber",
+            "red cabbage",
+            "carrot"
+          ]
+        }
+      ]
+    },
+    {
+      "chunk": "dinner-international",
+      "dishes": [
+        {
+          "id": "sheet-pan-salmon-quinoa",
+          "name": "Sheet-Pan Salmon with Quinoa and Vegetables",
+          "nativeName": "",
+          "cuisine": "western",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Salmon fillets roasted on one tray with broccoli, peppers, zucchini and cherry tomatoes under a smoky paprika, garlic and lemon rub, served on fluffy quinoa. Oily fish brings omega-3 fats and quinoa a whole grain, for about 39 g of protein and 10 g of fiber in 30 minutes.",
+          "mainProtein": "fish",
+          "diet": "pescatarian",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "salmon fillet, atlantic (raw)",
+            "water",
+            "broccoli",
+            "quinoa (dry)",
+            "cherry tomato",
+            "red bell pepper"
+          ]
+        },
+        {
+          "id": "chicken-burrito-bowl",
+          "name": "Chicken Burrito Bowl with Brown Rice and Beans",
+          "nativeName": "",
+          "cuisine": "latin-american",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Cumin and chipotle chicken over brown rice with black beans, sweet corn, crisp lettuce, a fresh tomato salsa and avocado, topped with thick yogurt instead of sour cream and cheese. A lighter bowl with low-sodium beans and whole grains, for over 40 g of protein and about 12 g of fiber.",
+          "mainProtein": "chicken",
+          "diet": "meat",
+          "glutenFree": true,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "brown rice (cooked)",
+            "chicken breast, skinless (raw)",
+            "tomato",
+            "black beans, low-sodium (canned, drained)",
+            "sweet corn kernels (frozen)",
+            "romaine lettuce"
+          ]
+        },
+        {
+          "id": "chicken-fajitas",
+          "name": "Chicken Fajitas with Peppers",
+          "nativeName": "",
+          "cuisine": "latin-american",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Lime and cumin chicken seared with sweet peppers and onion, wrapped in warm corn tortillas with a quick tomato salsa and thick yogurt instead of sour cream and cheese. Corn tortillas are whole grain and almost salt-free, so each plate brings over 40 g of protein and about 9 g of fiber.",
+          "mainProtein": "chicken",
+          "diet": "meat",
+          "glutenFree": true,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "chicken breast, skinless (raw)",
+            "corn tortilla",
+            "red bell pepper",
+            "green bell pepper",
+            "tomato",
+            "onion"
+          ]
+        },
+        {
+          "id": "three-bean-chili",
+          "name": "Three-Bean Vegetable Chili",
+          "nativeName": "",
+          "cuisine": "western",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Kidney, black and pinto beans simmered with peppers, sweet corn and tomato in a smoky chipotle, cumin and cocoa sauce, served over brown rice with avocado. Three kinds of low-sodium beans make a meat-free chili with over 20 g of protein and 22 g of fiber a bowl.",
+          "mainProtein": "beans",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "water",
+            "diced tomatoes (canned)",
+            "brown rice (raw)",
+            "red kidney beans, low-sodium (canned, drained)",
+            "black beans, low-sodium (canned, drained)",
+            "pinto beans, low-sodium (canned, drained)"
+          ]
+        },
+        {
+          "id": "lentil-bolognese",
+          "name": "Lentil Bolognese with Whole-Wheat Spaghetti",
+          "nativeName": "",
+          "cuisine": "western",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "A rich, slow-simmered ragù of brown lentils, mushrooms, onion, carrot and celery in tomato with oregano and bay, tossed with whole-wheat spaghetti. Lentils stand in for the mince, so this lighter vegan version has about 27 g of protein and 17 g of fiber a plate with very little saturated fat.",
+          "mainProtein": "lentils",
+          "diet": "vegan",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "water",
+            "crushed tomatoes (canned)",
+            "whole-wheat pasta (dry)",
+            "white mushroom",
+            "green or brown lentils (dried)",
+            "onion"
+          ]
+        },
+        {
+          "id": "minestrone",
+          "name": "Minestrone with Beans and Whole-Wheat Pasta",
+          "nativeName": "",
+          "cuisine": "mediterranean",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "The Italian vegetable soup: onion, carrot, celery, zucchini, green beans and kale simmered with fresh tomatoes, white and red beans and small whole-wheat pasta, finished with basil and olive oil. A vegan bowl with about 22 g of protein and 19 g of fiber, seasoned with herbs and fresh tomato instead of salty stock.",
+          "mainProtein": "beans",
+          "diet": "vegan",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "water",
+            "tomato",
+            "cannellini beans (canned, drained)",
+            "red kidney beans, low-sodium (canned, drained)",
+            "whole-wheat pasta (dry)",
+            "zucchini"
+          ]
+        },
+        {
+          "id": "tuna-nicoise",
+          "name": "Tuna Niçoise Salad",
+          "nativeName": "Salade Niçoise",
+          "cuisine": "mediterranean",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "The salad of Nice: boiled new potatoes, green beans, eggs, cherry tomatoes and tuna on crisp lettuce with black olives and a lemon and mustard dressing. No-salt-added tuna in water and a light hand with olives keep it lean, with about 38 g of protein a plate.",
+          "mainProtein": "fish",
+          "diet": "pescatarian",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": false,
+          "quick": true,
+          "keyIngredients": [
+            "water",
+            "potato",
+            "tuna, canned in water, no salt added (drained)",
+            "green beans",
+            "cherry tomato",
+            "egg"
+          ]
+        },
+        {
+          "id": "harira",
+          "name": "Moroccan Lentil and Chickpea Soup",
+          "nativeName": "Harira",
+          "cuisine": "north-african",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "The tomato, lentil and chickpea soup that breaks the fast across Morocco in Ramadan, fragrant with ginger, turmeric, cinnamon and a big handful of coriander and parsley, thickened with a little whole-wheat flour and served with lemon and dates. This vegan version is lighter than the traditional meat-and-butter pot, with about 24 g of protein and 19 g of fiber a bowl.",
+          "mainProtein": "lentils",
+          "diet": "vegan",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "water",
+            "tomato",
+            "chickpeas, low-sodium (canned, drained)",
+            "green or brown lentils (dried)",
+            "onion",
+            "medjool dates"
+          ]
+        },
+        {
+          "id": "chicken-apricot-tagine",
+          "name": "Chicken and Apricot Tagine with Whole-Wheat Couscous",
+          "nativeName": "",
+          "cuisine": "north-african",
+          "slots": [
+            "lunch",
+            "dinner"
+          ],
+          "concept": "Chicken thighs braised with onion, ginger, saffron and ras el hanout until tender, with dried apricots and chickpeas melting into a sweet-spiced sauce, served on whole-wheat couscous. The apricots give the sweetness, so no honey or sugar is needed, and a plate has over 45 g of protein and 14 g of fiber.",
+          "mainProtein": "chicken",
+          "diet": "meat",
+          "glutenFree": false,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": false,
+          "keyIngredients": [
+            "chicken thigh, skinless, boneless (raw)",
+            "water",
+            "chicken broth, low-sodium",
+            "onion",
+            "whole-wheat couscous (dry)",
+            "chickpeas, low-sodium (canned, drained)"
+          ]
+        }
+      ]
+    },
+    {
+      "chunk": "snacks-international",
+      "dishes": [
+        {
+          "id": "chili-lime-edamame",
+          "name": "Chili-Lime Edamame",
+          "nativeName": "",
+          "cuisine": "east-asian",
+          "slots": [
+            "snack"
+          ],
+          "concept": "Young soybeans boiled in their pods and tossed with garlic, chili flakes and fresh lime, the classic Japanese bar snack made with only a pinch of salt. About 100 kcal and 9 g of plant protein per bowl, and fun to pop straight from the pod.",
+          "mainProtein": "edamame",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "edamame in pods (frozen, weighed with pods)",
+            "lime",
+            "garlic",
+            "canola oil",
+            "red pepper flakes",
+            "salt"
+          ]
+        },
+        {
+          "id": "spiced-popcorn",
+          "name": "Spiced Stovetop Popcorn",
+          "nativeName": "",
+          "cuisine": "western",
+          "slots": [
+            "snack"
+          ],
+          "concept": "Whole-grain popcorn popped in a measured spoon of oil and tossed with smoked paprika, cumin and garlic instead of butter and lots of salt. A big bowl of about 2.5 cups is around 130 kcal with nearly 4 g of fiber.",
+          "mainProtein": "grain",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "popcorn kernels (unpopped)",
+            "canola oil",
+            "smoked paprika",
+            "garlic powder",
+            "cumin, ground",
+            "salt"
+          ]
+        },
+        {
+          "id": "apple-peanut-butter",
+          "name": "Apple Slices with Peanut Butter",
+          "nativeName": "",
+          "cuisine": "western",
+          "slots": [
+            "snack"
+          ],
+          "concept": "Crisp apple wedges with a spoon of natural, unsalted peanut butter and a dusting of cinnamon. Fruit fiber plus peanut protein and healthy fats make a filling 190 kcal snack with no added sugar.",
+          "mainProtein": "peanuts",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": false,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "apple",
+            "peanut butter, natural, unsalted",
+            "lemon juice",
+            "cinnamon, ground"
+          ]
+        },
+        {
+          "id": "berry-yogurt-smoothie",
+          "name": "Berry and Yogurt Smoothie",
+          "nativeName": "",
+          "cuisine": "western",
+          "slots": [
+            "snack"
+          ],
+          "concept": "Frozen mixed berries blended with nonfat Greek yogurt, half a banana for sweetness and ground flaxseed, with no added sugar or juice. Thick, cold and about 190 kcal with 12 g of protein and 6 g of fiber per glass.",
+          "mainProtein": "dairy",
+          "diet": "vegetarian",
+          "glutenFree": true,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "mixed berries (frozen, unsweetened)",
+            "greek yogurt, plain, nonfat",
+            "water",
+            "banana",
+            "ground flaxseed"
+          ]
+        },
+        {
+          "id": "tropical-fruit-salad",
+          "name": "Tropical Fruit Salad with Lime and Mint",
+          "nativeName": "",
+          "cuisine": "southeast-asian",
+          "slots": [
+            "snack"
+          ],
+          "concept": "An easy, refreshing dessert of mango, pineapple, papaya and kiwi dressed only with lime and fresh mint, finished with a Thai-style pinch of chili salt. About 150 kcal and 5 g of fiber per bowl, sweet from the fruit alone.",
+          "mainProtein": "fruit",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "mango",
+            "pineapple",
+            "papaya",
+            "kiwifruit",
+            "lime",
+            "fresh mint"
+          ]
+        },
+        {
+          "id": "frozen-yogurt-berry-bark",
+          "name": "Frozen Yogurt Berry Bark",
+          "nativeName": "",
+          "cuisine": "western",
+          "slots": [
+            "snack"
+          ],
+          "concept": "An easy make-ahead dessert: nonfat Greek yogurt lightly sweetened with a measured spoon of honey, spread thin, studded with fresh berries and frozen into crisp shards. About 110 kcal and 12 g of protein per serving.",
+          "mainProtein": "dairy",
+          "diet": "vegetarian",
+          "glutenFree": true,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "greek yogurt, plain, nonfat",
+            "strawberries",
+            "blueberries",
+            "raspberries",
+            "honey"
+          ]
+        },
+        {
+          "id": "banana-nice-cream",
+          "name": "One-Ingredient Banana \"Nice Cream\" with Cocoa",
+          "nativeName": "",
+          "cuisine": "western",
+          "slots": [
+            "snack"
+          ],
+          "concept": "A creamy soft-serve dessert made by blending frozen ripe banana with unsweetened cocoa and a pinch of cinnamon, with no cream or added sugar. About 115 kcal and 4 g of fiber per bowl.",
+          "mainProtein": "fruit",
+          "diet": "vegan",
+          "glutenFree": true,
+          "dairyFree": true,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "banana",
+            "water",
+            "cocoa powder, unsweetened",
+            "cinnamon, ground"
+          ]
+        },
+        {
+          "id": "dark-chocolate-strawberries",
+          "name": "Dark Chocolate-Dipped Strawberries",
+          "nativeName": "",
+          "cuisine": "western",
+          "slots": [
+            "snack"
+          ],
+          "concept": "An easy dessert of fresh strawberries tipped and drizzled with a small, measured amount of 70%+ dark chocolate, served with a honey-cinnamon Greek yogurt dip. About 160 kcal and 14 g of protein per serving, so the chocolate is a treat rather than the whole snack.",
+          "mainProtein": "dairy",
+          "diet": "vegetarian",
+          "glutenFree": true,
+          "dairyFree": false,
+          "nutFree": true,
+          "eggFree": true,
+          "quick": true,
+          "keyIngredients": [
+            "strawberries",
+            "greek yogurt, plain, nonfat",
+            "dark chocolate, 70-85% cacao",
+            "honey",
+            "cinnamon, ground"
+          ]
+        }
+      ]
     }
   ]
 }

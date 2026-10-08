@@ -11,11 +11,13 @@ const CHUNKS = [
   'dinner-mediterranean',
   'snacks-middle-eastern',
   'desserts',
+  'breakfast-international',
+  'lunch-international',
+  'dinner-international',
+  'snacks-international',
 ];
 const SLOTS = ['breakfast', 'lunch', 'dinner', 'snack'];
 const CUISINES = ['kurdish', 'iraqi', 'levantine', 'turkish', 'persian', 'gulf', 'egyptian', 'north-african', 'mediterranean', 'south-asian', 'east-asian', 'southeast-asian', 'latin-american', 'western'];
-// Kurdish food and its close neighbours only; easy desserts may come from anywhere.
-const REGIONAL = ['kurdish', 'iraqi', 'turkish', 'persian', 'levantine'];
 const DIETS = ['vegan', 'vegetarian', 'pescatarian', 'meat'];
 const FIELDS = { id: 'string', name: 'string', nativeName: 'string', cuisine: 'string', slots: 'array', concept: 'string', mainProtein: 'string', diet: 'string', glutenFree: 'boolean', dairyFree: 'boolean', nutFree: 'boolean', eggFree: 'boolean', quick: 'boolean', keyIngredients: 'array' };
 
@@ -71,9 +73,6 @@ for (const name of CHUNKS) {
     quick: ds.filter((d) => d.quick).length,
   };
   console.log(`${name.padEnd(26)} ${Object.values(n).map((v) => String(v).padStart(3)).join('  ')}`);
-  if (name !== 'desserts') {
-    for (const d of ds) if (!REGIONAL.includes(d.cuisine)) problems.push(`${d.id}: cuisine "${d.cuisine}" is not Kurdish or close to it`);
-  }
 }
 for (const c of chunks) if (!CHUNKS.includes(c.chunk)) problems.push(`unknown chunk "${c.chunk}"`);
 

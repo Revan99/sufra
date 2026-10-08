@@ -13,6 +13,10 @@ import { ingredients as extraDinnerKurdishIraqi } from './extra/dinner-kurdish-i
 import { ingredients as extraDinnerMediterranean } from './extra/dinner-mediterranean.ts';
 import { ingredients as extraSnacksMiddleEastern } from './extra/snacks-middle-eastern.ts';
 import { ingredients as extraDesserts } from './extra/desserts.ts';
+import { ingredients as extraBreakfastInternational } from './extra/breakfast-international.ts';
+import { ingredients as extraLunchInternational } from './extra/lunch-international.ts';
+import { ingredients as extraDinnerInternational } from './extra/dinner-international.ts';
+import { ingredients as extraSnacksInternational } from './extra/snacks-international.ts';
 
 export const INGREDIENT_SOURCES: Record<string, readonly Ingredient[]> = {
   'produce': produce,
@@ -28,6 +32,10 @@ export const INGREDIENT_SOURCES: Record<string, readonly Ingredient[]> = {
   'extra/dinner-mediterranean': extraDinnerMediterranean,
   'extra/snacks-middle-eastern': extraSnacksMiddleEastern,
   'extra/desserts': extraDesserts,
+  'extra/breakfast-international': extraBreakfastInternational,
+  'extra/lunch-international': extraLunchInternational,
+  'extra/dinner-international': extraDinnerInternational,
+  'extra/snacks-international': extraSnacksInternational,
 };
 
 export const INGREDIENTS: readonly Ingredient[] = Object.values(INGREDIENT_SOURCES).flat();

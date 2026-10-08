@@ -1,7 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import type { Cuisine, MealSlot } from '../types.ts';
+import type { MealSlot } from '../types.ts';
 import { CATALOG, INGREDIENTS, RECIPES, ingredientIndex } from './index.ts';
-import { RECIPE_SOURCES } from './recipes/index.ts';
 import { validateLibrary } from './validate.ts';
 import { coverage } from './coverage.ts';
 
@@ -18,14 +17,6 @@ describe('recipe library', () => {
       .filter((row) => row.count < row.min)
       .map((row) => `${row.label} / ${row.slot}: ${row.count} < ${row.min}`);
     expect(short).toEqual([]);
-  });
-
-  // Kurdish food and its close neighbours only. Easy desserts (recipes/desserts.ts) may come from anywhere.
-  it('keeps every dish except desserts Kurdish or close to Kurdish', () => {
-    const regional: readonly Cuisine[] = ['kurdish', 'iraqi', 'turkish', 'persian', 'levantine'];
-    const desserts = new Set(RECIPE_SOURCES.desserts?.map((r) => r.id));
-    const off = RECIPES.filter((r) => !desserts.has(r.id) && !regional.includes(r.cuisine)).map((r) => `${r.id}: ${r.cuisine}`);
-    expect(off).toEqual([]);
   });
 });
 
