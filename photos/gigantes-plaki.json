@@ -1,0 +1,34 @@
+{
+  "id": "gigantes-plaki",
+  "photo": {
+    "src": "images/gigantes-plaki.webp",
+    "thumb": "images/gigantes-plaki-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "White plate of baked giant white beans in tomato sauce with dill and a fork",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Gigandes plaki",
+      "author": "Hevesli",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Hevesli",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gigandes_plaki.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Gigandes_plaki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "gigantes plaki"
+  },
+  "queries": [
+    "gigantes plaki",
+    "γίγαντες πλακί",
+    "gigantes"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "vegetable-bibimbap",
+  "photo": {
+    "src": "images/vegetable-bibimbap.webp",
+    "thumb": "images/vegetable-bibimbap-thumb.webp",
+    "width": 960,
+    "height": 1280,
+    "alt": "Bowl of bibimbap with a fried egg over rice, cucumber, carrot and greens, sprinkled with sesame seeds",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Bibimbap with egg",
+      "author": "Cjkennedy15",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Cjkennedy15",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bibimbap_with_egg.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Bibimbap_with_egg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "vegetable bibimbap"
+  },
+  "queries": [
+    "bibimbap",
+    "vegetable bibimbap",
+    "비빔밥",
+    "dolsot bibimbap"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "gado-gado",
+  "photo": {
+    "src": "images/gado-gado.webp",
+    "thumb": "images/gado-gado-thumb.webp",
+    "width": 960,
+    "height": 576,
+    "alt": "Plate of gado-gado with lettuce, potato, tofu, boiled egg, cucumber and carrot under peanut sauce, with prawn crackers",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Gado gado jakarta",
+      "author": "Piknikdong",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Masdepjimin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gado_gado_jakarta.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Gado_gado_jakarta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "gado-gado"
+  },
+  "queries": [
+    "gado-gado",
+    "gado gado"
+  ]
+}

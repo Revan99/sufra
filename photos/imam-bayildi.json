@@ -1,0 +1,33 @@
+{
+  "id": "imam-bayildi",
+  "photo": {
+    "src": "images/imam-bayildi.webp",
+    "thumb": "images/imam-bayildi-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Roasted eggplant topped with stewed tomato and onion, served with pilaf and a dollop of yogurt on a white plate",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "İmam bayıldı AvL",
+      "author": "AlexanderVanLoon",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:AlexanderVanLoon",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C4%B0mam_bay%C4%B1ld%C4%B1_AvL.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/%C4%B0mam_bay%C4%B1ld%C4%B1_AvL.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "imam bayildi"
+  },
+  "queries": [
+    "imam bayildi",
+    "İmam bayıldı"
+  ]
+}

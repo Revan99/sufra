@@ -1,0 +1,34 @@
+{
+  "id": "sheet-pan-salmon-quinoa",
+  "photo": {
+    "src": "images/sheet-pan-salmon-quinoa.webp",
+    "thumb": "images/sheet-pan-salmon-quinoa-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Roasted salmon fillet with herbs over quinoa with roasted broccoli on a white plate, lemon wedges beside",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Salmon + Veggies (44493005854)",
+      "author": "Ella Olsson from Stockholm, Sweden",
+      "authorUrl": "https://www.flickr.com/people/155807330@N05",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salmon_%2B_Veggies_(44493005854).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c06",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Salmon_%2B_Veggies_%2844493005854%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "salmon quinoa"
+  },
+  "queries": [
+    "salmon quinoa",
+    "roasted salmon vegetables",
+    "sheet pan salmon"
+  ]
+}

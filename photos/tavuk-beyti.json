@@ -1,0 +1,34 @@
+{
+  "id": "tavuk-beyti",
+  "photo": {
+    "src": "images/tavuk-beyti.webp",
+    "thumb": "images/tavuk-beyti-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Beyti kebab rolls in lavash sliced and covered in tomato sauce with sliced onion, two scoops of yogurt and grilled green peppers",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Beyti plate",
+      "author": "E4024",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:E4024",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beyti_plate.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Beyti_plate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "beyti"
+  },
+  "queries": [
+    "beyti",
+    "beyti kebab",
+    "tavuk beyti"
+  ]
+}

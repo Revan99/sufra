@@ -1,0 +1,33 @@
+{
+  "id": "idli-sambar",
+  "photo": {
+    "src": "images/idli-sambar.webp",
+    "thumb": "images/idli-sambar-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Steamed idli on a banana leaf with a bowl of sambar, coconut chutney and curry leaves on a dark table",
+    "focus": [
+      35,
+      50
+    ],
+    "credit": {
+      "title": "Idli Sambar-Noida-UP-SP004",
+      "author": "Sutapa Pal",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Sutapa_Pal",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Idli_Sambar-Noida-UP-SP004.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Idli_Sambar-Noida-UP-SP004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "idli sambar"
+  },
+  "queries": [
+    "idli sambar",
+    "idli"
+  ]
+}

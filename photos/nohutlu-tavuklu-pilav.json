@@ -1,0 +1,36 @@
+{
+  "id": "nohutlu-tavuklu-pilav",
+  "photo": {
+    "src": "images/nohutlu-tavuklu-pilav.webp",
+    "thumb": "images/nohutlu-tavuklu-pilav-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Mound of white rice topped with shredded poached chicken on a large white plate",
+    "focus": [
+      47,
+      40
+    ],
+    "credit": {
+      "title": "Tavuklu pilav",
+      "author": "E4024",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:E4024",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tavuklu_pilav.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c12",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Tavuklu_pilav.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "tavuklu pilav"
+  },
+  "queries": [
+    "nohutlu pilav",
+    "tavuklu pilav",
+    "nohutlu tavuklu pilav",
+    "pilav üstü tavuk",
+    "tavuklu nohutlu pilav"
+  ]
+}

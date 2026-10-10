@@ -1,0 +1,35 @@
+{
+  "id": "kurdish-sorbeya-firike",
+  "photo": {
+    "src": "images/kurdish-sorbeya-firike.webp",
+    "thumb": "images/kurdish-sorbeya-firike-thumb.webp",
+    "width": 960,
+    "height": 1171,
+    "alt": "Bowl of tomato-red freekeh soup with pieces of meat and chopped parsley, a spoon, lemon wedge and dates on a red checked cloth",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Chorba frik algerienne",
+      "author": "Slothtysloth",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Slothtysloth",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chorba_frik_algerienne.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Chorba_frik_algerienne.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "freekeh soup"
+  },
+  "queries": [
+    "freekeh soup",
+    "شوربة فريكة",
+    "chorba frik",
+    "firik çorbası"
+  ]
+}

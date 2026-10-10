@@ -1,0 +1,39 @@
+{
+  "id": "margat-baytinjan-dijaj",
+  "photo": {
+    "src": "images/margat-baytinjan-dijaj.webp",
+    "thumb": "images/margat-baytinjan-dijaj-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Blue-patterned bowl of chicken and eggplant chunks stewed in tomato sauce, with a bread roll on the plate",
+    "focus": [
+      45,
+      45
+    ],
+    "credit": {
+      "title": "Chicken and eggplant stewed in tomato sauce",
+      "author": "G4GTi",
+      "authorUrl": "https://www.flickr.com/photos/41634028@N07",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "sourceUrl": "https://www.flickr.com/photos/41634028@N07/54290191988",
+      "source": "Flickr",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c14",
+    "imageUrl": "https://live.staticflickr.com/65535/54290191988_8494feb566_b.jpg",
+    "query": "eggplant stew"
+  },
+  "queries": [
+    "eggplant stew chicken",
+    "مرقة باذنجان",
+    "Iraqi eggplant stew",
+    "tepsi baytinjan",
+    "eggplant stew",
+    "aubergine stew",
+    "maraq baytinjan",
+    "eggplant chicken tomato"
+  ]
+}

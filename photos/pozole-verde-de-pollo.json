@@ -1,0 +1,34 @@
+{
+  "id": "pozole-verde-de-pollo",
+  "photo": {
+    "src": "images/pozole-verde-de-pollo.webp",
+    "thumb": "images/pozole-verde-de-pollo-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Clay bowl of green pozole topped with shredded chicken on a bright checked tablecloth",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Green pozole (41223572040)",
+      "author": "T.Tseng",
+      "authorUrl": "https://www.flickr.com/people/68147320@N02",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Green_pozole_(41223572040).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c09",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Green_pozole_%2841223572040%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "green pozole"
+  },
+  "queries": [
+    "pozole verde",
+    "green pozole",
+    "pozole"
+  ]
+}

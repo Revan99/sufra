@@ -1,0 +1,35 @@
+{
+  "id": "japanese-salmon-breakfast",
+  "photo": {
+    "src": "images/japanese-salmon-breakfast.webp",
+    "thumb": "images/japanese-salmon-breakfast-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Japanese breakfast tray with a grilled salmon fillet, a bowl of white rice, a soft egg, a small hot pot and several small side dishes",
+    "focus": [
+      45,
+      60
+    ],
+    "credit": {
+      "title": "What a Breakfast! (24626745081)",
+      "author": "momo from Hong Kong",
+      "authorUrl": "https://www.flickr.com/people/9751325@N02",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:What_a_Breakfast!_(24626745081).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/What_a_Breakfast%21_%2824626745081%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Japanese breakfast salmon"
+  },
+  "queries": [
+    "Japanese breakfast salmon",
+    "朝食 焼き鮭",
+    "焼き鮭定食",
+    "Japanese breakfast"
+  ]
+}

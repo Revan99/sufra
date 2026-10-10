@@ -1,0 +1,33 @@
+{
+  "id": "buckwheat-pancakes",
+  "photo": {
+    "src": "images/buckwheat-pancakes.webp",
+    "thumb": "images/buckwheat-pancakes-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Brown buckwheat pancakes dotted with blueberries on a white plate with a few fresh blueberries",
+    "focus": [
+      60,
+      55
+    ],
+    "credit": {
+      "title": "Vegan Blueberry Buckwheat Pancakes (4106866143)",
+      "author": "Veganbaking.net from USA",
+      "authorUrl": "https://www.flickr.com/people/31104779@N02",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vegan_Blueberry_Buckwheat_Pancakes_(4106866143).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Vegan_Blueberry_Buckwheat_Pancakes_%284106866143%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "buckwheat pancakes"
+  },
+  "queries": [
+    "buckwheat pancakes",
+    "buckwheat pancakes berries"
+  ]
+}

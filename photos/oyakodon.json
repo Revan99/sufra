@@ -1,0 +1,33 @@
+{
+  "id": "oyakodon",
+  "photo": {
+    "src": "images/oyakodon.webp",
+    "thumb": "images/oyakodon-thumb.webp",
+    "width": 960,
+    "height": 641,
+    "alt": "Bowl of oyakodon: chicken and onion simmered in softly set egg over rice, topped with mitsuba leaves",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Oyakodon 003",
+      "author": "Ocdp",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Ocdp",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oyakodon_003.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Oyakodon_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "oyakodon"
+  },
+  "queries": [
+    "oyakodon",
+    "親子丼"
+  ]
+}

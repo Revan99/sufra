@@ -1,0 +1,35 @@
+{
+  "id": "mapo-tofu-mushroom",
+  "photo": {
+    "src": "images/mapo-tofu-mushroom.webp",
+    "thumb": "images/mapo-tofu-mushroom-thumb.webp",
+    "width": 960,
+    "height": 637,
+    "alt": "Bowl of vegan mapo tofu with tofu cubes, chopped shiitake and spring onions in red chili sauce",
+    "focus": [
+      45,
+      50
+    ],
+    "credit": {
+      "title": "Vegan Mapo Tofu (30679011112)",
+      "author": "Sharon Chen from Austin, United States",
+      "authorUrl": "https://www.flickr.com/people/142840472@N04",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vegan_Mapo_Tofu_(30679011112).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Vegan_Mapo_Tofu_%2830679011112%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "vegan mapo tofu"
+  },
+  "queries": [
+    "vegan mapo tofu",
+    "mushroom mapo tofu",
+    "素麻婆豆腐",
+    "vegetarian mapo tofu"
+  ]
+}

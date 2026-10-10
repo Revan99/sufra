@@ -1,0 +1,32 @@
+{
+  "id": "lighter-chicken-korma",
+  "photo": {
+    "src": "images/lighter-chicken-korma.webp",
+    "thumb": "images/lighter-chicken-korma-thumb.webp",
+    "width": 960,
+    "height": 1445,
+    "alt": "Chicken korma with cashews and chili flakes over white rice, garnished with mint and a lime wedge",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Chicken Korma 1",
+      "author": "TheCulinaryGeek",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Korma_1.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c04",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Chicken_Korma_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken korma"
+  },
+  "queries": [
+    "chicken korma",
+    "murgh korma"
+  ]
+}

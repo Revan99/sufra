@@ -1,0 +1,34 @@
+{
+  "id": "tavuklu-patlican-musakka",
+  "photo": {
+    "src": "images/tavuklu-patlican-musakka.webp",
+    "thumb": "images/tavuklu-patlican-musakka-thumb.webp",
+    "width": 960,
+    "height": 960,
+    "alt": "Turkish musakka of roasted eggplant slices and minced meat in tomato sauce on a white plate",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Musakka 1",
+      "author": "E4024",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:E4024",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Musakka_1.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c14",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Musakka_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Turkish musakka"
+  },
+  "queries": [
+    "patlıcan musakka",
+    "Turkish musakka",
+    "tavuklu musakka"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "enchiladas-verdes-pollo",
+  "photo": {
+    "src": "images/enchiladas-verdes-pollo.webp",
+    "thumb": "images/enchiladas-verdes-pollo-thumb.webp",
+    "width": 960,
+    "height": 853,
+    "alt": "Pan of rolled enchiladas in green salsa topped with crumbled white cheese and shredded chicken",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Enchiladas verdes estilo mi mamá",
+      "author": "Carolina Salas Aldana",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Carolina_Salas_Aldana",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Enchiladas_verdes_estilo_mi_mam%C3%A1.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c05",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Enchiladas_verdes_estilo_mi_mam%C3%A1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "enchiladas verdes"
+  },
+  "queries": [
+    "enchiladas verdes",
+    "green enchiladas chicken"
+  ]
+}

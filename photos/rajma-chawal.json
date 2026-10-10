@@ -1,0 +1,34 @@
+{
+  "id": "rajma-chawal",
+  "photo": {
+    "src": "images/rajma-chawal.webp",
+    "thumb": "images/rajma-chawal-thumb.webp",
+    "width": 960,
+    "height": 1091,
+    "alt": "Steel plate of white basmati rice with coriander leaves beside red kidney bean curry",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Rajma Chawal by Rama Bhave",
+      "author": "Shreya151994",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Shreya151994",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rajma_Chawal_by_Rama_Bhave.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Rajma_Chawal_by_Rama_Bhave.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "rajma chawal"
+  },
+  "queries": [
+    "rajma chawal",
+    "rajma",
+    "राजमा चावल"
+  ]
+}

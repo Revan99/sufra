@@ -1,0 +1,37 @@
+{
+  "id": "pollo-asado-mojo",
+  "photo": {
+    "src": "images/pollo-asado-mojo.webp",
+    "thumb": "images/pollo-asado-mojo-thumb.webp",
+    "width": 960,
+    "height": 636,
+    "alt": "Charred mojo roast chicken with black beans, white rice and broccoli on a white plate",
+    "focus": [
+      65,
+      55
+    ],
+    "credit": {
+      "title": "Mmm... mojo roast chicken",
+      "author": "jeffreyw",
+      "authorUrl": "https://www.flickr.com/photos/7927684@N03",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "sourceUrl": "https://www.flickr.com/photos/7927684@N03/19174480539",
+      "source": "Flickr",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c09",
+    "imageUrl": "https://live.staticflickr.com/3779/19174480539_0d40a3ed39_b.jpg",
+    "query": "mojo roast chicken"
+  },
+  "queries": [
+    "mojo chicken",
+    "pollo asado cubano",
+    "Cuban chicken black beans",
+    "cuban mojo chicken",
+    "pollo asado black beans rice",
+    "mojo roast chicken"
+  ]
+}

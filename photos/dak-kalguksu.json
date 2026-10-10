@@ -1,0 +1,34 @@
+{
+  "id": "dak-kalguksu",
+  "photo": {
+    "src": "images/dak-kalguksu.webp",
+    "thumb": "images/dak-kalguksu-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Metal bowl of knife-cut noodles in clear chicken broth with shredded chicken and sliced leek",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "닭칼국수",
+      "author": "Tmannya",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Tmannya",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%EB%8B%AD%EC%B9%BC%EA%B5%AD%EC%88%98.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/%EB%8B%AD%EC%B9%BC%EA%B5%AD%EC%88%98.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "닭칼국수"
+  },
+  "queries": [
+    "dak kalguksu",
+    "닭칼국수",
+    "kalguksu"
+  ]
+}

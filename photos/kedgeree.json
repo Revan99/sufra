@@ -1,0 +1,35 @@
+{
+  "id": "kedgeree",
+  "photo": {
+    "src": "images/kedgeree.webp",
+    "thumb": "images/kedgeree-thumb.webp",
+    "width": 960,
+    "height": 540,
+    "alt": "Close-up of kedgeree: rice with flaked white fish, chopped boiled egg, peas and fresh parsley",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Kedgeree",
+      "author": "User:Justinc",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Justinc",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kedgeree.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Kedgeree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "kedgeree"
+  },
+  "queries": [
+    "kedgeree",
+    "kedgeree eggs",
+    "kedgeree",
+    "kedgeree haddock"
+  ]
+}

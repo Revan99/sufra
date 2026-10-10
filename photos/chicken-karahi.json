@@ -1,0 +1,34 @@
+{
+  "id": "chicken-karahi",
+  "photo": {
+    "src": "images/chicken-karahi.webp",
+    "thumb": "images/chicken-karahi-thumb.webp",
+    "width": 960,
+    "height": 542,
+    "alt": "Chicken karahi in tomato masala with a whole green chili, served in a black two-handled karahi",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Punjabi Chicken Karahi",
+      "author": "Miansari66",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Miansari66",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Punjabi_Chicken_Karahi.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c06",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Punjabi_Chicken_Karahi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken karahi"
+  },
+  "queries": [
+    "chicken karahi",
+    "karahi chicken",
+    "کڑاہی"
+  ]
+}

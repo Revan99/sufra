@@ -1,0 +1,33 @@
+{
+  "id": "ceviche-de-pescado",
+  "photo": {
+    "src": "images/ceviche-de-pescado.webp",
+    "thumb": "images/ceviche-de-pescado-thumb.webp",
+    "width": 960,
+    "height": 697,
+    "alt": "White plate of Peruvian fish ceviche with red onion and chilli, sweet potato slices, corn kernels and lettuce on a blue cloth",
+    "focus": [
+      52,
+      50
+    ],
+    "credit": {
+      "title": "Ceviche del Perú",
+      "author": "No machine-readable author provided. Manuel González Olaechea assumed (based on copyright claims).",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Manuel_Gonz%C3%A1lez_Olaechea",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ceviche_del_Per%C3%BA.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Ceviche_del_Per%C3%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "ceviche"
+  },
+  "queries": [
+    "ceviche",
+    "ceviche peruano"
+  ]
+}

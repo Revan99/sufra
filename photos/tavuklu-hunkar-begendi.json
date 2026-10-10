@@ -1,0 +1,37 @@
+{
+  "id": "tavuklu-hunkar-begendi",
+  "photo": {
+    "src": "images/tavuklu-hunkar-begendi.webp",
+    "thumb": "images/tavuklu-hunkar-begendi-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Chicken pieces in a tomato and pepper sauce on smoky eggplant purée, with tomato wedges, green chillies and lettuce on a white plate",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Hunkarbegendi",
+      "author": "www.lezzetcatering.com",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Dogayali",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hunkarbegendi.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Hunkarbegendi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "hünkar beğendi"
+  },
+  "queries": [
+    "hünkar beğendi",
+    "hunkar begendi",
+    "Sultan's delight",
+    "hünkar beğendi tavuk",
+    "hunkar begendi chicken",
+    "patlıcan beğendi"
+  ]
+}

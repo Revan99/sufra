@@ -1,0 +1,34 @@
+{
+  "id": "etsiz-cig-kofte",
+  "photo": {
+    "src": "images/etsiz-cig-kofte.webp",
+    "thumb": "images/etsiz-cig-kofte-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Pressed red bulgur köfte pieces on lettuce leaves with two lemon wedges on a white plate",
+    "focus": [
+      50,
+      45
+    ],
+    "credit": {
+      "title": "Çiğ köfte",
+      "author": "E4024",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:E4024",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%87i%C4%9F_k%C3%B6fte.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c10",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/%C3%87i%C4%9F_k%C3%B6fte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "çiğ köfte"
+  },
+  "queries": [
+    "çiğ köfte",
+    "cig kofte",
+    "etsiz çiğ köfte"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "chilaquiles-verdes-pollo",
+  "photo": {
+    "src": "images/chilaquiles-verdes-pollo.webp",
+    "thumb": "images/chilaquiles-verdes-pollo-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Platter of chilaquiles in green salsa topped with shredded chicken, cream, crumbled cheese and red onion",
+    "focus": [
+      55,
+      65
+    ],
+    "credit": {
+      "title": "Chilaquiles verdes con pollo",
+      "author": "Engirare",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Engirare",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chilaquiles_verdes_con_pollo.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Chilaquiles_verdes_con_pollo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chilaquiles verdes"
+  },
+  "queries": [
+    "chilaquiles verdes",
+    "chilaquiles con pollo",
+    "chilaquiles huevo"
+  ]
+}

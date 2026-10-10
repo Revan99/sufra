@@ -1,0 +1,34 @@
+{
+  "id": "chicken-chow-mein",
+  "photo": {
+    "src": "images/chicken-chow-mein.webp",
+    "thumb": "images/chicken-chow-mein-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Plate of chow mein noodles stir-fried with chicken, bean sprouts, carrots, red pepper and green vegetables",
+    "focus": [
+      45,
+      65
+    ],
+    "credit": {
+      "title": "Chicken Chow Mein (2411270286)",
+      "author": "Mack Male from Edmonton, AB, Canada",
+      "authorUrl": "https://www.flickr.com/people/24311648@N00",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Chow_Mein_(2411270286).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c08",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Chicken_Chow_Mein_%282411270286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken chow mein"
+  },
+  "queries": [
+    "chicken chow mein",
+    "炒面 鸡",
+    "chow mein"
+  ]
+}

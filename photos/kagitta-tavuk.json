@@ -1,0 +1,34 @@
+{
+  "id": "kagitta-tavuk",
+  "photo": {
+    "src": "images/kagitta-tavuk.webp",
+    "thumb": "images/kagitta-tavuk-thumb.webp",
+    "width": 960,
+    "height": 960,
+    "alt": "Tray of parchment paper parcels with chicken breast, mushrooms and carrots baked inside",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Chicken breast, mushrooms, and vegetables, baked in parchment paper - Massachusetts",
+      "author": "Daderot",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Daderot",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_breast,_mushrooms,_and_vegetables,_baked_in_parchment_paper_-_Massachusetts.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Chicken_breast%2C_mushrooms%2C_and_vegetables%2C_baked_in_parchment_paper_-_Massachusetts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken en papillote"
+  },
+  "queries": [
+    "kağıtta tavuk",
+    "chicken en papillote",
+    "kagitta tavuk"
+  ]
+}

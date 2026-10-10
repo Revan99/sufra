@@ -1,0 +1,33 @@
+{
+  "id": "sopa-de-lima",
+  "photo": {
+    "src": "images/sopa-de-lima.webp",
+    "thumb": "images/sopa-de-lima-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Glass bowl of lime soup with shredded chicken, lime slices and tortilla chips",
+    "focus": [
+      45,
+      55
+    ],
+    "credit": {
+      "title": "Sopa de lima yucateca en Mercado Santa Anita de Mérida 03",
+      "author": "Isaacvp",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Isaacvp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sopa_de_lima_yucateca_en_Mercado_Santa_Anita_de_M%C3%A9rida_03.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c07",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Sopa_de_lima_yucateca_en_Mercado_Santa_Anita_de_M%C3%A9rida_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "sopa de lima"
+  },
+  "queries": [
+    "sopa de lima",
+    "lime soup Yucatan"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "batata-harra",
+  "photo": {
+    "src": "images/batata-harra.webp",
+    "thumb": "images/batata-harra-thumb.webp",
+    "width": 960,
+    "height": 638,
+    "alt": "Plate of golden fried potato cubes with spices and herbs, a dish of hummus behind",
+    "focus": [
+      50,
+      65
+    ],
+    "credit": {
+      "title": "spicy potato",
+      "author": "stu_spivack",
+      "authorUrl": "https://www.flickr.com/photos/35034346243@N01",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "sourceUrl": "https://www.flickr.com/photos/35034346243@N01/5972341106",
+      "source": "Flickr",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c06",
+    "imageUrl": "https://live.staticflickr.com/6145/5972341106_af1f82477f_b.jpg",
+    "query": "Lebanese spicy potatoes"
+  },
+  "queries": [
+    "Batata harra",
+    "بطاطا حارة",
+    "batata harra",
+    "Lebanese spicy potatoes",
+    "spicy potatoes coriander"
+  ]
+}

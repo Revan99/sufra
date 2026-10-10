@@ -1,0 +1,34 @@
+{
+  "id": "kleicha",
+  "photo": {
+    "src": "images/kleicha.webp",
+    "thumb": "images/kleicha-thumb.webp",
+    "width": 960,
+    "height": 540,
+    "alt": "Pile of kleicha cookies: date-swirl rolls, crimped half-moons and sesame-topped rounds on a green plate",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Kleicha (كليجة)",
+      "author": "Faisal1904",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Faisal1904",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kleicha_(%D9%83%D9%84%D9%8A%D8%AC%D8%A9).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c09",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Kleicha_%28%D9%83%D9%84%D9%8A%D8%AC%D8%A9%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Kleicha"
+  },
+  "queries": [
+    "Kleicha",
+    "كليجة",
+    "klecha cookies"
+  ]
+}

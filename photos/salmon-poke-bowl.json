@@ -1,0 +1,34 @@
+{
+  "id": "salmon-poke-bowl",
+  "photo": {
+    "src": "images/salmon-poke-bowl.webp",
+    "thumb": "images/salmon-poke-bowl-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Salmon poke bowl with edamame, avocado, cucumber, seaweed salad, mango and nori strips over rice",
+    "focus": [
+      45,
+      55
+    ],
+    "credit": {
+      "title": "Salmon Poke Bowl (S) with Spicy mayo sauce - Kitokito",
+      "author": "Andy Li",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Onthewings",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salmon_Poke_Bowl_(S)_with_Spicy_mayo_sauce_-_Kitokito.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Salmon_Poke_Bowl_%28S%29_with_Spicy_mayo_sauce_-_Kitokito.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "salmon poke bowl"
+  },
+  "queries": [
+    "salmon poke bowl",
+    "poke bowl",
+    "salmon poke"
+  ]
+}

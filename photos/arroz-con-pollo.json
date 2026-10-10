@@ -1,0 +1,33 @@
+{
+  "id": "arroz-con-pollo",
+  "photo": {
+    "src": "images/arroz-con-pollo.webp",
+    "thumb": "images/arroz-con-pollo-thumb.webp",
+    "width": 960,
+    "height": 947,
+    "alt": "Roast chicken leg on yellow rice with diced red pepper on a white plate",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Arroz-con-Pollo",
+      "author": "Kobako",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Kobako",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arroz-con-Pollo.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Arroz-con-Pollo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Arroz con Pollo"
+  },
+  "queries": [
+    "Latin Chicken and Rice with Peas and Peppers",
+    "Arroz con Pollo"
+  ]
+}

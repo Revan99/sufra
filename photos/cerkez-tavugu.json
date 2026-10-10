@@ -1,0 +1,36 @@
+{
+  "id": "cerkez-tavugu",
+  "photo": {
+    "src": "images/cerkez-tavugu.webp",
+    "thumb": "images/cerkez-tavugu-thumb.webp",
+    "width": 960,
+    "height": 556,
+    "alt": "Plate of shredded chicken under a thick walnut sauce drizzled with red paprika oil, with white rice and a thyme sprig",
+    "focus": [
+      45,
+      50
+    ],
+    "credit": {
+      "title": "Turkish Circassian Chicken ala Svensker",
+      "author": "jeffreyw",
+      "authorUrl": "https://www.flickr.com/photos/7927684@N03",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "sourceUrl": "https://www.flickr.com/photos/7927684@N03/4714805083",
+      "source": "Flickr",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c05",
+    "imageUrl": "https://live.staticflickr.com/4031/4714805083_ae95f16d41_b.jpg",
+    "query": "circassian chicken walnut"
+  },
+  "queries": [
+    "Çerkez tavuğu",
+    "Circassian chicken",
+    "Cerkez tavugu",
+    "circassian chicken walnut",
+    "çerkez tavuk"
+  ]
+}

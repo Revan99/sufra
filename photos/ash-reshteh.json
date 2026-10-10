@@ -1,0 +1,34 @@
+{
+  "id": "ash-reshteh",
+  "photo": {
+    "src": "images/ash-reshteh.webp",
+    "thumb": "images/ash-reshteh-thumb.webp",
+    "width": 801,
+    "height": 573,
+    "alt": "Bowl of green herb and noodle soup topped with whey, fried onions and dried mint",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Ash e reshte",
+      "author": "Rye-96",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Rye-96",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ash_e_reshte.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Ash_e_reshte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "ash reshteh"
+  },
+  "queries": [
+    "ash reshteh",
+    "آش رشته",
+    "Ash-e reshteh"
+  ]
+}

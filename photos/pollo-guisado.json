@@ -1,0 +1,37 @@
+{
+  "id": "pollo-guisado",
+  "photo": {
+    "src": "images/pollo-guisado.webp",
+    "thumb": "images/pollo-guisado-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Bowl of braised chicken and potato stew in tomato sauce topped with diced tomato and spring onion",
+    "focus": [
+      55,
+      50
+    ],
+    "credit": {
+      "title": "Pollo Guisado",
+      "author": "Kate C Hopkins",
+      "authorUrl": "https://www.flickr.com/photos/54151899@N00",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "sourceUrl": "https://www.flickr.com/photos/54151899@N00/38757742052",
+      "source": "Flickr",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c16",
+    "imageUrl": "https://live.staticflickr.com/4568/38757742052_68f9acee4c_b.jpg",
+    "query": "pollo guisado"
+  },
+  "queries": [
+    "pollo guisado",
+    "Puerto Rican chicken stew",
+    "fricasé de pollo",
+    "pollo guisado",
+    "puerto rican chicken stew",
+    "pollo guisado puertorriqueño"
+  ]
+}

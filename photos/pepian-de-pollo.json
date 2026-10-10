@@ -1,0 +1,34 @@
+{
+  "id": "pepian-de-pollo",
+  "photo": {
+    "src": "images/pepian-de-pollo.webp",
+    "thumb": "images/pepian-de-pollo-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Chicken in thick reddish-brown pepián sauce with sesame, green beans, rice and sliced avocado",
+    "focus": [
+      55,
+      50
+    ],
+    "credit": {
+      "title": "Catalinos Restaurant New Orleans October 2018 Pepian",
+      "author": "Infrogmation of New Orleans",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Infrogmation",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catalinos_Restaurant_New_Orleans_October_2018_Pepian.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c06",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Catalinos_Restaurant_New_Orleans_October_2018_Pepian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "pepián"
+  },
+  "queries": [
+    "pepián",
+    "pepian Guatemala",
+    "pepián de pollo"
+  ]
+}

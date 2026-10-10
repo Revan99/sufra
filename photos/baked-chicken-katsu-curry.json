@@ -1,0 +1,34 @@
+{
+  "id": "baked-chicken-katsu-curry",
+  "photo": {
+    "src": "images/baked-chicken-katsu-curry.webp",
+    "thumb": "images/baked-chicken-katsu-curry-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Sliced breaded chicken katsu on rice with brown Japanese curry sauce, beside a small cabbage salad on an orange tray",
+    "focus": [
+      62,
+      45
+    ],
+    "credit": {
+      "title": "Awa-odori Chicken Katsu Curry 01",
+      "author": "ノボホショコロトソ",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:%E3%83%8E%E3%83%9C%E3%83%9B%E3%82%B7%E3%83%A7%E3%82%B3%E3%83%AD%E3%83%88%E3%82%BD",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Awa-odori_Chicken_Katsu_Curry_01.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c18",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Awa-odori_Chicken_Katsu_Curry_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken katsu curry"
+  },
+  "queries": [
+    "katsu curry",
+    "chicken katsu curry",
+    "カツカレー"
+  ]
+}

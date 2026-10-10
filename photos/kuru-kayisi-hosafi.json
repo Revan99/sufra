@@ -1,0 +1,34 @@
+{
+  "id": "kuru-kayisi-hosafi",
+  "photo": {
+    "src": "images/kuru-kayisi-hosafi.webp",
+    "thumb": "images/kuru-kayisi-hosafi-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "White bowl of golden syrup with plump dried apricots, raisins and a few prunes on a woven placemat",
+    "focus": [
+      50,
+      40
+    ],
+    "credit": {
+      "title": "Apricot, plum and raisin hoşaf",
+      "author": "E4024",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:E4024",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apricot,_plum_and_raisin_ho%C5%9Faf.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Apricot%2C_plum_and_raisin_ho%C5%9Faf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "hoşaf"
+  },
+  "queries": [
+    "kayısı hoşafı",
+    "hoşaf",
+    "dried apricot compote"
+  ]
+}

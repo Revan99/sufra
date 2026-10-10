@@ -1,0 +1,34 @@
+{
+  "id": "andong-jjimdak",
+  "photo": {
+    "src": "images/andong-jjimdak.webp",
+    "thumb": "images/andong-jjimdak-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Large bowl of soy-braised chicken with glass noodles, potatoes, carrot, cabbage and scallions in dark sauce",
+    "focus": [
+      55,
+      55
+    ],
+    "credit": {
+      "title": "Korean.food-Andong-Jjimdakk",
+      "author": "ebifry",
+      "authorUrl": "https://www.flickr.com/photos/ebifry/",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korean.food-Andong-Jjimdakk.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Korean.food-Andong-Jjimdakk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "jjimdak"
+  },
+  "queries": [
+    "jjimdak",
+    "안동찜닭",
+    "찜닭"
+  ]
+}

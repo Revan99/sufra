@@ -1,0 +1,34 @@
+{
+  "id": "moo-goo-gai-pan",
+  "photo": {
+    "src": "images/moo-goo-gai-pan.webp",
+    "thumb": "images/moo-goo-gai-pan-thumb.webp",
+    "width": 960,
+    "height": 695,
+    "alt": "Yellow oval plate of sliced chicken stir-fried with button mushrooms, snow peas, carrot, baby corn and napa cabbage",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Plate of moo goo gai pan",
+      "author": "Ser Amantio di Nicolao",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Ser_Amantio_di_Nicolao",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plate_of_moo_goo_gai_pan.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Plate_of_moo_goo_gai_pan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "moo goo gai pan"
+  },
+  "queries": [
+    "moo goo gai pan",
+    "蘑菇鸡片",
+    "chicken mushroom snow peas"
+  ]
+}

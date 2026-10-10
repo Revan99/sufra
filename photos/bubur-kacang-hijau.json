@@ -1,0 +1,33 @@
+{
+  "id": "bubur-kacang-hijau",
+  "photo": {
+    "src": "images/bubur-kacang-hijau.webp",
+    "thumb": "images/bubur-kacang-hijau-thumb.webp",
+    "width": 960,
+    "height": 563,
+    "alt": "Wooden bowls of mung bean porridge topped with coconut cream and pandan leaves, with sliced white bread behind",
+    "focus": [
+      70,
+      65
+    ],
+    "credit": {
+      "title": "Bubur kacang Hijau",
+      "author": "Irhanz",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Irhanz",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bubur_kacang_Hijau.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Bubur_kacang_Hijau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "bubur kacang hijau"
+  },
+  "queries": [
+    "bubur kacang hijau",
+    "mung bean porridge"
+  ]
+}

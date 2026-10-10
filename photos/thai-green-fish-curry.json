@@ -1,0 +1,34 @@
+{
+  "id": "thai-green-fish-curry",
+  "photo": {
+    "src": "images/thai-green-fish-curry.webp",
+    "thumb": "images/thai-green-fish-curry-thumb.webp",
+    "width": 960,
+    "height": 768,
+    "alt": "Bowl of Thai green curry with pieces of fish and basil leaves in a pale green coconut sauce",
+    "focus": [
+      55,
+      55
+    ],
+    "credit": {
+      "title": "Kaeng kiao wan luk chin pla 02",
+      "author": "Takeaway",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Takeaway",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kaeng_kiao_wan_luk_chin_pla_02.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Kaeng_kiao_wan_luk_chin_pla_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "thai green curry fish"
+  },
+  "queries": [
+    "thai green curry fish",
+    "kaeng khiao wan",
+    "green curry seafood"
+  ]
+}

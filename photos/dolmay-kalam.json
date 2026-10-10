@@ -1,0 +1,38 @@
+{
+  "id": "dolmay-kalam",
+  "photo": {
+    "src": "images/dolmay-kalam.webp",
+    "thumb": "images/dolmay-kalam-thumb.webp",
+    "width": 960,
+    "height": 1280,
+    "alt": "Pot of cabbage rolls stuffed with meat and rice, packed tightly in a reddish tomato broth",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Liat Portal for Foodie Disorder - Stuffed Cabbage with Meat and Rice",
+      "author": "HaJunkiyada",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:HaJunkiyada",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Stuffed_Cabbage_with_Meat_and_Rice.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c06",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Liat_Portal_for_Foodie_Disorder_-_Stuffed_Cabbage_with_Meat_and_Rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "cabbage rolls"
+  },
+  "queries": [
+    "cabbage rolls",
+    "lahana sarması",
+    "محشي ملفوف",
+    "stuffed cabbage leaves rice",
+    "mahshi malfouf",
+    "Kurdish dolma cabbage",
+    "malfouf"
+  ]
+}

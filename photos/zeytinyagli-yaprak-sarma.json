@@ -1,0 +1,34 @@
+{
+  "id": "zeytinyagli-yaprak-sarma",
+  "photo": {
+    "src": "images/zeytinyagli-yaprak-sarma.webp",
+    "thumb": "images/zeytinyagli-yaprak-sarma-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Vine leaf rolls arranged in a circle around a lemon wedge on a white plate",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Zeytinyağlı yaprak sarma ve limon",
+      "author": "E4024",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:E4024",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zeytinya%C4%9Fl%C4%B1_yaprak_sarma_ve_limon.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Zeytinya%C4%9Fl%C4%B1_yaprak_sarma_ve_limon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "zeytinyağlı yaprak sarma"
+  },
+  "queries": [
+    "zeytinyağlı yaprak sarma",
+    "yaprak sarma",
+    "dolmadakia"
+  ]
+}

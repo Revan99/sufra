@@ -1,0 +1,39 @@
+{
+  "id": "farrouj-mashwi",
+  "photo": {
+    "src": "images/farrouj-mashwi.webp",
+    "thumb": "images/farrouj-mashwi-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Charred Lebanese-style grilled chicken beside sliced pickled cucumbers on flatbread",
+    "focus": [
+      30,
+      50
+    ],
+    "credit": {
+      "title": "Lebanese Grilled Chicken",
+      "author": "Mohamod Fasil",
+      "authorUrl": "https://www.flickr.com/photos/131688925@N04",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "sourceUrl": "https://www.flickr.com/photos/131688925@N04/21407105639",
+      "source": "Flickr",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c12",
+    "imageUrl": "https://live.staticflickr.com/5720/21407105639_75293c3c5d_b.jpg",
+    "query": "Lebanese grilled chicken"
+  },
+  "queries": [
+    "farrouj mashwi",
+    "shish taouk",
+    "grilled chicken toum",
+    "فروج مشوي",
+    "Lebanese grilled chicken",
+    "djaj mashwi",
+    "grilled chicken garlic sauce toum",
+    "فروج مشوي"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "chicken-japchae",
+  "photo": {
+    "src": "images/chicken-japchae.webp",
+    "thumb": "images/chicken-japchae-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "White plate of Korean glass noodles stir-fried with garlic chives, red pepper strips and pale shredded vegetables",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Korean cuisine-Japchae-04",
+      "author": "Alan Chan",
+      "authorUrl": "https://www.flickr.com/photos/92283658@N00",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korean_cuisine-Japchae-04.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c09",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Korean_cuisine-Japchae-04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "japchae"
+  },
+  "queries": [
+    "japchae",
+    "잡채",
+    "chicken japchae"
+  ]
+}

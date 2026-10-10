@@ -1,0 +1,34 @@
+{
+  "id": "misal-pav",
+  "photo": {
+    "src": "images/misal-pav.webp",
+    "thumb": "images/misal-pav-thumb.webp",
+    "width": 960,
+    "height": 542,
+    "alt": "Bowl of spicy sprouted-bean misal topped with farsan and coriander, served with two pav buns and a lime wedge",
+    "focus": [
+      45,
+      50
+    ],
+    "credit": {
+      "title": "Misal Pav from Maharashtra",
+      "author": "Dheerajk88",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Dheerajk88",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Misal_Pav_from_Maharashtra.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c07",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Misal_Pav_from_Maharashtra.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "misal pav"
+  },
+  "queries": [
+    "misal pav",
+    "misal",
+    "मिसळ पाव"
+  ]
+}

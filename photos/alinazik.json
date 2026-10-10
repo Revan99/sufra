@@ -1,0 +1,33 @@
+{
+  "id": "alinazik",
+  "photo": {
+    "src": "images/alinazik.webp",
+    "thumb": "images/alinazik-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Smoky eggplant yogurt topped with browned lamb, parsley, grilled tomatoes and green peppers on a white plate",
+    "focus": [
+      40,
+      45
+    ],
+    "credit": {
+      "title": "Ali-nazik-2",
+      "author": "Mence",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Mence",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ali-nazik-2.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ali-nazik-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Alinazik"
+  },
+  "queries": [
+    "Alinazik",
+    "Ali nazik kebab"
+  ]
+}

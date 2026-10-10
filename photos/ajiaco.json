@@ -1,0 +1,34 @@
+{
+  "id": "ajiaco",
+  "photo": {
+    "src": "images/ajiaco.webp",
+    "thumb": "images/ajiaco-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "White bowl of ajiaco soup with potatoes, corn kernels, guascas and shredded chicken",
+    "focus": [
+      45,
+      45
+    ],
+    "credit": {
+      "title": "Ajiaco santafereño 11",
+      "author": "ProtoplasmaKid",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:ProtoplasmaKid",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ajiaco_santafere%C3%B1o_11.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c12",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Ajiaco_santafere%C3%B1o_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "ajiaco santafereño"
+  },
+  "queries": [
+    "ajiaco",
+    "ajiaco santafereño",
+    "ajiaco bogotano"
+  ]
+}

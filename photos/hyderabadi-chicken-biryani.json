@@ -1,0 +1,34 @@
+{
+  "id": "hyderabadi-chicken-biryani",
+  "photo": {
+    "src": "images/hyderabadi-chicken-biryani.webp",
+    "thumb": "images/hyderabadi-chicken-biryani-thumb.webp",
+    "width": 960,
+    "height": 638,
+    "alt": "Chicken biryani topped with fried onions in a copper handi, with raita and salan in small bowls",
+    "focus": [
+      40,
+      50
+    ],
+    "credit": {
+      "title": "Chicken Hyderabadi Biryani",
+      "author": "Dheerajk88",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Dheerajk88",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Hyderabadi_Biryani.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c04",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Chicken_Hyderabadi_Biryani.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Hyderabadi chicken biryani"
+  },
+  "queries": [
+    "Hyderabadi chicken biryani",
+    "chicken dum biryani",
+    "Hyderabadi biryani"
+  ]
+}

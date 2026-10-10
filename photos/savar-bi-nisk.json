@@ -1,0 +1,35 @@
+{
+  "id": "savar-bi-nisk",
+  "photo": {
+    "src": "images/savar-bi-nisk.webp",
+    "thumb": "images/savar-bi-nisk-thumb.webp",
+    "width": 960,
+    "height": 1276,
+    "alt": "Mound of bulgur cooked with green lentils, topped with golden caramelized onion slices on a white plate",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Mercimekli bulgur pilavı",
+      "author": "Caria Sekirman",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Caria_Sekirman",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercimekli_bulgur_pilav%C4%B1.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Mercimekli_bulgur_pilav%C4%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "mercimekli bulgur pilavı"
+  },
+  "queries": [
+    "bulgur lentil pilaf",
+    "mercimekli bulgur pilavı",
+    "bulgur with lentils",
+    "savar"
+  ]
+}

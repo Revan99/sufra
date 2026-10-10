@@ -1,0 +1,34 @@
+{
+  "id": "mast-o-khiar",
+  "photo": {
+    "src": "images/mast-o-khiar.webp",
+    "thumb": "images/mast-o-khiar-thumb.webp",
+    "width": 960,
+    "height": 887,
+    "alt": "Glass bowl of yogurt with diced cucumber and raisins, swirled with dried mint",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Mast-Khiar",
+      "author": "MRG90",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:MRG90",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mast-Khiar.png",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c14",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Mast-Khiar.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "ماست و خیار"
+  },
+  "queries": [
+    "Mast-o-khiar",
+    "ماست و خیار",
+    "mast o khiar"
+  ]
+}

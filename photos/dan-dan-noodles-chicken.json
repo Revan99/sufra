@@ -1,0 +1,36 @@
+{
+  "id": "dan-dan-noodles-chicken",
+  "photo": {
+    "src": "images/dan-dan-noodles-chicken.webp",
+    "thumb": "images/dan-dan-noodles-chicken-thumb.webp",
+    "width": 960,
+    "height": 432,
+    "alt": "Bowl of wheat noodles in red chilli oil sauce with peanuts, sesame seeds, chopped scallions and greens, with chopsticks",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Dan Dan Noodles",
+      "author": "Fumikas Sagisavas",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Fumikas_Sagisavas",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dan_Dan_Noodles.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Dan_Dan_Noodles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "dan dan noodles"
+  },
+  "queries": [
+    "dan dan noodles",
+    "担担面",
+    "擔擔麵",
+    "chicken dan dan noodles",
+    "dan dan chicken"
+  ]
+}

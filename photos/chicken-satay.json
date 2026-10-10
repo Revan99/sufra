@@ -1,0 +1,34 @@
+{
+  "id": "chicken-satay",
+  "photo": {
+    "src": "images/chicken-satay.webp",
+    "thumb": "images/chicken-satay-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Chicken satay skewers in peanut sauce with calamansi limes, tomato and cucumber on a white plate",
+    "focus": [
+      45,
+      50
+    ],
+    "credit": {
+      "title": "Sate ayam sama bumbu kacang",
+      "author": "Bapak Alex",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Bapak_Alex",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sate_ayam_sama_bumbu_kacang.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c08",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Sate_ayam_sama_bumbu_kacang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "sate ayam"
+  },
+  "queries": [
+    "sate ayam",
+    "chicken satay peanut sauce",
+    "satay"
+  ]
+}

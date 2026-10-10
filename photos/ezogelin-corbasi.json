@@ -1,0 +1,34 @@
+{
+  "id": "ezogelin-corbasi",
+  "photo": {
+    "src": "images/ezogelin-corbasi.webp",
+    "thumb": "images/ezogelin-corbasi-thumb.webp",
+    "width": 960,
+    "height": 960,
+    "alt": "Bowl of orange-red lentil and bulgur soup with a lemon wedge on a white plate",
+    "focus": [
+      48,
+      55
+    ],
+    "credit": {
+      "title": "20230430 Ezogelin çorbası",
+      "author": "Basak",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Basak",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20230430_Ezogelin_%C3%A7orbas%C4%B1.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c06",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/20230430_Ezogelin_%C3%A7orbas%C4%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Ezogelin"
+  },
+  "queries": [
+    "Ezogelin",
+    "ezogelin çorbası",
+    "Ezo gelin soup"
+  ]
+}

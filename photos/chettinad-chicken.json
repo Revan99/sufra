@@ -1,0 +1,34 @@
+{
+  "id": "chettinad-chicken",
+  "photo": {
+    "src": "images/chettinad-chicken.webp",
+    "thumb": "images/chettinad-chicken-thumb.webp",
+    "width": 960,
+    "height": 1434,
+    "alt": "Thick Chettinad chicken curry topped with fresh coriander in a steel serving bowl on brown paper",
+    "focus": [
+      45,
+      55
+    ],
+    "credit": {
+      "title": "Chicken Chettinad (15914101122)",
+      "author": "Yummy O Yummy",
+      "authorUrl": "https://www.flickr.com/people/127963413@N05",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Chettinad_(15914101122).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c11",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Chicken_Chettinad_%2815914101122%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken chettinad"
+  },
+  "queries": [
+    "chicken chettinad",
+    "chettinad chicken",
+    "pepper chicken"
+  ]
+}

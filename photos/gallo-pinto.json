@@ -1,0 +1,33 @@
+{
+  "id": "gallo-pinto",
+  "photo": {
+    "src": "images/gallo-pinto.webp",
+    "thumb": "images/gallo-pinto-thumb.webp",
+    "width": 960,
+    "height": 1702,
+    "alt": "Plate of gallo pinto rice and black beans with scrambled egg, buttered bread rolls and a fried plantain slice",
+    "focus": [
+      55,
+      45
+    ],
+    "credit": {
+      "title": "Pinto con huevo",
+      "author": "Pequeño mar",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Peque%C3%B1o_mar",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pinto_con_huevo.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c11",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Pinto_con_huevo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "gallo pinto"
+  },
+  "queries": [
+    "gallo pinto",
+    "gallo pinto huevo"
+  ]
+}

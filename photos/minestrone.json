@@ -1,0 +1,34 @@
+{
+  "id": "minestrone",
+  "photo": {
+    "src": "images/minestrone.webp",
+    "thumb": "images/minestrone-thumb.webp",
+    "width": 960,
+    "height": 641,
+    "alt": "Green bowl of tomato minestrone with beans, carrots, vegetables and short pasta",
+    "focus": [
+      60,
+      55
+    ],
+    "credit": {
+      "title": "Minestrone soup",
+      "author": "Katrin Morenz from Aachen, Deutschland",
+      "authorUrl": "https://www.flickr.com/people/26242865@N04",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Minestrone_soup.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Minestrone_soup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "minestrone"
+  },
+  "queries": [
+    "minestrone",
+    "minestrone soup",
+    "minestrone pasta beans"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "chicken-keema-paratha",
+  "photo": {
+    "src": "images/chicken-keema-paratha.webp",
+    "thumb": "images/chicken-keema-paratha-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Chicken keema stuffed paratha on a white plate with green chutney and pickle",
+    "focus": [
+      60,
+      60
+    ],
+    "credit": {
+      "title": "Chicken Keema Paratha",
+      "author": "Kamalesh Bharadwaj",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Kbharadwaj5",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Keema_Paratha.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Chicken_Keema_Paratha.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "keema paratha"
+  },
+  "queries": [
+    "keema paratha",
+    "chicken keema paratha",
+    "qeema paratha"
+  ]
+}

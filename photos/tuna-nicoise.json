@@ -1,0 +1,34 @@
+{
+  "id": "tuna-nicoise",
+  "photo": {
+    "src": "images/tuna-nicoise.webp",
+    "thumb": "images/tuna-nicoise-thumb.webp",
+    "width": 960,
+    "height": 960,
+    "alt": "Bowl of niçoise salad with flaked tuna, quartered hard-boiled eggs, black olives and spinach leaves",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Salade niçoise variant - Massachusetts",
+      "author": "Daderot",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Daderot",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salade_ni%C3%A7oise_variant_-_Massachusetts.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c06",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Salade_ni%C3%A7oise_variant_-_Massachusetts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "salade niçoise"
+  },
+  "queries": [
+    "salade niçoise",
+    "nicoise salad",
+    "tuna nicoise"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "chicken-fajitas",
+  "photo": {
+    "src": "images/chicken-fajitas.webp",
+    "thumb": "images/chicken-fajitas-thumb.webp",
+    "width": 960,
+    "height": 1280,
+    "alt": "Sizzling skillet of seasoned chicken strips with red and green peppers and onions",
+    "focus": [
+      50,
+      45
+    ],
+    "credit": {
+      "title": "Chicken fajitas - La Hacienda - Sarah Stierch",
+      "author": "Missvain",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Missvain",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_fajitas_-_La_Hacienda_-_Sarah_Stierch.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Chicken_fajitas_-_La_Hacienda_-_Sarah_Stierch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken fajitas"
+  },
+  "queries": [
+    "chicken fajitas",
+    "fajitas peppers",
+    "fajita"
+  ]
+}

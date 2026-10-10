@@ -1,0 +1,32 @@
+{
+  "id": "english-beans-on-toast",
+  "photo": {
+    "src": "images/english-beans-on-toast.webp",
+    "thumb": "images/english-beans-on-toast-thumb.webp",
+    "width": 960,
+    "height": 634,
+    "alt": "Baked beans in tomato sauce piled on two slices of seeded toast on a blue and white plate",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Beans on sourdough toast",
+      "author": "Jon Chan",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beans_on_sourdough_toast.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c10",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Beans_on_sourdough_toast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "beans on toast"
+  },
+  "queries": [
+    "beans on toast",
+    "baked beans toast"
+  ]
+}
