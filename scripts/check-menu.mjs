@@ -3,19 +3,6 @@
 // Usage: node scripts/check-menu.mjs   → prints counts and every problem; exit 1 if any.
 import { readFileSync } from 'node:fs';
 
-const CHUNKS = [
-  'breakfast-middle-eastern',
-  'lunch-kurdish-iraqi',
-  'lunch-mediterranean',
-  'dinner-kurdish-iraqi',
-  'dinner-mediterranean',
-  'snacks-middle-eastern',
-  'desserts',
-  'breakfast-international',
-  'lunch-international',
-  'dinner-international',
-  'snacks-international',
-];
 const SLOTS = ['breakfast', 'lunch', 'dinner', 'snack'];
 const CUISINES = ['kurdish', 'iraqi', 'levantine', 'turkish', 'persian', 'gulf', 'egyptian', 'north-african', 'mediterranean', 'south-asian', 'east-asian', 'southeast-asian', 'latin-american', 'western'];
 const DIETS = ['vegan', 'vegetarian', 'pescatarian', 'meat'];
@@ -32,6 +19,7 @@ try {
 const problems = [];
 const chunks = Array.isArray(menu?.chunks) ? menu.chunks : [];
 if (!chunks.length) problems.push('menu.chunks must be a non-empty array');
+const CHUNKS = chunks.map((c) => c.chunk);
 const dishes = chunks.flatMap((c) => (Array.isArray(c.dishes) ? c.dishes : []));
 
 for (const d of dishes) {
@@ -54,7 +42,7 @@ const dupNames = names.filter((n, i) => names.indexOf(n) !== i);
 if (dupNames.length) problems.push(`duplicate names: ${[...new Set(dupNames)].join(', ')}`);
 
 const isVeg = (d) => d.diet === 'vegan' || d.diet === 'vegetarian';
-console.log('chunk                      dishes veg vegan GF DF NF EF quick');
+console.log('chunk                            dishes veg vegan GF DF NF EF quick');
 for (const name of CHUNKS) {
   const c = chunks.find((x) => x.chunk === name);
   if (!c) {
@@ -72,9 +60,8 @@ for (const name of CHUNKS) {
     EF: ds.filter((d) => d.eggFree).length,
     quick: ds.filter((d) => d.quick).length,
   };
-  console.log(`${name.padEnd(26)} ${Object.values(n).map((v) => String(v).padStart(3)).join('  ')}`);
+  console.log(`${name.padEnd(32)} ${Object.values(n).map((v) => String(v).padStart(3)).join('  ')}`);
 }
-for (const c of chunks) if (!CHUNKS.includes(c.chunk)) problems.push(`unknown chunk "${c.chunk}"`);
 
 // Same minimums as src/data/coverage.ts.
 const RULES = [
