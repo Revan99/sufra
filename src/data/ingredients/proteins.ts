@@ -164,4 +164,19 @@ export const ingredients: Ingredient[] = [
   { id: 'shrimp-raw', name: 'Shrimp, peeled (raw)', aisle: 'seafood', allergens: ['shellfish'], animal: 'shellfish',
     per100g: { kcal: 85, protein: 20.1, carbs: 0, fiber: 0, sugars: 0, fat: 0.51, satFat: 0.101, sodium: 119 },
     halalNote: 'Shrimp is halal for most scholars; some Hanafi scholars consider it disliked (makruh).' },
+
+  // ---------- Shared staples added for the library expansion ----------
+  // USDA SR Legacy 05071: Chicken, broilers or fryers, dark meat, drumstick, meat only, raw; scaled x0.67 because
+  // this entry is weighed with the bone (bone is about a third of a skinless bone-in drumstick)
+  { id: 'chicken-drumstick-bone-in-raw', name: 'Chicken drumstick, skinless, bone-in (raw, weighed with bone)', aisle: 'meat-poultry', allergens: [], animal: 'poultry',
+    per100g: { kcal: 78, protein: 13, carbs: 0, fiber: 0, sugars: 0, fat: 2.49, satFat: 0.64, sodium: 76 },
+    halalNote: 'Buy halal (zabiha) chicken.' },
+  // USDA SR Legacy 05011: Chicken, broilers or fryers, meat only, raw; scaled x0.70 because this entry is a
+  // skinless chicken cut into bone-in pieces (or a skinless whole bird), weighed with the bone (about 30% bone)
+  { id: 'chicken-pieces-bone-in-raw', name: 'Chicken pieces, skinless, bone-in (raw, weighed with bone)', aisle: 'meat-poultry', allergens: [], animal: 'poultry',
+    per100g: { kcal: 83, protein: 15, carbs: 0, fiber: 0, sugars: 0, fat: 2.16, satFat: 0.55, sodium: 54 },
+    halalNote: 'Buy halal (zabiha) chicken.' },
+  // USDA SR Legacy 15101: Fish, snapper, mixed species, raw
+  { id: 'snapper-raw', name: 'Snapper fillet (raw)', aisle: 'seafood', allergens: ['fish'], animal: 'fish',
+    per100g: { kcal: 100, protein: 20.5, carbs: 0, fiber: 0, sugars: 0, fat: 1.34, satFat: 0.285, sodium: 64 } },
 ];

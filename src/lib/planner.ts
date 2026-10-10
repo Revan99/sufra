@@ -963,6 +963,46 @@ interface LaterGroup {
   lanes: number;
   recs: Rec[];
   fallback: Rec[] | null;
+  recsSum: ListSummary;
+  fallbackSum: ListSummary | null;
+}
+
+/**
+ * What restTier needs from a kcal-sorted list, so each candidate costs O(lanes) instead of a scan: the lanes + 1
+ * lightest and heaviest recipes (one spare for the excluded candidate) and the two highest protein densities.
+ */
+interface ListSummary {
+  head: Rec[];
+  /** Heaviest first. */
+  tail: Rec[];
+  d1: number;
+  d1Id: string;
+  d2: number;
+}
+
+function summarize(list: readonly Rec[], lanes: number): ListSummary {
+  let d1 = 0;
+  let d1Id = '';
+  let d2 = 0;
+  for (const x of list) {
+    if (x.density > d1) {
+      d2 = d1;
+      d1 = x.density;
+      d1Id = x.id;
+    } else if (x.density > d2) d2 = x.density;
+  }
+  return { head: list.slice(0, lanes + 1), tail: list.slice(Math.max(0, list.length - lanes - 1)).reverse(), d1, d1Id, d2 };
+}
+
+/** Each slot list sorted by kcal (stable), built once: filtering it keeps the order, so laterGroups never re-sorts. */
+const kcalSorted = new WeakMap<readonly Rec[], Rec[]>();
+function sortedByKcal(list: readonly Rec[]): Rec[] {
+  let sorted = kcalSorted.get(list);
+  if (!sorted) {
+    sorted = [...list].sort((a, b) => a.kcal - b.kcal);
+    kcalSorted.set(list, sorted);
+  }
+  return sorted;
 }
 
 function laterGroups(S: Setup, dn: number, m: number, state: ReadonlyMap<MealSlot, SlotState>, dayIds: ReadonlySet<string>): LaterGroup[] {
@@ -971,19 +1011,25 @@ function laterGroups(S: Setup, dn: number, m: number, state: ReadonlyMap<MealSlo
     const slot = (S.lanes[j] as MealShare).slot;
     bySlot.set(slot, [...(bySlot.get(slot) ?? []), j]);
   }
-  const byKcal = (list: Rec[]) => list.sort((a, b) => a.kcal - b.kcal);
   const groups: LaterGroup[] = [];
+  const group = (n: number, recs: Rec[], fallback: Rec[] | null): LaterGroup => ({
+    lanes: n,
+    recs,
+    fallback,
+    recsSum: summarize(recs, n),
+    fallbackSum: fallback ? summarize(fallback, n) : null,
+  });
   for (const [slot, lanes] of bySlot) {
     const ss = S.slots.get(slot);
     const st = state.get(slot);
     if (!ss || !st) continue;
     if (ss.mode === 'small') {
-      const free = byKcal(ss.pool.filter((r) => !dayIds.has(r.id)));
+      const free = sortedByKcal(ss.pool).filter((r) => !dayIds.has(r.id));
       const table = lanes.map((j) => (ss.table ? tablePick(ss.table, dn, (S.lanes[j] as MealShare).index) : null));
-      const own = table.every((r): r is Rec => !!r && !dayIds.has(r.id)) ? byKcal(table as Rec[]) : null;
-      groups.push(own ? { lanes: lanes.length, recs: own, fallback: free } : { lanes: lanes.length, recs: free, fallback: null });
+      const own = table.every((r): r is Rec => !!r && !dayIds.has(r.id)) ? (table as Rec[]).sort((a, b) => a.kcal - b.kcal) : null;
+      groups.push(own ? group(lanes.length, own, free) : group(lanes.length, free, null));
     } else {
-      groups.push({ lanes: lanes.length, recs: byKcal(ss.all.filter((r) => !dayIds.has(r.id) && freeInSlot(st, r.id, dn))), fallback: null });
+      groups.push(group(lanes.length, sortedByKcal(ss.all).filter((r) => !dayIds.has(r.id) && freeInSlot(st, r.id, dn)), null));
     }
   }
   return groups;
@@ -1006,24 +1052,20 @@ function restTier(S: Setup, fixed: readonly Rec[], groups: readonly LaterGroup[]
     segments.push({ density: f.density, kcal: (PORTION_MAX - PORTION_MIN) * f.kcal });
   }
   for (const g of groups) {
-    const list = g.fallback && g.recs.some((x) => x.id === exclude) ? g.fallback : g.recs;
+    const sum = g.fallbackSum && g.recs.some((x) => x.id === exclude) ? g.fallbackSum : g.recsSum;
     let small = 0;
     let large = 0;
-    let dmax = 0;
     let count = 0;
-    for (const x of list) {
+    for (const x of sum.head) {
       if (x.id === exclude) continue;
-      if (count < g.lanes) small += x.kcal;
-      count++;
-      dmax = Math.max(dmax, x.density);
+      if (count++ < g.lanes) small += x.kcal;
     }
     count = 0;
-    for (let i = list.length - 1; i >= 0 && count < g.lanes; i--) {
-      const x = list[i] as Rec;
+    for (const x of sum.tail) {
       if (x.id === exclude) continue;
-      large += x.kcal;
-      count++;
+      if (count++ < g.lanes) large += x.kcal;
     }
+    const dmax = sum.d1Id === exclude ? sum.d2 : sum.d1;
     lo += PORTION_MIN * small;
     hi += PORTION_MAX * large;
     r += PORTION_MIN * small * dmax;

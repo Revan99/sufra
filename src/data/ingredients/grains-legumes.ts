@@ -233,4 +233,48 @@ export const ingredients: Ingredient[] = [
   // (SR 11450 Soybeans, green, raw lists 47% refuse as pods)
   { id: 'edamame-in-pods-frozen', name: 'Edamame in pods (frozen, weighed with pods)', aisle: 'frozen', allergens: ['soy'],
     per100g: { kcal: 58, protein: 5.94, carbs: 4.03, fiber: 2.54, sugars: 1.31, fat: 2.51, satFat: 0.3, sodium: 3 } },
+
+  // ---------- Shared staples added for the library expansion ----------
+  // USDA SR Legacy 28285: Bread, chapati or roti, whole wheat, commercially prepared, frozen
+  { id: 'roti-whole-wheat', name: 'Whole-wheat roti (chapati)', aisle: 'bakery-grains', allergens: ['gluten'],
+    per100g: { kcal: 299, protein: 7.85, carbs: 46.1, fiber: 9.7, sugars: 2.93, fat: 9.2, satFat: 3.31, sodium: 298 } },
+  // USDA SR Legacy 28287: Bread, naan, whole wheat, commercially prepared, refrigerated (naan is usually made with milk or yogurt)
+  { id: 'naan-whole-wheat', name: 'Whole-wheat naan', aisle: 'bakery-grains', allergens: ['gluten', 'dairy'], animal: 'dairy',
+    halalNote: 'Check the label: some naan is brushed with butter or made with non-halal emulsifiers.',
+    per100g: { kcal: 286, protein: 10.2, carbs: 46.2, fiber: 4.8, sugars: 3.4, fat: 6.7, satFat: 2.91, sodium: 467 } },
+  // USDA SR Legacy 20109: Noodles, egg, dry, enriched
+  { id: 'noodles-egg-dry', name: 'Egg noodles (dry)', aisle: 'bakery-grains', allergens: ['gluten', 'egg'], animal: 'egg',
+    per100g: { kcal: 384, protein: 14.2, carbs: 71.3, fiber: 3.3, sugars: 1.88, fat: 4.44, satFat: 1.18, sodium: 21 } },
+  // USDA SR Legacy 16082: Noodles, chinese, cellophane or long rice (mung beans), dehydrated
+  // (also stands in for Korean sweet potato glass noodles, dangmyeon)
+  { id: 'noodles-cellophane-dry', name: 'Glass noodles (dry)', aisle: 'bakery-grains', allergens: [],
+    per100g: { kcal: 351, protein: 0.16, carbs: 86.1, fiber: 0.5, sugars: 0, fat: 0.06, satFat: 0.017, sodium: 10 } },
+  // USDA SR Legacy 18368: Wonton wrappers (includes egg roll wrappers) (sugars not reported; most brands contain egg)
+  { id: 'wonton-wrappers', name: 'Wonton or dumpling wrappers', aisle: 'bakery-grains', allergens: ['gluten', 'egg'], animal: 'egg',
+    per100g: { kcal: 291, protein: 9.8, carbs: 57.9, fiber: 1.8, sugars: 0, fat: 1.5, satFat: 0.263, sodium: 572 } },
+  // USDA SR Legacy 18338: Phyllo dough
+  { id: 'filo-dough', name: 'Filo pastry sheets', aisle: 'bakery-grains', allergens: ['gluten'],
+    halalNote: 'Choose filo made with vegetable oil (no lard or animal fat).',
+    per100g: { kcal: 299, protein: 7.1, carbs: 52.6, fiber: 1.9, sugars: 0.18, fat: 6, satFat: 1.47, sodium: 483 } },
+  // USDA SR Legacy 20005: Barley, pearled, raw
+  { id: 'barley-pearled-dry', name: 'Pearl barley (dry)', aisle: 'bakery-grains', allergens: ['gluten'],
+    per100g: { kcal: 352, protein: 9.91, carbs: 77.7, fiber: 15.6, sugars: 0.8, fat: 1.16, satFat: 0.244, sodium: 9 } },
+  // USDA SR Legacy 20011: Buckwheat flour, whole-groat
+  { id: 'flour-buckwheat', name: 'Buckwheat flour', aisle: 'bakery-grains', allergens: [],
+    per100g: { kcal: 335, protein: 12.6, carbs: 70.6, fiber: 10, sugars: 2.6, fat: 3.1, satFat: 0.677, sodium: 11 } },
+  // USDA SR Legacy 20020: Cornmeal, whole-grain, yellow (also polenta and Brazilian flocão)
+  { id: 'cornmeal-whole-grain', name: 'Cornmeal, whole-grain (polenta)', aisle: 'bakery-grains', allergens: [],
+    per100g: { kcal: 362, protein: 8.12, carbs: 76.9, fiber: 7.3, sugars: 0.64, fat: 3.59, satFat: 0.505, sodium: 35 } },
+  // USDA SR Legacy 20466: Semolina, unenriched (sugars not reported; also fine semolina for rava and irmik)
+  { id: 'semolina-dry', name: 'Semolina (dry)', aisle: 'bakery-grains', allergens: ['gluten'],
+    per100g: { kcal: 360, protein: 12.7, carbs: 72.8, fiber: 3.9, sugars: 0, fat: 1.05, satFat: 0.15, sodium: 1 } },
+  // USDA SR Legacy 16083: Mungo beans, mature seeds, raw (urad dal, black gram; sugars not reported)
+  { id: 'urad-dal-dried', name: 'Urad dal (black gram, dried)', aisle: 'legumes', allergens: [],
+    per100g: { kcal: 341, protein: 25.2, carbs: 59, fiber: 18.3, sugars: 0, fat: 1.64, satFat: 0.114, sodium: 38 } },
+  // USDA SR Legacy 16062: Cowpeas, common (blackeyes, crowder, southern), mature seeds, raw
+  { id: 'black-eyed-peas-dried', name: 'Black-eyed peas (dried)', aisle: 'legumes', allergens: [],
+    per100g: { kcal: 336, protein: 23.5, carbs: 60, fiber: 10.6, sugars: 6.9, fat: 1.26, satFat: 0.331, sodium: 16 } },
+  // USDA SR Legacy 16161: MORI-NU, Tofu, silken, soft
+  { id: 'tofu-silken', name: 'Silken tofu', aisle: 'legumes', allergens: ['soy'],
+    per100g: { kcal: 55, protein: 4.8, carbs: 2.9, fiber: 0.1, sugars: 1.31, fat: 2.7, satFat: 0.357, sodium: 5 } },
 ];

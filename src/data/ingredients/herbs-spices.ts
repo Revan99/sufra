@@ -176,4 +176,24 @@ export const ingredients: Ingredient[] = [
   // black pepper 10%, paprika 10%, allspice 5%, cardamom 5%.
   { id: 'ras-el-hanout', name: 'Ras el hanout', aisle: 'spices', allergens: [],
     per100g: { kcal: 306, protein: 10.74, carbs: 63.25, fiber: 28.7, sugars: 2.59, fat: 9.54, satFat: 1.519, sodium: 52 } },
+
+  // ---------- Shared staples added for the library expansion ----------
+  // USDA SR Legacy 02063: Rosemary, fresh (sugars not reported)
+  { id: 'rosemary-fresh', name: 'Rosemary, fresh', aisle: 'herbs', allergens: [],
+    per100g: { kcal: 131, protein: 3.31, carbs: 20.7, fiber: 14.1, sugars: 0, fat: 5.86, satFat: 2.84, sodium: 26 } },
+  // USDA SR Legacy 02038: Spices, sage, ground
+  { id: 'sage-dried', name: 'Sage, dried', aisle: 'spices', allergens: [],
+    per100g: { kcal: 315, protein: 10.6, carbs: 60.7, fiber: 40.3, sugars: 1.71, fat: 12.8, satFat: 7.03, sodium: 11 } },
+  // USDA SR Legacy 02019: Spices, fenugreek seed (methi seeds, Yemeni hilbeh; sugars not reported)
+  { id: 'fenugreek-seeds', name: 'Fenugreek seeds', aisle: 'spices', allergens: [],
+    per100g: { kcal: 323, protein: 23, carbs: 58.4, fiber: 24.6, sugars: 0, fat: 6.41, satFat: 1.46, sodium: 67 } },
+  // USDA SR Legacy 02018: Spices, fennel seed (sugars not reported)
+  { id: 'fennel-seeds', name: 'Fennel seeds', aisle: 'spices', allergens: [],
+    per100g: { kcal: 345, protein: 15.8, carbs: 52.3, fiber: 39.8, sugars: 0, fat: 14.9, satFat: 0.48, sodium: 88 } },
+  // USDA SR Legacy 02005: Spices, caraway seed
+  { id: 'caraway-seeds', name: 'Caraway seeds', aisle: 'spices', allergens: [],
+    per100g: { kcal: 333, protein: 19.8, carbs: 49.9, fiber: 38, sugars: 0.64, fat: 14.6, satFat: 0.62, sodium: 17 } },
+  // USDA SR Legacy 11978: Peppers, ancho, dried (whole dried chiles; also stands in for guajillo; sugars not reported)
+  { id: 'ancho-chili-dried', name: 'Dried ancho chile', aisle: 'spices', allergens: [],
+    per100g: { kcal: 281, protein: 11.9, carbs: 51.4, fiber: 21.6, sugars: 0, fat: 8.2, satFat: 0.82, sodium: 43 } },
 ];

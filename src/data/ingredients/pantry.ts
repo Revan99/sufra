@@ -176,4 +176,31 @@ export const ingredients: Ingredient[] = [
   // Water: all zeros (USDA SR Legacy 14411: Beverages, water, tap, drinking, has only trace sodium)
   { id: 'water', name: 'Water', aisle: 'other', allergens: [],
     per100g: { kcal: 0, protein: 0, carbs: 0, fiber: 0, sugars: 0, fat: 0, satFat: 0, sodium: 0 } },
+
+  // ---------- Shared staples added for the library expansion ----------
+  // USDA SR Legacy 12087: Nuts, cashew nuts, raw
+  { id: 'cashews', name: 'Cashews (raw, unsalted)', aisle: 'nuts-seeds', allergens: ['tree-nut'],
+    per100g: { kcal: 553, protein: 18.2, carbs: 30.2, fiber: 3.3, sugars: 5.91, fat: 43.8, satFat: 7.78, sodium: 12 } },
+  // USDA SR Legacy 12108: Nuts, coconut meat, dried (desiccated), not sweetened (very high in saturated fat: use by the spoonful)
+  { id: 'coconut-desiccated', name: 'Desiccated coconut, unsweetened', aisle: 'nuts-seeds', allergens: [],
+    per100g: { kcal: 660, protein: 6.88, carbs: 23.6, fiber: 16.3, sugars: 7.35, fat: 64.5, satFat: 57.2, sodium: 37 } },
+  // USDA SR Legacy 02054: Capers, canned (drained; very salty, rinse and measure)
+  { id: 'capers', name: 'Capers (drained)', aisle: 'canned-jarred', allergens: [],
+    halalNote: 'Choose capers in brine or salt, not ones packed in wine vinegar.',
+    per100g: { kcal: 23, protein: 2.36, carbs: 4.89, fiber: 3.2, sugars: 0.41, fat: 0.86, satFat: 0.233, sodium: 2350 } },
+  // USDA SR Legacy 16112: Miso
+  { id: 'miso', name: 'Miso paste', aisle: 'condiments-sauces', allergens: ['soy'],
+    halalNote: 'Choose a miso made without added alcohol (some brands add ethanol as a preservative); barley miso contains gluten.',
+    per100g: { kcal: 198, protein: 12.8, carbs: 25.4, fiber: 5.4, sugars: 6.2, fat: 6.01, satFat: 1.02, sodium: 3730 } },
+  // USDA SR Legacy 06175: Sauce, hoisin, ready-to-serve (made with wheat and usually sesame)
+  { id: 'hoisin-sauce', name: 'Hoisin sauce', aisle: 'condiments-sauces', allergens: ['soy', 'gluten', 'sesame'],
+    halalNote: 'Choose a halal-certified hoisin sauce with no added alcohol.',
+    per100g: { kcal: 220, protein: 3.31, carbs: 44.1, fiber: 2.8, sugars: 27.3, fat: 3.39, satFat: 0.568, sodium: 1620 } },
+  // USDA SR Legacy 19353: Syrups, maple
+  { id: 'maple-syrup', name: 'Maple syrup', aisle: 'baking-sweeteners', allergens: [], freeSugar: true,
+    per100g: { kcal: 260, protein: 0.04, carbs: 67, fiber: 0, sugars: 60.5, fat: 0.06, satFat: 0.007, sodium: 12 } },
+  // USDA SR Legacy 09401: Applesauce, canned, unsweetened, with added ascorbic acid. Sugars in fruit purées
+  // count as free sugar (WHO/SACN), so this is flagged even though nothing is added.
+  { id: 'applesauce-unsweetened', name: 'Applesauce, unsweetened', aisle: 'canned-jarred', allergens: [], freeSugar: true,
+    per100g: { kcal: 42, protein: 0.17, carbs: 11.3, fiber: 1.1, sugars: 9.39, fat: 0.1, satFat: 0.008, sodium: 2 } },
 ];

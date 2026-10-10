@@ -17,6 +17,30 @@ import { ingredients as extraBreakfastInternational } from './extra/breakfast-in
 import { ingredients as extraLunchInternational } from './extra/lunch-international.ts';
 import { ingredients as extraDinnerInternational } from './extra/dinner-international.ts';
 import { ingredients as extraSnacksInternational } from './extra/snacks-international.ts';
+import { ingredients as extraChickenKurdishIraqi1 } from './extra/chicken-kurdish-iraqi-1.ts';
+import { ingredients as extraChickenSouthAsian1 } from './extra/chicken-south-asian-1.ts';
+import { ingredients as extraChickenLatinAmerican1 } from './extra/chicken-latin-american-1.ts';
+import { ingredients as extraChickenBitesBowls1 } from './extra/chicken-bites-bowls-1.ts';
+import { ingredients as extraBreakfastWorld1 } from './extra/breakfast-world-1.ts';
+import { ingredients as extraFishMeat1 } from './extra/fish-meat-1.ts';
+import { ingredients as extraVegetarianMains1 } from './extra/vegetarian-mains-1.ts';
+import { ingredients as extraSnacksDesserts1 } from './extra/snacks-desserts-1.ts';
+import { ingredients as extraChickenTurkish1 } from './extra/chicken-turkish-1.ts';
+import { ingredients as extraChickenEastAsian1 } from './extra/chicken-east-asian-1.ts';
+import { ingredients as extraChickenMaghrebIberia1 } from './extra/chicken-maghreb-iberia-1.ts';
+import { ingredients as extraChickenBitesBowls2 } from './extra/chicken-bites-bowls-2.ts';
+import { ingredients as extraBreakfastWorld2 } from './extra/breakfast-world-2.ts';
+import { ingredients as extraFishMeat2 } from './extra/fish-meat-2.ts';
+import { ingredients as extraVegetarianMains2 } from './extra/vegetarian-mains-2.ts';
+import { ingredients as extraSnacksDesserts2 } from './extra/snacks-desserts-2.ts';
+import { ingredients as extraChickenPersian1 } from './extra/chicken-persian-1.ts';
+import { ingredients as extraChickenSouthAsian2 } from './extra/chicken-south-asian-2.ts';
+import { ingredients as extraChickenSoutheastAsian1 } from './extra/chicken-southeast-asian-1.ts';
+import { ingredients as extraChickenBitesBowls3 } from './extra/chicken-bites-bowls-3.ts';
+import { ingredients as extraBreakfastWorld3 } from './extra/breakfast-world-3.ts';
+import { ingredients as extraFishMeat3 } from './extra/fish-meat-3.ts';
+import { ingredients as extraVegetarianMains3 } from './extra/vegetarian-mains-3.ts';
+import { ingredients as extraSnacksDesserts3 } from './extra/snacks-desserts-3.ts';
 
 export const INGREDIENT_SOURCES: Record<string, readonly Ingredient[]> = {
   'produce': produce,
@@ -36,6 +60,30 @@ export const INGREDIENT_SOURCES: Record<string, readonly Ingredient[]> = {
   'extra/lunch-international': extraLunchInternational,
   'extra/dinner-international': extraDinnerInternational,
   'extra/snacks-international': extraSnacksInternational,
+  'extra/chicken-kurdish-iraqi-1': extraChickenKurdishIraqi1,
+  'extra/chicken-south-asian-1': extraChickenSouthAsian1,
+  'extra/chicken-latin-american-1': extraChickenLatinAmerican1,
+  'extra/chicken-bites-bowls-1': extraChickenBitesBowls1,
+  'extra/breakfast-world-1': extraBreakfastWorld1,
+  'extra/fish-meat-1': extraFishMeat1,
+  'extra/vegetarian-mains-1': extraVegetarianMains1,
+  'extra/snacks-desserts-1': extraSnacksDesserts1,
+  'extra/chicken-turkish-1': extraChickenTurkish1,
+  'extra/chicken-east-asian-1': extraChickenEastAsian1,
+  'extra/chicken-maghreb-iberia-1': extraChickenMaghrebIberia1,
+  'extra/chicken-bites-bowls-2': extraChickenBitesBowls2,
+  'extra/breakfast-world-2': extraBreakfastWorld2,
+  'extra/fish-meat-2': extraFishMeat2,
+  'extra/vegetarian-mains-2': extraVegetarianMains2,
+  'extra/snacks-desserts-2': extraSnacksDesserts2,
+  'extra/chicken-persian-1': extraChickenPersian1,
+  'extra/chicken-south-asian-2': extraChickenSouthAsian2,
+  'extra/chicken-southeast-asian-1': extraChickenSoutheastAsian1,
+  'extra/chicken-bites-bowls-3': extraChickenBitesBowls3,
+  'extra/breakfast-world-3': extraBreakfastWorld3,
+  'extra/fish-meat-3': extraFishMeat3,
+  'extra/vegetarian-mains-3': extraVegetarianMains3,
+  'extra/snacks-desserts-3': extraSnacksDesserts3,
 };
 
 export const INGREDIENTS: readonly Ingredient[] = Object.values(INGREDIENT_SOURCES).flat();

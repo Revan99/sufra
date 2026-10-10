@@ -244,4 +244,39 @@ export const ingredients: Ingredient[] = [
   // 09318: Strawberries, frozen, unsweetened
   { id: 'mixed-berries-frozen', name: 'Mixed berries (frozen, unsweetened)', aisle: 'frozen', allergens: [],
     per100g: { kcal: 43, protein: 0.43, carbs: 10.67, fiber: 2.4, sugars: 6.51, fat: 0.38, satFat: 0.03, sodium: 2 } },
+
+  // ---------- Shared staples added for the library expansion ----------
+  // USDA SR Legacy 11677: Shallots, raw
+  { id: 'shallot-raw', name: 'Shallot', aisle: 'produce', allergens: [],
+    per100g: { kcal: 72, protein: 2.5, carbs: 16.8, fiber: 3.2, sugars: 7.87, fat: 0.1, satFat: 0.017, sodium: 12 } },
+  // USDA SR Legacy 11954: Tomatillos, raw
+  { id: 'tomatillo-raw', name: 'Tomatillo', aisle: 'produce', allergens: [],
+    per100g: { kcal: 32, protein: 0.96, carbs: 5.84, fiber: 1.9, sugars: 3.93, fat: 1.02, satFat: 0.139, sodium: 1 } },
+  // USDA SR Legacy 11167: Corn, sweet, yellow, raw (kernels; weigh off the cob)
+  { id: 'sweet-corn-raw', name: 'Sweet corn kernels (fresh)', aisle: 'produce', allergens: [],
+    per100g: { kcal: 86, protein: 3.27, carbs: 18.7, fiber: 2, sugars: 6.26, fat: 1.35, satFat: 0.325, sodium: 15 } },
+  // USDA SR Legacy 11134: Cassava, raw (peeled)
+  { id: 'cassava-raw', name: 'Cassava (yuca), peeled', aisle: 'produce', allergens: [],
+    per100g: { kcal: 160, protein: 1.36, carbs: 38.1, fiber: 1.8, sugars: 1.7, fat: 0.28, satFat: 0.074, sodium: 14 } },
+  // USDA SR Legacy 09277: Plantains, yellow, raw (peeled)
+  { id: 'plantain-ripe-raw', name: 'Ripe plantain, peeled', aisle: 'produce', allergens: [],
+    per100g: { kcal: 122, protein: 1.3, carbs: 31.9, fiber: 1.7, sugars: 17.5, fat: 0.35, satFat: 0, sodium: 4 } },
+  // USDA SR Legacy 11603: Yambean (jicama), raw
+  { id: 'jicama-raw', name: 'Jicama', aisle: 'produce', allergens: [],
+    per100g: { kcal: 38, protein: 0.72, carbs: 8.82, fiber: 4.9, sugars: 1.8, fat: 0.09, satFat: 0.021, sodium: 4 } },
+  // USDA SR Legacy 11963: Nopales, raw (fresh cactus paddles; jarred nopales are brined and far saltier)
+  { id: 'nopales-raw', name: 'Nopales (fresh cactus paddles)', aisle: 'produce', allergens: [],
+    per100g: { kcal: 16, protein: 1.32, carbs: 3.33, fiber: 2.2, sugars: 1.15, fat: 0.09, satFat: 0.016, sodium: 21 } },
+  // USDA SR Legacy 11119: Cabbage, chinese (pe-tsai), raw
+  { id: 'cabbage-napa-raw', name: 'Napa cabbage', aisle: 'produce', allergens: [],
+    per100g: { kcal: 16, protein: 1.2, carbs: 3.23, fiber: 1.2, sugars: 1.41, fat: 0.2, satFat: 0.043, sodium: 9 } },
+  // USDA SR Legacy 09296: Quinces, raw (cored; sugars not reported)
+  { id: 'quince-raw', name: 'Quince', aisle: 'produce', allergens: [],
+    per100g: { kcal: 57, protein: 0.4, carbs: 15.3, fiber: 1.9, sugars: 0, fat: 0.1, satFat: 0.01, sodium: 4 } },
+  // USDA SR Legacy 09068: Cherries, sour, red, frozen, unsweetened (pitted)
+  { id: 'sour-cherries-frozen', name: 'Sour cherries (frozen, unsweetened)', aisle: 'frozen', allergens: [],
+    per100g: { kcal: 46, protein: 0.92, carbs: 11, fiber: 1.6, sugars: 9.02, fat: 0.44, satFat: 0.1, sodium: 1 } },
+  // USDA SR Legacy 09291: Plums, dried (prunes), uncooked. Whole dried fruit is not free sugar.
+  { id: 'prunes', name: 'Prunes (dried plums)', aisle: 'produce', allergens: [],
+    per100g: { kcal: 240, protein: 2.18, carbs: 63.9, fiber: 7.1, sugars: 38.1, fat: 0.38, satFat: 0.088, sodium: 2 } },
 ];
