@@ -35,6 +35,22 @@ import { recipes as breakfastWorld3 } from './breakfast-world-3.ts';
 import { recipes as fishMeat3 } from './fish-meat-3.ts';
 import { recipes as vegetarianMains3 } from './vegetarian-mains-3.ts';
 import { recipes as snacksDesserts3 } from './snacks-desserts-3.ts';
+import { recipes as chickenGulfEgyptian1 } from './chicken-gulf-egyptian-1.ts';
+import { recipes as chickenSoutheastAsian2 } from './chicken-southeast-asian-2.ts';
+import { recipes as chickenWesternMediterranean1 } from './chicken-western-mediterranean-1.ts';
+import { recipes as chickenBitesBowls4 } from './chicken-bites-bowls-4.ts';
+import { recipes as breakfastWorld4 } from './breakfast-world-4.ts';
+import { recipes as fishMeat4 } from './fish-meat-4.ts';
+import { recipes as vegetarianMains4 } from './vegetarian-mains-4.ts';
+import { recipes as snacksDesserts4 } from './snacks-desserts-4.ts';
+import { recipes as chickenLevantine1 } from './chicken-levantine-1.ts';
+import { recipes as chickenSouthAsian3 } from './chicken-south-asian-3.ts';
+import { recipes as chickenWorld1 } from './chicken-world-1.ts';
+import { recipes as chickenBitesBowls5 } from './chicken-bites-bowls-5.ts';
+import { recipes as breakfastWorld5 } from './breakfast-world-5.ts';
+import { recipes as fishMeat5 } from './fish-meat-5.ts';
+import { recipes as vegetarianMains5 } from './vegetarian-mains-5.ts';
+import { recipes as snacksDesserts5 } from './snacks-desserts-5.ts';
 
 export const RECIPE_SOURCES: Record<string, readonly Recipe[]> = {
   'breakfast-middle-eastern': breakfastMiddleEastern,
@@ -72,6 +88,22 @@ export const RECIPE_SOURCES: Record<string, readonly Recipe[]> = {
   'fish-meat-3': fishMeat3,
   'vegetarian-mains-3': vegetarianMains3,
   'snacks-desserts-3': snacksDesserts3,
+  'chicken-gulf-egyptian-1': chickenGulfEgyptian1,
+  'chicken-southeast-asian-2': chickenSoutheastAsian2,
+  'chicken-western-mediterranean-1': chickenWesternMediterranean1,
+  'chicken-bites-bowls-4': chickenBitesBowls4,
+  'breakfast-world-4': breakfastWorld4,
+  'fish-meat-4': fishMeat4,
+  'vegetarian-mains-4': vegetarianMains4,
+  'snacks-desserts-4': snacksDesserts4,
+  'chicken-levantine-1': chickenLevantine1,
+  'chicken-south-asian-3': chickenSouthAsian3,
+  'chicken-world-1': chickenWorld1,
+  'chicken-bites-bowls-5': chickenBitesBowls5,
+  'breakfast-world-5': breakfastWorld5,
+  'fish-meat-5': fishMeat5,
+  'vegetarian-mains-5': vegetarianMains5,
+  'snacks-desserts-5': snacksDesserts5,
 };
 
 export const RECIPES: readonly Recipe[] = Object.values(RECIPE_SOURCES).flat();

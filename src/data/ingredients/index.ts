@@ -41,6 +41,22 @@ import { ingredients as extraBreakfastWorld3 } from './extra/breakfast-world-3.t
 import { ingredients as extraFishMeat3 } from './extra/fish-meat-3.ts';
 import { ingredients as extraVegetarianMains3 } from './extra/vegetarian-mains-3.ts';
 import { ingredients as extraSnacksDesserts3 } from './extra/snacks-desserts-3.ts';
+import { ingredients as extraChickenGulfEgyptian1 } from './extra/chicken-gulf-egyptian-1.ts';
+import { ingredients as extraChickenSoutheastAsian2 } from './extra/chicken-southeast-asian-2.ts';
+import { ingredients as extraChickenWesternMediterranean1 } from './extra/chicken-western-mediterranean-1.ts';
+import { ingredients as extraChickenBitesBowls4 } from './extra/chicken-bites-bowls-4.ts';
+import { ingredients as extraBreakfastWorld4 } from './extra/breakfast-world-4.ts';
+import { ingredients as extraFishMeat4 } from './extra/fish-meat-4.ts';
+import { ingredients as extraVegetarianMains4 } from './extra/vegetarian-mains-4.ts';
+import { ingredients as extraSnacksDesserts4 } from './extra/snacks-desserts-4.ts';
+import { ingredients as extraChickenLevantine1 } from './extra/chicken-levantine-1.ts';
+import { ingredients as extraChickenSouthAsian3 } from './extra/chicken-south-asian-3.ts';
+import { ingredients as extraChickenWorld1 } from './extra/chicken-world-1.ts';
+import { ingredients as extraChickenBitesBowls5 } from './extra/chicken-bites-bowls-5.ts';
+import { ingredients as extraBreakfastWorld5 } from './extra/breakfast-world-5.ts';
+import { ingredients as extraFishMeat5 } from './extra/fish-meat-5.ts';
+import { ingredients as extraVegetarianMains5 } from './extra/vegetarian-mains-5.ts';
+import { ingredients as extraSnacksDesserts5 } from './extra/snacks-desserts-5.ts';
 
 export const INGREDIENT_SOURCES: Record<string, readonly Ingredient[]> = {
   'produce': produce,
@@ -84,6 +100,22 @@ export const INGREDIENT_SOURCES: Record<string, readonly Ingredient[]> = {
   'extra/fish-meat-3': extraFishMeat3,
   'extra/vegetarian-mains-3': extraVegetarianMains3,
   'extra/snacks-desserts-3': extraSnacksDesserts3,
+  'extra/chicken-gulf-egyptian-1': extraChickenGulfEgyptian1,
+  'extra/chicken-southeast-asian-2': extraChickenSoutheastAsian2,
+  'extra/chicken-western-mediterranean-1': extraChickenWesternMediterranean1,
+  'extra/chicken-bites-bowls-4': extraChickenBitesBowls4,
+  'extra/breakfast-world-4': extraBreakfastWorld4,
+  'extra/fish-meat-4': extraFishMeat4,
+  'extra/vegetarian-mains-4': extraVegetarianMains4,
+  'extra/snacks-desserts-4': extraSnacksDesserts4,
+  'extra/chicken-levantine-1': extraChickenLevantine1,
+  'extra/chicken-south-asian-3': extraChickenSouthAsian3,
+  'extra/chicken-world-1': extraChickenWorld1,
+  'extra/chicken-bites-bowls-5': extraChickenBitesBowls5,
+  'extra/breakfast-world-5': extraBreakfastWorld5,
+  'extra/fish-meat-5': extraFishMeat5,
+  'extra/vegetarian-mains-5': extraVegetarianMains5,
+  'extra/snacks-desserts-5': extraSnacksDesserts5,
 };
 
 export const INGREDIENTS: readonly Ingredient[] = Object.values(INGREDIENT_SOURCES).flat();
