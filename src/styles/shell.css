@@ -50,6 +50,24 @@
   block-size: var(--tabbar-h);
   padding: 5px;
   border-radius: var(--r-pill);
+  container-type: inline-size;
+}
+
+/* Narrow phones: icons only (a bit larger); the labels stay for screen readers. */
+@container (max-width: 250px) {
+  .tab-label {
+    position: absolute;
+    inline-size: 1px;
+    block-size: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .tab .icon {
+    inline-size: 1.5rem;
+    block-size: 1.5rem;
+  }
 }
 
 /* Press and slide along the bar (TabBar.tsx): no text selection, link callouts or page scrolling under the finger. */
@@ -72,6 +90,7 @@
 }
 
 .tab {
+  position: relative;
   display: flex;
   flex: 1;
   flex-direction: column;

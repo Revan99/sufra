@@ -55,8 +55,12 @@ export function TabBar({ tabs, active, hidden, searchHref }: { tabs: readonly Ta
 
   // Where the lens rests: over the current tab (none when the screen isn't a tab, such as a recipe).
   const measure = useCallback(() => {
-    const li = activeIndex >= 0 ? (listRef.current?.children[activeIndex] as HTMLElement | undefined) : undefined;
-    setRest(li ? { x: li.offsetLeft, w: li.offsetWidth } : null);
+    const list = listRef.current;
+    const li = activeIndex >= 0 ? (list?.children[activeIndex] as HTMLElement | undefined) : undefined;
+    const bar = list?.parentElement;
+    if (!li || !bar) return setRest(null);
+    // Measured from the bar's edge (where the lens is positioned), not the list inside its padding.
+    setRest({ x: li.getBoundingClientRect().left - bar.getBoundingClientRect().left, w: li.offsetWidth });
   }, [activeIndex]);
 
   useLayoutEffect(() => {
@@ -100,6 +104,7 @@ export function TabBar({ tabs, active, hidden, searchHref }: { tabs: readonly Ta
       list.setPointerCapture(e.pointerId);
     }
     const box = list.getBoundingClientRect();
+    const bar = list.parentElement?.getBoundingClientRect() ?? box;
     const els = items();
     const over = nearestIndex(
       els.map((el) => {
@@ -111,7 +116,7 @@ export function TabBar({ tabs, active, hidden, searchHref }: { tabs: readonly Ta
     const w = rest?.w ?? els[0]?.offsetWidth ?? 0;
     setSlide((prev) => {
       if (prev && prev.over !== over) navigator.vibrate?.(8);
-      return { x: list.offsetLeft + lensLeft(e.clientX - box.left, w, box.width), over };
+      return { x: box.left - bar.left + lensLeft(e.clientX - box.left, w, box.width), over };
     });
   };
 
