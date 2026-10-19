@@ -52,7 +52,20 @@
   border-radius: var(--r-pill);
 }
 
-.tabbar-tabs > li {
+/* Press and slide along the bar (TabBar.tsx): no text selection, link callouts or page scrolling under the finger. */
+.tabbar-list {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex: 1;
+  min-inline-size: 0;
+  touch-action: none;
+  -webkit-touch-callout: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.tabbar-list > li {
   display: flex;
   flex: 1 1 0;
   min-inline-size: 0;
@@ -69,7 +82,10 @@
   border-radius: var(--r-pill);
   color: var(--ink-2);
   text-decoration: none;
-  transition: background-color var(--dur-1) var(--ease);
+  -webkit-user-drag: none;
+  transition:
+    color var(--dur-1) var(--ease),
+    transform var(--dur-2) var(--spring);
 }
 
 .tab-label {
@@ -81,12 +97,12 @@
   white-space: nowrap;
 }
 
-.tab[aria-current='page'] {
-  background: rgb(0 0 0 / 5%);
+/* The tab under the lens: the current one, or the one the finger is over while sliding. */
+.tab.is-lit {
   color: var(--accent);
 }
 
-.tab[aria-current='page'] .tab-label {
+.tab.is-lit .tab-label {
   font-weight: 600;
 }
 
@@ -94,7 +110,76 @@
   outline-offset: -2px;
 }
 
+/* The selection: a soft pill at rest that lifts into a clear glass lens while pressed, follows the finger, and
+   springs onto the chosen tab. Positioned from the bar's physical left edge (offsetLeft), in both directions. */
+.tab-lens {
+  position: absolute;
+  inset-block: 5px;
+  left: 0;
+  z-index: 0;
+  border-radius: var(--r-pill);
+  background: rgb(0 0 0 / 5%);
+  pointer-events: none;
+  transition:
+    transform 420ms var(--spring),
+    inline-size 420ms var(--spring),
+    background-color var(--dur-2) var(--ease),
+    box-shadow var(--dur-2) var(--ease),
+    scale var(--dur-2) var(--spring);
+}
+
+.tabbar-tabs.is-pressed .tab-lens {
+  scale: 1.16 1.22;
+  background: rgb(255 255 255 / 55%);
+  box-shadow:
+    inset 0 1px 1px rgb(255 255 255 / 90%),
+    inset 0 0 0 1px rgb(255 255 255 / 60%),
+    inset 0 -6px 12px rgb(0 0 0 / 6%),
+    0 8px 22px rgb(0 0 0 / 18%);
+}
+
+/* While sliding the lens tracks the finger closely; the spring is for the release. */
+.tabbar-tabs.is-sliding .tab-lens {
+  transition:
+    transform 70ms linear,
+    scale var(--dur-2) var(--spring),
+    background-color var(--dur-2) var(--ease),
+    box-shadow var(--dur-2) var(--ease);
+}
+
+.tabbar-tabs.is-sliding .tab.is-lit {
+  transform: scale(1.08);
+}
+
+:root[data-theme='dark'] .tab-lens {
+  background: rgb(255 255 255 / 10%);
+}
+
+:root[data-theme='dark'] .tabbar-tabs.is-pressed .tab-lens {
+  background: rgb(255 255 255 / 18%);
+  box-shadow:
+    inset 0 1px 1px rgb(255 255 255 / 35%),
+    inset 0 0 0 1px rgb(255 255 255 / 20%),
+    0 8px 22px rgb(0 0 0 / 45%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .tab-lens {
+    background: rgb(255 255 255 / 10%);
+  }
+
+  :root:not([data-theme='light']) .tabbar-tabs.is-pressed .tab-lens {
+    background: rgb(255 255 255 / 18%);
+    box-shadow:
+      inset 0 1px 1px rgb(255 255 255 / 35%),
+      inset 0 0 0 1px rgb(255 255 255 / 20%),
+      0 8px 22px rgb(0 0 0 / 45%);
+  }
+}
+
 .tabbar-search {
+  -webkit-touch-callout: none;
+
   display: grid;
   place-items: center;
   flex-shrink: 0;
@@ -104,15 +189,6 @@
   color: var(--ink);
 }
 
-:root[data-theme='dark'] .tab[aria-current='page'] {
-  background: rgb(255 255 255 / 10%);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme='light']) .tab[aria-current='page'] {
-    background: rgb(255 255 255 / 10%);
-  }
-}
 
 /* ---------------------------------------------------------------------------------------------------------------
    Sidebar (wide screens only) */

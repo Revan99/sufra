@@ -13,6 +13,7 @@ import { useThemeEffect } from './theme.ts';
 import { Icon } from './components/Icon.tsx';
 import type { IconName } from './components/Icon.tsx';
 import { Mark } from './components/Mark.tsx';
+import { TabBar } from './components/TabBar.tsx';
 import { ToastProvider } from './components/Toast.tsx';
 import { TodayScreen } from './screens/Today.tsx';
 import { RecipeScreen } from './screens/Recipe.tsx';
@@ -51,27 +52,7 @@ const SIDEBAR: readonly NavItem[] = [
 ];
 
 const tabHref = (name: TabName) => routeHash(name === 'today' || name === 'week' ? { name, date: null } : ({ name } as Route));
-
-/** A floating glass capsule of tabs and a round search button, over the bottom of phone screens. */
-function TabBar({ active, hidden }: { active: TabName; hidden: boolean }) {
-  return (
-    <nav className={`tabbar${hidden ? ' is-hidden' : ''}`} aria-label={t('nav.label')}>
-      <ul className="tabbar-tabs glass">
-        {TABS.map((tab) => (
-          <li key={tab.name}>
-            <a className="tab" href={tabHref(tab.name)} aria-current={active === tab.name ? 'page' : undefined}>
-              <Icon name={tab.icon} size={20} />
-              <span className="tab-label">{t(tab.label)}</span>
-            </a>
-          </li>
-        ))}
-      </ul>
-      <a className="tabbar-search glass" href={routeHash({ name: 'recipes', search: true })} aria-label={t('nav.search')}>
-        <Icon name="search" size={22} />
-      </a>
-    </nav>
-  );
-}
+const TAB_ITEMS = TABS.map((tab) => ({ ...tab, href: tabHref(tab.name) }));
 
 /** The floating glass sidebar on wide screens: brand, every screen, and the daily target. */
 function Sidebar({ active }: { active: TabName }) {
@@ -197,7 +178,7 @@ function Shell() {
       <main id="main" className={`main main-${route.name}${tabBarHidden ? '' : ' has-tabbar'}`} tabIndex={-1}>
         <Screen route={route} />
       </main>
-      <TabBar active={tabOf(route)} hidden={tabBarHidden} />
+      <TabBar tabs={TAB_ITEMS} active={tabOf(route)} hidden={tabBarHidden} searchHref={routeHash({ name: 'recipes', search: true })} />
     </div>
   );
 }
