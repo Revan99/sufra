@@ -14,6 +14,7 @@ import { Icon } from './components/Icon.tsx';
 import type { IconName } from './components/Icon.tsx';
 import { Mark } from './components/Mark.tsx';
 import { TabBar } from './components/TabBar.tsx';
+import { useSlideSelect } from './useSlideSelect.ts';
 import { ToastProvider } from './components/Toast.tsx';
 import { TodayScreen } from './screens/Today.tsx';
 import { RecipeScreen } from './screens/Recipe.tsx';
@@ -54,12 +55,21 @@ const SIDEBAR: readonly NavItem[] = [
 const tabHref = (name: TabName) => routeHash(name === 'today' || name === 'week' ? { name, date: null } : ({ name } as Route));
 const TAB_ITEMS = TABS.map((tab) => ({ ...tab, href: tabHref(tab.name) }));
 
-/** The floating glass sidebar on wide screens: brand, every screen, and the daily target. */
+/** The floating glass sidebar on wide screens: brand, every screen, and the daily target. Press and slide along the
+ * links to choose one, as on the phone tab bar. */
 function Sidebar({ active }: { active: TabName }) {
   const { state } = useAppState();
+  const slide = useSlideSelect(
+    'y',
+    SIDEBAR.findIndex((item) => item.name === active),
+    (i) => {
+      const target = SIDEBAR[i];
+      if (target) window.location.hash = tabHref(target.name);
+    },
+  );
   return (
     <nav className="sidebar glass" aria-label={t('nav.label')}>
-      <a className="sidebar-brand" href="#/today">
+      <a className="sidebar-brand" href="#/today" draggable={false}>
         <Mark size={34} />
         <span className="sidebar-brand-text">
           <span className="sidebar-brand-name">{t('app.name')}</span>
@@ -68,17 +78,20 @@ function Sidebar({ active }: { active: TabName }) {
           </span>
         </span>
       </a>
-      <ul className="sidebar-list">
-        {SIDEBAR.map((item) => (
-          <li key={item.name}>
-            <a className="sidebar-link" href={tabHref(item.name)} aria-current={active === item.name ? 'page' : undefined}>
-              <Icon name={item.icon} size={19} />
-              <span>{t(item.label)}</span>
-            </a>
-          </li>
-        ))}
-      </ul>
-      <a className="sidebar-target" href="#/settings">
+      <div className={`sidebar-nav${slide.pressed ? ' is-pressed' : ''}${slide.sliding ? ' is-sliding' : ''}`}>
+        {slide.lensStyle ? <span className="sidebar-lens" aria-hidden="true" style={slide.lensStyle} /> : null}
+        <ul ref={slide.listRef} className="sidebar-list" {...slide.listProps}>
+          {SIDEBAR.map((item, i) => (
+            <li key={item.name}>
+              <a className={`sidebar-link${i === slide.lit ? ' is-lit' : ''}`} href={tabHref(item.name)} draggable={false} aria-current={active === item.name ? 'page' : undefined}>
+                <Icon name={item.icon} size={19} />
+                <span>{t(item.label)}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <a className="sidebar-target" href="#/settings" draggable={false}>
         <span className="sidebar-target-label">{t('nav.dailyTarget')}</span>
         <span className="sidebar-target-value num">{t('nav.dailyTargetValue', { kcal: num(state.profile.kcalTarget), protein: num(state.profile.proteinTarget) })}</span>
       </a>
