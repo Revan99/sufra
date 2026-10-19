@@ -1,0 +1,966 @@
+/* Progress (screens/Progress.tsx) and the Log weight sheet (sheets/LogWeightSheet.tsx).
+   Phones: header, streak card, three stat tiles, calories chart, weight card. From 1000px: full range names and a
+   Log weight button, four tiles beside the streak, planned bars, calendar, water and recent days. */
+
+/* Phone-only and wide-only pieces. */
+@media (max-width: 999.98px) {
+  .pg-wide {
+    display: none !important;
+  }
+
+  .pg-range-long {
+    position: absolute !important;
+    inline-size: 1px;
+    block-size: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 1000px) {
+  .pg-narrow {
+    display: none !important;
+  }
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Header: range capsule (W M Y) */
+
+.pg-range {
+  border-radius: 1.25rem;
+}
+
+.pg-range .segmented-option {
+  inline-size: 2rem;
+  font-size: var(--fs-sm);
+}
+
+/* A taller hit area than the 32 px thumb. */
+.pg-range .segmented-option input {
+  inset: -6px -1px;
+}
+
+.pg-log-btn {
+  gap: 0.5rem;
+  padding-inline: 1.125rem;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Rows */
+
+.pg-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+  min-inline-size: 0;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Streak card: a saffron gradient with a glass flame badge. */
+
+.pg-streak {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+  padding: 1rem;
+  border-radius: var(--r-card);
+  background: linear-gradient(255deg, var(--accent-light) 15%, var(--accent) 54%, var(--accent-strong) 85%);
+  color: #ffffff;
+}
+
+.pg-streak-badge {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  inline-size: 3.25rem;
+  block-size: 3.25rem;
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgb(255 255 255 / 40%) 0%, rgb(255 255 255 / 0%) 60%), rgb(255 255 255 / 22%);
+  box-shadow:
+    inset 0 0 0 1.2px rgb(255 255 255 / 50%),
+    inset 0 1px 1px rgb(255 255 255 / 80%),
+    0 6px 18px rgb(0 0 0 / 12%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.pg-streak-text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.125rem;
+  min-inline-size: 0;
+}
+
+.pg-streak-title {
+  font-size: var(--fs-xl);
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  line-height: 1.2;
+}
+
+.pg-streak-body {
+  color: rgb(255 255 255 / 88%);
+  font-size: var(--fs-sm);
+  line-height: 1.35;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Stat tiles */
+
+.pg-stats {
+  display: flex;
+  gap: 0.625rem;
+  min-inline-size: 0;
+}
+
+.pg-stat {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-inline-size: 0;
+  padding: 0.75rem;
+  border-radius: var(--r-lg);
+  background: var(--card);
+}
+
+.pg-stat-value {
+  font-size: 1.1875rem;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+.pg-stat-label {
+  color: var(--muted);
+  font-size: var(--fs-2xs);
+  line-height: 1.3;
+}
+
+.pg-tone-accent {
+  color: var(--accent);
+}
+
+.pg-tone-protein {
+  color: var(--protein);
+}
+
+.pg-tone-water {
+  color: var(--water);
+}
+
+.pg-tone-teal {
+  color: var(--teal);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Cards */
+
+.pg-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  min-inline-size: 0;
+  padding: 1rem;
+}
+
+.pg-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.pg-card-title {
+  font-size: var(--fs-lg);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.pg-card-note {
+  color: var(--muted);
+  font-size: var(--fs-xs);
+  white-space: nowrap;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Bar charts (calories and water): a column per day or month, the bar area above its label. */
+
+.pg-bars {
+  display: flex;
+  align-items: stretch;
+  gap: 0.625rem;
+  block-size: 6.875rem;
+}
+
+.pg-range-month .pg-bars {
+  gap: 3px;
+}
+
+.pg-range-year .pg-bars {
+  gap: 0.375rem;
+}
+
+.pg-col {
+  display: grid;
+  flex: 1 1 0;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 0.375rem;
+  min-inline-size: 0;
+}
+
+.pg-col-area {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 4px;
+  min-block-size: 0;
+}
+
+.pg-col-label {
+  min-block-size: 1lh;
+  color: var(--muted);
+  font-size: var(--fs-2xs);
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* Month labels sit under every 7th thin bar and may overhang it. */
+.pg-range-month .pg-col-label {
+  display: flex;
+  justify-content: center;
+  overflow: visible;
+}
+
+.pg-col.is-current .pg-col-label {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.pg-bar {
+  display: block;
+  flex: 1 1 0;
+  min-block-size: 4px;
+  border-radius: 7px;
+}
+
+.pg-range-month .pg-bar {
+  border-radius: 3px;
+}
+
+.pg-range-year .pg-bar {
+  border-radius: 5px;
+}
+
+.pg-bar-stub {
+  block-size: 6px;
+  background: var(--track);
+}
+
+.pg-bar-planned {
+  display: none;
+  background: var(--line);
+}
+
+.pg-tone-on {
+  background: var(--accent);
+}
+
+.pg-tone-close {
+  background: var(--amber);
+}
+
+.pg-tone-missed {
+  background: var(--peach);
+}
+
+/* Today, still in progress: a pale saffron bar with a saffron edge. */
+.pg-tone-today {
+  background: var(--accent-wash);
+  box-shadow: inset 0 0 0 1.5px var(--accent);
+}
+
+.pg-bar-water {
+  border-radius: 6px;
+  background: var(--water-mid);
+}
+
+.pg-bar-water.is-full {
+  background: var(--water);
+}
+
+.pg-bar-water.pg-bar-stub {
+  background: var(--track);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Weight card */
+
+.pg-weight {
+  gap: 0.625rem;
+}
+
+.pg-weight-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.pg-weight-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-inline-size: 0;
+}
+
+.pg-weight-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 0.5rem;
+}
+
+.pg-weight-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.6px;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.pg-weight-delta {
+  color: var(--teal);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+}
+
+.pg-weight-delta.is-off {
+  color: var(--amber-ink);
+}
+
+.pg-weight-log {
+  flex-shrink: 0;
+  gap: 0.375rem;
+  min-block-size: 2.25rem;
+  padding-inline: 0.875rem;
+  font-size: 0.875rem;
+}
+
+/* A full-size tap target around the 36 px button. */
+.pg-weight-log::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+}
+
+.pg-weight-chart {
+  position: relative;
+  block-size: 5.625rem;
+}
+
+.pg-weight-chart svg {
+  position: absolute;
+  inset: 0;
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+  overflow: visible;
+}
+
+.pg-weight-stop {
+  stop-color: var(--fiber);
+}
+
+.pg-weight-line {
+  stroke: var(--teal);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.pg-weight-dot {
+  position: absolute;
+  inline-size: 10px;
+  block-size: 10px;
+  border-radius: 50%;
+  background: var(--card);
+  box-shadow: 0 0 0 2.5px var(--teal);
+  transform: translate(-50%, -50%);
+}
+
+[dir='rtl'] .pg-weight-dot {
+  transform: translate(50%, -50%);
+}
+
+.pg-weight-empty {
+  display: grid;
+  gap: 0.25rem;
+  padding-block: 0.5rem 0.25rem;
+}
+
+.pg-weight-empty-title {
+  font-size: var(--fs-md);
+  font-weight: 600;
+}
+
+.pg-weight-empty-body {
+  color: var(--muted);
+  font-size: var(--fs-sm);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Calendar */
+
+.pg-calendar {
+  gap: 0.625rem;
+}
+
+.pg-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.25rem 0.75rem;
+  color: var(--muted);
+  font-size: var(--fs-2xs);
+}
+
+.pg-legend li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+
+.pg-dot {
+  inline-size: 8px;
+  block-size: 8px;
+  border-radius: 50%;
+}
+
+.pg-cal-table {
+  inline-size: calc(100% + 12px);
+  margin: -6px;
+  border-collapse: separate;
+  border-spacing: 6px;
+  table-layout: fixed;
+}
+
+.pg-cal-table th {
+  color: var(--muted);
+  font-size: var(--fs-2xs);
+  font-weight: 600;
+  text-align: center;
+}
+
+.pg-cal-table td {
+  padding: 0;
+}
+
+.pg-cal-day {
+  display: grid;
+  place-items: center;
+  block-size: 1.875rem;
+  border-radius: var(--r-sm);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+}
+
+.pg-cal-on {
+  background: var(--accent);
+  color: #ffffff;
+}
+
+.pg-cal-close {
+  background: var(--amber);
+  color: #ffffff;
+}
+
+.pg-cal-off,
+.pg-cal-future {
+  background: var(--line);
+  color: var(--muted);
+}
+
+.pg-cal-day.is-today {
+  box-shadow: inset 0 0 0 1.5px var(--ink);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Water */
+
+.pg-water-title {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+}
+
+.pg-water-bars {
+  gap: 0.875rem;
+}
+
+.pg-water .pg-col-label {
+  font-weight: 400;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Recent days */
+
+.pg-history {
+  gap: 2px;
+  padding: 1rem 1.25rem;
+}
+
+.pg-history-head {
+  min-block-size: 2.125rem;
+  padding-block-end: 0.5rem;
+}
+
+.pg-history-more {
+  margin-inline-end: -0.5rem;
+  color: var(--accent-ink);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.pg-history-table {
+  inline-size: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  text-align: start;
+}
+
+.pg-history-table thead th {
+  padding: 6px 0;
+  color: var(--muted);
+  font-size: var(--fs-2xs);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-align: start;
+  text-transform: uppercase;
+}
+
+.pg-history-table thead th:nth-child(1) {
+  inline-size: 20%;
+}
+
+.pg-history-table thead th:nth-child(2) {
+  inline-size: 14%;
+}
+
+.pg-history-table thead th:nth-child(n + 3):nth-child(-n + 5) {
+  inline-size: 12%;
+}
+
+.pg-history-table tbody th,
+.pg-history-table td {
+  padding: 10px 0.75rem 10px 0;
+  border-block-start: 1px solid var(--line);
+  color: var(--ink-2);
+  font-weight: 400;
+  line-height: 1.45;
+  text-align: start;
+  white-space: nowrap;
+}
+
+.pg-history-table tbody th {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.pg-history-table .pill {
+  border-radius: 9px;
+  padding: 3px 9px;
+}
+
+.pg-pill-none {
+  background: var(--fill-2);
+  color: var(--muted);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Wide screens (≥1000px): the desktop layout. Narrow desktops stack the paired cards; from 1280px they sit side
+   by side as in the design (streak beside four tiles; chart beside weight; calendar beside water). */
+
+@media (min-width: 1000px) {
+  .main-progress {
+    gap: 1.125rem;
+  }
+
+  .pg-head .page-sub {
+    font-size: var(--fs-md);
+  }
+
+  .pg-head .page-title {
+    font-size: 2.375rem;
+    letter-spacing: -1px;
+  }
+
+  .pg-range {
+    border-radius: 1.375rem;
+  }
+
+  .pg-range .segmented-option {
+    inline-size: auto;
+    min-block-size: 2.25rem;
+    padding-inline: 0.875rem;
+    font-size: 0.875rem;
+  }
+
+  .pg-range .segmented-option input {
+    inset: -4px 0;
+  }
+
+  .pg-row {
+    gap: 1rem;
+  }
+
+  .pg-streak {
+    gap: 1rem;
+    padding: 1.25rem;
+  }
+
+  .pg-streak-badge {
+    inline-size: 3.5rem;
+    block-size: 3.5rem;
+  }
+
+  .pg-streak-badge .icon {
+    inline-size: 1.75rem;
+    block-size: 1.75rem;
+  }
+
+  .pg-streak-title {
+    font-size: 1.5rem;
+  }
+
+  .pg-stats {
+    gap: 1rem;
+  }
+
+  .pg-stat {
+    justify-content: center;
+    gap: 0.375rem;
+    padding: 1.125rem;
+    border-radius: 1.5rem;
+  }
+
+  .pg-stat-icon {
+    inline-size: 1.125rem;
+    block-size: 1.125rem;
+  }
+
+  .pg-stat-value {
+    font-size: 1.5rem;
+    letter-spacing: -0.6px;
+  }
+
+  .pg-stat-label {
+    font-size: var(--fs-xs);
+  }
+
+  .pg-card {
+    gap: 0.875rem;
+    padding: 1.25rem;
+  }
+
+  /* Calories: planned (grey) beside eaten. */
+  .pg-cal .pg-bars {
+    gap: 1.125rem;
+    block-size: 10.625rem;
+  }
+
+  .pg-cal.pg-range-month .pg-bars {
+    gap: 6px;
+  }
+
+  .pg-cal.pg-range-year .pg-bars {
+    gap: 0.75rem;
+  }
+
+  .pg-cal .pg-col {
+    gap: 0.5rem;
+  }
+
+  .pg-cal .pg-col-label {
+    font-size: var(--fs-xs);
+  }
+
+  .pg-cal .pg-bar {
+    flex: 0 1 14px;
+    border-radius: 5px;
+  }
+
+  .pg-cal.pg-range-month .pg-col-area {
+    gap: 2px;
+  }
+
+  .pg-cal.pg-range-month .pg-bar {
+    border-radius: 2px;
+  }
+
+  .pg-bar-planned {
+    display: block;
+  }
+
+  /* On a wide card a full-height outline reads heavier: today keeps a lighter wash as in the design. */
+  .pg-cal .pg-tone-today {
+    background: rgb(242 113 28 / 35%);
+    box-shadow: none;
+  }
+
+  .pg-weight {
+    gap: 0.75rem;
+  }
+
+  .pg-weight-head {
+    align-items: flex-end;
+  }
+
+  .pg-weight-text {
+    flex: 1;
+  }
+
+  .pg-weight-row {
+    justify-content: space-between;
+  }
+
+  .pg-weight-value {
+    font-size: 1.75rem;
+    letter-spacing: -0.8px;
+  }
+
+  .pg-weight-log {
+    display: none;
+  }
+
+  .pg-weight-chart {
+    flex: 1 0 auto;
+    block-size: auto;
+    min-block-size: 7.5rem;
+  }
+
+  .pg-water .pg-bars {
+    block-size: 6.875rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .pg-stat {
+    padding-inline: 1rem;
+  }
+
+  .pg-row-1 {
+    display: grid;
+    grid-template-columns: minmax(0, 420fr) minmax(0, 692fr);
+  }
+
+  .pg-row-2,
+  .pg-row-3 {
+    display: grid;
+    grid-template-columns: minmax(0, 672fr) minmax(0, 440fr);
+    align-items: stretch;
+  }
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Log weight sheet */
+
+.lw-picker {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.5rem 0.375rem;
+}
+
+.lw-step {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  inline-size: 3.375rem;
+  block-size: 3.375rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--fill);
+  color: var(--ink);
+  transition: transform var(--dur-1) var(--ease);
+}
+
+.lw-step:active {
+  transform: scale(0.94);
+}
+
+.lw-step[aria-disabled='true'] {
+  opacity: 0.35;
+}
+
+.lw-value {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.375rem;
+  min-inline-size: 0;
+}
+
+.lw-number {
+  max-inline-size: 100%;
+  padding: 0;
+  border: 0;
+  border-radius: var(--r-sm);
+  background: none;
+  color: var(--ink);
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: -2px;
+  line-height: 1;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.lw-number:focus-visible {
+  outline: 2.5px solid var(--focus);
+  outline-offset: 4px;
+}
+
+.lw-number[aria-invalid='true'] {
+  color: var(--danger);
+}
+
+.lw-unit {
+  color: var(--muted);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.lw-error {
+  margin-block-start: -0.5rem;
+  color: var(--danger);
+  font-size: var(--fs-sm);
+  text-align: center;
+}
+
+.lw-fields {
+  padding: 2px 1rem;
+  border-radius: var(--r-lg);
+  background: var(--fill);
+}
+
+.lw-field {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  min-block-size: var(--tap);
+  padding-block: 0.625rem;
+  font-size: var(--fs-md);
+  cursor: pointer;
+}
+
+.lw-field + .lw-field {
+  border-block-start: 1px solid var(--line);
+}
+
+.lw-field-value {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  color: var(--muted);
+}
+
+.lw-field-value .icon {
+  color: var(--faint);
+}
+
+[dir='rtl'] .lw-field-value .icon {
+  transform: scaleX(-1);
+}
+
+/* The native date and time inputs cover their row, invisible: a tap opens the system picker. */
+.lw-native {
+  position: absolute;
+  inset: 0;
+  inline-size: 100%;
+  block-size: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  opacity: 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.lw-native::-webkit-calendar-picker-indicator {
+  position: absolute;
+  inset: 0;
+  inline-size: auto;
+  block-size: auto;
+  cursor: pointer;
+}
+
+.lw-field:has(.lw-native:focus-visible) {
+  border-radius: var(--r-sm);
+  outline: 2.5px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.lw-recent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  padding-block-start: 0.25rem;
+}
+
+.lw-recent-title {
+  color: var(--muted);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+.lw-recent-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding-block: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.lw-recent-row + .lw-recent-row {
+  border-block-start: 1px solid var(--line);
+}
+
+.lw-recent-date {
+  color: var(--muted);
+}
+
+.lw-recent-value {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.lw-recent-weight {
+  font-weight: 600;
+}
+
+.lw-recent-delta {
+  min-inline-size: 2.25rem;
+  color: var(--teal);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  text-align: end;
+}
+
+.lw-recent-delta.is-up {
+  color: var(--muted);
+}

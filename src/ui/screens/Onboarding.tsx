@@ -1,19 +1,26 @@
-import { useEffect, useRef, useState } from 'react';
-import type { Allergen, Profile } from '../../types.ts';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import type { RefObject } from 'react';
+import type { Allergen, CatalogRecipe, Profile } from '../../types.ts';
 import { defaultProfile } from '../../lib/storage.ts';
 import { clampTarget } from '../../lib/targets.ts';
-import { t } from '../../i18n/index.ts';
+import { t, tp } from '../../i18n/index.ts';
 import { num } from '../../i18n/labels.ts';
 import { useAppState } from '../AppState.tsx';
+import { useLibrary } from '../library.tsx';
+import { markPhotoFailed, photoKey, photoSources, usePhotoFailed } from '../photo.ts';
 import { CheckChips, RadioCards } from '../components/controls.tsx';
 import { Icon } from '../components/Icon.tsx';
-import { Mark } from '../components/Mark.tsx';
+import type { IconName } from '../components/Icon.tsx';
+import { PhotoCreditText } from '../components/RecipeImage.tsx';
 import { TargetCalculator, TargetInputs } from '../settings/TargetFields.tsx';
 import type { TargetPatch } from '../settings/TargetFields.tsx';
 import { allergenOptions, dietOptions, toggleIn } from '../settings/options.ts';
 
 type Draft = Pick<Profile, 'kcalTarget' | 'proteinTarget' | 'diet' | 'excludeAllergens' | 'body'>;
 const STEPS = 3;
+/** The Welcome screen's photo: Iraqi dolma, or the first recipe with a photo if that one has none. */
+const WELCOME_RECIPE = 'iraqi-dolma';
+const WELCOME_SIZES = '100vw';
 
 export function Onboarding() {
   const { state, dispatch } = useAppState();
@@ -48,81 +55,77 @@ export function Onboarding() {
 
   if (step === 0) {
     return (
-      <main className="onboarding onboarding-welcome" id="main">
-        <div className="onb-card">
-          <Mark size={88} />
-          <h1 ref={heading} tabIndex={-1} className="onb-title">
-            {t('onb.welcome.title')}
-          </h1>
-          <p className="onb-lead">{t('onb.welcome.body')}</p>
-          <p className="field-hint">{t('onb.welcome.estimates')}</p>
-          <div className="onb-actions">
-            <button type="button" className="btn btn-primary btn-block" onClick={() => setStep(1)}>
-              {t('onb.start')}
-            </button>
-            <button type="button" className="btn btn-quiet btn-block" onClick={skip}>
-              {t('onb.skip')}
-            </button>
-          </div>
-          <p className="field-hint onb-defaults">{t('onb.defaults', { kcal: num(defaults.kcalTarget), protein: num(defaults.proteinTarget) })}</p>
-        </div>
-      </main>
+      <Welcome
+        heading={heading}
+        onStart={() => setStep(1)}
+        onSkip={skip}
+        defaultsLine={`${t('onb.defaults', { kcal: num(defaults.kcalTarget), protein: num(defaults.proteinTarget) })} ${t('onb.welcome.estimates')}`}
+      />
     );
   }
 
+  const summary = pending ?? draft;
+
   return (
-    <main className="onboarding" id="main">
-      <div className="onb-card onb-step">
-        <div className="onb-progress">
-          <p className="eyebrow">{t('onb.step', { n: step, total: STEPS })}</p>
-          <ol className="onb-dots" aria-hidden="true">
-            {Array.from({ length: STEPS }, (_, i) => (
-              <li key={i} className={i < step ? 'is-done' : ''} />
-            ))}
-          </ol>
+    <main className="onboarding onb-steps" id="main">
+      <div className="onb-column">
+        <div className="onb-progress" aria-hidden="true">
+          {Array.from({ length: STEPS }, (_, i) => (
+            <span key={i} className={`onb-seg${i < step ? ' is-done' : ''}`} />
+          ))}
         </div>
-        {step === 1 ? (
-          <>
-            <h1 ref={heading} tabIndex={-1} className="onb-title">
-              {t('onb.targets.title')}
-            </h1>
-            <p className="onb-lead">{t('onb.targets.body')}</p>
-            <TargetInputs kcal={draft.kcalTarget} protein={draft.proteinTarget} onChange={set} />
-            <details className="disclosure" open={calcOpen} onToggle={(e) => setCalcOpen(e.currentTarget.open)}>
-              <summary className="disclosure-summary">
-                <Icon name="sparkle" size={20} />
-                {t('settings.calculator')}
-                <Icon name="chevronDown" size={20} className="disclosure-chevron" />
-              </summary>
-              <TargetCalculator body={draft.body} onSuggest={setSuggestion} />
-            </details>
-            <p className="onb-summary num">{t('onb.targets.summary', { kcal: num((pending ?? draft).kcalTarget), protein: num((pending ?? draft).proteinTarget) })}</p>
-          </>
-        ) : step === 2 ? (
-          <>
-            <h1 ref={heading} tabIndex={-1} className="onb-title">
-              {t('onb.diet.title')}
-            </h1>
-            <RadioCards label={t('onb.diet.title')} hideLabel value={draft.diet} onChange={(diet) => set({ diet })} options={dietOptions()} />
-          </>
-        ) : (
-          <>
-            <h1 ref={heading} tabIndex={-1} className="onb-title">
-              {t('onb.allergens.title')}
-            </h1>
-            <p className="onb-lead">{t('onb.allergens.body')}</p>
-            <CheckChips<Allergen> label={t('onb.allergens.title')} hideLabel values={draft.excludeAllergens} onToggle={(a) => set({ excludeAllergens: toggleIn(draft.excludeAllergens, a) })} options={allergenOptions()} />
-          </>
-        )}
+        <header className="onb-head">
+          <p className="page-sub">{t('onb.step', { n: step, total: STEPS })}</p>
+          <h1 ref={heading} tabIndex={-1} className="page-title">
+            {step === 1 ? t('onb.targets.title') : step === 2 ? t('onb.diet.title') : t('onb.allergens.title')}
+          </h1>
+          {step === 1 ? <p className="onb-lead">{t('onb.targets.body')}</p> : null}
+          {step === 3 ? <p className="onb-lead">{t('onb.allergens.body')}</p> : null}
+        </header>
+
+        <div className="onb-body">
+          {step === 1 ? (
+            <>
+              <div className="card onb-card">
+                <TargetInputs kcal={draft.kcalTarget} protein={draft.proteinTarget} onChange={set} />
+              </div>
+              <details className="card onb-calc" open={calcOpen} onToggle={(e) => setCalcOpen(e.currentTarget.open)}>
+                <summary className="onb-calc-summary">
+                  <span className="onb-calc-icon">
+                    <Icon name="sparkle" size={18} />
+                  </span>
+                  <span className="onb-calc-label">{t('settings.calculator')}</span>
+                  <Icon name="chevronDown" size={20} className="onb-calc-chevron" />
+                </summary>
+                <div className="onb-calc-body">
+                  <TargetCalculator body={draft.body} onSuggest={setSuggestion} />
+                </div>
+              </details>
+              <p className="onb-summary num">
+                <Icon name="target" size={20} />
+                <span>{t('onb.targets.summary', { kcal: num(summary.kcalTarget), protein: num(summary.proteinTarget) })}</span>
+              </p>
+            </>
+          ) : step === 2 ? (
+            <div className="onb-diet">
+              <RadioCards label={t('onb.diet.title')} hideLabel value={draft.diet} onChange={(diet) => set({ diet })} options={dietOptions()} />
+            </div>
+          ) : (
+            <div className="card onb-card onb-allergens">
+              <CheckChips<Allergen> label={t('onb.allergens.title')} hideLabel values={draft.excludeAllergens} onToggle={(a) => set({ excludeAllergens: toggleIn(draft.excludeAllergens, a) })} options={allergenOptions()} />
+            </div>
+          )}
+        </div>
+
         <div className="onb-nav">
-          <button type="button" className="btn btn-quiet" onClick={() => setStep(step - 1)}>
+          <button type="button" className="btn btn-lg btn-quiet onb-back" onClick={() => setStep(step - 1)}>
             <Icon name="arrowLeft" size={20} className="flip-rtl" />
             {t('onb.back')}
           </button>
           {step < STEPS ? (
             <button
               type="button"
-              className="btn btn-primary"
+              className="btn btn-lg glass-accent onb-next"
               onClick={() => {
                 if (pending) {
                   set(pending);
@@ -133,9 +136,10 @@ export function Onboarding() {
               }}
             >
               {pending ? t('onb.useAndNext') : t('onb.next')}
+              <Icon name="arrowRight" size={20} className="flip-rtl" />
             </button>
           ) : (
-            <button type="button" className="btn btn-primary" onClick={finish}>
+            <button type="button" className="btn btn-lg glass-accent onb-next" onClick={finish}>
               {t('onb.finish')}
             </button>
           )}
@@ -143,6 +147,86 @@ export function Onboarding() {
         <p className="visually-hidden" role="status">
           {announce}
         </p>
+      </div>
+    </main>
+  );
+}
+
+/** The recipe whose photo fills the Welcome screen. */
+function welcomeRecipe(catalog: readonly CatalogRecipe[], byId: ReadonlyMap<string, CatalogRecipe>): CatalogRecipe | undefined {
+  const preferred = byId.get(WELCOME_RECIPE);
+  return preferred?.photo ? preferred : catalog.find((r) => r.photo);
+}
+
+function Welcome({ heading, onStart, onSkip, defaultsLine }: { heading: RefObject<HTMLHeadingElement | null>; onStart: () => void; onSkip: () => void; defaultsLine: string }) {
+  const lib = useLibrary();
+  const recipe = useMemo(() => welcomeRecipe(lib.catalog, lib.byId), [lib]);
+  const photo = recipe?.photo;
+  const key = photo ? photoKey(photo, WELCOME_SIZES) : null;
+  const failed = usePhotoFailed(key);
+  const showPhoto = !!photo && !!key && !failed;
+  const src = photo ? photoSources(photo) : null;
+
+  const facts: { icon: IconName; label: string }[] = [
+    { icon: 'utensils', label: tp('onb.recipes', lib.catalog.length, { n: num(lib.catalog.length) }) },
+    { icon: 'play', label: t('onb.videos') },
+    { icon: 'shieldCheck', label: t('onb.halal') },
+  ];
+
+  return (
+    <main className="onboarding onb-welcome" id="main">
+      {showPhoto && src && key ? (
+        <img
+          className="onb-photo"
+          src={src.src}
+          srcSet={src.srcSet}
+          sizes={WELCOME_SIZES}
+          width={src.width}
+          height={src.height}
+          alt=""
+          style={{ objectPosition: src.objectPosition }}
+          fetchPriority="high"
+          onError={() => markPhotoFailed(key)}
+        />
+      ) : null}
+      <div className="onb-shade" aria-hidden="true" />
+
+      <div className="onb-top">
+        <p className="glass-clear onb-brand">
+          <Icon name="leaf" size={16} />
+          <span>{t('common.dotPair', { a: t('app.name'), b: t('app.nativeName') })}</span>
+        </p>
+      </div>
+
+      <div className="onb-bottom">
+        <div className="onb-text">
+          <h1 ref={heading} tabIndex={-1} className="onb-title">
+            {t('onb.welcome.title')}
+          </h1>
+          <p className="onb-intro">{t('onb.welcome.body')}</p>
+        </div>
+        <ul className="onb-facts" aria-label={t('onb.features')}>
+          {facts.map((f) => (
+            <li key={f.icon} className="glass-clear onb-fact">
+              <Icon name={f.icon} size={14} />
+              <span>{f.label}</span>
+            </li>
+          ))}
+        </ul>
+        <div className="onb-actions">
+          <button type="button" className="btn btn-lg btn-block glass-accent" onClick={onStart}>
+            {t('onb.start')}
+          </button>
+          <button type="button" className="btn btn-lg btn-block glass-clear" onClick={onSkip}>
+            {t('onb.skip')}
+          </button>
+          <p className="onb-fine num">{defaultsLine}</p>
+          {showPhoto && photo ? (
+            <p className="onb-credit">
+              <PhotoCreditText credit={photo.credit} />
+            </p>
+          ) : null}
+        </div>
       </div>
     </main>
   );

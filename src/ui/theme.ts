@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import type { ThemeChoice } from '../lib/storage.ts';
 
 /** Page background per theme; keep in sync with --bg in src/styles/tokens.css. */
-export const THEME_COLORS = { light: '#FBF6EE', dark: '#1A1511' } as const;
+export const THEME_COLORS = { light: '#F2F2F7', dark: '#000000' } as const;
 
 export function applyTheme(choice: ThemeChoice, root: HTMLElement = document.documentElement): void {
   if (choice === 'system') delete root.dataset.theme;

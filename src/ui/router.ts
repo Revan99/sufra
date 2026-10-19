@@ -1,5 +1,6 @@
-// A tiny hash router: #/today, #/today/2026-09-24, #/week, #/week/2026-09-26, #/shopping, #/recipes,
-// #/recipe/<id>?date=&slot=&index=, #/settings, #/credits. Parsing never throws; anything unknown opens Today.
+// A tiny hash router: #/today, #/today/2026-09-24, #/week, #/week/2026-09-26, #/progress, #/shopping, #/recipes,
+// #/search (Recipes with the search field focused), #/recipe/<id>?date=&slot=&index=, #/settings, #/credits.
+// Parsing never throws; anything unknown opens Today.
 import { useSyncExternalStore } from 'react';
 import type { MealSlot } from '../types.ts';
 import { MEAL_SLOTS } from '../types.ts';
@@ -9,13 +10,14 @@ import type { ISODate } from '../lib/dates.ts';
 export type Route =
   | { name: 'today'; date: ISODate | null }
   | { name: 'week'; date: ISODate | null }
+  | { name: 'progress' }
   | { name: 'shopping' }
-  | { name: 'recipes' }
+  | { name: 'recipes'; search?: boolean }
   | { name: 'recipe'; id: string; date: ISODate | null; slot: MealSlot | null; index: number | null }
   | { name: 'settings' }
   | { name: 'credits' };
 
-export type TabName = 'today' | 'week' | 'shopping' | 'recipes' | 'settings';
+export type TabName = 'today' | 'week' | 'progress' | 'shopping' | 'recipes' | 'settings';
 
 const ID_RE = /^[a-z0-9][a-z0-9-]{0,120}$/;
 
@@ -40,10 +42,14 @@ export function parseHash(hash: string): Route {
       return { name: 'today', date: isISODate(arg) ? arg : null };
     case 'week':
       return { name: 'week', date: isISODate(arg) ? arg : null };
+    case 'progress':
+      return { name: 'progress' };
     case 'shopping':
       return { name: 'shopping' };
     case 'recipes':
       return { name: 'recipes' };
+    case 'search':
+      return { name: 'recipes', search: true };
     case 'settings':
       return { name: 'settings' };
     case 'credits':
@@ -81,6 +87,8 @@ export function routeHash(route: Route): string {
       const qs = q.toString();
       return `#/recipe/${encodeURIComponent(route.id)}${qs ? `?${qs}` : ''}`;
     }
+    case 'recipes':
+      return route.search ? '#/search' : '#/recipes';
     default:
       return `#/${route.name}`;
   }

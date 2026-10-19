@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Draws the Sufra app icon (a cream plate with an olive leaf and a saffron apricot on terracotta) and writes:
+// Draws the Sufra app icon (a white leaf on a saffron rounded square, the Liquid Glass mark) and writes:
 //   public/icon.svg                 favicon and source drawing (rounded square)
 //   public/icons/icon-192.png       manifest icon, purpose "any"
 //   public/icons/icon-512.png       manifest icon, purpose "any"
@@ -15,34 +15,33 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const PLAYWRIGHT = process.argv[2] ?? '/Users/revansarbast/Documents/personal/projects/portfolio/node_modules/playwright/index.mjs';
 
-const TERRACOTTA = '#A6461F';
-const TERRACOTTA_DEEP = '#8E3A17';
-const CREAM = '#FBF3E6';
-const RING = '#E6D3BB';
-const OLIVE = '#5F7A2A';
-const SAFFRON = '#D9A441';
+const SAFFRON_LIGHT = '#FF9A57';
+const SAFFRON = '#F2711C';
+const SAFFRON_DEEP = '#D9480F';
+/** The leaf from the UI's icon set, on a 24 box (src/ui/components/Icon.tsx). */
+const LEAF = 'M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10ZM2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12';
 
 /** The mark on a 512 box. `scale` shrinks it around the centre; `rounded` gives transparent corners. */
 function iconSvg({ rounded, scale = 1 }) {
   const bg = rounded
     ? `<rect width="512" height="512" rx="112" fill="url(#g)"/>`
     : `<rect width="512" height="512" fill="url(#g)"/>`;
+  const s = 11.5 * scale;
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="${TERRACOTTA}"/>
-      <stop offset="1" stop-color="${TERRACOTTA_DEEP}"/>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="${SAFFRON_LIGHT}"/>
+      <stop offset="0.5" stop-color="${SAFFRON}"/>
+      <stop offset="1" stop-color="${SAFFRON_DEEP}"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.28"/>
+      <stop offset="0.55" stop-color="#fff" stop-opacity="0"/>
     </linearGradient>
   </defs>
   ${bg}
-  <g transform="translate(256 256) scale(${scale}) translate(-256 -256)">
-    <circle cx="256" cy="262" r="168" fill="#000" opacity="0.14"/>
-    <circle cx="256" cy="256" r="168" fill="${CREAM}"/>
-    <circle cx="256" cy="256" r="124" fill="none" stroke="${RING}" stroke-width="10"/>
-    <path d="M180 332c0-84 56-144 152-152 4.8 96-52.8 152-152 152Z" fill="${OLIVE}"/>
-    <path d="M180 332c33.6-43.2 67.2-72 107.2-94.4" fill="none" stroke="${CREAM}" stroke-width="12.8" stroke-linecap="round"/>
-    <circle cx="324" cy="312" r="25.6" fill="${SAFFRON}"/>
-  </g>
+  ${rounded ? '<rect width="512" height="512" rx="112" fill="url(#sheen)"/>' : '<rect width="512" height="512" fill="url(#sheen)"/>'}
+  <path d="${LEAF}" transform="translate(256 256) scale(${s}) translate(-11.5 -11.5)" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 `;
 }
@@ -50,8 +49,8 @@ function iconSvg({ rounded, scale = 1 }) {
 const OUTPUTS = [
   { file: 'icons/icon-192.png', size: 192, svg: iconSvg({ rounded: true }) },
   { file: 'icons/icon-512.png', size: 512, svg: iconSvg({ rounded: true }) },
-  // Maskable: the safe zone is a circle of radius 40% of the size, so the plate (r 168 of 256) is scaled to fit.
-  { file: 'icons/icon-maskable-512.png', size: 512, svg: iconSvg({ rounded: false, scale: 0.9 }) },
+  // Maskable: the safe zone is a circle of radius 40% of the size, so the leaf is scaled to fit inside it.
+  { file: 'icons/icon-maskable-512.png', size: 512, svg: iconSvg({ rounded: false, scale: 0.8 }) },
   { file: 'icons/apple-touch-icon.png', size: 180, svg: iconSvg({ rounded: false }) },
 ];
 

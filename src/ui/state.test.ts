@@ -70,3 +70,32 @@ describe('msUntilMidnight', () => {
     expect(msUntilMidnight(new Date(2026, 8, 24, 12, 0, 0))).toBe(12 * 3600_000 + 1000);
   });
 });
+
+describe('tracker actions', () => {
+  const log = { slot: 'lunch' as const, index: 0, status: 'eaten' as const, recipeId: 'quzi', kcal: 764, protein: 63, fiber: 6, at: '12:40' };
+
+  it('logs meals, foods, water and weight', () => {
+    let s = reducer(defaultState(), { type: 'mealStatus', date: '2026-10-18', log });
+    s = reducer(s, { type: 'logFood', date: '2026-10-18', food: { id: 'a', slot: 'snack', name: 'Apple', kcal: 95, protein: 0, fiber: 4, at: '10:30' } });
+    s = reducer(s, { type: 'water', date: '2026-10-18', glasses: 6 });
+    s = reducer(s, { type: 'logWeight', entry: { date: '2026-10-18', at: '09:41', kg: 72.4 } });
+    s = reducer(s, { type: 'weightUnit', unit: 'lb' });
+    expect(s.tracker.days['2026-10-18']).toMatchObject({ water: 6, meals: [log], foods: [{ id: 'a' }] });
+    expect(s.tracker.weights).toEqual([{ date: '2026-10-18', at: '09:41', kg: 72.4 }]);
+    expect(s.tracker.unit).toBe('lb');
+    expect(reducer(s, { type: 'removeFood', date: '2026-10-18', id: 'a' }).tracker.days['2026-10-18']?.foods).toEqual([]);
+  });
+
+  it('forgets a meal log when the meal is swapped or restored', () => {
+    const s = reducer(defaultState(), { type: 'mealStatus', date: '2026-10-18', log });
+    const swapped = reducer(s, { type: 'override', override: { date: '2026-10-18', slot: 'lunch', index: 0, recipeId: 'dolma', portion: 1 } });
+    expect(swapped.tracker.days['2026-10-18']).toBeUndefined();
+    const logged = reducer(swapped, { type: 'mealStatus', date: '2026-10-18', log: { ...log, recipeId: 'dolma' } });
+    expect(reducer(logged, { type: 'clearOverride', date: '2026-10-18', slot: 'lunch', index: 0 }).tracker.days['2026-10-18']).toBeUndefined();
+  });
+
+  it('reset clears the tracker too', () => {
+    const s = reducer(defaultState(), { type: 'water', date: '2026-10-18', glasses: 3 });
+    expect(reducer(s, { type: 'reset' }).tracker.days).toEqual({});
+  });
+});

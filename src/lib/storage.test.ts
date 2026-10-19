@@ -76,7 +76,7 @@ describe('defaults', () => {
       householdSize: 1,
     });
     expect(defaultState()).toMatchObject({ version: STATE_VERSION, favorites: [], overrides: [], shoppingChecked: [], onboarded: false, theme: 'system' });
-    expect(STATE_VERSION).toBe(2);
+    expect(STATE_VERSION).toBe(3);
   });
 
   it('are fresh objects each time', () => {
@@ -366,6 +366,23 @@ describe('versions', () => {
     expect(storedVersion(storage)).toBe(1);
     expect(saveState(loadState(storage), storage)).toBe(true);
     expect(storedVersion(storage)).toBe(STATE_VERSION);
+  });
+
+  it('migrates a version 2 blob: everything kept, with an empty tracker', () => {
+    const v2 = { version: 2, favorites: ['x'], shoppingChecked: [{ ingredientId: 'onion', through: '2026-09-25' }], onboarded: true, theme: 'dark' };
+    const s = parseState(v2);
+    expect(s.version).toBe(3);
+    expect(s.favorites).toEqual(['x']);
+    expect(s.shoppingChecked).toEqual([{ ingredientId: 'onion', through: '2026-09-25' }]);
+    expect(s.theme).toBe('dark');
+    expect(s.tracker).toEqual({ days: {}, weights: [], unit: 'kg', waterGoal: 8 });
+  });
+
+  it('round-trips tracker logs through storage', () => {
+    const storage = memoryStorage();
+    const s = { ...defaultState(), tracker: { days: { '2026-10-18': { meals: [], foods: [], water: 3 } }, weights: [{ date: '2026-10-18', at: '09:41', kg: 72.4 }], unit: 'lb' as const, waterGoal: 10 } };
+    expect(saveState(s, storage)).toBe(true);
+    expect(loadState(storage).tracker).toEqual(s.tracker);
   });
 
   it('reads a newer version but never overwrites it (an old cached app after an update, regression)', () => {

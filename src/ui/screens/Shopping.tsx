@@ -1,4 +1,5 @@
 import { useId, useMemo, useState } from 'react';
+import type { Aisle } from '../../types.ts';
 import type { ShoppingItem, ShoppingRange } from '../../lib/shopping.ts';
 import { buildShoppingList, shoppingDates, toPlainText } from '../../lib/shopping.ts';
 import { shoppingCheckedIds } from '../../lib/storage.ts';
@@ -12,47 +13,87 @@ import { usePlan } from '../plan.tsx';
 import { routeHash } from '../router.ts';
 import { conflictingOverrides } from '../planHelpers.ts';
 import { Icon } from '../components/Icon.tsx';
+import type { IconName } from '../components/Icon.tsx';
 import { EmptyState, Segmented } from '../components/controls.tsx';
+import { PageHead } from '../components/PageHead.tsx';
 import { useToast } from '../components/Toast.tsx';
 
+const AISLE_ICONS: Readonly<Record<Aisle, IconName>> = {
+  produce: 'leaf',
+  herbs: 'leaf',
+  'meat-poultry': 'drumstick',
+  seafood: 'fish',
+  'dairy-eggs': 'milk',
+  'bakery-grains': 'wheat',
+  legumes: 'bean',
+  'nuts-seeds': 'nut',
+  'oils-vinegars': 'droplet',
+  spices: 'flame',
+  'condiments-sauces': 'package',
+  'canned-jarred': 'package',
+  frozen: 'snowflake',
+  'baking-sweeteners': 'candy',
+  other: 'package',
+};
+
 /**
- * One item: the checkbox's name is the item and its amount; the recipes it is for are its description. One recipe
- * shows as "For Shakshuka" (wrapping, never cut); several as "For 5 recipes", which expands to list them.
+ * One item: a tick circle, the name, and what to buy at the end. The whole row is the checkbox (named by the item
+ * and its amount). One secondary line carries the other amount ("≈ 11 medium"), the halal sourcing note and the
+ * recipes it is for: "For Shakshuka" for one, "For 5 recipes" for several, which expands to list them.
  */
-function ItemRow({ item, checked, onToggle, recipeNames }: { item: ShoppingItem; checked: boolean; onToggle: () => void; recipeNames: readonly string[] }) {
-  const forId = useId();
+function ItemRow({ item, checked, onToggle, recipeNames, halalNote }: { item: ShoppingItem; checked: boolean; onToggle: () => void; recipeNames: readonly string[]; halalNote?: string }) {
+  const id = useId();
+  const [open, setOpen] = useState(false);
   const all = listJoin(recipeNames);
+  const forAll = recipeNames.length ? t('shop.for', { recipes: all }) : '';
+  const many = recipeNames.length > 1;
+  const parts = [item.countHint, halalNote, many ? undefined : forAll || undefined].filter((p): p is string => !!p);
+  const described = [item.countHint, halalNote, forAll].filter(Boolean).join(t('common.sep'));
   return (
-    <li className={`shop-item${checked ? ' is-checked' : ''}`}>
-      <label className="shop-label">
-        <input type="checkbox" className="shop-check" checked={checked} onChange={onToggle} aria-describedby={forId} />
-        <span className="shop-box" aria-hidden="true">
-          <Icon name="check" size={18} />
-        </span>
-        <span className="shop-name">{item.name}</span>
-        <span className="shop-amount num">
-          {item.amount}
-          {item.countHint ? <span className="shop-count">{item.countHint}</span> : null}
-        </span>
-      </label>
-      <span id={forId} className="visually-hidden">
-        {t('shop.for', { recipes: all })}
+    <li className={`shop-row${checked ? ' is-checked' : ''}`}>
+      <input type="checkbox" className="shop-input" checked={checked} onChange={onToggle} aria-labelledby={`${id}-n ${id}-a`} aria-describedby={described ? `${id}-d` : undefined} />
+      <span className={`tick shop-tick${checked ? ' is-on' : ''}`} aria-hidden="true">
+        {checked ? <Icon name="check" size={15} /> : null}
       </span>
-      {recipeNames.length > 1 ? (
-        <details className="shop-for">
-          <summary>
-            {tp('shop.forCount', recipeNames.length)}
-            <Icon name="chevronDown" size={16} className="shop-for-chevron" />
-          </summary>
-          <p>{all}</p>
-        </details>
-      ) : (
-        <p className="shop-for" aria-hidden="true">
-          {t('shop.for', { recipes: all })}
-        </p>
-      )}
+      <span className="shop-text">
+        <span id={`${id}-n`} className="shop-name">
+          {item.name}
+        </span>
+        {parts.length || many ? (
+          <span className="shop-sub" aria-hidden={many ? undefined : true}>
+            {parts.length ? <span aria-hidden="true">{parts.join(t('common.sep'))}</span> : null}
+            {many ? (
+              <span className="shop-sub-tail">
+                {parts.length ? <span aria-hidden="true">{t('common.sep')}</span> : null}
+                <button type="button" className="shop-for-btn" aria-expanded={open} aria-controls={`${id}-l`} onClick={() => setOpen((o) => !o)}>
+                  {tp('shop.forCount', recipeNames.length)}
+                  <Icon name="chevronDown" size={14} className="shop-for-chevron" />
+                </button>
+              </span>
+            ) : null}
+          </span>
+        ) : null}
+        {many ? (
+          <span id={`${id}-l`} className="shop-for-list" hidden={!open} aria-hidden="true">
+            {all}
+          </span>
+        ) : null}
+      </span>
+      <span id={`${id}-a`} className="shop-amount num">
+        {item.amount}
+      </span>
+      {described ? (
+        <span id={`${id}-d`} className="visually-hidden">
+          {described}
+        </span>
+      ) : null}
     </li>
   );
+}
+
+/** A halal note reads as a short line here: without the closing full stop. */
+function shortNote(note: string | undefined): string | undefined {
+  return note ? note.replace(/\.$/, '') : undefined;
 }
 
 export function ShoppingScreen() {
@@ -74,6 +115,7 @@ export function ShoppingScreen() {
   const all = [...list.groups.flatMap((g) => g.items), ...list.staples];
   const done = all.filter((i) => checked.has(i.ingredientId)).length;
   const names = (item: ShoppingItem) => item.recipeIds.map((id) => lib.byId.get(id)?.name ?? id);
+  const halalNote = (item: ShoppingItem) => shortNote(item.ingredientIds.map((id) => lib.ingredientIndex.get(id)?.halalNote).find(Boolean));
   // The week range rolls over to next week near the end of this one: then it's named by its last day.
   const weekEnd = addDays(startOfWeek(plan.today, state.profile.weekStart), 6);
   const weekRange = shoppingDates('week', plan.today, state.profile.weekStart);
@@ -109,20 +151,29 @@ export function ShoppingScreen() {
       // Cancelled or unavailable: nothing to do.
     }
   };
+  const row = (i: ShoppingItem) => <ItemRow key={i.ingredientId} item={i} checked={checked.has(i.ingredientId)} onToggle={() => toggle(i.ingredientId)} recipeNames={names(i)} halalNote={halalNote(i)} />;
 
   return (
-    <>
-      <header className="screen-head">
-        <div>
-          <p className="eyebrow">{tp('shop.household', household)}</p>
-          <h1 tabIndex={-1} className="screen-title">
-            {t('shop.title')}
-          </h1>
-        </div>
-      </header>
-      <div className="shop-controls">
+    <div className="shop">
+      <PageHead sub={<span className="num">{t('common.dotPair', { a: tp('shop.household', household), b: dateSpan(first, through) })}</span>} title={t('shop.title')}>
+        {all.length ? (
+          <div className="capsule glass shop-capsule">
+            <button type="button" className="icon-btn shop-capsule-btn" onClick={copy} aria-label={t('shop.copyLabel')}>
+              <Icon name="copy" size={18} />
+            </button>
+            {canShare ? (
+              <button type="button" className="icon-btn shop-capsule-btn" onClick={share} aria-label={t('shop.shareLabel')}>
+                <Icon name="share" size={18} />
+              </button>
+            ) : null}
+          </div>
+        ) : null}
+      </PageHead>
+
+      <div className="shop-range">
         <Segmented
           label={t('shop.rangeLabel')}
+          hideLabel
           value={range}
           onChange={setRange}
           options={[
@@ -131,7 +182,6 @@ export function ShoppingScreen() {
             { value: 'week', label: weekLabel },
           ]}
         />
-        <p className="shop-dates num">{dateSpan(first, through)}</p>
       </div>
 
       {conflicts.length ? (
@@ -145,65 +195,58 @@ export function ShoppingScreen() {
           </span>
         </p>
       ) : null}
+
       {all.length === 0 ? (
         <EmptyState icon="basket" title={t('shop.empty.title')}>
           <p>{t('shop.empty.body')}</p>
         </EmptyState>
       ) : (
         <>
-          <div className="shop-bar">
-            <p className="shop-progress num" aria-live="polite">
-              {t('shop.progress', { done, total: all.length })}
-            </p>
-            <div className="shop-actions">
-              <button type="button" className="btn btn-quiet btn-sm" onClick={copy}>
-                <Icon name="copy" size={20} />
-                {t('shop.copy')}
-              </button>
-              {canShare ? (
-                <button type="button" className="btn btn-quiet btn-sm" onClick={share}>
-                  <Icon name="share" size={20} />
-                  {t('shop.share')}
-                </button>
-              ) : null}
+          <div className="shop-progress">
+            <div className="shop-progress-row">
+              <p className="shop-progress-label num" aria-live="polite">
+                {t('shop.progress', { done, total: all.length })}
+              </p>
               {done > 0 ? (
-                <button type="button" className="btn btn-quiet btn-sm" onClick={() => dispatch({ type: 'shopClear' })}>
+                <button type="button" className="shop-untick" onClick={() => dispatch({ type: 'shopClear' })}>
                   {t('shop.untickAll')}
                 </button>
               ) : null}
             </div>
+            <div className="shop-bar" aria-hidden="true">
+              <span className="shop-bar-fill" style={{ inlineSize: `${(done / all.length) * 100}%` }} />
+            </div>
           </div>
-          <div className="shop-groups">
+
+          <div className="shop-aisles">
             {list.groups.map((g) => (
-              <section key={g.aisle} className="card shop-group" aria-labelledby={`aisle-${g.aisle}`}>
-                <h2 id={`aisle-${g.aisle}`} className="panel-title">
-                  {aisleName(g.aisle)}
+              <section key={g.aisle} className="shop-aisle" aria-labelledby={`aisle-${g.aisle}`}>
+                <h2 className="shop-aisle-label">
+                  <Icon name={AISLE_ICONS[g.aisle]} size={16} />
+                  <span id={`aisle-${g.aisle}`}>{aisleName(g.aisle)}</span>
                 </h2>
-                <ul className="shop-list">
-                  {g.items.map((i) => (
-                    <ItemRow key={i.ingredientId} item={i} checked={checked.has(i.ingredientId)} onToggle={() => toggle(i.ingredientId)} recipeNames={names(i)} />
-                  ))}
-                </ul>
+                <ul className="shop-list">{g.items.map(row)}</ul>
               </section>
             ))}
-            {list.staples.length ? (
-              <details className="card shop-group staples">
-                <summary className="staples-summary">
-                  <span className="panel-title">{t('shop.staples')}</span>
-                  <span className="staples-count num">{list.staples.length}</span>
-                  <Icon name="chevronDown" size={20} className="staples-chevron" />
-                </summary>
-                <p className="panel-sub">{t('shop.staplesHint')}</p>
-                <ul className="shop-list">
-                  {list.staples.map((i) => (
-                    <ItemRow key={i.ingredientId} item={i} checked={checked.has(i.ingredientId)} onToggle={() => toggle(i.ingredientId)} recipeNames={names(i)} />
-                  ))}
-                </ul>
-              </details>
-            ) : null}
           </div>
+
+          {list.staples.length ? (
+            <details className="shop-staples">
+              <summary className="shop-staples-summary">
+                <span className="shop-staples-icon" aria-hidden="true">
+                  <Icon name="package" size={16} />
+                </span>
+                <span className="shop-staples-text">
+                  <span className="shop-staples-title num">{t('shop.staplesCount', { n: list.staples.length })}</span>
+                  <span className="shop-staples-hint">{t('shop.staplesHint')}</span>
+                </span>
+                <Icon name="chevronDown" size={18} className="shop-staples-chevron" />
+              </summary>
+              <ul className="shop-list shop-staples-list">{list.staples.map(row)}</ul>
+            </details>
+          ) : null}
         </>
       )}
-    </>
+    </div>
   );
 }

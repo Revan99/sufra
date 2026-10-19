@@ -1,0 +1,99 @@
+/* Recipe images (RecipeImage): the photo fills its frame (object-fit: cover, positioned on the food); a recipe without
+   one, or whose photo can't load, draws its plate in the same spot. Each screen sizes and rounds its own frames. */
+
+.ri {
+  position: relative;
+  display: block;
+  flex: none;
+  overflow: hidden;
+}
+
+.ri-has-photo {
+  background: var(--photo-frame);
+}
+
+/* A plate without a photo sits on a soft saffron wash in the same frame. */
+.ri-fallback {
+  display: grid;
+  place-items: center;
+  background: var(--accent-tint);
+}
+
+.ri-img {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+  /* While loading, and in the instant before a failed photo becomes a plate, show no alt text over the frame. */
+  color: transparent;
+}
+
+.ri-plate {
+  display: block;
+  inline-size: 86%;
+  block-size: 86%;
+}
+
+/* Dark mode: take the glare off bright, white-background photos. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .ri-img {
+    filter: brightness(0.9);
+  }
+}
+
+:root[data-theme='dark'] .ri-img {
+  filter: brightness(0.9);
+}
+
+/* Plate art */
+.plate {
+  flex: none;
+}
+
+.plate-shadow {
+  fill: var(--plate-shadow);
+  transform: translate(0, 1.5px);
+}
+
+.plate-rim {
+  fill: var(--plate-rim);
+}
+
+.plate-ring {
+  fill: var(--plate-ring);
+}
+
+.plate-well {
+  fill: var(--plate-well);
+}
+
+.plate-motif {
+  opacity: 0.85;
+}
+
+.plate-accent-1 {
+  fill: var(--plate-accent-1);
+}
+
+.plate-accent-2 {
+  fill: var(--plate-accent-2);
+}
+
+.plate-accent-3 {
+  fill: var(--plate-accent-3);
+}
+
+.plate-accent-4 {
+  fill: var(--plate-accent-4);
+}
+
+/* Photo credit under a hero photo (the recipe page). */
+.photo-credit {
+  color: var(--muted);
+  font-size: var(--fs-2xs);
+  line-height: 1.4;
+}
+
+.photo-credit a {
+  color: inherit;
+}

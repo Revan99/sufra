@@ -10,10 +10,15 @@ import { addDays, isISODate } from './dates.ts';
 import type { ISODate } from './dates.ts';
 import { clampTarget, invalidBodyFields } from './targets.ts';
 import { snapPortion } from './planner-balance.ts';
+import { defaultTracker, parseTracker, pruneTracker } from './tracker.ts';
+import type { Tracker } from './tracker.ts';
 
 export const STORAGE_KEY = 'sufra:v1';
-/** Schema version written with the state. 2: shopping ticks carry the last date of the list they were ticked on. */
-export const STATE_VERSION = 2;
+/**
+ * Schema version written with the state. 2: shopping ticks carry the last date of the list they were ticked on.
+ * 3: the tracker (meals eaten, extra foods, water, weight).
+ */
+export const STATE_VERSION = 3;
 /** Overrides older than this many days are pruned. */
 export const OVERRIDE_MAX_AGE_DAYS = 60;
 /** Accepted household sizes (inclusive). */
@@ -43,6 +48,8 @@ export interface AppState {
   shoppingChecked: ShoppingCheck[];
   onboarded: boolean;
   theme: ThemeChoice;
+  /** What was eaten, water and weight (see lib/tracker.ts). */
+  tracker: Tracker;
 }
 
 /** The subset of the Web Storage API used here (easy to fake in tests). */
@@ -81,6 +88,7 @@ export function defaultState(): AppState {
     shoppingChecked: [],
     onboarded: false,
     theme: 'system',
+    tracker: defaultTracker(),
   };
 }
 
@@ -189,10 +197,14 @@ function versionOf(x: Record<string, unknown>): number {
   return typeof x.version === 'number' && Number.isFinite(x.version) ? x.version : 1;
 }
 
-/** Brings an older blob to the current schema. 1 -> 2: shopping ticks were bare ids with no list, so they go. */
+/**
+ * Brings an older blob to the current schema. 1 -> 2: shopping ticks were bare ids with no list, so they go.
+ * 2 -> 3: adds an empty tracker.
+ */
 function migrate(x: Record<string, unknown>): Record<string, unknown> {
   let out = x;
   if (versionOf(out) < 2) out = { ...out, shoppingChecked: [], version: 2 };
+  if (versionOf(out) < 3) out = { ...out, tracker: defaultTracker(), version: 3 };
   return out;
 }
 
@@ -212,6 +224,7 @@ export function parseState(x: unknown): AppState {
     shoppingChecked: parseShoppingChecked(m.shoppingChecked),
     onboarded: typeof m.onboarded === 'boolean' ? m.onboarded : d.onboarded,
     theme: oneOf(m.theme, THEMES) ?? d.theme,
+    tracker: parseTracker(m.tracker),
   };
 }
 
@@ -372,7 +385,9 @@ export function pruneShoppingChecked(state: AppState, today: ISODate): AppState 
   return shoppingChecked.length === state.shoppingChecked.length ? state : { ...state, shoppingChecked };
 }
 
-/** Housekeeping for app start: pruneOverrides and pruneShoppingChecked. */
+/** Housekeeping for app start: pruneOverrides, pruneShoppingChecked and old tracker days. */
 export function pruneState(state: AppState, today: ISODate): AppState {
-  return pruneShoppingChecked(pruneOverrides(state, today), today);
+  const next = pruneShoppingChecked(pruneOverrides(state, today), today);
+  const tracker = pruneTracker(next.tracker, today);
+  return tracker === next.tracker ? next : { ...next, tracker };
 }

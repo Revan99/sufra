@@ -1,0 +1,1337 @@
+/* Today. Phones: a full-bleed photo hero, then the eaten ring, water and the meal log. Wide screens: header with
+   day capsule and search, the hero as a rounded card, meal tiles and tomorrow on the left; the tracker, the planned
+   day, the week and the shopping list on the right. */
+
+.today {
+  display: flex;
+  flex-direction: column;
+}
+
+.today-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+  padding-block-start: 1rem;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Hero */
+
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-block-size: calc(18.75rem + var(--safe-top));
+  overflow: hidden;
+  background: #2a1d14;
+  color: #ffffff;
+}
+
+.hero-img {
+  position: absolute;
+  inset: 0;
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+/* No photo: the plate on a warm, dark wash, to the end side, so the white text still reads. */
+.hero.no-photo .hero-img.ri-fallback {
+  background: radial-gradient(120% 90% at 85% 20%, #8a4a22 0%, #3b2416 55%, #1f140d 100%);
+  place-items: start end;
+  padding-block-start: calc(var(--safe-top) + 4.25rem);
+  padding-inline-end: 7%;
+}
+
+.hero.no-photo .hero-img .ri-plate {
+  inline-size: auto;
+  block-size: 42%;
+  aspect-ratio: 1;
+  filter: drop-shadow(0 12px 24px rgb(0 0 0 / 35%));
+}
+
+.hero-shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgb(0 0 0 / 35%) 0%, rgb(0 0 0 / 0%) 30%, rgb(0 0 0 / 0%) 45%, rgb(0 0 0 / 70%) 100%);
+  pointer-events: none;
+}
+
+.hero-top {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: calc(var(--safe-top) + 1rem) 1rem 0;
+}
+
+.hero-settings {
+  inline-size: 2.75rem;
+  block-size: 2.75rem;
+}
+
+.hero-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  padding: 2.5rem 1.25rem 1.25rem;
+}
+
+.hero-eyebrow {
+  color: rgb(255 255 255 / 85%);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.067em;
+  text-transform: uppercase;
+}
+
+.hero-title {
+  font-size: var(--fs-2xl);
+  font-weight: 700;
+  letter-spacing: -0.021em;
+  line-height: 1.11;
+  text-wrap: balance;
+}
+
+.hero-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.hero-title a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-block-start: 0.5rem;
+}
+
+.hero-btn {
+  min-block-size: 2.5rem;
+  padding: 0 1rem;
+  font-size: 0.875rem;
+}
+
+.hero-btn .icon {
+  flex-shrink: 0;
+}
+
+/* Date capsule: ‹ date › */
+.date-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.date-capsule {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  block-size: 2.75rem;
+  padding: 0 0.25rem;
+  border-radius: var(--r-pill);
+}
+
+.date-step {
+  inline-size: 2.25rem;
+  block-size: 2.25rem;
+  color: inherit;
+}
+
+.date-label {
+  min-inline-size: 5.5rem;
+  font-size: var(--fs-md);
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.date-capsule.glass-clear .date-step {
+  color: #ffffff;
+}
+
+.date-back {
+  min-block-size: 2.25rem;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Eaten ring */
+
+.eaten-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.ring {
+  position: relative;
+  flex-shrink: 0;
+  inline-size: 6rem;
+  block-size: 6rem;
+}
+
+.ring svg {
+  transform: rotate(-90deg);
+}
+
+[dir='rtl'] .ring svg {
+  transform: rotate(-90deg) scaleY(-1);
+}
+
+.ring-track,
+.ring-arc {
+  fill: none;
+  stroke-width: 9.6;
+}
+
+.ring-track {
+  stroke: var(--accent-tint);
+}
+
+.ring-arc {
+  stroke: var(--accent);
+  transition: stroke-dasharray var(--dur-2) var(--ease);
+}
+
+.ring-center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ring-value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.15;
+}
+
+.ring-label {
+  color: var(--muted);
+  font-size: var(--fs-2xs);
+}
+
+.eaten-details {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.5625rem;
+  min-inline-size: 0;
+}
+
+.eaten-headline {
+  font-size: var(--fs-lg);
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.eaten-macro {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.eaten-macro-labels {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  color: var(--muted);
+  font-size: var(--fs-xs);
+}
+
+.eaten-macro-labels .num {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.bar {
+  position: relative;
+  display: block;
+  block-size: 6px;
+  overflow: hidden;
+  border-radius: 3px;
+  background: var(--track);
+}
+
+.bar-fill {
+  position: absolute;
+  inset-block: 0;
+  inset-inline-start: 0;
+  border-radius: 3px;
+  transition: inline-size var(--dur-2) var(--ease);
+}
+
+.bar-protein {
+  background: var(--accent-strong);
+}
+
+.bar-fiber {
+  background: var(--fiber);
+}
+
+.bar-accent {
+  background: var(--accent);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Water */
+
+.water-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 0.75rem 0.75rem 1rem;
+  border-radius: var(--r-xl);
+}
+
+.water-text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.375rem;
+  min-inline-size: 0;
+}
+
+.water-title {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.water-icon {
+  color: var(--water);
+}
+
+.glasses {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Each glass is a 22 x 8 bar inside a taller, wider button. */
+.glass-pip {
+  display: grid;
+  place-items: center;
+  inline-size: 1.6875rem;
+  block-size: 1.5rem;
+  margin-block: -0.5rem;
+  padding: 0 2.5px;
+  border: 0;
+  background: none;
+}
+
+.glass-pip span {
+  inline-size: 100%;
+  block-size: 8px;
+  border-radius: 4px;
+  background: var(--water-soft);
+  transition: background-color var(--dur-1) var(--ease);
+}
+
+.glass-pip.is-full span {
+  background: var(--water);
+}
+
+.glasses li:first-child .glass-pip {
+  padding-inline-start: 0;
+  inline-size: calc(1.6875rem - 2.5px);
+}
+
+.water-add {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  inline-size: 2.75rem;
+  block-size: 2.75rem;
+  border: 0;
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgb(255 255 255 / 40%) 0%, rgb(255 255 255 / 0%) 55%), rgb(47 143 232 / 95%);
+  box-shadow:
+    inset 0 1px 1px rgb(255 255 255 / 80%),
+    inset 0 0 0 1.2px rgb(255 255 255 / 50%),
+    0 6px 18px rgb(0 0 0 / 12%);
+  color: #ffffff;
+  transition: transform var(--dur-1) var(--spring);
+}
+
+.water-add:active {
+  transform: scale(0.92);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Meals: header and log */
+
+.today-meals {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.meals-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.25rem 0.25rem 0;
+}
+
+.log-food-btn {
+  min-block-size: 2.25rem;
+  font-size: 0.875rem;
+}
+
+.meal-list > li + li {
+  border-block-start: 1px solid var(--line);
+}
+
+.meal-row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding-block: 0.625rem;
+}
+
+.meal-tick,
+.meal-row-swap {
+  position: relative;
+  z-index: 1;
+}
+
+/* A 28 px circle with a 44 px hit area. */
+.meal-tick {
+  border: 0;
+  background: none;
+  padding: 0;
+}
+
+.meal-tick::after {
+  content: '';
+  position: absolute;
+  inset: -8px;
+}
+
+.meal-tick.is-on {
+  background: var(--accent);
+}
+
+.meal-tick:active {
+  transform: scale(0.9);
+}
+
+.meal-row-img,
+.meal-row-icon {
+  inline-size: 2.75rem;
+  block-size: 2.75rem;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+.meal-row-icon {
+  display: grid;
+  place-items: center;
+  background: var(--accent-tint);
+  color: var(--accent);
+}
+
+.meal-row-text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 1px;
+  min-inline-size: 0;
+}
+
+.meal-row-name {
+  font-size: var(--fs-md);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.25;
+}
+
+.meal-row-name a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.meal-row-name a:focus-visible {
+  outline: none;
+}
+
+.meal-row-name a:focus-visible::after {
+  outline: 2.5px solid var(--focus);
+  outline-offset: -2px;
+  border-radius: var(--r-md);
+}
+
+.meal-row-sub {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.375rem;
+  color: var(--muted);
+  font-size: var(--fs-xs);
+}
+
+.meal-row-kcal {
+  flex-shrink: 0;
+  color: var(--muted);
+  font-size: var(--fs-sm);
+}
+
+.meal-row-swap {
+  inline-size: 2rem;
+  block-size: 2rem;
+  margin-inline: -0.25rem -0.375rem;
+  color: var(--faint);
+}
+
+.meal-row-swap::after {
+  content: '';
+  position: absolute;
+  inset: -6px;
+}
+
+.meal-row.is-skipped .meal-row-name,
+.meal-row.is-skipped .meal-row-kcal {
+  color: var(--faint);
+}
+
+.meal-row.is-skipped .meal-row-img {
+  opacity: 0.45;
+}
+
+.pick-tag {
+  padding: 0 0.375rem;
+  border-radius: var(--r-pill);
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+  font-size: var(--fs-2xs);
+  font-weight: 600;
+}
+
+.restore-day {
+  align-self: flex-start;
+  margin-block-start: -0.375rem;
+}
+
+.today-note {
+  padding-inline: 0.25rem;
+}
+
+/* An unfilled meal inside the log. */
+.meal-row-unfilled .unfilled {
+  display: flex;
+  gap: 0.75rem;
+  padding-block: 0.75rem;
+}
+
+.unfilled-mark {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  inline-size: 2.75rem;
+  block-size: 2.75rem;
+  border-radius: 50%;
+  background: var(--amber-soft);
+  color: var(--amber-ink);
+}
+
+.unfilled .meal-main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-inline-size: 0;
+}
+
+.unfilled .eyebrow {
+  color: var(--muted);
+  font-size: var(--fs-xs);
+}
+
+.unfilled .meal-name {
+  font-size: var(--fs-md);
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.unfilled-text,
+.unfilled .reasons {
+  color: var(--muted);
+  font-size: var(--fs-sm);
+}
+
+.unfilled .reasons {
+  padding-inline-start: 1rem;
+  list-style: disc;
+}
+
+.unfilled-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-block-start: 0.25rem;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   The planned day (future days on phones; the side column on wide screens) */
+
+.plan-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+  padding: 1.125rem 1.125rem 1rem;
+}
+
+.plan-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.plan-kcal {
+  display: flex;
+  align-items: baseline;
+  gap: 0.375rem;
+  color: var(--muted);
+  font-size: var(--fs-md);
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.plan-big {
+  color: var(--ink);
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.plan-row .plan-target {
+  font-size: 1.0625rem;
+}
+
+.plan-segments {
+  display: flex;
+  gap: 3px;
+  block-size: 8px;
+}
+
+.plan-seg {
+  min-inline-size: 4px;
+  border-radius: 4px;
+}
+
+.seg-breakfast {
+  background: var(--amber);
+}
+
+.seg-lunch {
+  background: var(--accent);
+}
+
+.seg-dinner {
+  background: var(--accent-strong);
+}
+
+.seg-snack {
+  background: var(--fiber);
+}
+
+.plan-macros {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.plan-macros > div {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.plan-macros dt {
+  color: var(--muted);
+  font-size: var(--fs-sm);
+}
+
+.plan-macros dd {
+  font-size: 1.0625rem;
+  font-weight: 600;
+}
+
+.plan-macros > div:last-child {
+  text-align: end;
+}
+
+.plan-rows > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding-block: 0.5rem 0;
+  border-block-start: 1px solid var(--line);
+  font-size: 0.875rem;
+}
+
+.plan-rows > div + div {
+  margin-block-start: 0.5rem;
+}
+
+.plan-rows dt {
+  color: var(--muted);
+}
+
+.plan-rows dd {
+  font-weight: 600;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Wide screens */
+
+.today-wide {
+  gap: 1.25rem;
+}
+
+.today-head {
+  padding: 0;
+}
+
+.today-head .page-title {
+  font-size: 2.375rem;
+  letter-spacing: -0.026em;
+}
+
+.today-head .page-sub {
+  font-size: var(--fs-md);
+}
+
+.date-capsule.glass {
+  gap: 2px;
+  padding-inline: 0.375rem;
+}
+
+.date-today {
+  min-block-size: 2rem;
+  padding: 0 0.75rem;
+  border: 0;
+  border-radius: var(--r-pill);
+  background: rgb(0 0 0 / 5%);
+  color: var(--ink);
+  font-size: 0.875rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.date-today[aria-disabled='true'] {
+  cursor: default;
+}
+
+.today-search {
+  inline-size: 15rem;
+  min-block-size: 2.75rem;
+  padding-inline: 0.875rem;
+  gap: 0.5rem;
+  color: #8e8e93;
+  font-size: var(--fs-md);
+  text-decoration: none;
+}
+
+.today-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 21.25rem;
+  align-items: start;
+  gap: 1.25rem;
+}
+
+.today-main,
+.today-side {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  min-inline-size: 0;
+}
+
+.today-side {
+  gap: 1rem;
+}
+
+@media (max-width: 1279px) {
+  .today-body {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .today-side {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+  }
+}
+
+.hero-wide.no-photo .hero-img.ri-fallback {
+  place-items: center end;
+  padding: 0 6% 0 0;
+}
+
+.hero-wide.no-photo .hero-img .ri-plate {
+  block-size: 78%;
+}
+
+.hero-wide {
+  justify-content: flex-end;
+  min-block-size: 20.625rem;
+  border-radius: 2rem;
+}
+
+.hero-wide .hero-shade {
+  background:
+    linear-gradient(90deg, rgb(0 0 0 / 80%) 0%, rgb(0 0 0 / 40%) 55%, rgb(0 0 0 / 0%) 100%),
+    linear-gradient(0deg, rgb(0 0 0 / 30%) 0%, rgb(0 0 0 / 0%) 50%);
+}
+
+[dir='rtl'] .hero-wide .hero-shade {
+  background:
+    linear-gradient(270deg, rgb(0 0 0 / 80%) 0%, rgb(0 0 0 / 40%) 55%, rgb(0 0 0 / 0%) 100%),
+    linear-gradient(0deg, rgb(0 0 0 / 30%) 0%, rgb(0 0 0 / 0%) 50%);
+}
+
+.hero-wide .hero-text {
+  gap: 0.75rem;
+  max-inline-size: 48rem;
+  padding: 1.75rem;
+}
+
+.hero-wide .hero-title {
+  font-size: 2.25rem;
+  letter-spacing: -0.022em;
+}
+
+.hero-wide .hero-actions {
+  gap: 0.625rem;
+  padding: 0;
+}
+
+.hero-wide .hero-btn {
+  min-block-size: 2.6875rem;
+  padding-inline: 1rem;
+}
+
+.hero-wide .glass-accent.hero-btn {
+  padding-inline: 1.125rem;
+  font-size: var(--fs-md);
+}
+
+.hero-figures {
+  gap: 0.4375rem;
+  cursor: default;
+}
+
+/* Meal tiles */
+.meal-tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr));
+  gap: 1rem;
+}
+
+.meal-tile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  padding: 0.625rem;
+  border-radius: 1.5rem;
+}
+
+.meal-tile-photo {
+  position: relative;
+  block-size: 8.75rem;
+}
+
+.meal-tile-img {
+  inline-size: 100%;
+  block-size: 100%;
+  border-radius: 1.125rem;
+}
+
+.slot-chip {
+  position: absolute;
+  inset-block-start: 0.5rem;
+  inset-inline-start: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  block-size: 1.6875rem;
+  padding: 0 0.625rem;
+  border-radius: var(--r-pill);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+}
+
+/* On a plate (no photo) the clear glass would vanish: give it a darker tint. */
+.meal-tile-photo:has(.ri-fallback) .slot-chip,
+.meal-tile-photo:has(.ri-fallback) .meal-tile-swap {
+  background: rgb(0 0 0 / 35%);
+}
+
+.meal-tile .meal-tick {
+  position: absolute;
+  inset-block-start: 0.5rem;
+  inset-inline-end: 0.5rem;
+  background: rgb(255 255 255 / 85%);
+  box-shadow: inset 0 0 0 1.5px var(--ring);
+}
+
+.meal-tile .meal-tick.is-on {
+  background: var(--accent);
+  box-shadow: none;
+}
+
+.meal-tile .meal-tick.is-skipped {
+  color: var(--muted);
+}
+
+.meal-tile-swap {
+  position: absolute;
+  inset-block-end: 0.5rem;
+  inset-inline-end: 0.5rem;
+  z-index: 1;
+  inline-size: 2.25rem;
+  block-size: 2.25rem;
+}
+
+.meal-tile-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1875rem;
+  padding: 0 0.375rem 0.375rem;
+}
+
+.meal-tile-name {
+  font-size: var(--fs-md);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.27;
+}
+
+.meal-tile-name a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.meal-tile-meta {
+  color: var(--muted);
+  font-size: var(--fs-sm);
+}
+
+.meal-tile-status {
+  color: var(--accent-ink);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+}
+
+.meal-tile-status.is-skipped {
+  color: var(--muted);
+}
+
+.meal-tile.is-skipped .meal-tile-img {
+  opacity: 0.45;
+}
+
+.meal-tile-unfilled {
+  padding: 0.25rem 1rem;
+}
+
+.food-list {
+  margin-block-start: 0;
+}
+
+/* Tomorrow */
+.tomorrow {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.tomorrow-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -0.017em;
+}
+
+.tomorrow-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(11.5rem, 1fr));
+  gap: 0.75rem;
+}
+
+.tomorrow-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  padding: 0.5rem;
+  border-radius: 1.125rem;
+  background: var(--card);
+}
+
+.tomorrow-img {
+  inline-size: 2.5rem;
+  block-size: 2.5rem;
+  border-radius: 50%;
+}
+
+.tomorrow-text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 1px;
+  min-inline-size: 0;
+}
+
+.tomorrow-slot {
+  color: var(--muted);
+  font-size: var(--fs-2xs);
+}
+
+.tomorrow-name {
+  color: var(--ink);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+/* Side cards */
+.today-side .plan-card {
+  padding: 1.375rem;
+}
+
+.today-side .plan-big {
+  font-size: 2.125rem;
+}
+
+.side-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1.25rem;
+}
+
+.side-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.side-title {
+  font-size: var(--fs-lg);
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.side-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.side-link {
+  color: var(--accent);
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.side-count {
+  color: var(--muted);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.tw-bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.625rem;
+  block-size: 5.625rem;
+}
+
+.tw-bars li {
+  display: flex;
+  flex: 1 1 0;
+  block-size: 100%;
+}
+
+.tw-bars a {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.375rem;
+  text-decoration: none;
+}
+
+.tw-bar {
+  inline-size: 100%;
+  border-radius: 6px;
+  background: var(--accent-wash);
+}
+
+.tw-day {
+  color: var(--muted);
+  font-size: var(--fs-2xs);
+  font-weight: 500;
+}
+
+.tw-bars .is-current .tw-bar {
+  background: var(--accent);
+}
+
+.tw-bars .is-current .tw-day {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.shop-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.shop-preview-item {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  min-block-size: 1.75rem;
+  cursor: pointer;
+}
+
+.shop-preview-box {
+  inline-size: 1.125rem;
+  block-size: 1.125rem;
+  flex-shrink: 0;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--ring);
+}
+
+.shop-preview-item:has(input:focus-visible) .shop-preview-box {
+  outline: 2.5px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.shop-preview-name {
+  flex: 1;
+  font-size: 0.875rem;
+}
+
+.shop-preview-amount {
+  color: var(--muted);
+  font-size: var(--fs-sm);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Log food sheet */
+
+.log-food .sheet-body {
+  gap: 1rem;
+}
+
+.food-search {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  min-block-size: 2.75rem;
+  padding: 0 0.875rem;
+  border-radius: var(--r-pill);
+  background: var(--fill-2);
+  color: #8e8e93;
+}
+
+.food-search input {
+  flex: 1;
+  min-inline-size: 0;
+  border: 0;
+  background: none;
+  color: var(--ink);
+  font-size: var(--fs-md);
+}
+
+.food-search input::placeholder {
+  color: #8e8e93;
+}
+
+.food-search input:focus {
+  outline: none;
+}
+
+.food-search:has(input:focus-visible) {
+  outline: 2.5px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.food-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.food-group .section-label {
+  font-size: var(--fs-xs);
+  letter-spacing: 0.05em;
+}
+
+.food-list,
+.food-fields {
+  padding: 0.125rem 0.875rem;
+  border-radius: var(--r-lg);
+  background: var(--card);
+}
+
+.food-list > li + li,
+.food-field + .food-field {
+  border-block-start: 1px solid var(--line);
+}
+
+.food-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding-block: 0.625rem;
+}
+
+.food-row-img,
+.food-row-icon {
+  inline-size: 2.5rem;
+  block-size: 2.5rem;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+.food-row-icon {
+  display: grid;
+  place-items: center;
+  background: var(--accent-tint);
+  color: var(--accent);
+}
+
+.food-row-text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 1px;
+  min-inline-size: 0;
+}
+
+.food-row-name {
+  font-size: var(--fs-md);
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.food-row-meta {
+  color: var(--muted);
+  font-size: var(--fs-xs);
+}
+
+.food-row-add {
+  position: relative;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  inline-size: 2rem;
+  block-size: 2rem;
+  border: 0;
+  border-radius: 50%;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.food-row-add::after {
+  content: '';
+  position: absolute;
+  inset: -6px;
+}
+
+.food-empty {
+  padding: 0.75rem 0.25rem;
+  color: var(--muted);
+  font-size: var(--fs-sm);
+}
+
+.food-field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-block-size: 2.75rem;
+}
+
+.food-field label {
+  flex-shrink: 0;
+  font-size: var(--fs-md);
+}
+
+.food-field input {
+  flex: 1;
+  min-inline-size: 0;
+  padding: 0.625rem 0;
+  border: 0;
+  background: none;
+  color: var(--ink);
+  font-size: var(--fs-md);
+  text-align: end;
+}
+
+.food-field input::placeholder {
+  color: var(--faint);
+}
+
+.food-field input:focus {
+  outline: none;
+}
+
+.food-field:has(input:focus-visible) label {
+  color: var(--accent-ink);
+}
+
+.food-field input[aria-invalid='true']::placeholder {
+  color: var(--danger);
+}
+
+.food-error {
+  padding-inline: 0.25rem;
+  color: var(--danger);
+  font-size: var(--fs-sm);
+}
+
+.food-submit {
+  flex-shrink: 0;
+  min-block-size: 3.25rem;
+  font-size: var(--fs-lg);
+}
+
+/* Tablets in portrait (phone layout, centred column): the hero becomes a rounded card instead of a bleed. */
+@media (min-width: 600px) and (max-width: 999px) {
+  .hero.bleed {
+    margin: calc(var(--safe-top) + 1rem) 0 0;
+    border-radius: 2rem;
+  }
+
+  .hero.bleed .hero-top {
+    padding-block-start: 1rem;
+  }
+
+  .hero.bleed {
+    min-block-size: 20rem;
+  }
+}

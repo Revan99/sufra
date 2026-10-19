@@ -1,0 +1,608 @@
+/* Settings, its sheets (target calculator, ingredient picker, reset alert) and Photo credits: iOS grouped sections, an
+   uppercase label over a white card of rows split by hairlines, a grey hint under it. The row styles (.set-row,
+   steppers, selects) are shared with onboarding's target inputs and calculator. */
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  gap: 1.375rem;
+}
+
+/* Round glass back button and the saffron Done pill. */
+.set-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block-start: calc(var(--safe-top) + 1rem);
+}
+
+.set-back {
+  inline-size: var(--tap);
+  block-size: var(--tap);
+}
+
+.set-done {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: var(--tap);
+  padding: 0 1.125rem;
+  border: 0;
+  border-radius: var(--r-pill);
+  font-size: var(--fs-lg);
+  font-weight: 600;
+  box-shadow: inset 0 1px 1px rgb(255 255 255 / 80%), 0 4px 12px rgb(0 0 0 / 8%);
+  transition: transform var(--dur-1) var(--ease);
+}
+
+.set-done:active {
+  transform: scale(0.97);
+}
+
+.page-head.set-head {
+  padding-block-start: 0;
+  padding-inline: 0;
+}
+
+.set-conflicts-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Grouped sections */
+
+.set-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 1.375rem;
+}
+
+.set-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.set-label {
+  color: var(--muted);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.set-card {
+  padding: 0.125rem 1rem;
+  border-radius: var(--r-xl);
+  background: var(--card);
+}
+
+.set-hint {
+  color: var(--muted);
+  font-size: var(--fs-xs);
+  line-height: 1.42;
+}
+
+.set-hint p + p {
+  margin-block-start: 0.25rem;
+}
+
+/* A row: label on the start side, a control or value on the end. */
+.set-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.75rem 0;
+  color: var(--ink);
+  font-size: var(--fs-lg);
+  line-height: 1.25;
+}
+
+.set-row-label {
+  min-inline-size: 0;
+  font-size: var(--fs-lg);
+  font-weight: 400;
+}
+
+.set-row-btn {
+  inline-size: 100%;
+  border: 0;
+  background: none;
+  text-align: start;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.set-row-btn:focus-visible {
+  border-radius: 0.5rem;
+}
+
+/* Hairlines between rows (after .set-row-btn, whose border reset would otherwise remove them). */
+.set-card > * + *,
+.set-rows > * + * {
+  border-block-start: 1px solid var(--line);
+}
+
+.set-accent {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.set-chevron {
+  flex-shrink: 0;
+  color: var(--ring);
+}
+
+.set-disliked-names {
+  display: -webkit-box;
+  flex: 1;
+  min-inline-size: 0;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.set-reset {
+  justify-content: center;
+  padding-block: 0.8125rem;
+  color: var(--danger);
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Segmented controls inside a card: 34 px track, four short words across. */
+.set-seg {
+  padding: 0.75rem 0;
+}
+
+.set-seg .segmented-option {
+  min-block-size: 1.75rem;
+  padding-inline: 0.25rem;
+  white-space: nowrap;
+}
+
+.set-row-stack {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.5rem;
+}
+
+.set-row-stack .set-seg {
+  padding: 0;
+}
+
+/* The small 0 1 2 control on the end of a row. */
+.set-mini-seg {
+  flex-shrink: 0;
+  inline-size: 7.5rem;
+}
+
+.set-mini-seg .segmented-option {
+  min-block-size: 1.625rem;
+  padding-inline: 0.25rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Allergen chips: 32 px, grey, saffron outline with a check when chosen. */
+.set-card-chips {
+  padding: 0.625rem 0.875rem;
+}
+
+.set-card-chips .chips-row {
+  gap: 0.75rem 0.5rem;
+  padding-block: 0.375rem;
+}
+
+.set-card-chips .chip {
+  min-block-size: 2rem;
+  padding: 0 0.75rem;
+  background: var(--fill);
+  font-size: var(--fs-sm);
+}
+
+.set-card-chips .chip-check:has(input:checked) {
+  background: var(--accent-soft);
+  box-shadow: inset 0 0 0 1px var(--accent);
+}
+
+.set-card-chips .chip-tick {
+  inline-size: 0.8125rem;
+  block-size: 0.8125rem;
+}
+
+/* Steppers: grey 30 px circles (44 px hit areas) around a bold value. */
+.set-row > .stepper {
+  flex: 1;
+}
+
+:is(.set-card, .set-rows) .stepper .field-label {
+  font-size: var(--fs-lg);
+  font-weight: 400;
+}
+
+:is(.set-card, .set-rows) .stepper-controls {
+  gap: 0.75rem;
+}
+
+:is(.set-card, .set-rows) .stepper-btn {
+  position: relative;
+  inline-size: 1.875rem;
+  block-size: 1.875rem;
+  background: var(--fill);
+}
+
+:is(.set-card, .set-rows) .stepper-btn::after {
+  content: '';
+  position: absolute;
+  inset: -0.4375rem;
+}
+
+:is(.set-card, .set-rows) .stepper-btn .icon {
+  inline-size: 0.9375rem;
+  block-size: 0.9375rem;
+}
+
+:is(.set-card, .set-rows) .stepper-value {
+  min-inline-size: 1.25rem;
+  font-size: var(--fs-lg);
+  font-weight: 600;
+}
+
+.stepper-input {
+  min-inline-size: 2ch;
+  padding: 0;
+  border: 0;
+  border-radius: 0.375rem;
+  background: none;
+  color: var(--ink);
+  text-align: center;
+}
+
+.stepper-input:focus-visible {
+  outline-offset: 3px;
+}
+
+/* A row whose value is a native select laid over the whole row. */
+.set-select {
+  position: relative;
+}
+
+.set-select-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  min-inline-size: 0;
+}
+
+.set-select-end {
+  display: flex;
+  flex-shrink: 1;
+  align-items: center;
+  gap: 0.375rem;
+  min-inline-size: 0;
+}
+
+.set-select-value {
+  overflow: hidden;
+  color: var(--muted);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.set-select-stacked .set-select-value {
+  font-size: var(--fs-sm);
+  white-space: normal;
+}
+
+.set-select-input {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  inline-size: 100%;
+  block-size: 100%;
+  margin: 0;
+  border: 0;
+  font-size: 1rem;
+  opacity: 0;
+  appearance: none;
+  cursor: pointer;
+}
+
+.set-select:has(.set-select-input:focus-visible) {
+  border-radius: 0.5rem;
+  outline: 2.5px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/* A typed number on the end of a row (calculator). */
+.set-input {
+  inline-size: 5.5rem;
+  min-block-size: 2.25rem;
+  padding: 0 0.75rem;
+  border: 0;
+  border-radius: 0.625rem;
+  background: var(--fill-2);
+  color: var(--ink);
+  font-weight: 500;
+  text-align: end;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   About and photo credits link */
+
+.set-about {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  padding: 0.875rem 0;
+  color: var(--ink-2);
+  font-size: var(--fs-md);
+  line-height: 1.45;
+}
+
+.set-about-title {
+  margin-block-start: 0.5rem;
+  color: var(--ink);
+  font-size: var(--fs-md);
+  font-weight: 600;
+}
+
+.set-link {
+  justify-content: flex-start;
+  color: var(--ink);
+}
+
+.set-link-icon {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  inline-size: 1.875rem;
+  block-size: 1.875rem;
+  border-radius: 50%;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.set-link-text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.0625rem;
+  min-inline-size: 0;
+}
+
+.set-link-hint {
+  color: var(--muted);
+  font-size: var(--fs-xs);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Sheets: reset alert and the target calculator */
+
+.set-alert-body {
+  color: var(--ink-2);
+  font-size: var(--fs-md);
+}
+
+.set-alert-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.625rem;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.calc-card {
+  padding: 0.125rem 1rem;
+  border-radius: var(--r-xl);
+  background: var(--fill);
+}
+
+.calc-card .stepper-btn,
+.calc-card .set-input {
+  background: var(--card);
+}
+
+.calc-sex {
+  inline-size: 11rem;
+}
+
+.calc-result {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  padding-inline: 0.25rem;
+}
+
+.calc-figure {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.0625rem;
+  font-weight: 600;
+}
+
+.calc-figure .icon {
+  flex-shrink: 0;
+  color: var(--accent);
+}
+
+.calc-use {
+  margin-block-start: 0.5rem;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Ingredient picker (in a sheet) */
+
+.ing-picker {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.ing-picked {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.ing-chip {
+  min-block-size: 2rem;
+  padding: 0 0.625rem 0 0.75rem;
+  border: 0;
+  background: var(--accent-soft);
+  box-shadow: inset 0 0 0 1px var(--accent);
+  color: var(--accent-ink);
+  font-size: var(--fs-sm);
+}
+
+.ing-chip .icon {
+  flex-shrink: 0;
+}
+
+.ing-chip-count {
+  opacity: 0.8;
+  font-weight: 400;
+}
+
+.ing-total {
+  font-size: var(--fs-xs);
+}
+
+.ing-search {
+  background: var(--fill-2);
+}
+
+.ing-results {
+  padding: 0.125rem 1rem;
+  border-radius: var(--r-xl);
+  background: var(--fill);
+}
+
+.ing-results > li + li {
+  border-block-start: 1px solid var(--line);
+}
+
+.ing-option {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  inline-size: 100%;
+  min-block-size: var(--tap);
+  padding: 0.625rem 0;
+  border: 0;
+  background: none;
+  color: var(--ink);
+  text-align: start;
+}
+
+.ing-option > .icon {
+  flex-shrink: 0;
+  color: var(--accent);
+}
+
+.ing-option-text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.0625rem;
+  min-inline-size: 0;
+}
+
+.ing-option-name {
+  font-size: var(--fs-lg);
+}
+
+.ing-family .ing-option-name {
+  font-weight: 600;
+}
+
+.ing-option-desc,
+.ing-option-count {
+  color: var(--muted);
+  font-size: var(--fs-xs);
+}
+
+.ing-option-count {
+  flex-shrink: 0;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Photo credits */
+
+.credits-intro {
+  margin-block-start: -0.75rem;
+  color: var(--muted);
+  font-size: var(--fs-md);
+}
+
+.credit-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 0;
+}
+
+.credit-thumb {
+  inline-size: 3.5rem;
+  block-size: 3.5rem;
+  border-radius: 0.75rem;
+}
+
+.credit-text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.125rem;
+  min-inline-size: 0;
+}
+
+.credit-recipe {
+  font-size: var(--fs-md);
+  font-weight: 600;
+  letter-spacing: 0;
+  text-wrap: wrap;
+}
+
+.credit-recipe a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.credit-recipe a:hover {
+  text-decoration: underline;
+}
+
+.credit-by {
+  color: var(--muted);
+  font-size: var(--fs-xs);
+  line-height: 1.4;
+}
+
+.credit-by a {
+  color: inherit;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Wide screens: one centred column of groups. */
+
+@media (min-width: 1000px) {
+  .settings {
+    inline-size: 100%;
+    max-inline-size: 44rem;
+    margin-inline: auto;
+  }
+
+  .set-topbar {
+    padding-block-start: 0;
+  }
+}

@@ -1,0 +1,752 @@
+/* Liquid Glass primitives shared by every screen: glass surfaces, cards, buttons, segmented controls, chips,
+   steppers, status pills, grouped lists and empty states. Screen files only lay these out. */
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Glass. The edge is a gradient stroke drawn by ::before (a border-image can't follow a border radius). */
+
+.glass,
+.glass-clear,
+.glass-accent {
+  position: relative;
+  isolation: isolate;
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+}
+
+.glass {
+  background: var(--glass-sheen), var(--glass-bg);
+  box-shadow: var(--glass-shadow);
+}
+
+/* On a photo: nearly clear, white content. */
+.glass-clear {
+  background: var(--clear-sheen), var(--clear-bg);
+  box-shadow: var(--clear-shadow);
+  color: #ffffff;
+}
+
+/* A saffron glass button (Start cooking, Set up my plan). */
+.glass-accent {
+  background: linear-gradient(180deg, rgb(255 255 255 / 40%) 0%, rgb(255 255 255 / 0%) 55%), rgb(242 113 28 / 92%);
+  box-shadow: inset 0 1px 1px rgb(255 255 255 / 70%), 0 10px 26px rgb(242 113 28 / 35%);
+  color: #ffffff;
+}
+
+.glass::before,
+.glass-clear::before,
+.glass-accent::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  padding: 1.2px;
+  background: var(--glass-edge);
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.glass-clear::before,
+.glass-accent::before {
+  background: var(--clear-edge);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Cards */
+
+.card {
+  background: var(--card);
+  border-radius: var(--r-card);
+}
+
+.card-pad {
+  padding: 1rem;
+}
+
+/* A white card of rows split by hairlines (Today's meals, shopping aisles, settings groups). */
+.list-card {
+  background: var(--card);
+  border-radius: var(--r-card);
+  padding: 0.125rem 0.875rem;
+}
+
+.list-card > * + * ,
+.list-rows > li + li {
+  border-block-start: 1px solid var(--line);
+}
+
+.section-label {
+  padding-inline: 0.25rem;
+  color: var(--muted);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Page header: a small line above a large title, with controls on the end side. */
+
+.page-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: calc(var(--safe-top) + 1.75rem) 0.25rem 0;
+}
+
+.page-head-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  min-inline-size: 0;
+}
+
+.page-sub {
+  color: var(--muted);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.page-title {
+  font-size: var(--fs-title);
+  font-weight: 700;
+  letter-spacing: -0.024em;
+  line-height: 1.1;
+}
+
+.page-title:focus {
+  outline: none;
+}
+
+.section-title {
+  font-size: var(--fs-xl);
+  font-weight: 700;
+  letter-spacing: -0.018em;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Buttons */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.375rem;
+  min-block-size: var(--tap);
+  padding: 0 1.125rem;
+  border: 0;
+  border-radius: var(--r-pill);
+  background: var(--fill-2);
+  color: var(--ink);
+  font-size: var(--fs-md);
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+  transition:
+    transform var(--dur-1) var(--ease),
+    background-color var(--dur-1) var(--ease),
+    opacity var(--dur-1) var(--ease);
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.btn[aria-disabled='true'],
+.btn:disabled {
+  opacity: 0.45;
+}
+
+.btn-sm {
+  min-block-size: 2.125rem;
+  padding: 0 0.875rem;
+  font-size: var(--fs-md);
+}
+
+.btn-lg {
+  min-block-size: 3.625rem;
+  padding: 0 1.5rem;
+  font-size: 1.0625rem;
+}
+
+.btn-block {
+  inline-size: 100%;
+}
+
+.btn-accent {
+  background: var(--accent);
+  color: var(--accent-on);
+}
+
+.btn-quiet {
+  background: var(--fill-2);
+  color: var(--ink);
+}
+
+.btn-plain {
+  background: none;
+  color: var(--accent-ink);
+  padding-inline: 0.5rem;
+}
+
+.btn-danger {
+  background: var(--danger);
+  color: #ffffff;
+}
+
+/* Glass button on the page: milky with saffron label (Log food, Log). */
+.btn.glass {
+  background: var(--glass-sheen), var(--glass-bg);
+  color: var(--accent);
+}
+
+.btn.glass-clear {
+  background: var(--clear-sheen), var(--clear-bg);
+  color: #ffffff;
+}
+
+.btn.glass-accent {
+  background: linear-gradient(180deg, rgb(255 255 255 / 40%) 0%, rgb(255 255 255 / 0%) 55%), rgb(242 113 28 / 92%);
+  color: #ffffff;
+}
+
+/* Round icon buttons. */
+.icon-btn {
+  display: inline-grid;
+  place-items: center;
+  inline-size: var(--tap);
+  block-size: var(--tap);
+  flex-shrink: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--ink);
+  transition: transform var(--dur-1) var(--ease);
+}
+
+.icon-btn:active {
+  transform: scale(0.94);
+}
+
+.icon-btn.glass {
+  background: var(--glass-sheen), var(--glass-bg);
+  color: var(--ink);
+}
+
+.icon-btn.glass-clear {
+  background: var(--clear-sheen), var(--clear-bg);
+  color: #ffffff;
+}
+
+.icon-btn.glass-accent {
+  background: linear-gradient(180deg, rgb(255 255 255 / 40%) 0%, rgb(255 255 255 / 0%) 55%), rgb(242 113 28 / 92%);
+  color: #ffffff;
+}
+
+.icon-filled {
+  fill: currentColor;
+}
+
+.icon-btn-quiet {
+  background: var(--fill-2);
+}
+
+.icon-btn-sm {
+  inline-size: 2rem;
+  block-size: 2rem;
+}
+
+.icon-btn[aria-disabled='true'] {
+  opacity: 0.35;
+}
+
+/* A glass capsule holding a few icon buttons (‹ ›, copy and share, heart share more). */
+.capsule {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem;
+  border-radius: var(--r-pill);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Segmented control (controls.tsx Segmented): a grey track with a white thumb. */
+
+.segmented {
+  min-inline-size: 0;
+}
+
+.segmented-track {
+  display: flex;
+  padding: 3px;
+  border-radius: var(--r-pill);
+  background: var(--fill-2);
+}
+
+.segmented-option {
+  position: relative;
+  display: grid;
+  flex: 1 1 0;
+  place-items: center;
+  min-block-size: 1.875rem;
+  padding: 0 0.625rem;
+  border-radius: var(--r-pill);
+  color: var(--ink);
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color var(--dur-1) var(--ease);
+}
+
+.segmented-option input {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.segmented-option:has(input:checked) {
+  background: var(--card);
+  box-shadow: 0 2px 6px rgb(0 0 0 / 12%);
+  font-weight: 600;
+}
+
+:root[data-theme='dark'] .segmented-option:has(input:checked) {
+  background: #636366;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .segmented-option:has(input:checked) {
+    background: #636366;
+  }
+}
+
+.segmented-option:has(input:focus-visible) {
+  outline: 2.5px solid var(--focus);
+  outline-offset: 1px;
+}
+
+.segmented-lg .segmented-option {
+  min-block-size: 2.5rem;
+  font-size: var(--fs-md);
+}
+
+/* The dark-thumb variant (W M Y, Week Month Year) lives in a glass capsule. */
+.segmented-ink .segmented-track {
+  gap: 2px;
+  padding: 4px;
+  background: none;
+}
+
+.segmented-ink .segmented-option {
+  min-block-size: 2rem;
+  min-inline-size: 2rem;
+  font-weight: 600;
+}
+
+.segmented-ink .segmented-option:has(input:checked),
+:root[data-theme='dark'] .segmented-ink .segmented-option:has(input:checked) {
+  background: var(--ink);
+  box-shadow: none;
+  color: var(--bg);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .segmented-ink .segmented-option:has(input:checked) {
+    background: var(--ink);
+    color: var(--bg);
+  }
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Chips */
+
+.chips-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chip {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3125rem;
+  min-block-size: 2.125rem;
+  padding: 0 0.8125rem;
+  border-radius: var(--r-pill);
+  background: var(--fill-2);
+  color: var(--ink);
+  font-size: var(--fs-md);
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.chip input {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.chip:has(input:focus-visible) {
+  outline: 2.5px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.chip-tick {
+  display: none;
+}
+
+/* A ticked check chip: saffron outline (allergens). */
+.chip-check:has(input:checked) {
+  background: var(--accent-tint);
+  box-shadow: inset 0 0 0 1.2px var(--accent);
+  color: var(--accent-ink);
+}
+
+.chip-check:has(input:checked) .chip-tick {
+  display: block;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Stepper: − value + */
+
+.stepper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.stepper-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.stepper-btn {
+  inline-size: 2.125rem;
+  block-size: 2.125rem;
+  background: var(--fill-2);
+}
+
+.stepper-btn .icon {
+  inline-size: 1.125rem;
+  block-size: 1.125rem;
+}
+
+.stepper-value {
+  min-inline-size: 2.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+
+.field-label {
+  font-size: var(--fs-lg);
+}
+
+.field-hint {
+  color: var(--muted);
+  font-size: var(--fs-sm);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Radio cards (diet in onboarding) */
+
+.radio-cards {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.radio-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.875rem 1rem;
+  border-radius: var(--r-lg);
+  background: var(--card);
+  cursor: pointer;
+}
+
+.radio-card input {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.radio-card-text {
+  display: grid;
+  flex: 1;
+  gap: 0.125rem;
+}
+
+.radio-card-title {
+  font-weight: 600;
+}
+
+.radio-card-desc {
+  color: var(--muted);
+  font-size: var(--fs-sm);
+}
+
+.radio-card-check {
+  color: var(--accent);
+  opacity: 0;
+}
+
+.radio-card:has(input:checked) {
+  box-shadow: inset 0 0 0 1.5px var(--accent);
+}
+
+.radio-card:has(input:checked) .radio-card-check {
+  opacity: 1;
+}
+
+.radio-card:has(input:focus-visible) {
+  outline: 2.5px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Status pills: on target (teal), under or over (amber), in progress (saffron). */
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.1875rem 0.5rem;
+  border-radius: var(--r-pill);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.pill-on {
+  background: var(--teal-soft);
+  color: var(--teal);
+}
+
+.pill-off {
+  background: var(--amber-soft);
+  color: var(--amber-ink);
+}
+
+.pill-progress,
+.pill-accent {
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+}
+
+.pill-solid {
+  background: var(--accent);
+  color: #ffffff;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   A 28 px tick circle (meal eaten, shopping item, method step). */
+
+.tick {
+  display: inline-grid;
+  place-items: center;
+  inline-size: 1.75rem;
+  block-size: 1.75rem;
+  flex-shrink: 0;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--ring);
+  color: var(--muted);
+}
+
+.tick.is-on {
+  background: var(--accent);
+  box-shadow: none;
+  color: #ffffff;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Inputs */
+
+.input {
+  inline-size: 100%;
+  min-block-size: var(--tap);
+  padding: 0 0.875rem;
+  border: 0;
+  border-radius: var(--r-md);
+  background: var(--fill);
+  color: var(--ink);
+}
+
+.input:focus-visible {
+  outline: 2.5px solid var(--focus);
+  outline-offset: 0;
+}
+
+.search-field {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  min-block-size: 2.875rem;
+  padding: 0 1rem;
+  border-radius: var(--r-pill);
+  color: var(--muted);
+}
+
+.search-field input {
+  flex: 1;
+  min-inline-size: 0;
+  border: 0;
+  background: none;
+  color: var(--ink);
+  font-size: 1.0625rem;
+}
+
+.search-field input::placeholder {
+  color: var(--muted);
+}
+
+.search-field input:focus {
+  outline: none;
+}
+
+.search-field:has(input:focus-visible) {
+  outline: 2.5px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Notices and empty states */
+
+.notice {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+  padding: 0.875rem 1rem;
+  border-radius: var(--r-lg);
+  background: var(--amber-soft);
+  color: var(--ink);
+  font-size: var(--fs-md);
+}
+
+.notice > .icon {
+  flex-shrink: 0;
+  color: var(--amber-ink);
+}
+
+.empty {
+  display: grid;
+  justify-items: center;
+  gap: 0.5rem;
+  padding: 2.5rem 1.5rem;
+  border-radius: var(--r-card);
+  background: var(--card);
+  text-align: center;
+}
+
+.empty-mark {
+  display: grid;
+  place-items: center;
+  inline-size: 3.5rem;
+  block-size: 3.5rem;
+  border-radius: 50%;
+  background: var(--accent-tint);
+  color: var(--accent);
+}
+
+.empty-title {
+  font-size: 1.125rem;
+}
+
+.empty-body {
+  color: var(--muted);
+  max-inline-size: 30rem;
+}
+
+.empty-action {
+  margin-block-start: 0.5rem;
+}
+
+.fine-print {
+  color: var(--muted);
+  font-size: var(--fs-xs);
+}
+
+/* A full-bleed stretch of a phone screen (heroes): undoes the screen's side padding. */
+.bleed {
+  margin-inline: calc(-1 * var(--gutter));
+}
+
+/* Makes a whole card a link target from one anchor inside it. */
+.stretched::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.page-head-end {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Diet badges and conflict notes (shared by Today, Recipes and the recipe page) */
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+}
+
+.badge {
+  padding: 0.125rem 0.5rem;
+  border-radius: var(--r-pill);
+  background: var(--fill-2);
+  color: var(--ink-2);
+  font-size: var(--fs-xs);
+  font-weight: 500;
+}
+
+.badge-warn {
+  background: var(--amber-soft);
+  color: var(--amber-ink);
+}
+
+.conflict {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  color: var(--amber-ink);
+  font-size: var(--fs-xs);
+}
+
+.conflict li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+
+.conflict .icon {
+  flex-shrink: 0;
+  margin-block-start: 1px;
+}

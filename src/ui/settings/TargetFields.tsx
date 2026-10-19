@@ -1,4 +1,5 @@
-// Daily target inputs and the body-stats calculator (used by Settings and onboarding).
+// Daily target steppers, the body-stats calculator and the grouped-row controls they share with Settings (used by
+// Settings and onboarding). Rows are styled in styles/settings.css.
 import { useEffect, useId, useState } from 'react';
 import type { ActivityLevel, BodyStats, Goal, Profile, Sex } from '../../types.ts';
 import { BODY_LIMITS, TARGET_LIMITS, clampTarget, suggestTargets } from '../../lib/targets.ts';
@@ -8,7 +9,19 @@ import { activityName, goalName, num, sexName } from '../../i18n/labels.ts';
 import { Segmented } from '../components/controls.tsx';
 import { Icon } from '../components/Icon.tsx';
 
-/** A number input that keeps a free-form draft while typing and commits a valid number on blur or Enter. */
+/** Parses a typed number ("2,000", "72.5", "72,5"), or NaN. */
+function parseTyped(s: string): number {
+  const clean = s.trim().replace(/\s/g, '');
+  if (clean === '') return Number.NaN;
+  // A comma followed by exactly three digits is a thousands separator; otherwise a decimal comma.
+  const normal = /,\d{3}(\D|$)/.test(clean) ? clean.replace(/,/g, '') : clean.replace(',', '.');
+  return Number(normal);
+}
+
+/**
+ * A grouped row with a number input on the end, which keeps a free-form draft while typing and commits a valid
+ * number on blur or Enter.
+ */
 export function NumberField({
   label,
   value,
@@ -30,8 +43,8 @@ export function NumberField({
   const [draft, setDraft] = useState(String(value));
   useEffect(() => setDraft(String(value)), [value]);
   const commit = () => {
-    const n = Number(draft.replace(',', '.'));
-    if (draft.trim() === '' || !Number.isFinite(n)) {
+    const n = parseTyped(draft);
+    if (!Number.isFinite(n)) {
       setDraft(String(value));
       return;
     }
@@ -40,17 +53,15 @@ export function NumberField({
     if (v !== value) onCommit(v);
   };
   return (
-    <div className="field">
-      <label htmlFor={id} className="field-label">
+    <div className="set-row">
+      <label htmlFor={id} className="set-row-label">
         {label}
       </label>
       <input
         id={id}
-        className="input num"
-        type="number"
+        className="set-input num"
+        type="text"
         inputMode="numeric"
-        min={min}
-        max={max}
         value={draft}
         onChange={(e) => setDraft(e.currentTarget.value)}
         onBlur={commit}
@@ -60,21 +71,129 @@ export function NumberField({
         aria-describedby={hint ? `${id}-hint` : undefined}
       />
       {hint ? (
-        <p id={`${id}-hint`} className="field-hint">
+        <span id={`${id}-hint`} className="visually-hidden">
           {hint}
-        </p>
+        </span>
       ) : null}
     </div>
   );
 }
 
-const range = (key: TargetKey) => t('settings.allowed', { min: num(TARGET_LIMITS[key][0]), max: num(TARGET_LIMITS[key][1]) });
+/**
+ * A grouped row whose value is a native select: the label on the start side, the chosen option and a chevron on the
+ * end. The select covers the whole row, so a tap anywhere opens the system picker. `stacked` puts the value under
+ * the label, for long option names.
+ */
+export function SelectRow<T extends string>({
+  label,
+  value,
+  options,
+  onChange,
+  stacked = false,
+}: {
+  label: string;
+  value: T;
+  options: readonly { value: T; label: string }[];
+  onChange: (v: T) => void;
+  stacked?: boolean;
+}) {
+  const id = useId();
+  const current = options.find((o) => o.value === value)?.label ?? '';
+  return (
+    <div className={`set-row set-select${stacked ? ' set-select-stacked' : ''}`}>
+      <span className="set-select-text">
+        <label htmlFor={id} className="set-row-label">
+          {label}
+        </label>
+        {stacked ? (
+          <span className="set-select-value" aria-hidden="true">
+            {current}
+          </span>
+        ) : null}
+      </span>
+      <span className="set-select-end" aria-hidden="true">
+        {stacked ? null : <span className="set-select-value">{current}</span>}
+        <Icon name="chevronRight" size={16} className="set-chevron flip-rtl" />
+      </span>
+      <select id={id} className="set-select-input" value={value} onChange={(e) => onChange(e.currentTarget.value as T)}>
+        {options.map((o) => (
+          <option key={o.value} value={o.value}>
+            {o.label}
+          </option>
+        ))}
+      </select>
+    </div>
+  );
+}
 
+const STEPS: Readonly<Record<TargetKey, number>> = { kcalTarget: 50, proteinTarget: 5 };
+
+/**
+ * A − value + row for a daily target. The value is also a text field: tap it to type an exact number (committed on
+ * blur or Enter, clamped to the allowed range).
+ */
+function TargetStepper({ field, label, value, onChange }: { field: TargetKey; label: string; value: number; onChange: (v: number) => void }) {
+  const id = useId();
+  const [draft, setDraft] = useState<string | null>(null);
+  const [lo, hi] = TARGET_LIMITS[field];
+  const step = STEPS[field];
+  const set = (v: number) => {
+    const next = clampTarget(field, v, value);
+    if (next !== value) onChange(next);
+  };
+  const commit = () => {
+    if (draft === null) return;
+    const n = parseTyped(draft);
+    setDraft(null);
+    if (Number.isFinite(n)) set(n);
+  };
+  const atMin = value <= lo;
+  const atMax = value >= hi;
+  const shown = draft ?? num(value);
+  return (
+    <div className="stepper set-row" role="group" aria-labelledby={`${id}-l`}>
+      <label id={`${id}-l`} htmlFor={id} className="set-row-label">
+        {label}
+      </label>
+      <div className="stepper-controls">
+        <button type="button" className="icon-btn stepper-btn" onClick={() => !atMin && set(Math.ceil(value / step) * step - step)} aria-disabled={atMin || undefined} aria-label={t('common.decrease', { name: label })}>
+          <Icon name="minus" size={15} />
+        </button>
+        <input
+          id={id}
+          className="stepper-value stepper-input num"
+          type="text"
+          inputMode="numeric"
+          value={shown}
+          style={{ inlineSize: `calc(${Math.max(2, shown.length)}ch + 0.25rem)` }}
+          onFocus={() => setDraft(String(value))}
+          onChange={(e) => setDraft(e.currentTarget.value)}
+          onBlur={commit}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter') e.currentTarget.blur();
+            if (e.key === 'Escape' && draft !== null) {
+              setDraft(String(value));
+            }
+          }}
+          aria-describedby={`${id}-hint`}
+        />
+        <button type="button" className="icon-btn stepper-btn" onClick={() => !atMax && set(Math.floor(value / step) * step + step)} aria-disabled={atMax || undefined} aria-label={t('common.increase', { name: label })}>
+          <Icon name="plus" size={15} />
+        </button>
+      </div>
+      <span id={`${id}-hint`} className="visually-hidden">
+        {t('settings.allowed', { min: num(lo), max: num(hi) })}
+      </span>
+    </div>
+  );
+}
+
+/** The two daily-target stepper rows (calories, protein), split by a hairline; the parent supplies the card. */
 export function TargetInputs({ kcal, protein, onChange }: { kcal: number; protein: number; onChange: (patch: Partial<Profile>) => void }) {
   return (
-    <div className="field-row">
-      <NumberField label={t('settings.kcal')} value={kcal} min={TARGET_LIMITS.kcalTarget[0]} max={TARGET_LIMITS.kcalTarget[1]} hint={range('kcalTarget')} normalize={(v) => clampTarget('kcalTarget', v, kcal)} onCommit={(v) => onChange({ kcalTarget: v })} />
-      <NumberField label={t('settings.protein')} value={protein} min={TARGET_LIMITS.proteinTarget[0]} max={TARGET_LIMITS.proteinTarget[1]} hint={range('proteinTarget')} normalize={(v) => clampTarget('proteinTarget', v, protein)} onCommit={(v) => onChange({ proteinTarget: v })} />
+    <div className="set-rows target-inputs">
+      <TargetStepper field="kcalTarget" label={t('settings.kcal')} value={kcal} onChange={(v) => onChange({ kcalTarget: v })} />
+      <TargetStepper field="proteinTarget" label={t('settings.protein')} value={protein} onChange={(v) => onChange({ proteinTarget: v })} />
     </div>
   );
 }
@@ -93,7 +212,6 @@ export type TargetPatch = Pick<Profile, 'kcalTarget' | 'proteinTarget'> & { body
  */
 export function TargetCalculator({ body, onApply, onSuggest }: { body?: BodyStats; onApply?: (patch: TargetPatch) => void; onSuggest?: (patch: TargetPatch | null) => void }) {
   const [b, setB] = useState<BodyStats>(body ?? DEFAULT_BODY);
-  const activityId = useId();
   const set = (patch: Partial<BodyStats>) => setB((prev) => ({ ...prev, ...patch }));
   const s = suggestTargets(b);
   const lim = BODY_LIMITS;
@@ -104,25 +222,28 @@ export function TargetCalculator({ body, onApply, onSuggest }: { body?: BodyStat
   }, [suggestion]);
   return (
     <div className="calculator">
-      <Segmented label={t('calc.sex')} value={b.sex} onChange={(sex) => set({ sex })} options={SEXES.map((x) => ({ value: x, label: sexName(x) }))} />
-      <div className="field-row field-row-3">
+      <div className="set-rows calc-card">
+        <div className="set-row">
+          <span className="set-row-label" aria-hidden="true">
+            {t('calc.sex')}
+          </span>
+          <div className="set-mini-seg calc-sex">
+            <Segmented label={t('calc.sex')} hideLabel value={b.sex} onChange={(sex) => set({ sex })} options={SEXES.map((x) => ({ value: x, label: sexName(x) }))} />
+          </div>
+        </div>
         <NumberField label={t('calc.age')} value={b.age} min={lim.age[0]} max={lim.age[1]} onCommit={(age) => set({ age })} />
         <NumberField label={t('calc.height')} value={b.heightCm} min={lim.heightCm[0]} max={lim.heightCm[1]} onCommit={(heightCm) => set({ heightCm })} />
         <NumberField label={t('calc.weight')} value={b.weightKg} min={lim.weightKg[0]} max={lim.weightKg[1]} onCommit={(weightKg) => set({ weightKg })} />
+        <SelectRow label={t('calc.activity')} stacked value={b.activity} onChange={(activity) => set({ activity })} options={ACTIVITIES.map((a) => ({ value: a, label: activityName(a) }))} />
+        <div className="set-row set-row-stack">
+          <span className="set-row-label" aria-hidden="true">
+            {t('calc.goal')}
+          </span>
+          <div className="set-seg">
+            <Segmented label={t('calc.goal')} hideLabel value={b.goal} onChange={(goal) => set({ goal })} options={GOALS.map((g) => ({ value: g, label: goalName(g) }))} />
+          </div>
+        </div>
       </div>
-      <div className="field">
-        <label htmlFor={activityId} className="field-label">
-          {t('calc.activity')}
-        </label>
-        <select id={activityId} className="input" value={b.activity} onChange={(e) => set({ activity: e.currentTarget.value as ActivityLevel })}>
-          {ACTIVITIES.map((a) => (
-            <option key={a} value={a}>
-              {activityName(a)}
-            </option>
-          ))}
-        </select>
-      </div>
-      <Segmented label={t('calc.goal')} value={b.goal} onChange={(goal) => set({ goal })} options={GOALS.map((g) => ({ value: g, label: goalName(g) }))} />
       <div className="calc-result" aria-live="polite">
         {s ? (
           <>
@@ -134,7 +255,7 @@ export function TargetCalculator({ body, onApply, onSuggest }: { body?: BodyStat
             {s.capped ? <p className="field-hint">{t('calc.capped')}</p> : null}
             <p className="field-hint">{t('calc.method')}</p>
             {onApply ? (
-              <button type="button" className="btn btn-primary" onClick={() => onApply({ kcalTarget: s.kcalTarget, proteinTarget: s.proteinTarget, body: b })}>
+              <button type="button" className="btn btn-accent btn-block calc-use" onClick={() => onApply({ kcalTarget: s.kcalTarget, proteinTarget: s.proteinTarget, body: b })}>
                 {t('calc.use')}
               </button>
             ) : null}

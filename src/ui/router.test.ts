@@ -44,8 +44,10 @@ describe('routeHash', () => {
     { name: 'today', date: '2026-09-24' },
     { name: 'week', date: null },
     { name: 'week', date: '2026-10-03' },
+    { name: 'progress' },
     { name: 'shopping' },
     { name: 'recipes' },
+    { name: 'recipes', search: true },
     { name: 'settings' },
     recipeRoute('shakshuka'),
     recipeRoute('shakshuka', { date: '2026-09-24', slot: 'snack', index: 1 }),
@@ -67,6 +69,8 @@ describe('tabOf', () => {
     expect(tabOf(recipeRoute('x'))).toBe('recipes');
     expect(tabOf(recipeRoute('x', { date: '2026-09-24', slot: 'dinner', index: 0 }))).toBe('today');
     expect(tabOf({ name: 'credits' })).toBe('settings');
+    expect(tabOf({ name: 'progress' })).toBe('progress');
+    expect(tabOf({ name: 'recipes', search: true })).toBe('recipes');
   });
 
   it('round-trips the photo credits page', () => {

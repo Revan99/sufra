@@ -24,7 +24,7 @@ body {
   color: var(--ink);
   font-family: var(--font-sans);
   font-size: var(--fs-md);
-  line-height: var(--lh-body);
+  line-height: 1.4;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   overflow-wrap: break-word;
@@ -63,9 +63,8 @@ legend {
 h1,
 h2,
 h3 {
-  font-family: var(--font-serif);
-  font-weight: 600;
-  line-height: var(--lh-tight);
+  font-weight: 700;
+  line-height: 1.15;
   letter-spacing: -0.01em;
   text-wrap: balance;
 }
@@ -75,7 +74,7 @@ p {
 }
 
 a {
-  color: var(--primary);
+  color: var(--accent-ink);
   text-underline-offset: 0.18em;
 }
 
@@ -114,7 +113,6 @@ svg {
 :focus-visible {
   outline: 2.5px solid var(--focus);
   outline-offset: 2px;
-  border-radius: var(--r-sm);
 }
 
 [tabindex='-1']:focus-visible {
@@ -135,11 +133,11 @@ svg {
 
 .skip-link {
   position: fixed;
-  inset-block-start: var(--s-2);
-  inset-inline-start: var(--s-2);
+  inset-block-start: 0.5rem;
+  inset-inline-start: 0.5rem;
   z-index: 100;
-  padding: var(--s-3) var(--s-4);
-  border-radius: var(--r-md);
+  padding: 0.75rem 1rem;
+  border-radius: var(--r-pill);
   background: var(--ink);
   color: var(--bg);
   font-weight: 600;

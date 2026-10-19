@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="description" content="Healthy halal meals planned every day: breakfast, lunch, dinner and snacks, with full recipes." />
     <meta name="color-scheme" content="light dark" />
-    <meta name="theme-color" content="#FBF6EE" />
+    <meta name="theme-color" content="#F2F2F7" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
@@ -22,7 +22,7 @@
         var theme = saved && saved.theme;
         var dark = theme === 'dark' || (theme !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches);
         if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme;
-        document.querySelector('meta[name="theme-color"]').content = dark ? '#1A1511' : '#FBF6EE';
+        document.querySelector('meta[name="theme-color"]').content = dark ? '#000000' : '#F2F2F7';
       } catch (e) {}
     </script>
   </head>

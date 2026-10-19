@@ -1,0 +1,301 @@
+/* The Swap and Add to a day sheets: a saffron "Now" card for the recipe in hand, then a list of options, each with a
+   photo, two lines of detail and a Choose button on the end (the first, best option in saffron). */
+
+/* The recipe in hand: "Now" (Swap) or "Adding" (Add to a day). */
+.pick-now {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  border-radius: var(--r-lg);
+  background: var(--accent-tint);
+}
+
+.pick-now-img {
+  inline-size: 2.75rem;
+  block-size: 2.75rem;
+  border-radius: 50%;
+}
+
+.pick-now-text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 1px;
+  min-inline-size: 0;
+}
+
+.pick-now-label {
+  color: var(--accent-ink);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+}
+
+.pick-now-name {
+  font-size: var(--fs-md);
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.pick-hint {
+  color: var(--muted);
+  font-size: var(--fs-sm);
+  line-height: 1.125rem;
+}
+
+/* Options, split by hairlines. */
+.pick-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pick-row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding-block: 0.6875rem;
+}
+
+.pick-row + .pick-row {
+  border-block-start: 1px solid var(--line);
+}
+
+.pick-img {
+  inline-size: 3.375rem;
+  block-size: 3.375rem;
+  border-radius: 1rem;
+}
+
+.pick-img-sm {
+  inline-size: 2.75rem;
+  block-size: 2.75rem;
+  border-radius: 0.8125rem;
+}
+
+.pick-text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 2px;
+  min-inline-size: 0;
+}
+
+.pick-name {
+  font-size: var(--fs-md);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.pick-meta {
+  color: var(--muted);
+  font-size: var(--fs-xs);
+}
+
+.pick-figures {
+  overflow: hidden;
+  color: var(--ink);
+  font-size: var(--fs-xs);
+  font-weight: 500;
+}
+
+/* "746 kcal · 75 g protein · 1½ servings": each figure stays whole and a line breaks only between them. Every
+   figure has a dot before it; the row is pulled back by one dot so the dot that starts a line is clipped away. */
+.pick-figs {
+  display: flex;
+  flex-wrap: wrap;
+  margin-inline-start: -0.875em;
+}
+
+.pick-fig {
+  white-space: nowrap;
+}
+
+.pick-fig::before {
+  content: '·' / '';
+  display: inline-block;
+  inline-size: 0.875em;
+  text-align: center;
+}
+
+/* Screen readers hear a comma between figures instead of the dot. */
+.pick-fig + .pick-fig::before {
+  content: '·' / ', ';
+}
+
+/* Choose: a 32 px pill; the whole row is its tap target (stretched). */
+.pick-btn {
+  position: static;
+  flex-shrink: 0;
+  min-block-size: 2rem;
+  padding: 0 0.875rem;
+  border-radius: 1rem;
+  font-size: var(--fs-sm);
+}
+
+.pick-btn.stretched::after {
+  border-radius: var(--r-md);
+}
+
+.pick-btn:focus-visible {
+  outline-offset: 2px;
+}
+
+.pick-btn:active {
+  /* No shrink: a transform would pull the stretched tap target back into the button mid-tap. */
+  transform: none;
+}
+
+.pick-row:has(.pick-btn:active) {
+  opacity: 0.85;
+}
+
+/* A meal with nothing to replace yet (fill or add a snack). */
+.pick-empty-slot {
+  display: grid;
+  flex-shrink: 0;
+  place-items: center;
+  inline-size: 2.75rem;
+  block-size: 2.75rem;
+  border-radius: 0.8125rem;
+  box-shadow: inset 0 0 0 1.5px var(--ring);
+  color: var(--muted);
+}
+
+.pick-row-slot .pick-name {
+  font-size: var(--fs-lg);
+}
+
+/* Add to a day: the next seven days as pills. */
+.pick-days {
+  min-inline-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.pick-days > legend {
+  margin-block-end: 0.5rem;
+}
+
+.pick-days-row {
+  display: flex;
+  gap: 0.375rem;
+  /* Room for the focus ring inside the scroller. */
+  margin: -0.3125rem;
+  padding: 0.3125rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.pick-days-row::-webkit-scrollbar {
+  display: none;
+}
+
+.pick-day {
+  position: relative;
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  min-inline-size: 2.625rem;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  min-block-size: 3.75rem;
+  border-radius: var(--r-md);
+  background: var(--fill-2);
+  color: var(--ink);
+  cursor: pointer;
+  transition: background-color var(--dur-1) var(--ease);
+}
+
+.pick-day input {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.pick-day:has(input:checked) {
+  background: var(--accent);
+  color: #ffffff;
+}
+
+.pick-day:has(input:focus-visible) {
+  outline: 2.5px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.pick-day-week {
+  color: var(--muted);
+  font-size: var(--fs-2xs);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.pick-day:has(input:checked) .pick-day-week {
+  color: rgb(255 255 255 / 85%);
+}
+
+.pick-day-num {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+/* Today: a dot under the number (the word "Today" is in the label for screen readers). */
+.pick-day-dot {
+  position: absolute;
+  inset-block-end: 5px;
+  inline-size: 4px;
+  block-size: 4px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.pick-day:has(input:checked) .pick-day-dot {
+  background: #ffffff;
+}
+
+.pick-meals {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.pick-meals > .section-label {
+  margin-block-end: 0.25rem;
+}
+
+/* Outside your settings */
+.pick-conflict-title {
+  font-weight: 600;
+}
+
+.pick-conflict .conflict {
+  display: grid;
+  gap: 0.25rem;
+  margin: 0.25rem 0 0;
+  padding: 0;
+  list-style: none;
+  color: var(--ink-2);
+  font-size: var(--fs-sm);
+}
+
+.pick-conflict .conflict li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.375rem;
+}
+
+.pick-conflict .conflict .icon {
+  flex-shrink: 0;
+  margin-block-start: 1px;
+  color: var(--amber-ink);
+}

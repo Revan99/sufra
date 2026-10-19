@@ -1,0 +1,240 @@
+/* Sheets and toasts. A sheet is a floating glass card 8 px in from the screen edges with a grabber (phones), or a
+   centred glass panel (wide screens). Toasts float above the tab bar. */
+
+.sheet {
+  inline-size: calc(100% - 1rem);
+  max-inline-size: 36rem;
+  max-block-size: min(calc(100dvh - var(--safe-top) - 2.5rem), 52rem);
+  margin: auto auto max(0.5rem, var(--safe-bottom));
+  padding: 0;
+  border: 0;
+  border-radius: 2.375rem;
+  background: linear-gradient(180deg, rgb(255 255 255 / 100%) 0%, rgb(255 255 255 / 0%) 25%), var(--sheet-bg);
+  color: var(--ink);
+  box-shadow: var(--sheet-shadow);
+  overflow: hidden;
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  backdrop-filter: blur(24px) saturate(180%);
+}
+
+:root[data-theme='dark'] .sheet {
+  background: linear-gradient(180deg, rgb(255 255 255 / 8%) 0%, rgb(255 255 255 / 0%) 25%), var(--sheet-bg);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .sheet {
+    background: linear-gradient(180deg, rgb(255 255 255 / 8%) 0%, rgb(255 255 255 / 0%) 25%), var(--sheet-bg);
+  }
+}
+
+.sheet[open] {
+  animation: sheet-in var(--dur-2) var(--ease);
+}
+
+.sheet::backdrop {
+  background: var(--scrim);
+  animation: fade-in var(--dur-2) var(--ease);
+}
+
+@keyframes sheet-in {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+.sheet-inner {
+  display: flex;
+  flex-direction: column;
+  max-block-size: inherit;
+}
+
+.sheet-grip {
+  flex-shrink: 0;
+  inline-size: 2.375rem;
+  block-size: 5px;
+  margin: 0.5rem auto 0;
+  border-radius: 3px;
+  background: rgb(60 60 67 / 29%);
+}
+
+.sheet-head {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.875rem 1.125rem 0.5rem;
+}
+
+.sheet-head.has-media {
+  align-items: center;
+}
+
+.sheet-head-text {
+  flex: 1;
+  min-inline-size: 0;
+}
+
+.sheet-title {
+  font-size: var(--fs-xl);
+  font-weight: 700;
+  letter-spacing: -0.018em;
+}
+
+.sheet-title-sm {
+  flex: 1;
+  font-size: 1.0625rem;
+  text-align: center;
+}
+
+.sheet-head-confirm {
+  padding-block-start: 1.375rem;
+}
+
+.sheet-head-confirm .btn {
+  min-inline-size: 4.5rem;
+}
+
+.sheet-close {
+  inline-size: 2rem;
+  block-size: 2rem;
+  background: var(--fill-2);
+  color: var(--muted);
+}
+
+/* The close button keeps a full-size tap target around its 32 px circle. */
+.sheet-close::after {
+  content: '';
+  position: absolute;
+  inset: -6px;
+}
+
+.sheet-close {
+  position: relative;
+}
+
+.sheet-sub {
+  margin-block-start: 0.125rem;
+  color: var(--muted);
+  font-size: var(--fs-sm);
+}
+
+.sheet-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.875rem;
+  min-block-size: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 0.375rem 1.125rem 1.125rem;
+}
+
+.sheet-foot {
+  flex-shrink: 0;
+  padding: 0.5rem 1.125rem 1.125rem;
+}
+
+.sheet-hint,
+.sheet-empty {
+  color: var(--muted);
+  font-size: var(--fs-md);
+}
+
+.sheet-empty {
+  padding-block: 1.5rem;
+  text-align: center;
+}
+
+.btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.sheet-alert {
+  max-inline-size: 26rem;
+}
+
+@media (min-width: 720px) {
+  .sheet {
+    inline-size: min(34rem, calc(100% - 2rem));
+    margin: auto;
+    border-radius: 2rem;
+  }
+
+  .sheet-grip {
+    display: none;
+  }
+
+  .sheet-head {
+    padding-block-start: 1.25rem;
+  }
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Toast: a dark glass capsule above the tab bar. */
+
+.toast-region {
+  position: fixed;
+  inset-inline: 0;
+  inset-block-end: calc(max(1rem, var(--safe-bottom)) + var(--tabbar-h) + 0.75rem);
+  z-index: 60;
+  display: flex;
+  justify-content: center;
+  padding-inline: var(--gutter);
+  pointer-events: none;
+}
+
+.toast {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  max-inline-size: 30rem;
+  padding-block: 0.25rem;
+  padding-inline: 1.125rem 0.25rem;
+  border-radius: var(--r-pill);
+  background: rgb(28 28 30 / 88%);
+  color: #ffffff;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 25%);
+  pointer-events: auto;
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  backdrop-filter: blur(16px) saturate(180%);
+  animation: sheet-in var(--dur-2) var(--ease);
+}
+
+.toast-msg {
+  flex: 1;
+  padding-block: 0.5rem;
+  font-size: var(--fs-md);
+  font-weight: 500;
+}
+
+.toast-action {
+  min-block-size: var(--tap);
+  padding-inline: 0.75rem;
+  border: 0;
+  border-radius: var(--r-pill);
+  background: transparent;
+  color: var(--accent-light);
+  font-weight: 700;
+}
+
+.toast-close {
+  color: rgb(255 255 255 / 70%);
+}
+
+@media (min-width: 1000px) {
+  .toast-region {
+    inset-block-end: 1.5rem;
+    padding-inline-start: calc(var(--sidebar-w) + 2rem);
+  }
+}

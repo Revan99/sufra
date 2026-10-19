@@ -1,0 +1,398 @@
+/* Onboarding: the Welcome screen (a full-screen food photo with clear glass on it) and the three setup steps (large
+   titles over light grouped cards, Back and Next at the bottom). */
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Welcome */
+
+.onb-welcome {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-block-size: 100vh;
+  min-block-size: 100dvh;
+  overflow: hidden;
+  /* Under the photo, and in its place when it can't load: a warm dark wash. */
+  background:
+    radial-gradient(60rem 40rem at 70% 20%, rgb(242 113 28 / 45%), transparent 70%),
+    radial-gradient(50rem 40rem at 0% 100%, rgb(107 122 52 / 40%), transparent 70%),
+    #1c140e;
+  color: #ffffff;
+}
+
+.onb-photo {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  inline-size: 100%;
+  block-size: 100%;
+  max-inline-size: none;
+  object-fit: cover;
+  color: transparent;
+}
+
+.onb-shade {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(180deg, rgb(0 0 0 / 40%) 0%, rgb(0 0 0 / 0%) 30%, rgb(0 0 0 / 55%) 62%, rgb(0 0 0 / 90%) 100%);
+}
+
+.onb-top {
+  display: flex;
+  padding: max(1rem, calc(var(--safe-top) + 0.375rem)) 1.5rem 0.375rem;
+}
+
+.onb-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  block-size: 2.5rem;
+  padding: 0 0.875rem;
+  border-radius: 1.25rem;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.onb-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 1.375rem;
+  inline-size: 100%;
+  padding: 2rem 1.5rem calc(var(--safe-bottom) + 2.5rem);
+}
+
+.onb-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.onb-title {
+  color: #ffffff;
+  font-size: 2.375rem;
+  font-weight: 700;
+  letter-spacing: -0.026em;
+  line-height: 2.5rem;
+}
+
+.onb-title:focus {
+  outline: none;
+}
+
+.onb-intro {
+  color: rgb(255 255 255 / 90%);
+  font-size: 1.0625rem;
+  line-height: 1.5625rem;
+}
+
+.onb-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.onb-fact {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  block-size: 2.125rem;
+  padding: 0 0.5625rem;
+  border-radius: 1.0625rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.onb-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.onb-actions .btn-lg {
+  border-radius: 1.8125rem;
+}
+
+.onb-fine {
+  color: rgb(255 255 255 / 70%);
+  font-size: 0.75rem;
+  line-height: 1.0625rem;
+  text-align: center;
+}
+
+.onb-credit {
+  color: rgb(255 255 255 / 50%);
+  font-size: 0.625rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.onb-credit a {
+  color: inherit;
+}
+
+/* Wide screens: the photo stays full-bleed; the text sits in a column at the start, over a side shade. */
+@media (min-width: 720px) {
+  .onb-shade {
+    background:
+      linear-gradient(90deg, rgb(0 0 0 / 60%) 0%, rgb(0 0 0 / 25%) 45%, rgb(0 0 0 / 0%) 70%),
+      linear-gradient(180deg, rgb(0 0 0 / 40%) 0%, rgb(0 0 0 / 0%) 30%, rgb(0 0 0 / 45%) 65%, rgb(0 0 0 / 85%) 100%);
+  }
+
+  [dir='rtl'] .onb-shade {
+    background:
+      linear-gradient(270deg, rgb(0 0 0 / 60%) 0%, rgb(0 0 0 / 25%) 45%, rgb(0 0 0 / 0%) 70%),
+      linear-gradient(180deg, rgb(0 0 0 / 40%) 0%, rgb(0 0 0 / 0%) 30%, rgb(0 0 0 / 45%) 65%, rgb(0 0 0 / 85%) 100%);
+  }
+
+  .onb-top {
+    padding: max(2rem, calc(var(--safe-top) + 1rem)) 3rem 0;
+  }
+
+  .onb-bottom {
+    max-inline-size: 36rem;
+    padding: 2rem 3rem calc(var(--safe-bottom) + 3rem);
+  }
+
+  .onb-fine,
+  .onb-credit {
+    text-align: start;
+  }
+}
+
+@media (min-width: 1000px) {
+  .onb-top {
+    padding-inline: 4.5rem;
+  }
+
+  .onb-bottom {
+    max-inline-size: 39rem;
+    padding: 2rem 4.5rem calc(var(--safe-bottom) + 4.5rem);
+  }
+
+  .onb-title {
+    font-size: 3.5rem;
+    line-height: 1.05;
+  }
+
+  .onb-intro {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Steps 1 to 3 */
+
+.onb-steps {
+  min-block-size: 100vh;
+  min-block-size: 100dvh;
+  background: var(--bg);
+}
+
+.onb-column {
+  display: flex;
+  flex-direction: column;
+  min-block-size: inherit;
+  max-inline-size: 36rem;
+  margin-inline: auto;
+  padding: max(1rem, calc(var(--safe-top) + 0.75rem)) var(--gutter) 0;
+}
+
+.onb-progress {
+  display: flex;
+  gap: 0.375rem;
+  padding: 0.5rem 0.25rem 0;
+}
+
+.onb-seg {
+  flex: 1 1 0;
+  block-size: 0.25rem;
+  border-radius: var(--r-pill);
+  background: var(--track);
+}
+
+.onb-seg.is-done {
+  background: var(--accent);
+}
+
+.onb-head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 1.5rem 0.25rem 0;
+}
+
+.onb-lead {
+  margin-block-start: 0.375rem;
+  color: var(--ink-2);
+  font-size: 1.0625rem;
+  line-height: 1.45;
+}
+
+.onb-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+  padding-block: 1.5rem 1rem;
+}
+
+.onb-card {
+  padding: 0.5rem 1rem;
+}
+
+.onb-allergens {
+  padding: 1rem;
+}
+
+/* Calculate from my body: a white card that opens. */
+.onb-calc {
+  overflow: hidden;
+}
+
+.onb-calc-summary {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-block-size: 3.5rem;
+  padding: 0.5rem 1rem;
+  font-size: var(--fs-lg);
+  font-weight: 600;
+  list-style: none;
+  cursor: pointer;
+}
+
+.onb-calc-summary::-webkit-details-marker {
+  display: none;
+}
+
+.onb-calc-summary:focus-visible {
+  outline-offset: -3px;
+  border-radius: var(--r-card);
+}
+
+.onb-calc-icon {
+  display: grid;
+  flex-shrink: 0;
+  place-items: center;
+  inline-size: 2rem;
+  block-size: 2rem;
+  border-radius: 50%;
+  background: var(--accent-tint);
+  color: var(--accent);
+}
+
+.onb-calc-label {
+  flex: 1;
+}
+
+.onb-calc-chevron {
+  color: var(--faint);
+  transition: transform var(--dur-1) var(--ease);
+}
+
+.onb-calc[open] .onb-calc-chevron {
+  transform: rotate(180deg);
+}
+
+.onb-calc-body {
+  padding: 0.25rem 1rem 1rem;
+  border-block-start: 1px solid var(--line);
+  padding-block-start: 1rem;
+}
+
+/* "Your plan: 2,000 kcal and 90 g protein a day." on a saffron tint. */
+.onb-summary {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  padding: 0.875rem 1rem;
+  border-radius: var(--r-lg);
+  background: var(--accent-tint);
+  font-size: var(--fs-md);
+  font-weight: 600;
+}
+
+.onb-summary .icon {
+  flex-shrink: 0;
+  color: var(--accent);
+}
+
+/* Diet: one grouped white card of choices, a check on the chosen one. */
+.onb-diet .radio-cards {
+  gap: 0;
+  padding: 0.125rem 1rem;
+  border-radius: var(--r-card);
+  background: var(--card);
+}
+
+.onb-diet .radio-card {
+  min-block-size: 4rem;
+  padding: 0.75rem 0;
+  border-radius: 0;
+  background: none;
+}
+
+.onb-diet .radio-card + .radio-card {
+  border-block-start: 1px solid var(--line);
+}
+
+.onb-diet .radio-card:has(input:checked) {
+  box-shadow: none;
+}
+
+.onb-diet .radio-card:has(input:focus-visible) {
+  outline-offset: -2px;
+  border-radius: var(--r-sm);
+}
+
+.onb-diet .radio-card-title {
+  font-size: var(--fs-lg);
+}
+
+.onb-diet .radio-card-check {
+  inline-size: 1.375rem;
+  block-size: 1.375rem;
+}
+
+/* Back and Next stay at the bottom of the screen, over a fade of the page. */
+.onb-nav {
+  position: sticky;
+  inset-block-end: 0;
+  display: flex;
+  gap: 0.75rem;
+  margin-block-start: auto;
+  margin-inline: calc(-1 * var(--gutter));
+  padding: 1rem var(--gutter) max(1rem, calc(var(--safe-bottom) + 0.5rem));
+  background: linear-gradient(180deg, transparent 0%, var(--bg) 35%);
+}
+
+.onb-nav .btn {
+  border-radius: 1.8125rem;
+  white-space: normal;
+  text-align: center;
+}
+
+.onb-back {
+  flex: 0 0 auto;
+}
+
+.onb-next {
+  flex: 1 1 auto;
+}
+
+@media (min-width: 720px) {
+  .onb-column {
+    padding-block-start: max(3rem, 8vh);
+  }
+
+  .onb-nav {
+    padding-block-end: 2rem;
+  }
+}

@@ -38,22 +38,22 @@ export function IngredientPicker({ selected, onChange }: { selected: readonly st
   };
 
   return (
-    <div className="picker">
+    <div className="ing-picker">
       {selected.length ? (
         <>
-          <ul className="picked">
+          <ul className="ing-picked">
             {selected.map((id) => (
               <li key={id}>
-                <button type="button" className="chip chip-remove" onClick={() => onChange(selected.filter((x) => x !== id))}>
+                <button type="button" className="chip ing-chip" onClick={() => onChange(selected.filter((x) => x !== id))}>
                   <span className="visually-hidden">{t('common.removeWord')} </span>
                   <span>{nameOf(id)}</span>{' '}
-                  <span className="chip-count num">{tp('picker.recipes', count([id]))}</span>
+                  <span className="ing-chip-count num">{tp('picker.recipes', count([id]))}</span>
                   <Icon name="close" size={16} />
                 </button>
               </li>
             ))}
           </ul>
-          <p className={warn ? 'notice picker-total' : 'field-hint picker-total'}>
+          <p className={warn ? 'notice ing-total' : 'field-hint ing-total'}>
             {warn ? <Icon name="info" size={20} /> : null}
             {tp(warn ? 'picker.totalWarn' : 'picker.total', selected.length, { n: total, total: lib.catalog.length })}
           </p>
@@ -61,10 +61,10 @@ export function IngredientPicker({ selected, onChange }: { selected: readonly st
       ) : (
         <p className="field-hint">{t('picker.none')}</p>
       )}
-      <label htmlFor={inputId} className="field-label">
+      <label htmlFor={inputId} className="visually-hidden">
         {t('picker.search')}
       </label>
-      <div className="search-field">
+      <div className="search-field ing-search">
         <Icon name="search" size={20} />
         <input
           id={inputId}
@@ -79,27 +79,27 @@ export function IngredientPicker({ selected, onChange }: { selected: readonly st
       <div id={listId} aria-live="polite">
         {query.trim() && shown.length === 0 && familyNew.length < 2 ? <p className="field-hint">{t('picker.noResults', { q: query.trim() })}</p> : null}
         {shown.length || familyNew.length >= 2 ? (
-          <ul className="picker-results">
+          <ul className="ing-results">
             {family && familyNew.length >= 2 ? (
               <li>
-                <button type="button" className="picker-option picker-family" onClick={() => add(familyNew.map((i) => i.id), t('picker.family', { n: familyNew.length, q: family.word }))}>
+                <button type="button" className="ing-option ing-family" onClick={() => add(familyNew.map((i) => i.id), t('picker.family', { n: familyNew.length, q: family.word }))}>
                   <Icon name="plus" size={18} />
-                  <span className="picker-option-text">
-                    <span className="picker-option-name">{t('picker.family', { n: familyNew.length, q: family.word })}</span>
-                    <span className="picker-option-desc">{listJoin(familyNew.map((i) => i.name))}</span>
+                  <span className="ing-option-text">
+                    <span className="ing-option-name">{t('picker.family', { n: familyNew.length, q: family.word })}</span>
+                    <span className="ing-option-desc">{listJoin(familyNew.map((i) => i.name))}</span>
                   </span>{' '}
-                  <span className="picker-option-count num">{tp('picker.recipes', count(familyNew.map((i) => i.id)))}</span>
+                  <span className="ing-option-count num">{tp('picker.recipes', count(familyNew.map((i) => i.id)))}</span>
                 </button>
               </li>
             ) : null}
             {shown.map((i) => (
               <li key={i.id}>
-                <button type="button" className="picker-option" onClick={() => add([i.id], i.name)}>
+                <button type="button" className="ing-option" onClick={() => add([i.id], i.name)}>
                   <Icon name="plus" size={18} />
-                  <span className="picker-option-text">
-                    <span className="picker-option-name">{i.name}</span>
+                  <span className="ing-option-text">
+                    <span className="ing-option-name">{i.name}</span>
                   </span>{' '}
-                  <span className="picker-option-count num">{tp('picker.recipes', count([i.id]))}</span>
+                  <span className="ing-option-count num">{tp('picker.recipes', count([i.id]))}</span>
                 </button>
               </li>
             ))}

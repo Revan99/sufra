@@ -1,201 +1,200 @@
-/* Sufra design tokens. Warm cookbook palette: cream paper, warm ink, terracotta and saffron, olive, pomegranate.
-   Macro colours are an Okabe-Ito style blue / orange / reddish purple set, distinguishable with colour-vision
-   deficiencies, and always paired with a text label. Text pairs meet WCAG AA in both themes. */
+/* Sufra design tokens: Liquid Glass. Grouped system greys, white cards, saffron accent, water blue, weight teal.
+   Glass comes in three tints: on a photo (clear), on the page (milky white) and in dark mode (smoked).
+   Text pairs meet WCAG AA in both themes; colours are always paired with a text label. */
 
 :root {
   color-scheme: light;
 
   /* Surfaces and ink */
-  --bg: #fbf6ee;
-  --surface: #fffdf9;
-  --surface-2: #f3eadc;
-  --surface-3: #eadfcd;
-  --raised: #fffdf9;
-  --ink: #2a2118;
-  --ink-2: #6a5b4b;
-  --line: #e6dacb;
-  --line-strong: #8c7b68;
-  --scrim: rgb(42 33 24 / 45%);
+  --bg: #f2f2f7;
+  --card: #ffffff;
+  /* Grouped rows inside a sheet or card (inset lists, fields). */
+  --fill: #f2f2f7;
+  /* Quiet buttons and segmented tracks (iOS tertiary fill). */
+  --fill-2: rgb(118 118 128 / 12%);
+  --ink: #0b0b0f;
+  --ink-2: #3a3a3c;
+  --muted: #6e6e76;
+  --faint: #aeaeb2;
+  --line: #e5e5ea;
+  --track: #e5e5ea;
+  --ring: #c7c7cc;
+  --scrim: rgb(0 0 0 / 35%);
 
-  /* Brand */
-  --primary: #a6461f;
-  --primary-hover: #8e3a17;
-  --primary-ink: #ffffff;
-  --primary-soft: #f6e4d7;
-  --primary-soft-ink: #8a3714;
-  --saffron: #d9a441;
-  --olive: #556426;
-  --olive-soft: #e8edd5;
-  --fav: #a61e36;
-  --fav-soft: #f7dde1;
-  --danger: #a3261c;
-  --danger-ink: #ffffff;
-  --focus: #1d5fa0;
+  /* Accent: saffron */
+  --accent: #f2711c;
+  --accent-strong: #d9480f;
+  --accent-light: #ff9a57;
+  --accent-ink: #c2550f;
+  --accent-on: #ffffff;
+  --accent-soft: rgb(242 113 28 / 12%);
+  --accent-tint: rgb(242 113 28 / 10%);
+  --accent-wash: rgb(242 113 28 / 25%);
+  --amber: #ffb547;
+  --amber-ink: #b26a00;
+  --amber-soft: rgb(255 181 71 / 12%);
+  --peach: #fbd9c4;
 
-  /* Status of the day's kcal */
-  --status-in: #4d5c20;
-  --status-in-bg: #e8edd5;
-  --status-under: #7a5300;
-  --status-under-bg: #f8ead0;
-  --status-over: #9a2a1c;
-  --status-over-bg: #f8e0da;
+  /* Trackers */
+  --water: #2f8fe8;
+  --water-soft: rgb(47 143 232 / 15%);
+  --water-mid: rgb(47 143 232 / 35%);
+  --fiber: #2fb8a6;
+  --teal: #16857a;
+  --teal-soft: rgb(47 184 166 / 12%);
+  --danger: #e5484d;
+  --focus: #2f8fe8;
 
-  /* Macros */
-  --protein: #1f6fa8;
-  --carbs: #b86e00;
-  --fat: #9c4a86;
-  --fiber: #556426;
+  /* Macros (protein, carbs, fat, fiber) */
+  --protein: #d9480f;
+  --carbs: #ffb547;
+  --fat: #f2711c;
 
-  /* Plates */
-  --plate-shadow: rgb(84 60 32 / 10%);
-  --plate-rim: #f6efe3;
-  --plate-ring: #e7dac6;
-  --plate-well: #fffbf4;
-  --plate-accent-1: #2f5d8a;
-  --plate-accent-2: #b4532a;
+  /* Plates (the drawing shown for a recipe without a photo) */
+  --plate-shadow: rgb(0 0 0 / 8%);
+  --plate-rim: #f7f3ec;
+  --plate-ring: #e9e1d4;
+  --plate-well: #fffdf8;
+  --plate-accent-1: #2f6f9e;
+  --plate-accent-2: #d9480f;
   --plate-accent-3: #6b7a34;
-  --plate-accent-4: #c28a24;
+  --plate-accent-4: #e69a1c;
+  --photo-frame: #e5e5ea;
+
+  /* Glass on the page (milky) */
+  --glass-bg: rgb(255 255 255 / 70%);
+  --glass-sheen: linear-gradient(180deg, rgb(255 255 255 / 60%) 0%, rgb(255 255 255 / 0%) 60%);
+  --glass-edge: linear-gradient(135deg, #ffffff 15%, #d1d1d6 50%, #ffffff 85%);
+  --glass-shadow: inset 0 1px 1px rgb(255 255 255 / 80%), 0 6px 18px rgb(0 0 0 / 12%);
+  --glass-blur: blur(12px) saturate(180%);
+
+  /* Glass on a photo (clear) */
+  --clear-bg: rgb(255 255 255 / 12%);
+  --clear-sheen: linear-gradient(180deg, rgb(255 255 255 / 35%) 0%, rgb(255 255 255 / 0%) 55%, rgb(255 255 255 / 10%) 100%);
+  --clear-edge: linear-gradient(135deg, rgb(255 255 255 / 95%) 15%, rgb(255 255 255 / 20%) 46%, rgb(255 255 255 / 8%) 57%, rgb(255 255 255 / 70%) 85%);
+  --clear-shadow: inset 0 1px 1px rgb(255 255 255 / 80%), inset 0 -1px 3px rgb(0 0 0 / 12%), 0 8px 24px rgb(0 0 0 / 20%);
+
+  /* Sheets */
+  --sheet-bg: rgb(250 250 252 / 92%);
+  --sheet-shadow: 0 -10px 40px rgb(0 0 0 / 18%);
 
   /* Elevation */
-  --shadow-1: 0 1px 2px rgb(74 52 28 / 6%), 0 2px 10px rgb(74 52 28 / 5%);
-  --shadow-2: 0 2px 6px rgb(74 52 28 / 8%), 0 12px 32px rgb(74 52 28 / 12%);
+  --shadow-1: 0 1px 2px rgb(0 0 0 / 4%), 0 4px 14px rgb(0 0 0 / 5%);
+  --shadow-2: 0 8px 28px rgb(0 0 0 / 10%);
+  --shadow-accent: 0 8px 24px rgb(242 113 28 / 35%);
 
-  /* Type */
-  --font-serif: ui-serif, 'New York', 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Noto Serif', serif;
-  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'Noto Sans Arabic', 'Helvetica Neue', Arial, sans-serif;
-  --fs-xs: 0.8125rem;
-  --fs-sm: 0.875rem;
-  --fs-md: 1rem;
-  --fs-lg: 1.125rem;
+  /* Type: the system font (SF Pro on Apple devices). */
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, 'Noto Sans', 'Noto Sans Arabic', 'Helvetica Neue', Arial, sans-serif;
+  --fs-2xs: 0.6875rem;
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.8125rem;
+  --fs-md: 0.9375rem;
+  --fs-lg: 1rem;
   --fs-xl: 1.375rem;
   --fs-2xl: 1.75rem;
-  --fs-3xl: 2.25rem;
-  --lh-tight: 1.2;
-  --lh-body: 1.5;
+  --fs-title: 2.125rem;
 
-  /* Space, 4 px grid */
-  --s-1: 0.25rem;
-  --s-2: 0.5rem;
-  --s-3: 0.75rem;
-  --s-4: 1rem;
-  --s-5: 1.25rem;
-  --s-6: 1.5rem;
-  --s-8: 2rem;
-  --s-10: 2.5rem;
-  --s-12: 3rem;
+  /* Space */
   --gutter: 1rem;
 
   /* Shape */
-  --r-sm: 0.5rem;
-  --r-md: 0.75rem;
-  --r-lg: 1.125rem;
-  --r-xl: 1.5rem;
+  --r-sm: 0.625rem;
+  --r-md: 0.875rem;
+  --r-lg: 1.25rem;
+  --r-xl: 1.375rem;
+  --r-card: 1.625rem;
   --r-pill: 999px;
   --tap: 2.75rem;
 
   /* Motion */
   --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
-  --dur-1: 120ms;
-  --dur-2: 220ms;
+  --spring: cubic-bezier(0.34, 1.4, 0.64, 1);
+  --dur-1: 140ms;
+  --dur-2: 260ms;
 
   /* Layout */
-  --nav-h: 4rem;
-  --nav-w: 15rem;
-  --content-max: 72rem;
+  --tabbar-h: 3.875rem;
+  --sidebar-w: 15.5rem;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) {
     color-scheme: dark;
-    --bg: #1a1511;
-    --surface: #241d17;
-    --surface-2: #30271f;
-    --surface-3: #3b3128;
-    --raised: #4a3d31;
-    --ink: #f3eadf;
-    --ink-2: #c2b3a1;
-    --line: #3b3129;
-    --line-strong: #8a7865;
-    --scrim: rgb(0 0 0 / 60%);
-    --primary: #ee9a6c;
-    --primary-hover: #f4ae86;
-    --primary-ink: #1a1511;
-    --primary-soft: #45291c;
-    --primary-soft-ink: #f4b28c;
-    --saffron: #e6b95c;
-    --olive: #b5c67e;
-    --olive-soft: #2d3420;
-    --fav: #f27d8f;
-    --fav-soft: #47232b;
-    --danger: #f08a7c;
-    --danger-ink: #1a1511;
-    --focus: #8cc4f5;
-    --status-in: #c3d28e;
-    --status-in-bg: #2d3420;
-    --status-under: #ecc275;
-    --status-under-bg: #3f3219;
-    --status-over: #f4a597;
-    --status-over-bg: #47241e;
-    --protein: #6cb4ee;
-    --carbs: #e9a93b;
-    --fat: #d98cc4;
-    --fiber: #b5c67e;
+    --bg: #000000;
+    --card: #1c1c1e;
+    --fill: #2c2c2e;
+    --fill-2: rgb(118 118 128 / 24%);
+    --ink: #ffffff;
+    --ink-2: #d1d1d6;
+    --muted: #98989f;
+    --faint: #636366;
+    --line: #38383a;
+    --track: #38383a;
+    --ring: #545458;
+    --scrim: rgb(0 0 0 / 55%);
+    --accent-ink: #ff9a57;
+    --accent-soft: rgb(242 113 28 / 20%);
+    --accent-tint: rgb(242 113 28 / 18%);
+    --amber-ink: #ffc46b;
+    --amber-soft: rgb(255 181 71 / 16%);
+    --peach: #5a3420;
+    --teal: #3fd0bd;
+    --teal-soft: rgb(47 184 166 / 18%);
+    --water-soft: rgb(47 143 232 / 25%);
+    --danger: #ff6369;
     --plate-shadow: rgb(0 0 0 / 35%);
-    --plate-rim: #ddd2c0;
-    --plate-ring: #c8baa4;
-    --plate-well: #ebe2d3;
-    --plate-accent-1: #2f5d8a;
-    --plate-accent-2: #a64a24;
-    --plate-accent-3: #5e6b2c;
-    --plate-accent-4: #a77518;
-    --shadow-1: 0 1px 2px rgb(0 0 0 / 30%);
-    --shadow-2: 0 4px 12px rgb(0 0 0 / 40%), 0 16px 40px rgb(0 0 0 / 35%);
+    --plate-rim: #ddd5c8;
+    --plate-ring: #c9bfae;
+    --plate-well: #ece6db;
+    --photo-frame: #2c2c2e;
+    --glass-bg: rgb(28 28 30 / 80%);
+    --glass-sheen: linear-gradient(180deg, rgb(255 255 255 / 15%) 0%, rgb(255 255 255 / 0%) 60%);
+    --glass-edge: linear-gradient(135deg, rgb(255 255 255 / 40%) 15%, rgb(255 255 255 / 8%) 50%, rgb(255 255 255 / 30%) 85%);
+    --glass-shadow: inset 0 1px 1px rgb(255 255 255 / 18%), 0 8px 24px rgb(0 0 0 / 40%);
+    --sheet-bg: rgb(28 28 30 / 94%);
+    --sheet-shadow: 0 -10px 40px rgb(0 0 0 / 50%);
+    --shadow-1: none;
+    --shadow-2: 0 8px 28px rgb(0 0 0 / 50%);
   }
 }
 
 :root[data-theme='dark'] {
   color-scheme: dark;
-  --bg: #1a1511;
-  --surface: #241d17;
-  --surface-2: #30271f;
-  --surface-3: #3b3128;
-  --raised: #4a3d31;
-  --ink: #f3eadf;
-  --ink-2: #c2b3a1;
-  --line: #3b3129;
-  --line-strong: #8a7865;
-  --scrim: rgb(0 0 0 / 60%);
-  --primary: #ee9a6c;
-  --primary-hover: #f4ae86;
-  --primary-ink: #1a1511;
-  --primary-soft: #45291c;
-  --primary-soft-ink: #f4b28c;
-  --saffron: #e6b95c;
-  --olive: #b5c67e;
-  --olive-soft: #2d3420;
-  --fav: #f27d8f;
-  --fav-soft: #47232b;
-  --danger: #f08a7c;
-  --danger-ink: #1a1511;
-  --focus: #8cc4f5;
-  --status-in: #c3d28e;
-  --status-in-bg: #2d3420;
-  --status-under: #ecc275;
-  --status-under-bg: #3f3219;
-  --status-over: #f4a597;
-  --status-over-bg: #47241e;
-  --protein: #6cb4ee;
-  --carbs: #e9a93b;
-  --fat: #d98cc4;
-  --fiber: #b5c67e;
+  --bg: #000000;
+  --card: #1c1c1e;
+  --fill: #2c2c2e;
+  --fill-2: rgb(118 118 128 / 24%);
+  --ink: #ffffff;
+  --ink-2: #d1d1d6;
+  --muted: #98989f;
+  --faint: #636366;
+  --line: #38383a;
+  --track: #38383a;
+  --ring: #545458;
+  --scrim: rgb(0 0 0 / 55%);
+  --accent-ink: #ff9a57;
+  --accent-soft: rgb(242 113 28 / 20%);
+  --accent-tint: rgb(242 113 28 / 18%);
+  --amber-ink: #ffc46b;
+  --amber-soft: rgb(255 181 71 / 16%);
+  --peach: #5a3420;
+  --teal: #3fd0bd;
+  --teal-soft: rgb(47 184 166 / 18%);
+  --water-soft: rgb(47 143 232 / 25%);
+  --danger: #ff6369;
   --plate-shadow: rgb(0 0 0 / 35%);
-  --plate-rim: #ddd2c0;
-  --plate-ring: #c8baa4;
-  --plate-well: #ebe2d3;
-  --plate-accent-1: #2f5d8a;
-  --plate-accent-2: #a64a24;
-  --plate-accent-3: #5e6b2c;
-  --plate-accent-4: #a77518;
-  --shadow-1: 0 1px 2px rgb(0 0 0 / 30%);
-  --shadow-2: 0 4px 12px rgb(0 0 0 / 40%), 0 16px 40px rgb(0 0 0 / 35%);
+  --plate-rim: #ddd5c8;
+  --plate-ring: #c9bfae;
+  --plate-well: #ece6db;
+  --photo-frame: #2c2c2e;
+  --glass-bg: rgb(28 28 30 / 80%);
+  --glass-sheen: linear-gradient(180deg, rgb(255 255 255 / 15%) 0%, rgb(255 255 255 / 0%) 60%);
+  --glass-edge: linear-gradient(135deg, rgb(255 255 255 / 40%) 15%, rgb(255 255 255 / 8%) 50%, rgb(255 255 255 / 30%) 85%);
+  --glass-shadow: inset 0 1px 1px rgb(255 255 255 / 18%), 0 8px 24px rgb(0 0 0 / 40%);
+  --sheet-bg: rgb(28 28 30 / 94%);
+  --sheet-shadow: 0 -10px 40px rgb(0 0 0 / 50%);
+  --shadow-1: none;
+  --shadow-2: 0 8px 28px rgb(0 0 0 / 50%);
 }

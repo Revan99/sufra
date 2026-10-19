@@ -1,5 +1,13 @@
 // English strings, the source locale. Every user-visible string in the app comes from here through t().
 // Keys ending in `.one` / `.other` are plural forms, used with tp(). {name} is a parameter.
+// Screens added with the Liquid Glass redesign keep their strings in en-*.ts, merged in at the end.
+import { enOnboarding } from './en-onboarding.ts';
+import { enProgress } from './en-progress.ts';
+import { enRecipe } from './en-recipe.ts';
+import { enShopping } from './en-shopping.ts';
+import { enTracker } from './en-tracker.ts';
+import { enWeek } from './en-week.ts';
+
 export const en = {
   // App shell
   'app.name': 'Sufra',
@@ -498,4 +506,10 @@ export const en = {
   'unit.leaf.other': 'leaves',
   'unit.to-taste.one': 'to taste',
   'unit.to-taste.other': 'to taste',
+  ...enTracker,
+  ...enProgress,
+  ...enWeek,
+  ...enRecipe,
+  ...enShopping,
+  ...enOnboarding,
 } as const;

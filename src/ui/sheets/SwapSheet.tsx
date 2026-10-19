@@ -3,7 +3,7 @@ import type { MealOverride, MealSlot } from '../../types.ts';
 import { swapCandidates } from '../../lib/planner.ts';
 import type { ISODate } from '../../lib/dates.ts';
 import { t } from '../../i18n/index.ts';
-import { cuisineName, kcal, minutes, num, portionLabel } from '../../i18n/labels.ts';
+import { cuisineName, kcal, minutes, num, portionLabel, slotLower, slotName } from '../../i18n/labels.ts';
 import { useAppState } from '../AppState.tsx';
 import { useLibrary } from '../library.tsx';
 import { usePlan } from '../plan.tsx';
@@ -20,6 +20,11 @@ export interface SwapTarget {
   label: string;
 }
 
+/** The meal's name inside a sentence: "lunch", but a numbered snack keeps its label ("Snack 2"). */
+function slotInSentence(target: SwapTarget): string {
+  return target.label === slotName(target.slot) ? slotLower(target.slot) : target.label;
+}
+
 /** Alternatives for one meal, best fit first. Choosing one saves an override and announces it. */
 export function SwapSheet({ target, onClose }: { target: SwapTarget | null; onClose: () => void }) {
   const { state, dispatch } = useAppState();
@@ -33,6 +38,7 @@ export function SwapSheet({ target, onClose }: { target: SwapTarget | null; onCl
   const existing = target
     ? state.overrides.find((o) => o.date === target.date && o.slot === target.slot && o.index === target.index)
     : undefined;
+  const slotText = target ? slotInSentence(target) : '';
 
   const undoTo = (prev: MealOverride | undefined, t0: SwapTarget) => () => {
     if (prev) dispatch({ type: 'override', override: prev });
@@ -57,35 +63,53 @@ export function SwapSheet({ target, onClose }: { target: SwapTarget | null; onCl
     <Sheet
       open={target !== null}
       onClose={onClose}
-      title={target ? t('swap.title', { slot: target.label }) : ''}
-      subtitle={currentRecipe ? t('swap.now', { name: currentRecipe.name }) : undefined}
+      className="pick-sheet"
+      title={target ? t('swap.title', { slot: slotText }) : ''}
       footer={
         existing ? (
-          <button type="button" className="btn btn-quiet" onClick={restore}>
+          <button type="button" className="btn btn-quiet btn-block" onClick={restore}>
             <Icon name="undo" size={20} />
             {t('swap.restore')}
           </button>
         ) : undefined
       }
     >
+      {currentRecipe ? (
+        <div className="pick-now">
+          <RecipeImage recipe={currentRecipe} kind="option" sizes="2.75rem" plateSize={44} className="pick-now-img" />
+          <p className="pick-now-text">
+            <span className="pick-now-label">{t('pick.now')}</span>
+            <span className="pick-now-name">{currentRecipe.name}</span>
+          </p>
+        </div>
+      ) : null}
       {candidates.length ? (
         <>
-          <p className="sheet-hint">{t('swap.hint')}</p>
-          <ul className="option-list">
-            {candidates.map((c) => (
-              <li key={c.recipe.id}>
-                <button type="button" className="option" onClick={() => choose(c.recipe.id, c.portion, c.recipe.name)} aria-label={t('swap.choose', { name: c.recipe.name })}>
-                  <RecipeImage recipe={c.recipe} kind="option" sizes="3.25rem" plateSize={52} />
-                  <span className="option-text">
-                    <span className="option-title">{c.recipe.name}</span>
-                    <span className="option-meta">{t('common.dotPair', { a: cuisineName(c.recipe.cuisine), b: minutes(c.recipe.totalMinutes) })}</span>
-                    <span className="option-figures num">
-                      <span>{kcal(c.kcal)}</span>
-                      <span>{t('value.proteinG', { n: num(c.protein) })}</span>
-                      <span>{portionLabel(c.portion)}</span>
+          <p className="pick-hint">{t('swap.hint')}</p>
+          <ul className="pick-list">
+            {candidates.map((c, i) => (
+              <li key={c.recipe.id} className="pick-row">
+                <RecipeImage recipe={c.recipe} kind="option" sizes="3.375rem" plateSize={54} className="pick-img" />
+                <div className="pick-text">
+                  <p className="pick-name">{c.recipe.name}</p>
+                  <p className="pick-meta">{t('common.dotPair', { a: c.recipe.nativeName ?? cuisineName(c.recipe.cuisine), b: minutes(c.recipe.totalMinutes) })}</p>
+                  <p className="pick-figures num">
+                    <span className="pick-figs">
+                      {[kcal(c.kcal), t('value.proteinG', { n: num(c.protein) }), ...(c.portion === 1 ? [] : [portionLabel(c.portion)])].map((part) => (
+                        <span key={part} className="pick-fig">
+                          {part}
+                        </span>
+                      ))}
                     </span>
-                  </span>
-                  <Icon name="chevronRight" size={20} className="option-go flip-rtl" />
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  className={`btn pick-btn stretched ${i === 0 ? 'btn-accent' : 'btn-quiet'}`}
+                  onClick={() => choose(c.recipe.id, c.portion, c.recipe.name)}
+                  aria-label={t('pick.chooseFor', { name: c.recipe.name, slot: slotText })}
+                >
+                  {t('pick.choose')}
                 </button>
               </li>
             ))}
