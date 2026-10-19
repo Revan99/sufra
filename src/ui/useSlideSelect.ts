@@ -43,8 +43,9 @@ export interface SlideSelect {
     onPointerMove: (e: ReactPointerEvent<HTMLUListElement>) => void;
     onPointerUp: () => void;
     onPointerCancel: () => void;
-    onLostPointerCapture: () => void;
+    onLostPointerCapture: (e: ReactPointerEvent<HTMLUListElement>) => void;
     onClickCapture: (e: ReactMouseEvent<HTMLUListElement>) => void;
+    onContextMenu: (e: ReactMouseEvent<HTMLUListElement>) => void;
   };
   /** Style for the lens, or null when there is nothing to show (no current item and no slide). */
   lensStyle: CSSProperties | null;
@@ -141,9 +142,13 @@ export function useSlideSelect(axis: SlideAxis, active: number, onPick: (index: 
     },
     onPointerUp: () => end(true),
     onPointerCancel: () => end(false),
-    onLostPointerCapture: () => {
-      if (press.current?.sliding) end(true);
+    // Only the list losing capture ends a slide. A touch starts captured by the link it landed on, and handing it
+    // to the list fires lostpointercapture on that link, which bubbles here and must not end the slide.
+    onLostPointerCapture: (e) => {
+      if (e.target === e.currentTarget && press.current?.sliding) end(true);
     },
+    // A long press would open the link menu (and cancel the touch) on Android; holding is how a slide starts.
+    onContextMenu: (e) => e.preventDefault(),
     onClickCapture: (e) => {
       if (!swallowClick.current) return;
       e.preventDefault();
