@@ -3,18 +3,18 @@ import type { Recipe } from '../../types.ts';
 export const recipes: Recipe[] = [
   {
     id: 'mujaddara',
-    name: 'Lentils and Rice with Caramelized Onions',
+    name: 'Lentils and Bulgur with Caramelized Onions',
     nativeName: 'Mujaddara',
     cuisine: 'levantine',
     slots: ['lunch', 'dinner'],
     description:
-      'The Levantine pantry classic: brown lentils and basmati rice cooked together with cumin under a heap of slowly caramelized onions, with a fresh tomato-cucumber salad. Lentils and rice together give complete plant protein and plenty of fiber for very little fat.',
+      'The Levantine pantry classic: brown lentils and coarse bulgur (mujaddara burghul, the village version) cooked together with cumin under a heap of slowly caramelized onions, with a fresh tomato-cucumber salad. Lentils and whole-grain bulgur together give complete plant protein and plenty of fiber for very little fat.',
     servings: 4,
     prepMinutes: 15,
-    cookMinutes: 60,
+    cookMinutes: 55,
     ingredients: [
       { ingredientId: 'lentils-green-dried', grams: 200, qty: 1, unit: 'cup', prep: 'picked over and rinsed' },
-      { ingredientId: 'rice-basmati-raw', grams: 150, qty: 0.75, unit: 'cup', prep: 'rinsed until the water runs clear' },
+      { ingredientId: 'bulgur-coarse-dry', grams: 150, qty: 0.9, unit: 'cup' },
       { ingredientId: 'onion-raw', grams: 440, qty: 4, unit: 'medium', prep: 'halved and thinly sliced' },
       { ingredientId: 'olive-oil', grams: 27, qty: 2, unit: 'tbsp' },
       { ingredientId: 'cumin-ground', grams: 4, qty: 2, unit: 'tsp' },
@@ -29,8 +29,8 @@ export const recipes: Recipe[] = [
     steps: [
       'Heat the olive oil in a wide nonstick frying pan over medium heat. Add the onions and cook for 25-30 minutes, stirring often and adding a splash of water whenever they catch, until soft and deep golden brown.',
       'When the onions have cooked for 10 minutes, put the lentils and the water in a heavy pot, bring to a boil over high heat, then simmer uncovered over medium heat for 15 minutes, until the lentils are just tender but still hold their shape. Do not drain.',
-      'Stir the rice, cumin, black pepper and three-quarters of the salt into the lentils, along with a third of the caramelized onions. The liquid should sit about 1 cm above the rice; add a little hot water if it does not.',
-      'Bring back to a boil, cover tightly, turn the heat to low and cook for 20 minutes, until the rice is tender and all the liquid is absorbed. Take off the heat and leave covered for 10 minutes, then fluff with a fork.',
+      'Stir the bulgur, cumin, black pepper and three-quarters of the salt into the lentils, along with a third of the caramelized onions. The liquid should sit about 1 cm above the bulgur; add a little hot water if it does not.',
+      'Bring back to a boil, cover tightly, turn the heat to low and cook for 15 minutes, until the bulgur is tender and all the liquid is absorbed. Take off the heat and leave covered for 10 minutes, then fluff with a fork.',
       'For the salad, toss the tomato, cucumber and parsley with the lemon juice and the remaining salt.',
       'Spoon the mujaddara onto plates, pile the rest of the onions on top and serve with the salad on the side.',
     ],
@@ -380,10 +380,10 @@ export const recipes: Recipe[] = [
     cuisine: 'persian',
     slots: ['lunch', 'dinner'],
     description:
-      'Basmati rice layered and steamed with green beans and small cubes of lean beef braised in tomato, cinnamon and turmeric, finished with saffron. This version uses more beans and less rice than the classic, for a high-protein, well-balanced meal.',
+      'Brown basmati layered and steamed with green beans and small cubes of lean beef braised in tomato, cinnamon and turmeric, finished with saffron. This version uses brown rice, more beans and less rice than the classic, for a high-protein, well-balanced meal.',
     servings: 4,
     prepMinutes: 20,
-    cookMinutes: 125,
+    cookMinutes: 145,
     ingredients: [
       { ingredientId: 'olive-oil', grams: 27, qty: 2, unit: 'tbsp' },
       { ingredientId: 'onion-raw', grams: 220, qty: 2, unit: 'medium', prep: 'finely chopped' },
@@ -395,17 +395,17 @@ export const recipes: Recipe[] = [
       { ingredientId: 'salt', grams: 3, qty: 0.5, unit: 'tsp', prep: 'divided' },
       { ingredientId: 'water', grams: 2300, qty: 2.3, unit: 'l', prep: 'divided: for the stew, for parboiling the rice and for the saffron' },
       { ingredientId: 'green-beans-raw', grams: 500, qty: 500, unit: 'g', prep: 'trimmed and cut into 2 cm pieces' },
-      { ingredientId: 'rice-basmati-raw', grams: 250, qty: 1.25, unit: 'cup', prep: 'rinsed and soaked in cold water for 30 minutes' },
+      { ingredientId: 'rice-brown-raw', grams: 250, qty: 1.25, unit: 'cup', prep: 'brown basmati, rinsed and soaked in cold water for 30 minutes' },
       { ingredientId: 'saffron', grams: 0.2, qty: 1, unit: 'pinch', prep: 'ground in a mortar' },
     ],
     steps: [
       'Heat half the olive oil in a heavy pot over medium heat and cook the onions for 8 minutes until golden. Add the beef, turn the heat to medium-high and brown on all sides for 5 minutes.',
       'Stir in the turmeric, cinnamon and black pepper for 30 seconds, then the tomato paste for 1 minute. Add about 60 ml of the water per serving and half the salt, cover and simmer over low heat for 50-60 minutes, until the beef is tender, adding a splash of water if the pan gets dry.',
       'Add the green beans, cover and cook for 10 minutes more, until just tender and the sauce is thick enough to coat them. Take off the heat.',
-      'Meanwhile, bring most of the remaining water with a quarter of the salt to a rolling boil, keeping a splash back for the saffron. Drain the soaked rice, add it to the pot and boil for 6 minutes, until the grains are soft outside but still firm in the middle. Drain in a sieve.',
+      'Meanwhile, bring most of the remaining water with a quarter of the salt to a rolling boil, keeping a splash back for the saffron. Drain the soaked rice, add it to the pot and boil for 18-20 minutes, until the grains are soft outside but still firm in the middle. Drain in a sieve.',
       'Mix the ground saffron with the kept-back water, heated. Tip the stew into a bowl and wipe out the pot (a nonstick pot gives the best crust), then add the remaining olive oil and two-thirds of the saffron water, and spread a thin layer of rice over the base.',
       'Layer the remaining rice and the beef and bean mixture in the pot, mounding it into a cone. Poke 4-5 holes to the bottom with the handle of a wooden spoon, drizzle the rest of the saffron water over the top and sprinkle with the remaining salt.',
-      'Wrap the lid in a clean tea towel and cover the pot tightly. Cook over medium heat for 8 minutes until steam builds, then over the lowest heat for 35 minutes, until the rice is fluffy and a golden crust (tahdig) has formed.',
+      'Wrap the lid in a clean tea towel and cover the pot tightly. Cook over medium heat for 8 minutes until steam builds, then over the lowest heat for 40 minutes, until the rice is tender and fluffy and a golden crust (tahdig) has formed.',
       'Gently mix the layers as you spoon the rice onto a platter, and serve the tahdig pieces on top.',
     ],
     tips: [

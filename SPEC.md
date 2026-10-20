@@ -54,13 +54,12 @@ scripts/                      report.mjs, audit-package-age.mjs, icon generation
 
 ### Health rules (per serving, portion 1), enforced by `validate.ts`
 
-| slot | kcal | protein ≥ | fiber ≥ | sodium ≤ | free sugar ≤ |
-|---|---|---|---|---|---|
-| breakfast | 250-650 | 10 g | 3 g | 700 mg | 12 g |
-| lunch / dinner | 350-800 | 15 g | 4 g | 900 mg | 8 g |
-| snack | 80-350 | none | none | 350 mg | 10 g |
-
-Saturated fat is at most 12% of energy (warning above 10%). Total fat above 45% of energy is a warning. A recipe listed for several slots must satisfy the protein, fiber, sodium and sugar rules for every slot, and its kcal must fit at least one. `pnpm report <chunk>` shows the numbers and issues. `pnpm test` fails on any error.
+The rules and the evidence behind them are in `docs/HEALTH.md`: per-slot kcal, protein, fiber, fruit and vegetables
+(counted the 5 A Day way), sodium and free sugar; saturated fat at most 10% of energy; whole grains (refined grain
+only with a stated reason, capped at 45 g dry); at most 120 g raw red meat a serving and no processed meat; no deep-
+or shallow-frying. Total fat above 45% of energy is a warning. A recipe listed for several slots must satisfy every
+slot's minimums and limits, and its kcal must fit at least one. `node --experimental-strip-types
+scripts/health-audit.mjs` lists the recipes that fail, and `pnpm test` fails on any error.
 
 ### Coverage (`coverage.ts`)
 
@@ -97,7 +96,7 @@ Requirements:
 Mobile-first PWA with a bottom tab bar on phones and a side or top nav on wide screens.
 
 - **Today**: day navigation (‹ date ›, a "Today" pill). A summary of kcal against target and protein, carbs, fat and fiber. Meal cards in order: slot, recipe name, native name, cuisine, time, kcal and protein for the planned portion, portion chip, diet badges. Actions: **Swap** (a sheet of alternatives with kcal, protein and time), **Favorite**, open recipe.
-- **Recipe**: name and native name, description, time and servings chips, nutrition for the planned portion (all 8 nutrients, with % of daily target for kcal and protein), allergens, halal notes, ingredients scaled by a servings stepper (defaults to householdSize × portion), numbered steps you can tick off, tips, storage, and a "Watch how it's made" link to a reference YouTube video (`src/data/videos.ts`, each checked against YouTube's oEmbed data; a YouTube search link when none was picked). Videos are only linked, opening in a new tab: never embedded, no thumbnails fetched, so the app itself still makes no network requests. Keep the screen awake while cooking (Wake Lock API when available).
+- **Recipe**: name and native name, description, time and servings chips, nutrition for the planned portion (all 8 nutrients, with % of daily target for kcal and protein), allergens, halal notes, ingredients scaled by a servings stepper (defaults to householdSize × portion), numbered steps you can tick off, tips, storage, and a "Watch how it's made" link to a reference YouTube video (`src/data/videos.ts`, each from a trusted cooking channel, verified by YouTube or with 100k+ subscribers, see `docs/HEALTH.md`; a YouTube search link when no trusted video exists). Videos are only linked, opening in a new tab: never embedded, no thumbnails fetched, so the app itself still makes no network requests. Keep the screen awake while cooking (Wake Lock API when available).
 - **Week**: the 7 days of the current week with meals and daily kcal. Tap a day to open it.
 - **Shopping**: range (today / next 3 days / this week), grouped by aisle, persisted checkboxes, collapsed pantry staples, copy or share as text.
 - **Recipes**: browse the library. Search by name or ingredient, filter by slot, diet, quick and cuisine, show favorites. "Add to a day" creates an override.

@@ -57,6 +57,8 @@ import { ingredients as extraBreakfastWorld5 } from './extra/breakfast-world-5.t
 import { ingredients as extraFishMeat5 } from './extra/fish-meat-5.ts';
 import { ingredients as extraVegetarianMains5 } from './extra/vegetarian-mains-5.ts';
 import { ingredients as extraSnacksDesserts5 } from './extra/snacks-desserts-5.ts';
+import { ingredients as extraHealthVegSnacks } from './extra/health-veg-snacks.ts';
+import { ingredients as extraHealthFishMeat } from './extra/health-fish-meat.ts';
 
 export const INGREDIENT_SOURCES: Record<string, readonly Ingredient[]> = {
   'produce': produce,
@@ -116,6 +118,8 @@ export const INGREDIENT_SOURCES: Record<string, readonly Ingredient[]> = {
   'extra/fish-meat-5': extraFishMeat5,
   'extra/vegetarian-mains-5': extraVegetarianMains5,
   'extra/snacks-desserts-5': extraSnacksDesserts5,
+  'extra/health-veg-snacks': extraHealthVegSnacks,
+  'extra/health-fish-meat': extraHealthFishMeat,
 };
 
 export const INGREDIENTS: readonly Ingredient[] = Object.values(INGREDIENT_SOURCES).flat();

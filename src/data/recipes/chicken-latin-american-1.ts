@@ -52,7 +52,7 @@ export const recipes: Recipe[] = [
     cuisine: 'latin-american',
     slots: ['lunch', 'dinner'],
     description:
-      "Peru's comforting shredded chicken in a golden chili sauce, made lighter: the sauce is thickened with 1% milk, whole-wheat bread and a few walnuts instead of evaporated milk and cheese, and it's served over brown rice with boiled potato and black olives.",
+      "Peru's comforting shredded chicken in a golden chili sauce, made lighter: the sauce is thickened with 1% milk, whole-wheat bread and a few walnuts instead of evaporated milk and cheese, and it's served on lettuce leaves over brown rice with boiled potato, black olives and a sharp red-onion salsa criolla.",
     servings: 4,
     prepMinutes: 20,
     cookMinutes: 50,
@@ -75,6 +75,10 @@ export const recipes: Recipe[] = [
       { ingredientId: 'salt', grams: 2, qty: 0.33, unit: 'tsp' },
       { ingredientId: 'olives-black', grams: 32, qty: 8, unit: 'piece', prep: 'pitted and halved' },
       { ingredientId: 'parsley-fresh', grams: 10, qty: 1, unit: 'handful', prep: 'chopped', optional: true },
+      { ingredientId: 'red-onion-raw', grams: 110, qty: 1, unit: 'medium', prep: 'halved and very thinly sliced' },
+      { ingredientId: 'lime-juice', grams: 30, qty: 2, unit: 'tbsp' },
+      { ingredientId: 'coriander-leaves-fresh', grams: 10, qty: 1, unit: 'handful', prep: 'chopped' },
+      { ingredientId: 'romaine-lettuce-raw', grams: 160, qty: 160, unit: 'g', prep: 'leaves separated' },
     ],
     steps: [
       'Put the chicken and bay leaves in a pot with enough of the water to cover by 2 cm. Bring to a boil, skim, then poach on low heat for 15 minutes until the chicken reads 74 °C inside. Lift it out, cool for a few minutes and shred it with two forks; keep the broth in the pot.',
@@ -83,7 +87,8 @@ export const recipes: Recipe[] = [
       'Soak the bread in the milk for 5 minutes, then blend with the walnuts until completely smooth.',
       'Heat the olive oil in a wide pan over medium heat and cook the onion for 8-10 minutes until soft and golden. Add the garlic, chilies, turmeric, cumin and black pepper and cook for 3-4 minutes until the chili is soft, then blend this mixture into the bread purée until silky.',
       'Return the sauce to the pan with a ladleful of the broth and simmer on low for 5 minutes, stirring often, until thick and creamy. Fold in the chicken and salt and simmer 3-4 minutes more, loosening with more broth until it coats a spoon.',
-      'Serve the chicken over the brown rice with the potato halves alongside, the olives on top and a scatter of parsley.',
+      'For the salsa criolla, rinse the sliced red onion in cold water, drain and toss with the lime juice and coriander.',
+      'Line each plate with lettuce leaves and serve the chicken over the brown rice with the potato halves alongside, the olives and salsa criolla on top and a scatter of parsley.',
     ],
     tips: [
       'Ají amarillo paste gives the authentic colour and fruity heat; a spoonful replaces about half the fresh chilies.',

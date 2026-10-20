@@ -60,7 +60,7 @@ export const recipes: Recipe[] = [
     cuisine: 'southeast-asian',
     slots: ['lunch', 'dinner'],
     description:
-      'Chiang Mai\'s famous bowl: egg noodles and tender chicken in a golden turmeric-curry broth, topped with crisp noodles, raw shallot, coriander and a squeeze of lime, with bok choy for greens. A lighter version that builds the broth on low-sodium stock with only a small measure of coconut milk, so it stays creamy but low in saturated fat.',
+      'Chiang Mai\'s famous bowl: flat noodles and tender chicken in a golden turmeric-curry broth, topped with crisp noodles, raw shallot, coriander and a squeeze of lime, with bok choy for greens. A lighter version that swaps the usual egg noodles for whole-wheat ones and builds the broth on low-sodium stock with only a small measure of coconut milk, so it stays creamy but low in saturated fat.',
     servings: 4,
     prepMinutes: 20,
     cookMinutes: 35,
@@ -79,7 +79,7 @@ export const recipes: Recipe[] = [
       { ingredientId: 'fish-sauce', grams: 10, qty: 2, unit: 'tsp' },
       { ingredientId: 'sugar', grams: 4, qty: 1, unit: 'tsp' },
       { ingredientId: 'water', grams: 2500, qty: 2.5, unit: 'l', prep: 'for boiling the noodles' },
-      { ingredientId: 'noodles-egg-dry', grams: 280, qty: 280, unit: 'g' },
+      { ingredientId: 'pasta-whole-wheat-dry', grams: 280, qty: 280, unit: 'g', prep: 'whole-wheat linguine or flat whole-wheat noodles' },
       { ingredientId: 'bok-choy-raw', grams: 400, qty: 400, unit: 'g', prep: 'halved lengthwise' },
       { ingredientId: 'lime-raw', grams: 134, qty: 2, unit: 'medium', prep: 'cut into wedges' },
       { ingredientId: 'coriander-leaves-fresh', grams: 10, qty: 1, unit: 'handful' },
@@ -88,7 +88,7 @@ export const recipes: Recipe[] = [
       'Blend the chopped shallots, garlic, ginger and chilies with a splash of the broth to a smooth paste.',
       'Heat the oil in a large pot over medium heat. Fry the paste for 5 minutes, stirring, until fragrant and lightly golden. Add the curry powder, turmeric and ground coriander and stir for 1 minute, then add half the coconut milk and let it bubble for 2 minutes until thick and glossy.',
       'Add the chicken and stir for 3 minutes until coated and opaque at the edges. Pour in the rest of the broth with the fish sauce and sugar, bring to a boil, then simmer partly covered on medium-low for 20 minutes until the chicken is tender.',
-      'Meanwhile bring the water to a boil in a second pot and cook the noodles for 4-5 minutes until just tender. Lift them out, rinse briefly and drain. Keep the water boiling.',
+      'Meanwhile bring the water to a boil in a second pot and cook the noodles for 9-10 minutes, or as the packet directs, until just tender. Lift them out, rinse briefly and drain. Keep the water boiling.',
       'Take a small handful of the cooked noodles and toast them in a dry nonstick pan over medium-high heat for 5-6 minutes, turning once, until crisp and golden in spots.',
       'Blanch the bok choy in the noodle water for 2 minutes until bright green and just tender, then drain.',
       'Stir the remaining coconut milk into the soup and heat for 1 minute without letting it boil hard. Divide the soft noodles and bok choy among bowls, ladle over the curry and chicken, and top with the crisp noodles, sliced shallots, coriander and lime wedges to squeeze over.',
@@ -236,7 +236,7 @@ export const recipes: Recipe[] = [
     cuisine: 'southeast-asian',
     slots: ['lunch', 'dinner'],
     description:
-      'A home-style Vietnamese braise: chicken thigh simmered in a dark caramel with plenty of ginger, shallot and a little fish sauce until sticky and glazed, with brown rice and blanched bok choy. Just a spoon of sugar makes the caramel, so it stays low in sugar and ready in 30 minutes.',
+      'A home-style Vietnamese braise: chicken thigh simmered in a dark caramel with plenty of ginger, shallot and a little fish sauce until sticky and glazed, with brown rice and a generous pile of blanched bok choy. Just a spoon of sugar makes the caramel, so it stays low in sugar and ready in 30 minutes.',
     servings: 4,
     prepMinutes: 10,
     cookMinutes: 20,
@@ -250,7 +250,7 @@ export const recipes: Recipe[] = [
       { ingredientId: 'canola-oil', grams: 13.5, qty: 1, unit: 'tbsp' },
       { ingredientId: 'ginger-raw', grams: 50, qty: 50, unit: 'g', prep: 'peeled, cut into thin matchsticks' },
       { ingredientId: 'garlic-raw', grams: 12, qty: 3, unit: 'clove', prep: 'finely chopped' },
-      { ingredientId: 'bok-choy-raw', grams: 400, qty: 400, unit: 'g', prep: 'halved or quartered lengthwise' },
+      { ingredientId: 'bok-choy-raw', grams: 550, qty: 550, unit: 'g', prep: 'halved or quartered lengthwise' },
       { ingredientId: 'scallion-raw', grams: 30, qty: 2, unit: 'piece', prep: 'sliced' },
       { ingredientId: 'red-chili-raw', grams: 5, qty: 1, unit: 'piece', prep: 'sliced', optional: true },
       { ingredientId: 'rice-brown-cooked', grams: 700, qty: 4.5, unit: 'cup', prep: 'cooked ahead, kept warm' },
@@ -324,12 +324,12 @@ export const recipes: Recipe[] = [
     cuisine: 'southeast-asian',
     slots: ['lunch', 'dinner'],
     description:
-      'The party noodle of the Philippines: thin rice noodles tossed with sliced chicken breast, cabbage, carrot, snow peas and celery in a light soy and chicken broth, served with lime wedges to squeeze over in place of calamansi. Lean breast meat and a heap of vegetables make this a light, quick, high-protein plate.',
+      'The party noodle of the Philippines: thin rice noodles tossed with sliced chicken breast, cabbage, carrot, snow peas and celery in a light soy and chicken broth, served with lime wedges to squeeze over in place of calamansi. Lean breast meat, a modest portion of noodles and a heap of vegetables make this a light, quick, high-protein plate.',
     servings: 4,
     prepMinutes: 15,
     cookMinutes: 15,
     ingredients: [
-      { ingredientId: 'rice-noodles-dry', grams: 240, qty: 240, unit: 'g', prep: 'thin rice vermicelli (bihon)' },
+      { ingredientId: 'rice-noodles-dry', grams: 180, qty: 180, unit: 'g', prep: 'thin rice vermicelli (bihon)' },
       { ingredientId: 'water', grams: 1500, qty: 1.5, unit: 'l', prep: 'warm, for soaking' },
       { ingredientId: 'chicken-breast-raw', grams: 600, qty: 600, unit: 'g', prep: 'thinly sliced' },
       { ingredientId: 'black-pepper-ground', grams: 1, qty: 0.5, unit: 'tsp' },
@@ -355,6 +355,7 @@ export const recipes: Recipe[] = [
     tips: [
       'Pancit is served at birthdays for long life, so the noodles are traditionally left long; snip them only if they are hard to toss.',
     ],
+    refinedGrain: 'Bihon is the thin rice vermicelli that names the dish and has no whole-grain version; it is kept to 45 g a serving under more vegetables than noodles.',
     tags: ['quick', 'high-protein', 'family'],
     storage: 'Fridge up to 3 days in an airtight container. Reheat in a pan with a splash of water or broth to loosen the noodles.',
   },
@@ -409,12 +410,12 @@ export const recipes: Recipe[] = [
     cuisine: 'southeast-asian',
     slots: ['lunch', 'dinner'],
     description:
-      'Bangkok street-stall noodles: wide rice noodles seared in a hot wok with chicken, egg and a big pile of Chinese broccoli in a light soy sauce, with chili vinegar on the side. A lighter version with extra greens, lean breast meat and reduced-sodium soy, ready in under 30 minutes.',
+      'Bangkok street-stall noodles: wide rice noodles seared in a hot wok with chicken, egg and a big pile of Chinese broccoli in a light soy sauce, with chili vinegar on the side. A lighter version with fewer noodles, extra greens, lean breast meat and reduced-sodium soy, ready in under 30 minutes.',
     servings: 4,
     prepMinutes: 15,
     cookMinutes: 15,
     ingredients: [
-      { ingredientId: 'rice-noodles-dry', grams: 240, qty: 240, unit: 'g', prep: 'wide flat rice noodles' },
+      { ingredientId: 'rice-noodles-dry', grams: 180, qty: 180, unit: 'g', prep: 'wide flat rice noodles' },
       { ingredientId: 'water', grams: 1500, qty: 1.5, unit: 'l', prep: 'hot, for soaking' },
       { ingredientId: 'vinegar-rice', grams: 30, qty: 2, unit: 'tbsp' },
       { ingredientId: 'red-chili-raw', grams: 10, qty: 2, unit: 'piece', prep: 'thinly sliced' },
@@ -424,7 +425,7 @@ export const recipes: Recipe[] = [
       { ingredientId: 'canola-oil', grams: 27, qty: 2, unit: 'tbsp' },
       { ingredientId: 'garlic-raw', grams: 16, qty: 4, unit: 'clove', prep: 'finely chopped' },
       { ingredientId: 'chicken-breast-raw', grams: 500, qty: 500, unit: 'g', prep: 'thinly sliced' },
-      { ingredientId: 'broccoli-raw', grams: 600, qty: 600, unit: 'g', prep: 'Chinese broccoli (gai lan) or broccoli; stems sliced, leaves and florets cut into pieces' },
+      { ingredientId: 'broccoli-raw', grams: 750, qty: 750, unit: 'g', prep: 'Chinese broccoli (gai lan) or broccoli; stems sliced, leaves and florets cut into pieces' },
       { ingredientId: 'egg-raw', grams: 100, qty: 2, unit: 'piece', prep: 'large, beaten' },
     ],
     steps: [
@@ -438,6 +439,7 @@ export const recipes: Recipe[] = [
     tips: [
       'Cook in two batches if your pan is small: a crowded wok steams the noodles instead of searing them.',
     ],
+    refinedGrain: 'Pad see ew is built on wide rice noodles seared in the wok, which no whole grain can stand in for; they are kept to 45 g a serving with more greens than noodles.',
     tags: ['quick', 'high-protein'],
     storage: 'Best eaten fresh. Fridge up to 2 days in an airtight container; reheat in a hot pan with a splash of water.',
   },
@@ -538,7 +540,7 @@ export const recipes: Recipe[] = [
     prepMinutes: 10,
     cookMinutes: 20,
     ingredients: [
-      { ingredientId: 'noodles-cellophane-dry', grams: 150, qty: 150, unit: 'g', prep: 'mung bean glass noodles (sotanghon)' },
+      { ingredientId: 'noodles-cellophane-dry', grams: 120, qty: 120, unit: 'g', prep: 'mung bean glass noodles (sotanghon)' },
       { ingredientId: 'water', grams: 1000, qty: 1, unit: 'l', prep: 'warm, for soaking' },
       { ingredientId: 'chicken-broth-low-sodium', grams: 1500, qty: 1.5, unit: 'l', prep: 'halal-certified' },
       { ingredientId: 'chicken-breast-raw', grams: 500, qty: 500, unit: 'g', prep: 'left whole' },
@@ -565,6 +567,7 @@ export const recipes: Recipe[] = [
     tips: [
       'Glass noodles keep drinking the broth as they sit, so add a splash of extra water or broth when you reheat.',
     ],
+    refinedGrain: 'Sotanghon is the name of the mung bean glass noodles in this soup, which have no whole-grain version; they stay at 30 g a serving in a broth full of vegetables.',
     tags: ['quick', 'high-protein', 'family'],
     storage: 'Fridge up to 3 days in an airtight container. Reheat gently until piping hot, loosening with a little water.',
   },

@@ -195,6 +195,11 @@ export interface Recipe {
   /** Imperative, one action group per step, with temperatures in °C and times. */
   steps: string[];
   tips?: string[];
+  /**
+   * Why this dish keeps a refined grain (white rice, white flour, semolina, vermicelli, filo...) above a dusting:
+   * a whole-grain swap would ruin it. Without this, a recipe uses whole grains. See docs/HEALTH.md.
+   */
+  refinedGrain?: string;
   tags: RecipeTag[];
   /** How to keep leftovers, e.g. 'Fridge 3 days in an airtight container.' */
   storage?: string;

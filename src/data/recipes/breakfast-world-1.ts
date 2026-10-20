@@ -86,12 +86,12 @@ export const recipes: Recipe[] = [
     cuisine: 'south-asian',
     slots: ['breakfast'],
     description:
-      'Steamed fermented rice and urad dal cakes served with a toor dal and vegetable sambar soured with tamarind. Light, fermented and naturally oil-free in the idli, with about 17 g of protein and 11 g of fiber a plate.',
+      'Steamed fermented brown rice and urad dal cakes served with a toor dal and vegetable sambar soured with tamarind. Light, fermented and naturally oil-free in the idli, with about 17 g of protein and 11 g of fiber a plate.',
     servings: 4,
     prepMinutes: 25,
     cookMinutes: 45,
     ingredients: [
-      { ingredientId: 'rice-short-grain-raw', grams: 200, qty: 1, unit: 'cup', prep: 'idli or short-grain rice, rinsed' },
+      { ingredientId: 'rice-brown-raw', grams: 200, qty: 1, unit: 'cup', prep: 'short-grain brown rice, rinsed' },
       { ingredientId: 'urad-dal-dried', grams: 100, qty: 0.5, unit: 'cup', prep: 'split skinless, rinsed' },
       { ingredientId: 'fenugreek-seeds', grams: 2, qty: 0.5, unit: 'tsp' },
       { ingredientId: 'salt', grams: 3, qty: 0.5, unit: 'tsp' },
@@ -110,8 +110,8 @@ export const recipes: Recipe[] = [
       { ingredientId: 'mustard-seeds', grams: 3, qty: 1, unit: 'tsp', prep: 'black' },
     ],
     steps: [
-      'The day before, soak the rice in one bowl and the urad dal with the fenugreek seeds in another, each in plenty of the water, for 5-6 hours.',
-      'Drain the urad dal and grind it in a blender with a little fresh water to a light, fluffy paste. Drain and grind the rice to a slightly gritty paste. Stir both together with the salt into a thick, pourable batter, cover and leave in a warm place for 8-12 hours until risen and bubbly.',
+      'The day before, soak the brown rice in one bowl for 8 hours and the urad dal with the fenugreek seeds in another for 5-6 hours, each in plenty of the water.',
+      'Drain the urad dal and grind it in a blender with a little fresh water to a light, fluffy paste. Drain and grind the brown rice to a slightly gritty paste, adding water a spoonful at a time; it needs a little longer in the blender than white rice. Stir both together with the salt into a thick, pourable batter, cover and leave in a warm place for 8-12 hours until risen and bubbly.',
       'For the sambar, put the toor dal and turmeric in a pot with about four times its volume of water, bring to a boil and simmer for 25-30 minutes until completely soft, then whisk until smooth.',
       'Add the carrot, green beans, onion and tomato with enough water to make a soupy dal and simmer for 10-12 minutes until the vegetables are tender. Stir in the tamarind paste, coriander, cumin and cayenne and simmer 5 minutes more.',
       'Heat the oil in a small pan over medium-high heat, add the mustard seeds and let them pop for 30 seconds, then pour the sizzling oil over the sambar.',
@@ -328,7 +328,7 @@ export const recipes: Recipe[] = [
       { ingredientId: 'milk-1-percent', grams: 180, qty: 175, unit: 'ml' },
       { ingredientId: 'canola-oil', grams: 4.5, qty: 1, unit: 'tsp' },
       { ingredientId: 'greek-yogurt-nonfat', grams: 200, qty: 200, unit: 'g' },
-      { ingredientId: 'blueberries-raw', grams: 150, qty: 1, unit: 'cup' },
+      { ingredientId: 'blueberries-raw', grams: 180, qty: 1.25, unit: 'cup' },
     ],
     steps: [
       'Whisk the buckwheat flour, whole-wheat flour, baking powder and cinnamon in a mixing bowl.',
@@ -364,7 +364,7 @@ export const recipes: Recipe[] = [
       { ingredientId: 'flour-whole-wheat', grams: 50, qty: 0.4, unit: 'cup', prep: 'plus a little of it for dusting' },
       { ingredientId: 'canola-oil', grams: 9, qty: 2, unit: 'tsp' },
       { ingredientId: 'yogurt-plain-nonfat', grams: 150, qty: 150, unit: 'g' },
-      { ingredientId: 'raspberries-raw', grams: 150, qty: 150, unit: 'g' },
+      { ingredientId: 'raspberries-raw', grams: 180, qty: 180, unit: 'g' },
     ],
     steps: [
       'Press the cottage cheese through a sieve with the back of a spoon, or mash well with a fork, until there are no large curds.',
@@ -426,7 +426,7 @@ export const recipes: Recipe[] = [
     cuisine: 'gulf',
     slots: ['breakfast'],
     description:
-      'The Emirati breakfast of vermicelli scented with saffron, cardamom and rosewater, lightly sweetened and topped with a thin omelette. A lighter version with whole-wheat vermicelli, less sugar and only a couple of teaspoons of oil, for about 16 g of protein a plate.',
+      'The Emirati breakfast of vermicelli scented with saffron, cardamom and rosewater, lightly sweetened and topped with a thin omelette. A lighter version with whole-wheat vermicelli, less sugar and only a couple of teaspoons of oil, served with dates the Gulf way, for about 16 g of protein a plate.',
     servings: 2,
     prepMinutes: 5,
     cookMinutes: 15,
@@ -436,10 +436,11 @@ export const recipes: Recipe[] = [
       { ingredientId: 'canola-oil', grams: 9, qty: 2, unit: 'tsp' },
       { ingredientId: 'pasta-whole-wheat-dry', grams: 100, qty: 100, unit: 'g', prep: 'whole-wheat vermicelli or thin spaghetti, broken into short pieces' },
       { ingredientId: 'water', grams: 500, qty: 500, unit: 'ml', prep: 'boiling' },
-      { ingredientId: 'sugar', grams: 16, qty: 4, unit: 'tsp' },
+      { ingredientId: 'sugar', grams: 12, qty: 3, unit: 'tsp' },
       { ingredientId: 'cardamom-ground', grams: 1, qty: 0.5, unit: 'tsp' },
       { ingredientId: 'egg-raw', grams: 150, qty: 3, unit: 'large' },
       { ingredientId: 'salt', grams: 0.3, qty: 1, unit: 'pinch' },
+      { ingredientId: 'dates-medjool', grams: 72, qty: 3, unit: 'piece', prep: 'pitted and halved' },
     ],
     steps: [
       'Crumble the saffron into the rosewater and leave to steep while you start the vermicelli.',
@@ -447,7 +448,7 @@ export const recipes: Recipe[] = [
       'Pour in the boiling water carefully (it will spit) and simmer for 6-8 minutes, stirring now and then, until the vermicelli is just tender. Drain off any water left in the pan.',
       'Stir in the sugar, cardamom and saffron rosewater, cover and leave on the lowest heat for 2 minutes so the strands soak up the syrup and turn golden.',
       'Beat the eggs with the salt. Heat the remaining oil in a 26 cm nonstick frying pan over medium heat, pour in the eggs and tilt the pan to make a thin omelette. Cook for 2 minutes until set, then slide it out.',
-      'Divide the vermicelli between plates, cut the omelette in half and lay a piece on top of each. Serve warm.',
+      'Divide the vermicelli between plates, cut the omelette in half and lay a piece on top of each. Serve warm with the dates alongside.',
     ],
     tips: [
       'In the Gulf the sweet noodles and savoury egg are eaten together in each forkful; the contrast is the point.',

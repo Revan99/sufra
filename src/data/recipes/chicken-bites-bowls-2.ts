@@ -40,6 +40,7 @@ export const recipes: Recipe[] = [
       'Use leftover roast chicken or a poached breast: skinless white meat keeps the börek lean.',
       'Keep a damp tea towel over the filo while you work so the sheets do not dry out and crack.',
     ],
+    refinedGrain: 'Börek is defined by its paper-thin, crisp filo layers, and whole-wheat dough cannot be rolled that thin; the filo is kept to about 37 g a serving and the plate is built on vegetables.',
     tags: ['high-protein', 'make-ahead', 'family'],
     storage: 'Fridge up to 3 days, covered. Reheat in a 180 °C oven for 10 minutes to re-crisp; freeze baked squares up to 2 months.',
   },
@@ -127,7 +128,7 @@ export const recipes: Recipe[] = [
     cuisine: 'latin-american',
     slots: ['breakfast'],
     description:
-      'Griddled corn arepas split and stuffed with the famous "curvy queen" filling: shredded chicken mashed with avocado, lime, coriander and red onion. Greek yogurt stands in for the usual mayonnaise, giving a lighter, protein-rich filling with heart-healthy fat from the avocado.',
+      'Griddled corn arepas split and stuffed with the famous "curvy queen" filling: shredded chicken mashed with avocado, lime, coriander and red onion, with sliced tomato. Greek yogurt stands in for the usual mayonnaise, giving a lighter, protein-rich filling with heart-healthy fat from the avocado.',
     servings: 4,
     prepMinutes: 15,
     cookMinutes: 15,
@@ -144,6 +145,7 @@ export const recipes: Recipe[] = [
       { ingredientId: 'red-onion-raw', grams: 40, qty: 0.33, unit: 'medium', prep: 'very finely chopped' },
       { ingredientId: 'coriander-leaves-fresh', grams: 15, qty: 1, unit: 'handful', prep: 'chopped' },
       { ingredientId: 'black-pepper-ground', grams: 0.5, qty: 0.25, unit: 'tsp' },
+      { ingredientId: 'tomato-raw', grams: 240, qty: 2, unit: 'medium', prep: 'thinly sliced' },
     ],
     steps: [
       'Stir the salt into the warm water in a bowl, then pour in the masarepa gradually, mixing with your hand. Knead for 2 minutes into a soft dough that does not crack at the edges; rest for 5 minutes.',
@@ -151,7 +153,7 @@ export const recipes: Recipe[] = [
       'Heat a heavy frying pan or griddle over medium heat and wipe with the oil. Cook the arepas for 5-6 minutes per side until a firm, lightly charred crust forms and they sound hollow when tapped.',
       'While they cook, mash the avocado with the yogurt, lime juice and garlic until creamy.',
       'Fold in the chicken, red onion, coriander and black pepper until evenly coated.',
-      'Split each hot arepa open along one side with a small knife, leaving a hinge, and stuff with the chicken-avocado filling. Serve two per person straight away.',
+      'Split each hot arepa open along one side with a small knife, leaving a hinge, and stuff with the chicken-avocado filling and a few tomato slices. Serve two per person straight away, with the rest of the tomato on the side.',
     ],
     tips: [
       'Use masarepa (pre-cooked corn meal such as P.A.N.), not cornmeal or masa harina: other corn flours will not hold together.',
@@ -176,7 +178,7 @@ export const recipes: Recipe[] = [
       { ingredientId: 'water', grams: 500, qty: 500, unit: 'ml', prep: 'for poaching' },
       { ingredientId: 'milk-1-percent', grams: 1030, qty: 1, unit: 'l' },
       { ingredientId: 'flour-rice-white', grams: 70, qty: 0.5, unit: 'cup' },
-      { ingredientId: 'sugar', grams: 72, qty: 6, unit: 'tbsp' },
+      { ingredientId: 'sugar', grams: 60, qty: 5, unit: 'tbsp' },
       { ingredientId: 'cinnamon-ground', grams: 3, qty: 1, unit: 'tsp', prep: 'for dusting' },
     ],
     steps: [
@@ -322,7 +324,7 @@ export const recipes: Recipe[] = [
     cuisine: 'east-asian',
     slots: ['lunch', 'dinner'],
     description:
-      'Gently poached chicken, pounded and torn into shreds, piled over cucumber, carrot, bean sprouts and glass noodles and spooned with a nutty sesame, peanut, chili and vinegar dressing. A cold, high-protein salad with reduced-sodium soy and just enough peanut for richness.',
+      'Gently poached chicken, pounded and torn into shreds, piled over cucumber, carrot, bean sprouts and whole-wheat noodles and spooned with a nutty sesame, peanut, chili and vinegar dressing. A cold, high-protein salad with reduced-sodium soy and just enough peanut for richness.',
     servings: 4,
     prepMinutes: 15,
     cookMinutes: 15,
@@ -330,7 +332,7 @@ export const recipes: Recipe[] = [
       { ingredientId: 'chicken-breast-raw', grams: 500, qty: 500, unit: 'g', prep: 'skinless' },
       { ingredientId: 'ginger-raw', grams: 15, qty: 1.5, unit: 'tbsp', prep: 'half sliced, half finely grated' },
       { ingredientId: 'scallion-raw', grams: 40, qty: 4, unit: 'piece', prep: 'whites halved, greens thinly sliced' },
-      { ingredientId: 'noodles-cellophane-dry', grams: 120, qty: 120, unit: 'g', prep: 'mung bean glass noodles' },
+      { ingredientId: 'pasta-whole-wheat-dry', grams: 120, qty: 120, unit: 'g', prep: 'whole-wheat thin noodles or thin spaghetti' },
       { ingredientId: 'cucumber-raw', grams: 400, qty: 2, unit: 'medium', prep: 'cut into thin batons' },
       { ingredientId: 'carrot-raw', grams: 200, qty: 2, unit: 'large', prep: 'cut into thin matchsticks' },
       { ingredientId: 'mung-bean-sprouts-raw', grams: 150, qty: 150, unit: 'g', prep: 'rinsed' },
@@ -348,7 +350,7 @@ export const recipes: Recipe[] = [
     ],
     steps: [
       'Bring the water to a boil with the sliced ginger and scallion whites. Add the chicken, return to a bare simmer, cover and cook on low for 12-14 minutes until the thickest part reaches 74 °C. Lift out and cool for 5 minutes.',
-      'Pour some of the hot poaching water over the glass noodles in a bowl and soak for 5-6 minutes until tender. Drain, rinse under cold water and snip into shorter lengths.',
+      'Meanwhile cook the noodles in a separate pan of boiling water for 8-10 minutes, or as the packet directs, until just tender. Drain and rinse under cold water until cool.',
       'Whisk the tahini, peanut butter, soy sauce, rice vinegar, sugar, grated ginger and garlic with a splash of the poaching liquid until smooth and pourable.',
       'Warm the sesame oil in a small pan over low heat, take off the heat and stir in the chili flakes. Let them sizzle for 30 seconds, then stir this chili oil into the dressing.',
       'Bash the chicken a few times with a rolling pin to loosen the fibres, then tear it into shreds.',

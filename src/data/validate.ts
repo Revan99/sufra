@@ -3,6 +3,7 @@
 import type { CatalogRecipe, Ingredient, MealSlot, Recipe, Unit } from '../types.ts';
 import { AISLES, ALLERGENS, MEAL_SLOTS, NUTRIENT_KEYS } from '../types.ts';
 import { atwaterKcal, toCatalogRecipe, type IngredientIndex } from '../lib/nutrition.ts';
+import { FRYING, fruitVegPerServing, redMeatPerServing, refinedGrainPerServing } from '../lib/healthy.ts';
 
 export interface Issue {
   level: 'error' | 'warning';
@@ -22,15 +23,32 @@ export const HEALTH_RULES: Record<
     maxFreeSugar: number;
   }
 > = {
-  breakfast: { kcal: [250, 650], minProtein: 10, minFiber: 3, maxSodium: 700, maxFreeSugar: 12 },
-  lunch: { kcal: [350, 800], minProtein: 15, minFiber: 4, maxSodium: 900, maxFreeSugar: 8 },
-  dinner: { kcal: [350, 800], minProtein: 15, minFiber: 4, maxSodium: 900, maxFreeSugar: 8 },
-  snack: { kcal: [80, 350], minProtein: 0, minFiber: 0, maxSodium: 350, maxFreeSugar: 10 },
+  breakfast: { kcal: [250, 650], minProtein: 10, minFiber: 4, maxSodium: 600, maxFreeSugar: 8 },
+  lunch: { kcal: [350, 800], minProtein: 15, minFiber: 5, maxSodium: 800, maxFreeSugar: 5 },
+  dinner: { kcal: [350, 800], minProtein: 15, minFiber: 5, maxSodium: 800, maxFreeSugar: 5 },
+  snack: { kcal: [80, 350], minProtein: 0, minFiber: 0, maxSodium: 300, maxFreeSugar: 8 },
 };
 
-/** Saturated fat as a share of energy: error above, warning above SAT_FAT_WARN. */
-export const SAT_FAT_MAX = 0.12;
-export const SAT_FAT_WARN = 0.1;
+/**
+ * Food groups per serving (docs/HEALTH.md). Fruit and vegetables are counted the 5 A Day way (lib/healthy.ts), so
+ * two mains, a breakfast and a snack reach WHO's 400 g a day.
+ */
+export const FOOD_GROUP_RULES: Record<MealSlot, { minFruitVeg: number }> = {
+  breakfast: { minFruitVeg: 80 },
+  lunch: { minFruitVeg: 120 },
+  dinner: { minFruitVeg: 120 },
+  snack: { minFruitVeg: 0 },
+};
+/** Refined grain (dry grams per serving) allowed without a reason: a dusting or a thickener. */
+export const REFINED_GRAIN_FREE = 10;
+/** Refined grain (dry grams per serving) at most, even with a reason: about 120 g cooked white rice. */
+export const REFINED_GRAIN_MAX = 45;
+/** Raw red meat per serving at most: about 85 g cooked, one portion (WCRF: 350-500 g cooked a week). */
+export const RED_MEAT_MAX = 120;
+
+/** Saturated fat as a share of energy: error above (WHO: under 10%), warning above SAT_FAT_WARN. */
+export const SAT_FAT_MAX = 0.1;
+export const SAT_FAT_WARN = 0.08;
 /** Total fat as a share of energy: warning above. */
 export const FAT_WARN = 0.45;
 
@@ -192,6 +210,26 @@ export function validateRecipe(recipe: Recipe, index: IngredientIndex): Issue[] 
 
   issues.push(...unitIssues(recipe));
   issues.push(...healthIssues(toCatalogRecipe(recipe, index)));
+  issues.push(...foodGroupIssues(recipe, index));
+  return issues;
+}
+
+/** What a recipe is made of: fruit and vegetables, refined grains, red meat, and no frying. */
+export function foodGroupIssues(recipe: Recipe, index: IngredientIndex): Issue[] {
+  const issues: Issue[] = [];
+  const err = (message: string) => issues.push({ level: 'error', subject: recipe.id, message });
+  const fv = fruitVegPerServing(recipe, index);
+  for (const s of recipe.slots) {
+    const min = FOOD_GROUP_RULES[s].minFruitVeg;
+    if (fv < min) err(`${Math.round(fv)} g fruit and vegetables per serving is below ${min} g for ${s}`);
+  }
+  const refined = refinedGrainPerServing(recipe);
+  if (refined > REFINED_GRAIN_FREE && !recipe.refinedGrain?.trim()) err(`${Math.round(refined)} g refined grain per serving: use a whole grain, or say why the dish needs it (refinedGrain)`);
+  if (refined > REFINED_GRAIN_MAX) err(`${Math.round(refined)} g refined grain per serving exceeds ${REFINED_GRAIN_MAX} g`);
+  if (recipe.refinedGrain !== undefined && refined <= REFINED_GRAIN_FREE) err('refinedGrain is set but the recipe has no refined grain to speak of');
+  const red = redMeatPerServing(recipe, index);
+  if (red > RED_MEAT_MAX) err(`${Math.round(red)} g raw red meat per serving exceeds ${RED_MEAT_MAX} g`);
+  for (const step of recipe.steps) if (FRYING.test(step)) err(`deep- or shallow-frying: "${step.slice(0, 60)}…"`);
   return issues;
 }
 
