@@ -1,0 +1,33 @@
+{
+  "id": "kabak-tatlisi",
+  "photo": {
+    "src": "images/kabak-tatlisi.webp",
+    "thumb": "images/kabak-tatlisi-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Glass plate of candied pumpkin pieces covered in crushed walnuts",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Pumpkin dessert",
+      "author": "HakanIST",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:HakanIST",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pumpkin_dessert.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c08",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Pumpkin_dessert.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Kabak Tatlısı"
+  },
+  "queries": [
+    "Lighter Turkish Candied Pumpkin",
+    "Kabak Tatlısı"
+  ]
+}

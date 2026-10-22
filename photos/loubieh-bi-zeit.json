@@ -1,0 +1,35 @@
+{
+  "id": "loubieh-bi-zeit",
+  "photo": {
+    "src": "images/loubieh-bi-zeit.webp",
+    "thumb": "images/loubieh-bi-zeit-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Plate of green beans braised in olive oil with tomato",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "FasolakiaPrasinaLadera",
+      "author": "Robert Kindermann aka RobertK",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:RobertK",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:FasolakiaPrasinaLadera.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c16",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/FasolakiaPrasinaLadera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "fasolakia"
+  },
+  "queries": [
+    "zeytinyağlı taze fasulye",
+    "لوبيا بالزيت",
+    "green beans tomato olive oil",
+    "fasolakia"
+  ]
+}

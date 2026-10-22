@@ -1,0 +1,34 @@
+{
+  "id": "chicken-labneh-breakfast-wrap",
+  "photo": {
+    "src": "images/chicken-labneh-breakfast-wrap.webp",
+    "thumb": "images/chicken-labneh-breakfast-wrap-thumb.webp",
+    "width": 960,
+    "height": 960,
+    "alt": "Whole-wheat wrap cut in half showing chicken, tomato, avocado and lettuce, with a side salad",
+    "focus": [
+      65,
+      55
+    ],
+    "credit": {
+      "title": "Smoked chicken and avocado wrap",
+      "author": "Takeaway",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Takeaway",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smoked_chicken_and_avocado_wrap.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Smoked_chicken_and_avocado_wrap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken wrap"
+  },
+  "queries": [
+    "chicken wrap",
+    "labneh wrap",
+    "chicken shawarma wrap"
+  ]
+}

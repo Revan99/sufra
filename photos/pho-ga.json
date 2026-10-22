@@ -1,0 +1,33 @@
+{
+  "id": "pho-ga",
+  "photo": {
+    "src": "images/pho-ga.webp",
+    "thumb": "images/pho-ga-thumb.webp",
+    "width": 960,
+    "height": 542,
+    "alt": "White bowl of chicken pho with shredded chicken, spring onion and red chilli in clear broth",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Pho ga (noodle soup with chicken), Hanoi (6945821707)",
+      "author": "David McKelvey from Brisbane, Australia",
+      "authorUrl": "https://www.flickr.com/people/94735786@N00",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pho_ga_(noodle_soup_with_chicken),_Hanoi_(6945821707).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c05",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Pho_ga_%28noodle_soup_with_chicken%29%2C_Hanoi_%286945821707%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Vietnamese Chicken Pho"
+  },
+  "queries": [
+    "Vietnamese Chicken Pho",
+    "Phở Gà"
+  ]
+}

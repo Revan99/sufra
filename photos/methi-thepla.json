@@ -1,0 +1,33 @@
+{
+  "id": "methi-thepla",
+  "photo": {
+    "src": "images/methi-thepla.webp",
+    "thumb": "images/methi-thepla-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Plate of methi thepla flatbread with yellow dal and a spoonful of yogurt",
+    "focus": [
+      65,
+      70
+    ],
+    "credit": {
+      "title": "Mung Dal - Bhindi with Methi Thepla",
+      "author": "Anupama1002",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Anupama1002?action=edit&redlink=1",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mung_Dal_-_Bhindi_with_Methi_Thepla.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Mung_Dal_-_Bhindi_with_Methi_Thepla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Methi Thepla"
+  },
+  "queries": [
+    "Gujarati Fenugreek Flatbreads with Yogurt",
+    "Methi Thepla"
+  ]
+}

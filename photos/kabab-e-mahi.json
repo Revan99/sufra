@@ -1,0 +1,35 @@
+{
+  "id": "kabab-e-mahi",
+  "photo": {
+    "src": "images/kabab-e-mahi.webp",
+    "thumb": "images/kabab-e-mahi-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Skewers of sturgeon fish kebab grilling over glowing charcoal",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Sturgeon Kebab (2887202689)",
+      "author": "flydime",
+      "authorUrl": "https://www.flickr.com/people/98073722@N00",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sturgeon_Kebab_(2887202689).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Sturgeon_Kebab_%282887202689%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "fish kebab"
+  },
+  "queries": [
+    "fish kebab",
+    "grilled fish skewers saffron",
+    "کباب ماهی",
+    "fish kabob"
+  ]
+}

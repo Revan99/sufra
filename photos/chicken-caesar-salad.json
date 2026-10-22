@@ -1,0 +1,32 @@
+{
+  "id": "chicken-caesar-salad",
+  "photo": {
+    "src": "images/chicken-caesar-salad.webp",
+    "thumb": "images/chicken-caesar-salad-thumb.webp",
+    "width": 960,
+    "height": 768,
+    "alt": "Plate of Caesar salad with romaine, grilled chicken strips, croutons and tomato",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Caesar Salad & Grilled Chicken (30548011308)",
+      "author": "Prayitno / Thank you for (12 millions +) view from Los Angeles, USA",
+      "authorUrl": "https://www.flickr.com/people/34128007@N04",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caesar_Salad_%26_Grilled_Chicken_(30548011308).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c09",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Caesar_Salad_%26_Grilled_Chicken_%2830548011308%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken caesar salad"
+  },
+  "queries": [
+    "chicken caesar salad"
+  ]
+}

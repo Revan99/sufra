@@ -141,7 +141,7 @@
 }
 
 .pg-tone-accent {
-  color: var(--accent);
+  color: var(--accent-ink);
 }
 
 .pg-tone-protein {
@@ -472,7 +472,7 @@
 }
 
 .pg-cal-on {
-  background: var(--accent);
+  background: var(--accent-fill);
   color: #ffffff;
 }
 

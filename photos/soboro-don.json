@@ -1,0 +1,34 @@
+{
+  "id": "soboro-don",
+  "photo": {
+    "src": "images/soboro-don.webp",
+    "thumb": "images/soboro-don-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Wooden bowl of rice topped with three stripes: minced chicken soboro, green beans and scrambled egg",
+    "focus": [
+      55,
+      55
+    ],
+    "credit": {
+      "title": "三色丼",
+      "author": "Syced",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Syced",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%89%E8%89%B2%E4%B8%BC.jpeg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c05",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/%E4%B8%89%E8%89%B2%E4%B8%BC.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "三色丼"
+  },
+  "queries": [
+    "そぼろ丼",
+    "soboro don",
+    "三色丼"
+  ]
+}

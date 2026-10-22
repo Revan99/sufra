@@ -1,0 +1,33 @@
+{
+  "id": "lean-chicken-burger",
+  "photo": {
+    "src": "images/lean-chicken-burger.webp",
+    "thumb": "images/lean-chicken-burger-thumb.webp",
+    "width": 960,
+    "height": 540,
+    "alt": "Chicken burger with lettuce on a brioche bun served with fries and dipping sauces on a white plate",
+    "focus": [
+      45,
+      40
+    ],
+    "credit": {
+      "title": "Chicken Burger with Brioche bun",
+      "author": "Siddhantsahni28",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Siddhantsahni28",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Burger_with_Brioche_bun.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c12",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Chicken_Burger_with_Brioche_bun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken burger coleslaw"
+  },
+  "queries": [
+    "chicken burger",
+    "chicken burger coleslaw"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "imbakbaka-chicken",
+  "photo": {
+    "src": "images/imbakbaka-chicken.webp",
+    "thumb": "images/imbakbaka-chicken-thumb.webp",
+    "width": 960,
+    "height": 698,
+    "alt": "Plate of Libyan imbakbaka: penne in spicy tomato sauce with chicken pieces and green chillies",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "مكرونة مبكبكة",
+      "author": "HGGI 777",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:HGGI_777",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9_%D9%85%D8%A8%D9%83%D8%A8%D9%83%D8%A9.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/%D9%85%D9%83%D8%B1%D9%88%D9%86%D8%A9_%D9%85%D8%A8%D9%83%D8%A8%D9%83%D8%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "مبكبكة"
+  },
+  "queries": [
+    "imbakbaka",
+    "مبكبكة",
+    "libyan pasta"
+  ]
+}

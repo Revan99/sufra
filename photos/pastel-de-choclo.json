@@ -1,0 +1,33 @@
+{
+  "id": "pastel-de-choclo",
+  "photo": {
+    "src": "images/pastel-de-choclo.webp",
+    "thumb": "images/pastel-de-choclo-thumb.webp",
+    "width": 960,
+    "height": 791,
+    "alt": "Pastel de choclo in a black clay dish with a golden baked corn crust, a fork lifting out a bite",
+    "focus": [
+      45,
+      50
+    ],
+    "credit": {
+      "title": "Pastel de choclo",
+      "author": "Paloma Baytelman from Santiago, Chile",
+      "authorUrl": "https://www.flickr.com/photos/25695219@N00",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pastel_de_choclo.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Pastel_de_choclo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "pastel de choclo"
+  },
+  "queries": [
+    "pastel de choclo",
+    "pastel de choclo chileno"
+  ]
+}

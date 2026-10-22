@@ -1,0 +1,33 @@
+{
+  "id": "pad-see-ew-chicken",
+  "photo": {
+    "src": "images/pad-see-ew-chicken.webp",
+    "thumb": "images/pad-see-ew-chicken-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "White bowl of wide rice noodles stir-fried with chicken, egg and Chinese broccoli",
+    "focus": [
+      55,
+      50
+    ],
+    "credit": {
+      "title": "Pad see ew with chicken, Rice & Spice",
+      "author": "Ser Amantio di Nicolao",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Ser_Amantio_di_Nicolao",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pad_see_ew_with_chicken,_Rice_%26_Spice.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c10",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Pad_see_ew_with_chicken%2C_Rice_%26_Spice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Phat Si-Io"
+  },
+  "queries": [
+    "Thai Stir-Fried Wide Noodles with Chicken",
+    "Phat Si-Io"
+  ]
+}

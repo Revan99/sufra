@@ -1,0 +1,35 @@
+{
+  "id": "turkish-fava",
+  "photo": {
+    "src": "images/turkish-fava.webp",
+    "thumb": "images/turkish-fava-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Slice of set broad bean purée topped with chopped dill and olive oil on a white dish",
+    "focus": [
+      50,
+      45
+    ],
+    "credit": {
+      "title": "Piece of fava",
+      "author": "E4024",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:E4024",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piece_of_fava.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c04",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Piece_of_fava.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "fava meze"
+  },
+  "queries": [
+    "fava ezmesi",
+    "bakla ezmesi",
+    "fava meze",
+    "broad bean puree"
+  ]
+}

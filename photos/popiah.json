@@ -1,0 +1,33 @@
+{
+  "id": "popiah",
+  "photo": {
+    "src": "images/popiah.webp",
+    "thumb": "images/popiah-thumb.webp",
+    "width": 960,
+    "height": 540,
+    "alt": "Sliced fresh spring rolls with vegetable and lettuce filling in a paper-lined box",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Popiah 2",
+      "author": "ProjectManhattan",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:ProjectManhattan",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Popiah_2.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Popiah_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Popiah"
+  },
+  "queries": [
+    "Fresh Singapore Spring Rolls",
+    "Popiah"
+  ]
+}

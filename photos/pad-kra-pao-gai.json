@@ -1,0 +1,33 @@
+{
+  "id": "pad-kra-pao-gai",
+  "photo": {
+    "src": "images/pad-kra-pao-gai.webp",
+    "thumb": "images/pad-kra-pao-gai-thumb.webp",
+    "width": 960,
+    "height": 819,
+    "alt": "Plate of rice with a fried egg, stir-fried basil chicken and cucumber slices",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Thai 2026-09-09 dishes 01",
+      "author": "P1898",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:P1898",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thai_2026-09-09_dishes_01.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Thai_2026-09-09_dishes_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Thai Holy Basil Chicken"
+  },
+  "queries": [
+    "Thai Holy Basil Chicken",
+    "Phat Kaphrao Kai"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "fattoush",
+  "photo": {
+    "src": "images/fattoush.webp",
+    "thumb": "images/fattoush-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Fattoush salad with toasted pita pieces, tomato, cucumber and lettuce",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Fattoush",
+      "author": "Unknown author",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fattoush.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Fattoush.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "fattoush"
+  },
+  "queries": [
+    "fattoush",
+    "فتوش"
+  ]
+}

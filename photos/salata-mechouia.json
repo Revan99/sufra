@@ -1,0 +1,34 @@
+{
+  "id": "salata-mechouia",
+  "photo": {
+    "src": "images/salata-mechouia.webp",
+    "thumb": "images/salata-mechouia-thumb.webp",
+    "width": 960,
+    "height": 959,
+    "alt": "Blue floral plate of Tunisian grilled red pepper and tomato salad topped with green olives",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "سلاطة مشوية، مع الزيتون الاخضر، تونس 2020",
+      "author": "Habib M'henni",
+      "authorUrl": "https://www.wikidata.org/wiki/Q105725266",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D8%B3%D9%84%D8%A7%D8%B7%D8%A9_%D9%85%D8%B4%D9%88%D9%8A%D8%A9%D8%8C_%D9%85%D8%B9_%D8%A7%D9%84%D8%B2%D9%8A%D8%AA%D9%88%D9%86_%D8%A7%D9%84%D8%A7%D8%AE%D8%B6%D8%B1%D8%8C_%D8%AA%D9%88%D9%86%D8%B3_2020.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/%D8%B3%D9%84%D8%A7%D8%B7%D8%A9_%D9%85%D8%B4%D9%88%D9%8A%D8%A9%D8%8C_%D9%85%D8%B9_%D8%A7%D9%84%D8%B2%D9%8A%D8%AA%D9%88%D9%86_%D8%A7%D9%84%D8%A7%D8%AE%D8%B6%D8%B1%D8%8C_%D8%AA%D9%88%D9%86%D8%B3_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "salata mechouia"
+  },
+  "queries": [
+    "salata mechouia",
+    "slata mechouia",
+    "سلاطة مشوية"
+  ]
+}

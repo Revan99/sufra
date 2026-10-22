@@ -1,0 +1,35 @@
+{
+  "id": "molokhia-bil-firakh",
+  "photo": {
+    "src": "images/molokhia-bil-firakh.webp",
+    "thumb": "images/molokhia-bil-firakh-thumb.webp",
+    "width": 960,
+    "height": 717,
+    "alt": "Clay bowl of smooth green molokhia soup with a spoon",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Molokheya Egypt, 2012",
+      "author": "Habib M'henni",
+      "authorUrl": "https://www.wikidata.org/wiki/Q105725266",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Molokheya_Egypt,_2012.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c05",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Molokheya_Egypt%2C_2012.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "molokhia"
+  },
+  "queries": [
+    "molokhia",
+    "ملوخية",
+    "mulukhiyah",
+    "molokhia chicken"
+  ]
+}

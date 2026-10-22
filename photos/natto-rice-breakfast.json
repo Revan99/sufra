@@ -1,0 +1,35 @@
+{
+  "id": "natto-rice-breakfast",
+  "photo": {
+    "src": "images/natto-rice-breakfast.webp",
+    "thumb": "images/natto-rice-breakfast-thumb.webp",
+    "width": 960,
+    "height": 960,
+    "alt": "Bowl of white rice topped with natto, sliced spring onion and mustard",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Natto and negi on rice",
+      "author": "Dllu",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Dllu",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Natto_and_negi_on_rice.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c04",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Natto_and_negi_on_rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "natto rice"
+  },
+  "queries": [
+    "natto rice",
+    "納豆ご飯",
+    "natto gohan",
+    "natto"
+  ]
+}

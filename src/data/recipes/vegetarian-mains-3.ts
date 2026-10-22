@@ -2,48 +2,6 @@ import type { Recipe } from '../../types.ts';
 
 export const recipes: Recipe[] = [
   {
-    id: 'yesil-mercimek-yemegi',
-    name: 'Turkish Green Lentil Stew with Bulgur',
-    nativeName: 'Yeşil Mercimek Yemeği',
-    cuisine: 'turkish',
-    slots: ['lunch', 'dinner'],
-    description:
-      'The everyday Turkish home stew: green lentils simmered with onion, carrot, pepper paste and a spoon of coarse bulgur until thick and spoonable, then finished with dried mint and lemon. Measured olive oil and pepper paste keep it light, and the lentil and whole-grain pairing gives about 20 g of protein and 13 g of fiber a bowl.',
-    servings: 4,
-    prepMinutes: 10,
-    cookMinutes: 45,
-    ingredients: [
-      { ingredientId: 'lentils-green-dried', grams: 280, qty: 1.5, unit: 'cup', prep: 'picked over and rinsed' },
-      { ingredientId: 'olive-oil', grams: 27, qty: 2, unit: 'tbsp' },
-      { ingredientId: 'onion-raw', grams: 110, qty: 1, unit: 'medium', prep: 'finely chopped' },
-      { ingredientId: 'carrot-raw', grams: 120, qty: 2, unit: 'small', prep: 'diced' },
-      { ingredientId: 'garlic-raw', grams: 9, qty: 2, unit: 'clove', prep: 'minced' },
-      { ingredientId: 'red-pepper-paste', grams: 20, qty: 1, unit: 'tbsp', prep: 'Turkish biber salçası' },
-      { ingredientId: 'tomato-paste', grams: 16, qty: 1, unit: 'tbsp' },
-      { ingredientId: 'aleppo-pepper', grams: 1, qty: 0.5, unit: 'tsp', prep: 'pul biber' },
-      { ingredientId: 'water', grams: 1400, qty: 1.4, unit: 'l', prep: 'hot' },
-      { ingredientId: 'bulgur-coarse-dry', grams: 100, qty: 0.5, unit: 'cup', prep: 'rinsed' },
-      { ingredientId: 'salt', grams: 2, qty: 0.33, unit: 'tsp' },
-      { ingredientId: 'mint-dried', grams: 2, qty: 2, unit: 'tsp' },
-      { ingredientId: 'black-pepper-ground', grams: 0.5, qty: 0.25, unit: 'tsp' },
-      { ingredientId: 'lemon-juice', grams: 30, qty: 2, unit: 'tbsp' },
-    ],
-    steps: [
-      'Heat three-quarters of the olive oil in a heavy pot over medium heat. Add the onion and carrot and cook for 6-7 minutes, stirring, until the onion is soft and golden at the edges.',
-      'Stir in the garlic for 30 seconds, then the pepper paste, tomato paste and Aleppo pepper. Fry for 1-2 minutes until the pastes darken slightly and smell sweet.',
-      'Add the lentils and stir to coat, then pour in the hot water. Bring to a boil, skim any foam, cover partly and simmer on medium-low for 20 minutes until the lentils are just tender.',
-      'Stir in the bulgur and the salt and simmer, partly covered, for 15 minutes more, stirring now and then, until the bulgur is plump and the stew is thick but still loose. Add a splash of water if it catches.',
-      'In a small pan warm the remaining oil over low heat, add the dried mint and black pepper and swirl for 15 seconds until fragrant; do not let it burn.',
-      'Take the stew off the heat, stir in the lemon juice and rest for 5 minutes. Ladle into bowls and drizzle with the mint oil.',
-    ],
-    tips: [
-      'It thickens as it stands; loosen leftovers with a little hot water when reheating.',
-      'Serve with a spoon of nonfat yogurt and a few pickled peppers on the side if you like.',
-    ],
-    tags: ['high-fiber', 'one-pot', 'meal-prep', 'family'],
-    storage: 'Fridge up to 4 days in an airtight container; freeze up to 3 months. Reheat until steaming hot.',
-  },
-  {
     id: 'moroccan-vegetable-tagine',
     name: 'Moroccan Vegetable and Chickpea Tagine',
     nativeName: 'Tajine Khodra',

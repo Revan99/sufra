@@ -1,0 +1,32 @@
+{
+  "id": "bissara",
+  "photo": {
+    "src": "images/bissara.webp",
+    "thumb": "images/bissara-thumb.webp",
+    "width": 960,
+    "height": 1440,
+    "alt": "Two wooden bowls of pale fava bean soup drizzled with olive oil and cumin, with olives and bread",
+    "focus": [
+      50,
+      45
+    ],
+    "credit": {
+      "title": "Bissara Moroccan split pea and fava bean soup",
+      "author": "Ruby Josephine Smith",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bissara_Moroccan_split_pea_and_fava_bean_soup.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Bissara_Moroccan_split_pea_and_fava_bean_soup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Moroccan Split Fava Soup"
+  },
+  "queries": [
+    "Moroccan Split Fava Soup",
+    "Bissara"
+  ]
+}

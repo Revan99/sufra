@@ -1,0 +1,33 @@
+{
+  "id": "poulet-basquaise",
+  "photo": {
+    "src": "images/poulet-basquaise.webp",
+    "thumb": "images/poulet-basquaise-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Chicken pieces braised with red and green peppers, tomato and onion in an earthenware dish",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Poulet basquaise 01",
+      "author": "Arnaud 25",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Arnaud_25",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poulet_basquaise_01.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Poulet_basquaise_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Poulet Basquaise"
+  },
+  "queries": [
+    "Basque Chicken with Peppers",
+    "Poulet Basquaise"
+  ]
+}

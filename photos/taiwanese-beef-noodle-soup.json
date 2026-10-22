@@ -1,0 +1,35 @@
+{
+  "id": "taiwanese-beef-noodle-soup",
+  "photo": {
+    "src": "images/taiwanese-beef-noodle-soup.webp",
+    "thumb": "images/taiwanese-beef-noodle-soup-thumb.webp",
+    "width": 960,
+    "height": 931,
+    "alt": "Dark bowl of Taiwanese beef noodle soup with braised beef chunks, thick noodles, bok choy, pickled greens and spring onion",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Beef noodle soup Pine and Crane DTLA (July 2022)",
+      "author": "Benoît Prieur",
+      "authorUrl": "https://www.wikidata.org/wiki/Q42790984",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beef_noodle_soup_Pine_and_Crane_DTLA_(July_2022).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c15",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Beef_noodle_soup_Pine_and_Crane_DTLA_%28July_2022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Taiwanese beef noodle soup"
+  },
+  "queries": [
+    "牛肉麵",
+    "Taiwanese beef noodle soup",
+    "beef noodle soup Taiwan",
+    "紅燒牛肉麵"
+  ]
+}

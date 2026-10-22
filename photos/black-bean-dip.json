@@ -1,0 +1,33 @@
+{
+  "id": "black-bean-dip",
+  "photo": {
+    "src": "images/black-bean-dip.webp",
+    "thumb": "images/black-bean-dip-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Green bowl of dark black bean dip with tortilla chips on the side",
+    "focus": [
+      55,
+      50
+    ],
+    "credit": {
+      "title": "Black bean dip",
+      "author": "Ginny from USA",
+      "authorUrl": "https://www.flickr.com/people/78011127@N00",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_bean_dip.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Black_bean_dip.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "black bean dip"
+  },
+  "queries": [
+    "black bean dip",
+    "black bean hummus"
+  ]
+}

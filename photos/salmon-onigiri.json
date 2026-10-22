@@ -1,0 +1,37 @@
+{
+  "id": "salmon-onigiri",
+  "photo": {
+    "src": "images/salmon-onigiri.webp",
+    "thumb": "images/salmon-onigiri-thumb.webp",
+    "width": 800,
+    "height": 600,
+    "alt": "Triangular rice balls mixed with flaked salmon, each wrapped with a strip of nori",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Salmon onigiri by yomi955",
+      "author": "yomi955",
+      "authorUrl": "https://www.flickr.com/photos/yomi955/",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salmon_onigiri_by_yomi955.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Salmon_onigiri_by_yomi955.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "onigiri salmon"
+  },
+  "queries": [
+    "Salmon Rice Balls",
+    "Shake Onigiri",
+    "onigiri salmon",
+    "鮭おにぎり",
+    "しゃけ おにぎり",
+    "onigiri"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "taquitos-de-pollo",
+  "photo": {
+    "src": "images/taquitos-de-pollo.webp",
+    "thumb": "images/taquitos-de-pollo-thumb.webp",
+    "width": 960,
+    "height": 1440,
+    "alt": "Two golden rolled chicken taquitos on shredded cabbage on a green plate",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Chicken taquitos",
+      "author": "Nithyasrm",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Nithyasrm",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_taquitos.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c18",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Chicken_taquitos.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken taquitos"
+  },
+  "queries": [
+    "taquitos",
+    "flautas de pollo",
+    "chicken taquitos",
+    "Taquitos de Pollo"
+  ]
+}

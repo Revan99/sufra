@@ -1,0 +1,34 @@
+{
+  "id": "chana-chaat",
+  "photo": {
+    "src": "images/chana-chaat.webp",
+    "thumb": "images/chana-chaat-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Plate of spiced chickpea chaat with diced tomato, green chilli, onion rings and lemon slices",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Punjabi Chana Chaat",
+      "author": "Miansari66",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Miansari66",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Punjabi_Chana_Chaat.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c06",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Punjabi_Chana_Chaat.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chana chaat"
+  },
+  "queries": [
+    "chana chaat",
+    "chickpea chaat",
+    "chole chaat"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "methi-chicken",
+  "photo": {
+    "src": "images/methi-chicken.webp",
+    "thumb": "images/methi-chicken-thumb.webp",
+    "width": 960,
+    "height": 717,
+    "alt": "White bowl of methi chicken curry flecked with fenugreek leaves and topped with coriander",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Methi chicken",
+      "author": "Amit154",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Amit154",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Methi_chicken.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Methi_chicken.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "methi chicken"
+  },
+  "queries": [
+    "methi chicken",
+    "methi murgh",
+    "मेथी चिकन"
+  ]
+}

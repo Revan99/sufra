@@ -1,0 +1,33 @@
+{
+  "id": "goan-chicken-cafreal",
+  "photo": {
+    "src": "images/goan-chicken-cafreal.webp",
+    "thumb": "images/goan-chicken-cafreal-thumb.webp",
+    "width": 960,
+    "height": 706,
+    "alt": "Glass dish of Goan chicken cafreal coated in green spice masala, topped with lime slices and coriander",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Chicken Cafreal-panji-goa-003",
+      "author": "Abhijeet Chandankhede",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Abhicrr",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Cafreal-panji-goa-003.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Chicken_Cafreal-panji-goa-003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken cafreal"
+  },
+  "queries": [
+    "chicken cafreal",
+    "cafreal"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "harak-osbao",
+  "photo": {
+    "src": "images/harak-osbao.webp",
+    "thumb": "images/harak-osbao-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Container of homemade harak osbao, egg pasta mixed with brown lentils, fried onion and herbs",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "(20260503 124952783 HDR) Syrian pasta",
+      "author": "Roy Zuo",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:RoyZuoMedia",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:(20260503_124952783_HDR)_Syrian_pasta.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/%2820260503_124952783_HDR%29_Syrian_pasta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "حراق إصبعه"
+  },
+  "queries": [
+    "حراق إصبعه",
+    "harraq isbaou",
+    "lentils pasta tamarind",
+    "Syrian lentil pasta"
+  ]
+}

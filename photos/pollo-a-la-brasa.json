@@ -1,0 +1,32 @@
+{
+  "id": "pollo-a-la-brasa",
+  "photo": {
+    "src": "images/pollo-a-la-brasa.webp",
+    "thumb": "images/pollo-a-la-brasa-thumb.webp",
+    "width": 960,
+    "height": 1280,
+    "alt": "Whole spatchcocked Peruvian rotisserie chicken with dark crisp skin on a white plate",
+    "focus": [
+      50,
+      60
+    ],
+    "credit": {
+      "title": "Pollo a la brasa Lima Peru",
+      "author": "Flickr user: Véronique Debord Tours, France https://www.flickr.com/people/debord/",
+      "authorUrl": "https://www.flickr.com/people/debord/",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pollo_a_la_brasa_Lima_Peru.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c06",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Pollo_a_la_brasa_Lima_Peru.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "pollo a la brasa"
+  },
+  "queries": [
+    "pollo a la brasa"
+  ]
+}

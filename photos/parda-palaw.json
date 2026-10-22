@@ -1,0 +1,34 @@
+{
+  "id": "parda-palaw",
+  "photo": {
+    "src": "images/parda-palaw.webp",
+    "thumb": "images/parda-palaw-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Golden pastry dome cut open to show chicken and rice filling on a white plate",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Perde pilav",
+      "author": "E4024",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:E4024",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Perde_pilav.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Perde_pilav.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "perde pilavı"
+  },
+  "queries": [
+    "parda pilav",
+    "perde pilavı",
+    "dolama"
+  ]
+}

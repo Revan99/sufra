@@ -1,0 +1,35 @@
+{
+  "id": "fish-moilee",
+  "photo": {
+    "src": "images/fish-moilee.webp",
+    "thumb": "images/fish-moilee-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Fish in a yellow coconut moilee sauce with green chillies, onion and tomato slices on a white plate",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Fish Moilee Kerala Style",
+      "author": "Drsoumyadeepb",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Drsoumyadeepb",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fish_Moilee_Kerala_Style.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Fish_Moilee_Kerala_Style.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "fish moilee"
+  },
+  "queries": [
+    "fish moilee",
+    "fish molee",
+    "meen moilee",
+    "kerala fish curry coconut"
+  ]
+}

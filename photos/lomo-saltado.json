@@ -1,0 +1,32 @@
+{
+  "id": "lomo-saltado",
+  "photo": {
+    "src": "images/lomo-saltado.webp",
+    "thumb": "images/lomo-saltado-thumb.webp",
+    "width": 960,
+    "height": 1008,
+    "alt": "Bowl of lomo saltado: beef cubes with red onion, tomato and fried potato beside a mound of rice",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Lomo saltado, a Peruvian dish",
+      "author": "AngieSP",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:AngieSP",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lomo_saltado,_a_Peruvian_dish.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c06",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Lomo_saltado%2C_a_Peruvian_dish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "lomo saltado"
+  },
+  "queries": [
+    "lomo saltado"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "baingan-bharta",
+  "photo": {
+    "src": "images/baingan-bharta.webp",
+    "thumb": "images/baingan-bharta-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Steel thali with smoky baingan bharta, a bowl of dal and whole-wheat roti",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Baigan ka Bharta",
+      "author": "Devika",
+      "authorUrl": "https://www.flickr.com/people/75531279@N05",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baigan_ka_Bharta.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c06",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Baigan_ka_Bharta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "baingan bharta"
+  },
+  "queries": [
+    "baingan bharta",
+    "बैंगन भर्ता",
+    "begun bharta"
+  ]
+}

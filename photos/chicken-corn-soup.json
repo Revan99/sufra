@@ -1,0 +1,37 @@
+{
+  "id": "chicken-corn-soup",
+  "photo": {
+    "src": "images/chicken-corn-soup.webp",
+    "thumb": "images/chicken-corn-soup-thumb.webp",
+    "width": 960,
+    "height": 540,
+    "alt": "Metal bowl of chicken sweetcorn soup with egg ribbons and chopped spring onion, a spoon resting inside",
+    "focus": [
+      45,
+      60
+    ],
+    "credit": {
+      "title": "An aesthetic Chicken Sweetcorn soup",
+      "author": "Thamizhpparithi Maari",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Thamizhpparithi_Maari",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:An_aesthetic_Chicken_Sweetcorn_soup.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c12",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/An_aesthetic_Chicken_Sweetcorn_soup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "sweetcorn soup"
+  },
+  "queries": [
+    "chicken corn soup",
+    "粟米雞湯",
+    "sweetcorn soup",
+    "chicken and sweetcorn soup",
+    "玉米羹",
+    "sweet corn soup"
+  ]
+}

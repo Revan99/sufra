@@ -1,0 +1,34 @@
+{
+  "id": "whole-wheat-waffles",
+  "photo": {
+    "src": "images/whole-wheat-waffles.webp",
+    "thumb": "images/whole-wheat-waffles-thumb.webp",
+    "width": 960,
+    "height": 723,
+    "alt": "Waffles topped with sliced strawberries and banana with a small dish of syrup on a dark plate",
+    "focus": [
+      50,
+      45
+    ],
+    "credit": {
+      "title": "Belgian waffles & fruit - Brewhouse & Kitchen 2026-04-14",
+      "author": "Andy Li",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Onthewings",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Belgian_waffles_%26_fruit_-_Brewhouse_%26_Kitchen_2026-04-14.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Belgian_waffles_%26_fruit_-_Brewhouse_%26_Kitchen_2026-04-14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "waffles fruit"
+  },
+  "queries": [
+    "whole wheat waffles",
+    "waffles fruit",
+    "Belgian waffle berries"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "salmon-avocado-rye-toast",
+  "photo": {
+    "src": "images/salmon-avocado-rye-toast.webp",
+    "thumb": "images/salmon-avocado-rye-toast-thumb.webp",
+    "width": 960,
+    "height": 723,
+    "alt": "Toast spread with smashed avocado and topped with smoked salmon, with a small leaf salad on a metal tray",
+    "focus": [
+      55,
+      55
+    ],
+    "credit": {
+      "title": "Avocado & Smoked Salmon On Sourdough Toast - Amo 2026-02-04",
+      "author": "Andy Li",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Onthewings",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Avocado_%26_Smoked_Salmon_On_Sourdough_Toast_-_Amo_2026-02-04.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Avocado_%26_Smoked_Salmon_On_Sourdough_Toast_-_Amo_2026-02-04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "salmon avocado toast"
+  },
+  "queries": [
+    "salmon avocado toast",
+    "smoked salmon avocado rye",
+    "avocado toast salmon"
+  ]
+}

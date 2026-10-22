@@ -1,0 +1,34 @@
+{
+  "id": "daoud-basha-djaj",
+  "photo": {
+    "src": "images/daoud-basha-djaj.webp",
+    "thumb": "images/daoud-basha-djaj-thumb.webp",
+    "width": 960,
+    "height": 743,
+    "alt": "White plate of meatballs in thick tomato sauce topped with toasted pine nuts and parsley",
+    "focus": [
+      55,
+      50
+    ],
+    "credit": {
+      "title": "Dawood Basha 01",
+      "author": "Abdulsalam Al Dabbagh",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Abdulsalam_Al_Dabbagh",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dawood_Basha_01.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c04",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Dawood_Basha_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "داود باشا"
+  },
+  "queries": [
+    "daoud basha",
+    "داود باشا",
+    "meatballs tomato sauce lebanese"
+  ]
+}

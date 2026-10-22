@@ -1,0 +1,34 @@
+{
+  "id": "iraqi-chicken-biryani",
+  "photo": {
+    "src": "images/iraqi-chicken-biryani.webp",
+    "thumb": "images/iraqi-chicken-biryani-thumb.webp",
+    "width": 960,
+    "height": 788,
+    "alt": "Plate of Iraqi chicken biryani with peas, almonds, raisins and peppers",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Iraqi Chicken Biryani",
+      "author": "Miansari66",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Miansari66",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iraqi_Chicken_Biryani.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Iraqi_Chicken_Biryani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "iraqi biryani"
+  },
+  "queries": [
+    "iraqi biryani",
+    "برياني عراقي",
+    "biryani vermicelli"
+  ]
+}

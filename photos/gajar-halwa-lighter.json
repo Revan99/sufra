@@ -1,0 +1,34 @@
+{
+  "id": "gajar-halwa-lighter",
+  "photo": {
+    "src": "images/gajar-halwa-lighter.webp",
+    "thumb": "images/gajar-halwa-lighter-thumb.webp",
+    "width": 960,
+    "height": 960,
+    "alt": "Glass bowl of bright orange gajar ka halwa topped with chopped almonds",
+    "focus": [
+      50,
+      45
+    ],
+    "credit": {
+      "title": "Gajjar ka halwa (carrot halwa)",
+      "author": "Prerna Jaddwani",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Prernaj89",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gajjar_ka_halwa_(carrot_halwa).JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Gajjar_ka_halwa_%28carrot_halwa%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "gajar ka halwa"
+  },
+  "queries": [
+    "gajar ka halwa",
+    "gajar halwa",
+    "carrot halwa"
+  ]
+}

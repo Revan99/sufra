@@ -1,0 +1,34 @@
+{
+  "id": "zaalouk",
+  "photo": {
+    "src": "images/zaalouk.webp",
+    "thumb": "images/zaalouk-thumb.webp",
+    "width": 960,
+    "height": 717,
+    "alt": "Plate of zaalouk, a mashed eggplant and tomato salad, garnished with fresh coriander",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Zaalouk-01",
+      "author": "Tamorlan",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Tamorlan",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zaalouk-01.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Zaalouk-01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "zaalouk"
+  },
+  "queries": [
+    "zaalouk",
+    "zaalouk eggplant",
+    "زعلوك"
+  ]
+}

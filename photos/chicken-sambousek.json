@@ -1,0 +1,34 @@
+{
+  "id": "chicken-sambousek",
+  "photo": {
+    "src": "images/chicken-sambousek.webp",
+    "thumb": "images/chicken-sambousek-thumb.webp",
+    "width": 960,
+    "height": 1012,
+    "alt": "Golden half-moon sambousek pastry with crimped edge beside a bowl of hummus and pita",
+    "focus": [
+      50,
+      60
+    ],
+    "credit": {
+      "title": "Sambousek (4009290205)",
+      "author": "Charles Haynes from Hobart, Australia",
+      "authorUrl": "https://www.flickr.com/people/87232391@N00",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sambousek_(4009290205).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Sambousek_%284009290205%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "sambousek"
+  },
+  "queries": [
+    "sambousek",
+    "سمبوسك",
+    "sambusak"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "kilic-sis",
+  "photo": {
+    "src": "images/kilic-sis.webp",
+    "thumb": "images/kilic-sis-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Grilled swordfish skewer with tomato, onion and parsley served with fries, lime and a dip",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Brochette d'espadon à Georgioúpoli (Crète) en juillet 2021",
+      "author": "Benoît Prieur",
+      "authorUrl": "https://www.wikidata.org/wiki/Q42790984",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brochette_d%27espadon_%C3%A0_Georgio%C3%BApoli_(Cr%C3%A8te)_en_juillet_2021.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Brochette_d%27espadon_%C3%A0_Georgio%C3%BApoli_%28Cr%C3%A8te%29_en_juillet_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "swordfish skewers"
+  },
+  "queries": [
+    "kılıç şiş",
+    "swordfish kebab",
+    "swordfish skewers"
+  ]
+}

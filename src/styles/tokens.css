@@ -25,7 +25,10 @@
   --accent: #f2711c;
   --accent-strong: #d9480f;
   --accent-light: #ff9a57;
-  --accent-ink: #c2550f;
+  /* Saffron for text: 4.5:1 or more on white, the page grey and the tinted chips (WCAG AA). */
+  --accent-ink: #ad490b;
+  /* Saffron fill behind white text (buttons, pills): 4.6:1 with white. --accent stays for rings, bars and ticks. */
+  --accent-fill: #c2550f;
   --accent-on: #ffffff;
   --accent-soft: rgb(242 113 28 / 12%);
   --accent-tint: rgb(242 113 28 / 10%);

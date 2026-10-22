@@ -1,0 +1,33 @@
+{
+  "id": "gai-yang-som-tam",
+  "photo": {
+    "src": "images/gai-yang-som-tam.webp",
+    "thumb": "images/gai-yang-som-tam-thumb.webp",
+    "width": 960,
+    "height": 960,
+    "alt": "Grilled chicken pieces with dipping sauce, a bowl of sticky rice and green papaya salad",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Som tam khao niao kai yang",
+      "author": "Takeaway",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Takeaway",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Som_tam_khao_niao_kai_yang.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Som_tam_khao_niao_kai_yang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Thai Grilled Chicken with Papaya Salad"
+  },
+  "queries": [
+    "Thai Grilled Chicken with Papaya Salad",
+    "Kai Yang"
+  ]
+}

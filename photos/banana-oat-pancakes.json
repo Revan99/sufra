@@ -1,0 +1,34 @@
+{
+  "id": "banana-oat-pancakes",
+  "photo": {
+    "src": "images/banana-oat-pancakes.webp",
+    "thumb": "images/banana-oat-pancakes-thumb.webp",
+    "width": 960,
+    "height": 1200,
+    "alt": "Oat pancakes topped with sliced banana, blueberries and a drizzle of yogurt",
+    "focus": [
+      45,
+      50
+    ],
+    "credit": {
+      "title": "Oatmeal pancake with fruit",
+      "author": "Drhnn",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Drhnn",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oatmeal_pancake_with_fruit.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Oatmeal_pancake_with_fruit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "oatmeal pancakes"
+  },
+  "queries": [
+    "banana oat pancakes",
+    "oatmeal pancakes",
+    "banana pancakes"
+  ]
+}

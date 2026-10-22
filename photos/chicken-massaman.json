@@ -1,0 +1,33 @@
+{
+  "id": "chicken-massaman",
+  "photo": {
+    "src": "images/chicken-massaman.webp",
+    "thumb": "images/chicken-massaman-thumb.webp",
+    "width": 960,
+    "height": 960,
+    "alt": "Close-up of chicken massaman curry with potato in a red sauce in a pale green bowl",
+    "focus": [
+      55,
+      60
+    ],
+    "credit": {
+      "title": "Kaeng matsaman kai",
+      "author": "Takeaway",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Takeaway",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kaeng_matsaman_kai.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Kaeng_matsaman_kai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Kaeng Matsaman"
+  },
+  "queries": [
+    "Lighter Chicken Massaman Curry",
+    "Kaeng Matsaman"
+  ]
+}

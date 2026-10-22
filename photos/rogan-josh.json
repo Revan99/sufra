@@ -1,0 +1,33 @@
+{
+  "id": "rogan-josh",
+  "photo": {
+    "src": "images/rogan-josh.webp",
+    "thumb": "images/rogan-josh-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Bowl of dark red Kashmiri lamb rogan josh garnished with slivered almonds",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Rogan Josh",
+      "author": "Miansari66",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Miansari66",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rogan_Josh.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c04",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Rogan_Josh.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "rogan josh"
+  },
+  "queries": [
+    "rogan josh",
+    "roghan josh"
+  ]
+}

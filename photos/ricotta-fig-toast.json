@@ -1,0 +1,34 @@
+{
+  "id": "ricotta-fig-toast",
+  "photo": {
+    "src": "images/ricotta-fig-toast.webp",
+    "thumb": "images/ricotta-fig-toast-thumb.webp",
+    "width": 960,
+    "height": 717,
+    "alt": "Three toasts spread with soft white cheese and topped with fresh fig slices, blueberries and herbs",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Gourmet Toast (Unsplash)",
+      "author": "robyn randolph rawsomerobyn",
+      "authorUrl": "https://unsplash.com/@rawsomerobyn",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gourmet_Toast_(Unsplash).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Gourmet_Toast_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "fig toast"
+  },
+  "queries": [
+    "ricotta fig toast",
+    "fig toast",
+    "ricotta toast"
+  ]
+}

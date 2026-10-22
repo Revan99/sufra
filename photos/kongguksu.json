@@ -1,0 +1,33 @@
+{
+  "id": "kongguksu",
+  "photo": {
+    "src": "images/kongguksu.webp",
+    "thumb": "images/kongguksu-thumb.webp",
+    "width": 960,
+    "height": 625,
+    "alt": "Dark bowl of cold soy milk noodle soup topped with julienned cucumber and tomato wedges",
+    "focus": [
+      45,
+      55
+    ],
+    "credit": {
+      "title": "Kongguksu 07 (27198870013)",
+      "author": "Republic of Korea from Seoul, Republic of Korea",
+      "authorUrl": "https://www.flickr.com/people/42438955@N05",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kongguksu_07_(27198870013).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c07",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Kongguksu_07_%2827198870013%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "kongguksu"
+  },
+  "queries": [
+    "kongguksu",
+    "콩국수"
+  ]
+}

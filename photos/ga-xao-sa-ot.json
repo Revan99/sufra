@@ -1,0 +1,33 @@
+{
+  "id": "ga-xao-sa-ot",
+  "photo": {
+    "src": "images/ga-xao-sa-ot.webp",
+    "thumb": "images/ga-xao-sa-ot-thumb.webp",
+    "width": 960,
+    "height": 638,
+    "alt": "Plate of stir-fried lemongrass chicken with onion beside white rice, salad and dipping sauce",
+    "focus": [
+      45,
+      55
+    ],
+    "credit": {
+      "title": "Lemongrass chicken at Quan Nem Ninh Hoa, Sacramento",
+      "author": "Brian Bilek",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lemongrass_chicken_at_Quan_Nem_Ninh_Hoa,_Sacramento.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c05",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Lemongrass_chicken_at_Quan_Nem_Ninh_Hoa%2C_Sacramento.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "lemongrass chicken"
+  },
+  "queries": [
+    "gà xào sả ớt",
+    "lemongrass chicken",
+    "ga xao sa ot"
+  ]
+}

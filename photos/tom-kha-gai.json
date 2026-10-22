@@ -1,0 +1,33 @@
+{
+  "id": "tom-kha-gai",
+  "photo": {
+    "src": "images/tom-kha-gai.webp",
+    "thumb": "images/tom-kha-gai-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Square white bowl of creamy coconut chicken soup with dried chillies, tomato and herbs",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Tom Kha Kai in Phra Nakhon District, Bangkok, Thailand",
+      "author": "Globe-trotter",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Globe-trotter",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tom_Kha_Kai_in_Phra_Nakhon_District,_Bangkok,_Thailand.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c07",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Tom_Kha_Kai_in_Phra_Nakhon_District%2C_Bangkok%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Tom Kha Kai"
+  },
+  "queries": [
+    "Thai Coconut Galangal Chicken Soup",
+    "Tom Kha Kai"
+  ]
+}

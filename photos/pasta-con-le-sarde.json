@@ -1,0 +1,33 @@
+{
+  "id": "pasta-con-le-sarde",
+  "photo": {
+    "src": "images/pasta-con-le-sarde.webp",
+    "thumb": "images/pasta-con-le-sarde-thumb.webp",
+    "width": 960,
+    "height": 960,
+    "alt": "Plate of spaghetti with sardines and toasted breadcrumbs topped with a tuft of wild fennel fronds",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Pasta con le sarde 2",
+      "author": "Joy",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pasta_con_le_sarde_2.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Pasta_con_le_sarde_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "pasta con le sarde"
+  },
+  "queries": [
+    "pasta con le sarde",
+    "pasta con sarde",
+    "bucatini sardines fennel"
+  ]
+}

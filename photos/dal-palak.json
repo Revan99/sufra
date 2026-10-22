@@ -1,0 +1,34 @@
+{
+  "id": "dal-palak",
+  "photo": {
+    "src": "images/dal-palak.webp",
+    "thumb": "images/dal-palak-thumb.webp",
+    "width": 960,
+    "height": 643,
+    "alt": "Small karahi of yellow lentil and spinach dal with a lime slice, set on fresh spinach leaves",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Dal Palak Spinach and lentil curry (15914333462)",
+      "author": "Yummy O Yummy",
+      "authorUrl": "https://www.flickr.com/people/127963413@N05",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dal_Palak_Spinach_and_lentil_curry_(15914333462).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c04",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Dal_Palak_Spinach_and_lentil_curry_%2815914333462%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "dal palak"
+  },
+  "queries": [
+    "dal palak",
+    "palak dal",
+    "पालक दाल"
+  ]
+}

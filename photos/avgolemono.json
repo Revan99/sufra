@@ -1,0 +1,33 @@
+{
+  "id": "avgolemono",
+  "photo": {
+    "src": "images/avgolemono.webp",
+    "thumb": "images/avgolemono-thumb.webp",
+    "width": 960,
+    "height": 1280,
+    "alt": "Turquoise bowl of creamy egg-lemon chicken soup topped with chopped parsley and black pepper",
+    "focus": [
+      50,
+      48
+    ],
+    "credit": {
+      "title": "Avgolemono - Sarah Stierch",
+      "author": "Missvain",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Missvain",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Avgolemono_-_Sarah_Stierch.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Avgolemono_-_Sarah_Stierch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Avgolemono"
+  },
+  "queries": [
+    "Greek Lemon Chicken Soup",
+    "Avgolemono"
+  ]
+}

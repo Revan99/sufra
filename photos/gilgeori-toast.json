@@ -1,0 +1,36 @@
+{
+  "id": "gilgeori-toast",
+  "photo": {
+    "src": "images/gilgeori-toast.webp",
+    "thumb": "images/gilgeori-toast-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Toasted Korean street sandwich filled with a folded egg omelette and shredded cabbage in a paper wrapper",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "MiNe-IP5S_20170613-130715RG",
+      "author": "MiNe (sfmine79)",
+      "authorUrl": "https://www.flickr.com/photos/8996753@N06",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "sourceUrl": "https://www.flickr.com/photos/8996753@N06/35464324132",
+      "source": "Flickr",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c16",
+    "imageUrl": "https://live.staticflickr.com/4052/35464324132_8cca4f61b9_b.jpg",
+    "query": "Isaac toast"
+  },
+  "queries": [
+    "gilgeori toast",
+    "길거리토스트",
+    "Korean street toast",
+    "Korean egg toast",
+    "Isaac toast"
+  ]
+}

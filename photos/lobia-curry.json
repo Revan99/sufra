@@ -1,0 +1,33 @@
+{
+  "id": "lobia-curry",
+  "photo": {
+    "src": "images/lobia-curry.webp",
+    "thumb": "images/lobia-curry-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Bowl of black-eyed pea curry with coriander beside vegetable pulao",
+    "focus": [
+      65,
+      40
+    ],
+    "credit": {
+      "title": "Black eyed Peas Curry and Pulav",
+      "author": "Namitakhaire",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Namitakhaire",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_eyed_Peas_Curry_and_Pulav.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Black_eyed_Peas_Curry_and_Pulav.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Black-Eyed Pea Curry"
+  },
+  "queries": [
+    "Black-Eyed Pea Curry",
+    "Lobia Masala"
+  ]
+}

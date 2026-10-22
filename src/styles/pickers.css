@@ -222,7 +222,7 @@
 }
 
 .pick-day:has(input:checked) {
-  background: var(--accent);
+  background: var(--accent-fill);
   color: #ffffff;
 }
 

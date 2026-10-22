@@ -1,0 +1,34 @@
+{
+  "id": "dal-makhani-lighter",
+  "photo": {
+    "src": "images/dal-makhani-lighter.webp",
+    "thumb": "images/dal-makhani-lighter-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Metal bowl of dal makhani swirled with cream and garnished with coriander",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Dal Makhani 01",
+      "author": "Marajozkee",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Marajozkee",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dal_Makhani_01.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c05",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Dal_Makhani_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "dal makhani"
+  },
+  "queries": [
+    "dal makhani",
+    "दाल मखनी",
+    "daal makhani"
+  ]
+}

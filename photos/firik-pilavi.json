@@ -1,0 +1,34 @@
+{
+  "id": "firik-pilavi",
+  "photo": {
+    "src": "images/firik-pilavi.webp",
+    "thumb": "images/firik-pilavi-thumb.webp",
+    "width": 960,
+    "height": 1234,
+    "alt": "Mound of firik pilavı with diced peppers on a white plate, garnished with herbs and strips of chicken",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Firik pilavı",
+      "author": "Masisoz",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Masisoz",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Firik_pilav%C4%B1.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Firik_pilav%C4%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "firik pilavı"
+  },
+  "queries": [
+    "firik pilavı",
+    "freekeh pilaf",
+    "firik"
+  ]
+}

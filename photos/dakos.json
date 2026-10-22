@@ -1,0 +1,34 @@
+{
+  "id": "dakos",
+  "photo": {
+    "src": "images/dakos.webp",
+    "thumb": "images/dakos-thumb.webp",
+    "width": 960,
+    "height": 1280,
+    "alt": "Cretan dakos rusks topped with grated tomato, crumbled feta, capers and oregano on a white platter",
+    "focus": [
+      50,
+      60
+    ],
+    "credit": {
+      "title": "Plat de Dakos en Crète en juillet 2021",
+      "author": "Benoît Prieur",
+      "authorUrl": "https://www.wikidata.org/wiki/Q42790984",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plat_de_Dakos_en_Cr%C3%A8te_en_juillet_2021.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Plat_de_Dakos_en_Cr%C3%A8te_en_juillet_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "dakos"
+  },
+  "queries": [
+    "dakos",
+    "ντάκος",
+    "cretan rusk tomato feta"
+  ]
+}

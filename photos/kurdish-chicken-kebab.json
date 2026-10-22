@@ -1,0 +1,33 @@
+{
+  "id": "kurdish-chicken-kebab",
+  "photo": {
+    "src": "images/kurdish-chicken-kebab.webp",
+    "thumb": "images/kurdish-chicken-kebab-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Grilled chicken kebab pieces on flatbread with charred tomato, green pepper, sumac onions and parsley",
+    "focus": [
+      50,
+      45
+    ],
+    "credit": {
+      "title": "Şiş tavuk (or tavuk şiş)",
+      "author": "E4024",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:E4024",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C5%9Ei%C5%9F_tavuk_(or_tavuk_%C5%9Fi%C5%9F).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c11",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/%C5%9Ei%C5%9F_tavuk_%28or_tavuk_%C5%9Fi%C5%9F%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "tavuk şiş"
+  },
+  "queries": [
+    "chicken kebab skewers",
+    "tavuk şiş"
+  ]
+}

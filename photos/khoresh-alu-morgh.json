@@ -1,0 +1,36 @@
+{
+  "id": "khoresh-alu-morgh",
+  "photo": {
+    "src": "images/khoresh-alu-morgh.webp",
+    "thumb": "images/khoresh-alu-morgh-thumb.webp",
+    "width": 960,
+    "height": 753,
+    "alt": "Tureen of chicken and dried plum stew in a red tomato sauce with a ladle",
+    "focus": [
+      55,
+      50
+    ],
+    "credit": {
+      "title": "Սալորի շոգեխաշած սոուս",
+      "author": "Chaojoker",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Chaojoker",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D5%8D%D5%A1%D5%AC%D5%B8%D6%80%D5%AB_%D5%B7%D5%B8%D5%A3%D5%A5%D5%AD%D5%A1%D5%B7%D5%A1%D5%AE_%D5%BD%D5%B8%D5%B8%D6%82%D5%BD.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/%D5%8D%D5%A1%D5%AC%D5%B8%D6%80%D5%AB_%D5%B7%D5%B8%D5%A3%D5%A5%D5%AD%D5%A1%D5%B7%D5%A1%D5%AE_%D5%BD%D5%B8%D5%B8%D6%82%D5%BD.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Khoresh-e Alu"
+  },
+  "queries": [
+    "Persian Chicken Stew with Prunes",
+    "Khoresh-e Alu",
+    "خورش آلو",
+    "خورش آلو مرغ",
+    "chicken prunes stew"
+  ]
+}

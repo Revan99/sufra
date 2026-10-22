@@ -1,0 +1,37 @@
+{
+  "id": "chicken-kabsa",
+  "photo": {
+    "src": "images/chicken-kabsa.webp",
+    "thumb": "images/chicken-kabsa-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Large platter of kabsa rice topped with chicken pieces, raisins, cashews and pine nuts",
+    "focus": [
+      50,
+      45
+    ],
+    "credit": {
+      "title": "Kabsa",
+      "author": "Basel15 at en.wikipedia",
+      "authorUrl": "https://en.wikipedia.org/wiki/User:Basel15",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kabsa.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Kabsa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "kabsa"
+  },
+  "queries": [
+    "Saudi Chicken Kabsa",
+    "Kabsat Dajaj",
+    "kabsa",
+    "كبسة دجاج",
+    "chicken machboos",
+    "كبسة"
+  ]
+}

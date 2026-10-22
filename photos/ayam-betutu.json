@@ -1,0 +1,33 @@
+{
+  "id": "ayam-betutu",
+  "photo": {
+    "src": "images/ayam-betutu.webp",
+    "thumb": "images/ayam-betutu-thumb.webp",
+    "width": 960,
+    "height": 638,
+    "alt": "Whole spiced chicken covered in Balinese spice paste on paper with sambal",
+    "focus": [
+      45,
+      55
+    ],
+    "credit": {
+      "title": "Ayam Betutu",
+      "author": "m4sh.3d",
+      "authorUrl": "https://www.flickr.com/people/25117919@N06",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ayam_Betutu.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c06",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Ayam_Betutu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Balinese Spiced Chicken"
+  },
+  "queries": [
+    "Balinese Spiced Chicken",
+    "Ayam Betutu"
+  ]
+}

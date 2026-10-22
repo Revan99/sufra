@@ -1,0 +1,33 @@
+{
+  "id": "khao-soi-gai",
+  "photo": {
+    "src": "images/khao-soi-gai.webp",
+    "thumb": "images/khao-soi-gai-thumb.webp",
+    "width": 960,
+    "height": 694,
+    "alt": "Bowl of curry noodle soup with a chicken drumstick, crispy noodles and coriander, with pickled greens and shallots",
+    "focus": [
+      40,
+      55
+    ],
+    "credit": {
+      "title": "Khao soi kai",
+      "author": "Takeaway",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Takeaway",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khao_soi_kai.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c05",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Khao_soi_kai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Khao Soi Kai"
+  },
+  "queries": [
+    "Lighter Northern Thai Curry Noodle Soup",
+    "Khao Soi Kai"
+  ]
+}

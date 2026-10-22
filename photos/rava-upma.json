@@ -1,0 +1,36 @@
+{
+  "id": "rava-upma",
+  "photo": {
+    "src": "images/rava-upma.webp",
+    "thumb": "images/rava-upma-thumb.webp",
+    "width": 960,
+    "height": 1280,
+    "alt": "Bowl of cracked wheat upma with vegetables, chopped coriander and a bay leaf",
+    "focus": [
+      50,
+      45
+    ],
+    "credit": {
+      "title": "Half wheat veg upma",
+      "author": "SaroPrakash",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:SaroPrakash",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Half_wheat_veg_upma.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Half_wheat_veg_upma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "broken wheat upma"
+  },
+  "queries": [
+    "godhuma rava upma",
+    "broken wheat upma",
+    "dalia upma",
+    "wheat upma",
+    "cracked wheat upma"
+  ]
+}

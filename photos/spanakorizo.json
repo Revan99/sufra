@@ -1,0 +1,33 @@
+{
+  "id": "spanakorizo",
+  "photo": {
+    "src": "images/spanakorizo.webp",
+    "thumb": "images/spanakorizo-thumb.webp",
+    "width": 960,
+    "height": 960,
+    "alt": "Terracotta bowl of spinach rice with crumbled feta and a lemon wedge",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Σπανακόρυζο Spanakorizo (Las Siete Orillas project) (2)",
+      "author": "El Mono Español",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:El_Mono_Espa%C3%B1ol",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%CE%A3%CF%80%CE%B1%CE%BD%CE%B1%CE%BA%CF%8C%CF%81%CF%85%CE%B6%CE%BF_Spanakorizo_(Las_Siete_Orillas_project)_(2).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/%CE%A3%CF%80%CE%B1%CE%BD%CE%B1%CE%BA%CF%8C%CF%81%CF%85%CE%B6%CE%BF_Spanakorizo_%28Las_Siete_Orillas_project%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Spanakorizo"
+  },
+  "queries": [
+    "Greek Spinach Rice with Feta",
+    "Spanakorizo"
+  ]
+}

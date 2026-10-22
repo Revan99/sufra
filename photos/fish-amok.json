@@ -1,0 +1,33 @@
+{
+  "id": "fish-amok",
+  "photo": {
+    "src": "images/fish-amok.webp",
+    "thumb": "images/fish-amok-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Fish amok in a banana-leaf cup topped with red chilli strips beside a mound of white rice",
+    "focus": [
+      65,
+      60
+    ],
+    "credit": {
+      "title": "Fish Amok with Rice",
+      "author": "sharonang",
+      "authorUrl": "https://pixabay.com/users/sharonang-99559/",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fish_Amok_with_Rice.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c08",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Fish_Amok_with_Rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Cambodian Steamed Fish Amok"
+  },
+  "queries": [
+    "Cambodian Steamed Fish Amok",
+    "Amok Trey"
+  ]
+}

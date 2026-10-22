@@ -1,0 +1,34 @@
+{
+  "id": "chicken-shawarma-plate",
+  "photo": {
+    "src": "images/chicken-shawarma-plate.webp",
+    "thumb": "images/chicken-shawarma-plate-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Chicken shawarma plate with sliced spiced chicken over rice, salad with olives and garlic sauce",
+    "focus": [
+      55,
+      60
+    ],
+    "credit": {
+      "title": "Chicken Shwarama plate",
+      "author": "User:CrunchySkies",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:CrunchySkies",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Shwarama_plate.jpeg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c04",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicken_Shwarama_plate.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken shawarma plate"
+  },
+  "queries": [
+    "chicken shawarma plate",
+    "شاورما دجاج",
+    "chicken shawarma"
+  ]
+}

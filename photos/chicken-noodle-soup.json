@@ -1,0 +1,32 @@
+{
+  "id": "chicken-noodle-soup",
+  "photo": {
+    "src": "images/chicken-noodle-soup.webp",
+    "thumb": "images/chicken-noodle-soup-thumb.webp",
+    "width": 900,
+    "height": 1260,
+    "alt": "Bowl of chicken noodle soup with shredded chicken, wide egg noodles, carrot and celery in golden broth",
+    "focus": [
+      50,
+      45
+    ],
+    "credit": {
+      "title": "Chicken Noodle Soup US",
+      "author": "Nichijyou123",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Nichijyou123",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Noodle_Soup_US.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Chicken_Noodle_Soup_US.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken noodle soup"
+  },
+  "queries": [
+    "chicken noodle soup"
+  ]
+}

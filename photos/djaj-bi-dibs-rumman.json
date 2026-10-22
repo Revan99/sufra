@@ -1,0 +1,36 @@
+{
+  "id": "djaj-bi-dibs-rumman",
+  "photo": {
+    "src": "images/djaj-bi-dibs-rumman.webp",
+    "thumb": "images/djaj-bi-dibs-rumman-thumb.webp",
+    "width": 960,
+    "height": 1440,
+    "alt": "Roast chicken glazed dark with pomegranate molasses, scattered with pomegranate seeds, lemon and herbs on slate",
+    "focus": [
+      50,
+      45
+    ],
+    "credit": {
+      "title": "Grilled chicken with pomegranate and lemon served on a black stone plate",
+      "author": "Shixart1985",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Shixart1985",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grilled_chicken_with_pomegranate_and_lemon_served_on_a_black_stone_plate.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Grilled_chicken_with_pomegranate_and_lemon_served_on_a_black_stone_plate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken pomegranate"
+  },
+  "queries": [
+    "دجاج بدبس رمان",
+    "chicken pomegranate",
+    "roast chicken pomegranate molasses",
+    "djaj dibs rumman",
+    "Syrian roast chicken"
+  ]
+}

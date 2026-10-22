@@ -1,0 +1,34 @@
+{
+  "id": "tahchin-e-morgh",
+  "photo": {
+    "src": "images/tahchin-e-morgh.webp",
+    "thumb": "images/tahchin-e-morgh-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Golden crusted Persian saffron rice cake on a white oval platter with a serving fork",
+    "focus": [
+      52,
+      45
+    ],
+    "credit": {
+      "title": "Tahchine",
+      "author": "Waqcku at English Wikipedia",
+      "authorUrl": "https://en.wikipedia.org/wiki/User:Waqcku",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tahchine.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c06",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Tahchine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "tahchin"
+  },
+  "queries": [
+    "ته چین مرغ",
+    "tahchin",
+    "ته‌چین"
+  ]
+}

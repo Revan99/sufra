@@ -1,0 +1,33 @@
+{
+  "id": "chicken-kathi-roll",
+  "photo": {
+    "src": "images/chicken-kathi-roll.webp",
+    "thumb": "images/chicken-kathi-roll-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Chicken kathi roll in a paratha, cut in half, with green chutney and sliced onion",
+    "focus": [
+      45,
+      45
+    ],
+    "credit": {
+      "title": "Chicken-kathi-roll-recipe",
+      "author": "Vivekpat30",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Vivekpat30",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken-kathi-roll-recipe.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Chicken-kathi-roll-recipe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken kati roll"
+  },
+  "queries": [
+    "kathi roll",
+    "chicken kati roll"
+  ]
+}

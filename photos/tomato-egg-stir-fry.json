@@ -1,0 +1,33 @@
+{
+  "id": "tomato-egg-stir-fry",
+  "photo": {
+    "src": "images/tomato-egg-stir-fry.webp",
+    "thumb": "images/tomato-egg-stir-fry-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Plate of soft scrambled egg stir-fried with tomato wedges and spring onion in a light sauce",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Hunan cuisine, stir-fried tomato with eggs",
+      "author": "Huangdan2060",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Huangdan2060",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hunan_cuisine,_stir-fried_tomato_with_eggs.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c05",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Hunan_cuisine%2C_stir-fried_tomato_with_eggs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Chinese Tomato and Egg Stir-Fry"
+  },
+  "queries": [
+    "Chinese Tomato and Egg Stir-Fry",
+    "Fānqié Chǎo Dàn"
+  ]
+}

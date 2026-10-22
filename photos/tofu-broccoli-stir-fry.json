@@ -1,0 +1,33 @@
+{
+  "id": "tofu-broccoli-stir-fry",
+  "photo": {
+    "src": "images/tofu-broccoli-stir-fry.webp",
+    "thumb": "images/tofu-broccoli-stir-fry-thumb.webp",
+    "width": 960,
+    "height": 973,
+    "alt": "Plate of browned tofu cubes, steamed broccoli and brown rice",
+    "focus": [
+      55,
+      50
+    ],
+    "credit": {
+      "title": "Baked Tofu with Broccoli and Rice",
+      "author": "Miscellaneous contributor",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Miscellaneous_contributor",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baked_Tofu_with_Broccoli_and_Rice.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Baked_Tofu_with_Broccoli_and_Rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "tofu broccoli"
+  },
+  "queries": [
+    "tofu broccoli stir fry",
+    "tofu broccoli"
+  ]
+}

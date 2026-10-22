@@ -1,0 +1,33 @@
+{
+  "id": "kosambari",
+  "photo": {
+    "src": "images/kosambari.webp",
+    "thumb": "images/kosambari-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Plate of moong dal kosambari salad with grated carrot, green chilli and curry leaves",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Kosambari",
+      "author": "Bhavana Homecook",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Bhavana_Homecook",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kosambari.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Kosambari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Kosambari"
+  },
+  "queries": [
+    "South Indian Moong Dal Salad",
+    "Kosambari"
+  ]
+}

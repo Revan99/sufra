@@ -127,7 +127,7 @@
 }
 
 .rx-tool.is-fav {
-  color: var(--accent);
+  color: var(--accent-ink);
 }
 
 .rx-tool.is-fav .icon {
@@ -173,7 +173,7 @@
 }
 
 .rx-eyebrow {
-  color: var(--accent);
+  color: var(--accent-ink);
   font-size: var(--fs-sm);
   font-weight: 600;
 }
@@ -473,7 +473,7 @@
   block-size: 2.75rem;
   border-radius: 50%;
   background: var(--accent-soft);
-  color: var(--accent);
+  color: var(--accent-ink);
 }
 
 .rx-video-text {
@@ -672,7 +672,7 @@
 
 .rx-more-item > .icon {
   flex-shrink: 0;
-  color: var(--accent);
+  color: var(--accent-ink);
 }
 
 .rx-more-item:focus-visible {
@@ -1361,4 +1361,32 @@
   .cook-bottom {
     padding-block-end: 2.5rem;
   }
+}
+
+/* The video's YouTube thumbnail, shown when online, opening the video like the Watch link below it. */
+.rx-video-thumb {
+  position: relative;
+  display: block;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: var(--r-lg);
+  background: var(--fill);
+}
+
+.rx-video-thumb img {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+}
+
+.rx-video-thumb-play {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  display: grid;
+  place-items: center;
+  inline-size: 3.25rem;
+  block-size: 3.25rem;
+  border-radius: 50%;
+  translate: -50% -50%;
+  background: var(--clear-sheen), rgb(0 0 0 / 35%);
 }

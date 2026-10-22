@@ -1,0 +1,34 @@
+{
+  "id": "zereshk-polo-ba-morgh",
+  "photo": {
+    "src": "images/zereshk-polo-ba-morgh.webp",
+    "thumb": "images/zereshk-polo-ba-morgh-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Plate of saffron rice with barberries topped with chicken pieces, grilled tomato and a lemon wedge",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Chicken kebab with zereshk polo",
+      "author": "Ser Amantio di Nicolao",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Ser_Amantio_di_Nicolao",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_kebab_with_zereshk_polo.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Chicken_kebab_with_zereshk_polo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "zereshk polo"
+  },
+  "queries": [
+    "زرشک پلو با مرغ",
+    "zereshk polo",
+    "barberry rice chicken"
+  ]
+}

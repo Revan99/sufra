@@ -1,0 +1,33 @@
+{
+  "id": "lighter-moussaka",
+  "photo": {
+    "src": "images/lighter-moussaka.webp",
+    "thumb": "images/lighter-moussaka-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Slice of moussaka with golden béchamel top and aubergine layers beside a bulgur and vegetable salad",
+    "focus": [
+      38,
+      45
+    ],
+    "credit": {
+      "title": "Meat Moussaka - Kouzina, Brighton 2023-11-24",
+      "author": "Andy Li",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Onthewings",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meat_Moussaka_-_Kouzina,_Brighton_2023-11-24.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c04",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Meat_Moussaka_-_Kouzina%2C_Brighton_2023-11-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Moussakas"
+  },
+  "queries": [
+    "Lighter Greek Moussaka",
+    "Moussakas"
+  ]
+}

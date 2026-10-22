@@ -1,0 +1,34 @@
+{
+  "id": "chicken-mushroom-risotto",
+  "photo": {
+    "src": "images/chicken-mushroom-risotto.webp",
+    "thumb": "images/chicken-mushroom-risotto-thumb.webp",
+    "width": 960,
+    "height": 723,
+    "alt": "Shallow bowl of risotto with chicken pieces and mushrooms topped with chopped parsley",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "RISOTTO POLLO E FUNGHI - Marrocco's 2025-05-09",
+      "author": "Andy Li",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Onthewings",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RISOTTO_POLLO_E_FUNGHI_-_Marrocco%27s_2025-05-09.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/RISOTTO_POLLO_E_FUNGHI_-_Marrocco%27s_2025-05-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken mushroom risotto"
+  },
+  "queries": [
+    "chicken mushroom risotto",
+    "mushroom risotto",
+    "chicken risotto"
+  ]
+}

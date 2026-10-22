@@ -1,0 +1,33 @@
+{
+  "id": "ca-ri-ga",
+  "photo": {
+    "src": "images/ca-ri-ga.webp",
+    "thumb": "images/ca-ri-ga-thumb.webp",
+    "width": 960,
+    "height": 768,
+    "alt": "Bowl of red-orange chicken curry with rice noodles topped with sliced onion and herbs",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Cà Ri Gà Vietnamese Chicken Curry 2019-1600",
+      "author": "Paul R. Burley",
+      "authorUrl": "https://www.wikidata.org/wiki/Q57979330",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C3%A0_Ri_G%C3%A0_Vietnamese_Chicken_Curry_2019-1600.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c11",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/C%C3%A0_Ri_G%C3%A0_Vietnamese_Chicken_Curry_2019-1600.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Cà Ri Gà"
+  },
+  "queries": [
+    "Vietnamese Chicken Curry with Sweet Potato",
+    "Cà Ri Gà"
+  ]
+}

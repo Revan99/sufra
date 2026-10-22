@@ -1,0 +1,32 @@
+{
+  "id": "chicken-adobo",
+  "photo": {
+    "src": "images/chicken-adobo.webp",
+    "thumb": "images/chicken-adobo-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Glass dish of dark braised chicken adobo pieces in soy-vinegar sauce with bay leaves",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Chicken adobo",
+      "author": "dbgg1979 on flickr",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_adobo.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Chicken_adobo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Filipino Chicken Adobo"
+  },
+  "queries": [
+    "Filipino Chicken Adobo",
+    "Adobong Manok"
+  ]
+}

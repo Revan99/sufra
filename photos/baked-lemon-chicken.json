@@ -1,0 +1,34 @@
+{
+  "id": "baked-lemon-chicken",
+  "photo": {
+    "src": "images/baked-lemon-chicken.webp",
+    "thumb": "images/baked-lemon-chicken-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Sliced Chinese lemon chicken glazed in lemon sauce with fresh lemon slices around it",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Tenglong Chinese Restaurant Lemon Chicken (37577556406)",
+      "author": "Willis Lam",
+      "authorUrl": "https://www.flickr.com/people/85567416@N03",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tenglong_Chinese_Restaurant_Lemon_Chicken_(37577556406).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Tenglong_Chinese_Restaurant_Lemon_Chicken_%2837577556406%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "lemon chicken"
+  },
+  "queries": [
+    "lemon chicken",
+    "檸檬雞",
+    "Chinese lemon chicken"
+  ]
+}

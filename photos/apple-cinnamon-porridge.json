@@ -1,0 +1,34 @@
+{
+  "id": "apple-cinnamon-porridge",
+  "photo": {
+    "src": "images/apple-cinnamon-porridge.webp",
+    "thumb": "images/apple-cinnamon-porridge-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Plate of oat porridge topped with cinnamon-cooked apple pieces and flaked almonds",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Apple cinnamon oatmeal",
+      "author": "Shisma",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Shisma",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apple_cinnamon_oatmeal.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Apple_cinnamon_oatmeal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "apple cinnamon porridge"
+  },
+  "queries": [
+    "apple cinnamon porridge",
+    "oatmeal apple walnuts",
+    "porridge apple"
+  ]
+}

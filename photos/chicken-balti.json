@@ -1,0 +1,33 @@
+{
+  "id": "chicken-balti",
+  "photo": {
+    "src": "images/chicken-balti.webp",
+    "thumb": "images/chicken-balti-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Plate of chicken balti with green pepper and onion in spiced tomato sauce over rice, with naan",
+    "focus": [
+      45,
+      55
+    ],
+    "credit": {
+      "title": "Chicken balti",
+      "author": "The Endinburgh Blog",
+      "authorUrl": "https://www.flickr.com/people/theedinburghblog/",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/uk/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_balti.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Chicken_balti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken balti"
+  },
+  "queries": [
+    "chicken balti",
+    "balti"
+  ]
+}

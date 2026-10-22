@@ -118,7 +118,7 @@
 
 /* The tab under the lens: the current one, or the one the finger is over while sliding. */
 .tab.is-lit {
-  color: var(--accent);
+  color: var(--accent-ink);
 }
 
 .tab.is-lit .tab-label {
@@ -140,7 +140,7 @@
   background: rgb(0 0 0 / 5%);
   pointer-events: none;
   transition:
-    transform 420ms var(--spring),
+    translate 420ms var(--spring),
     inline-size 420ms var(--spring),
     background-color var(--dur-2) var(--ease),
     box-shadow var(--dur-2) var(--ease),
@@ -160,7 +160,6 @@
 /* While sliding the lens tracks the finger closely; the spring is for the release. */
 .tabbar-tabs.is-sliding .tab-lens {
   transition:
-    transform 70ms linear,
     scale var(--dur-2) var(--spring),
     background-color var(--dur-2) var(--ease),
     box-shadow var(--dur-2) var(--ease);
@@ -359,7 +358,7 @@
   background: var(--accent-soft);
   pointer-events: none;
   transition:
-    transform 420ms var(--spring),
+    translate 420ms var(--spring),
     block-size 420ms var(--spring),
     background-color var(--dur-2) var(--ease),
     box-shadow var(--dur-2) var(--ease),
@@ -378,7 +377,6 @@
 
 .sidebar-nav.is-sliding .sidebar-lens {
   transition:
-    transform 70ms linear,
     scale var(--dur-2) var(--spring),
     background-color var(--dur-2) var(--ease),
     box-shadow var(--dur-2) var(--ease);

@@ -1,0 +1,34 @@
+{
+  "id": "jianbing-with-chicken",
+  "photo": {
+    "src": "images/jianbing-with-chicken.webp",
+    "thumb": "images/jianbing-with-chicken-thumb.webp",
+    "width": 960,
+    "height": 1280,
+    "alt": "Folded jianbing crepe with egg and chopped spring onion on a white plate",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Jianbing on plate",
+      "author": "Alwaleed Khaled",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Alkjasim",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jianbing_on_plate.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Jianbing_on_plate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "jianbing"
+  },
+  "queries": [
+    "jianbing",
+    "煎饼果子",
+    "煎饼"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "bbq-pulled-chicken-sandwich",
+  "photo": {
+    "src": "images/bbq-pulled-chicken-sandwich.webp",
+    "thumb": "images/bbq-pulled-chicken-sandwich-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Soft bun filled with saucy BBQ pulled chicken on a dark blue plate",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "2015-04-06 Pulled Chicken Burger anagoria",
+      "author": "Anagoria",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Anagoria",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2015-04-06_Pulled_Chicken_Burger_anagoria.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/2015-04-06_Pulled_Chicken_Burger_anagoria.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "pulled chicken sandwich"
+  },
+  "queries": [
+    "pulled chicken sandwich",
+    "bbq chicken sandwich",
+    "pulled chicken"
+  ]
+}

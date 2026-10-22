@@ -1,0 +1,35 @@
+{
+  "id": "yum-nua",
+  "photo": {
+    "src": "images/yum-nua.webp",
+    "thumb": "images/yum-nua-thumb.webp",
+    "width": 960,
+    "height": 1434,
+    "alt": "Thai grilled beef salad with tomato, onion, herbs and lettuce on a white plate, with a bowl of dressing behind",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Yam nuea yang",
+      "author": "Takeaway",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Takeaway",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yam_nuea_yang.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Yam_nuea_yang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "yam nuea"
+  },
+  "queries": [
+    "yam nuea",
+    "ยำเนื้อ",
+    "Thai beef salad",
+    "yum nua"
+  ]
+}

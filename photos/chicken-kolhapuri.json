@@ -1,0 +1,34 @@
+{
+  "id": "chicken-kolhapuri",
+  "photo": {
+    "src": "images/chicken-kolhapuri.webp",
+    "thumb": "images/chicken-kolhapuri-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Kolhapuri chicken curry in a dark red spiced gravy on a blue-rimmed plate",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Kolhapuri Chicken",
+      "author": "Miansari66",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Miansari66",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kolhapuri_Chicken.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Kolhapuri_Chicken.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "kolhapuri chicken"
+  },
+  "queries": [
+    "kolhapuri chicken",
+    "chicken kolhapuri",
+    "tambda rassa"
+  ]
+}

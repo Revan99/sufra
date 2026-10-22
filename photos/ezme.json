@@ -1,0 +1,33 @@
+{
+  "id": "ezme",
+  "photo": {
+    "src": "images/ezme.webp",
+    "thumb": "images/ezme-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Plate of finely chopped red acılı ezme relish garnished with parsley",
+    "focus": [
+      45,
+      55
+    ],
+    "credit": {
+      "title": "Acılı Ezme",
+      "author": "Garrett Ziegler",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ac%C4%B1l%C4%B1_Ezme.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Ac%C4%B1l%C4%B1_Ezme.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "ezme"
+  },
+  "queries": [
+    "ezme",
+    "acılı ezme",
+    "ezme salatası"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "macher-jhol",
+  "photo": {
+    "src": "images/macher-jhol.webp",
+    "thumb": "images/macher-jhol-thumb.webp",
+    "width": 960,
+    "height": 731,
+    "alt": "Bengali rohu fish curry with potatoes and coriander in a spiced gravy",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Rui macher jhol with potato, cuisine of West Bengal 20200202124934",
+      "author": "বাক্যবাগীশ",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:%E0%A6%AC%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%BE%E0%A6%97%E0%A7%80%E0%A6%B6",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rui_macher_jhol_with_potato,_cuisine_of_West_Bengal_20200202124934.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c09",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Rui_macher_jhol_with_potato%2C_cuisine_of_West_Bengal_20200202124934.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "macher jhol"
+  },
+  "queries": [
+    "macher jhol",
+    "মাছের ঝোল",
+    "bengali fish curry"
+  ]
+}

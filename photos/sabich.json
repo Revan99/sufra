@@ -1,0 +1,33 @@
+{
+  "id": "sabich",
+  "photo": {
+    "src": "images/sabich.webp",
+    "thumb": "images/sabich-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Pita stuffed with fried eggplant, egg, chopped salad and tahini",
+    "focus": [
+      45,
+      50
+    ],
+    "credit": {
+      "title": "Sabich",
+      "author": "Gilabrand",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Gilabrand",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sabich.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Sabich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "sabich"
+  },
+  "queries": [
+    "sabich",
+    "סביח"
+  ]
+}

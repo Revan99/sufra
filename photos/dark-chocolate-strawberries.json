@@ -1,0 +1,33 @@
+{
+  "id": "dark-chocolate-strawberries",
+  "photo": {
+    "src": "images/dark-chocolate-strawberries.webp",
+    "thumb": "images/dark-chocolate-strawberries-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Rows of fresh strawberries dipped in dark chocolate on baking paper",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "20110703-13-chocolate strawberries (5972300405)",
+      "author": "Weldon Kennedy from London, UK",
+      "authorUrl": "https://www.flickr.com/people/99123936@N00",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20110703-13-chocolate_strawberries_(5972300405).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c16",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/20110703-13-chocolate_strawberries_%285972300405%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chocolate dipped strawberries"
+  },
+  "queries": [
+    "chocolate covered strawberries",
+    "chocolate dipped strawberries"
+  ]
+}

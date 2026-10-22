@@ -1,0 +1,34 @@
+{
+  "id": "rfissa",
+  "photo": {
+    "src": "images/rfissa.webp",
+    "thumb": "images/rfissa-thumb.webp",
+    "width": 960,
+    "height": 1280,
+    "alt": "Large platter of rfissa: shredded msemen with chicken, lentils, dates and halved boiled eggs",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Rfissa de poulet marocaine",
+      "author": "Solima arizo",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Solima_arizo",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rfissa_de_poulet_marocaine.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Rfissa_de_poulet_marocaine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "رفيسة"
+  },
+  "queries": [
+    "rfissa",
+    "رفيسة",
+    "trid moroccan"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "persian-chicken-kotlet",
+  "photo": {
+    "src": "images/persian-chicken-kotlet.webp",
+    "thumb": "images/persian-chicken-kotlet-thumb.webp",
+    "width": 960,
+    "height": 869,
+    "alt": "Blue platter of golden-fried Persian kotlet patties arranged with tomato wedges and lime",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Kotlet (3119520131)",
+      "author": "dynamosquito from France",
+      "authorUrl": "https://www.flickr.com/people/25182210@N07",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kotlet_(3119520131).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Kotlet_%283119520131%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "kotlet"
+  },
+  "queries": [
+    "کتلت مرغ",
+    "kotlet",
+    "کتلت",
+    "Persian cutlet"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "khaman-dhokla",
+  "photo": {
+    "src": "images/khaman-dhokla.webp",
+    "thumb": "images/khaman-dhokla-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Squares of khaman dhokla topped with mustard seeds, curry leaves and green chillies on a pink plate",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Gujarati Khaman Dhokla",
+      "author": "Aindrilachanda",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Aindrilachanda",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gujarati_Khaman_Dhokla.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c10",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Gujarati_Khaman_Dhokla.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "khaman dhokla"
+  },
+  "queries": [
+    "khaman dhokla",
+    "dhokla",
+    "ढोकला"
+  ]
+}

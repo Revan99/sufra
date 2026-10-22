@@ -1,0 +1,35 @@
+{
+  "id": "xinjiang-cumin-lamb",
+  "photo": {
+    "src": "images/xinjiang-cumin-lamb.webp",
+    "thumb": "images/xinjiang-cumin-lamb-thumb.webp",
+    "width": 960,
+    "height": 960,
+    "alt": "Plate of stir-fried lamb with cumin seeds, carrot, onion and green chillies",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "孜然羊肉",
+      "author": "윤성은01",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:%EC%9C%A4%EC%84%B1%EC%9D%8001",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%9C%E7%84%B6%E7%BE%8A%E8%82%89.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/%E5%AD%9C%E7%84%B6%E7%BE%8A%E8%82%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "孜然羊肉"
+  },
+  "queries": [
+    "孜然羊肉",
+    "cumin lamb",
+    "cumin mutton",
+    "孜然"
+  ]
+}

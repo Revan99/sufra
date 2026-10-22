@@ -1,0 +1,34 @@
+{
+  "id": "salmone-lenticchie",
+  "photo": {
+    "src": "images/salmone-lenticchie.webp",
+    "thumb": "images/salmone-lenticchie-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Salmon fillet topped with chives on a bed of brown lentils and wilted chard on a white plate",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Murano, Mayfair, London (5211414770)",
+      "author": "Ewan Munro from London, UK",
+      "authorUrl": "https://www.flickr.com/people/55935853@N00",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Murano,_Mayfair,_London_(5211414770).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c07",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Murano%2C_Mayfair%2C_London_%285211414770%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "salmon with lentils"
+  },
+  "queries": [
+    "salmone lenticchie",
+    "salmon with lentils",
+    "salmon lentils"
+  ]
+}

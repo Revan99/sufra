@@ -1,5 +1,6 @@
 // The recipe page's panels: stat tiles, scaled ingredients, tickable steps, reference video, nutrition, allergens and
 // halal notes, tips, storage and the photo credit. Recipe.tsx lays them out for phones and wide screens.
+import { useState } from 'react';
 import type { ReactNode } from 'react';
 import type { CatalogRecipe, Nutrients } from '../../types.ts';
 import { NUTRIENT_KEYS } from '../../types.ts';
@@ -149,11 +150,23 @@ export function StepsPanel({ recipe, done, onToggle, onReset }: { recipe: Catalo
 /** The reference video: what it is, how close it is to this recipe, and a link out to YouTube. */
 export function VideoPanel({ recipe }: { recipe: CatalogRecipe }) {
   const v = recipe.video;
+  const [thumbFailed, setThumbFailed] = useState(false);
+  // The thumbnail comes from YouTube, so only when online; offline (or if it fails) the card shows text alone.
+  const showThumb = v && !thumbFailed && (typeof navigator === 'undefined' || navigator.onLine);
   return (
     <section className="rx-card rx-video" aria-labelledby="video-h">
       <h2 id="video-h" className="rx-card-title">
         {t('recipe.video')}
       </h2>
+      {showThumb ? (
+        // Decorative duplicate of the Watch link below, which carries the accessible name.
+        <a className="rx-video-thumb" href={videoHref(recipe)} target="_blank" rel="noopener noreferrer" tabIndex={-1} aria-hidden="true">
+          <img src={`https://i.ytimg.com/vi/${v.youtubeId}/mqdefault.jpg`} alt="" width={320} height={180} loading="lazy" decoding="async" referrerPolicy="no-referrer" onError={() => setThumbFailed(true)} />
+          <span className="rx-video-thumb-play glass-clear">
+            <Icon name="play" size={22} />
+          </span>
+        </a>
+      ) : null}
       <div className="rx-video-body">
         <span className="rx-video-mark" aria-hidden="true">
           <Icon name="playCircle" size={28} />

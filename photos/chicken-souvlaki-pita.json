@@ -1,0 +1,34 @@
+{
+  "id": "chicken-souvlaki-pita",
+  "photo": {
+    "src": "images/chicken-souvlaki-pita.webp",
+    "thumb": "images/chicken-souvlaki-pita-thumb.webp",
+    "width": 960,
+    "height": 540,
+    "alt": "Grilled chicken souvlaki wrapped in pita, served with seasoned fries on a blue plate",
+    "focus": [
+      60,
+      65
+    ],
+    "credit": {
+      "title": "Chicken souvlaki pita with french fries",
+      "author": "Breawycker",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Breawycker",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_souvlaki_pita_with_french_fries.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Chicken_souvlaki_pita_with_french_fries.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken souvlaki pita"
+  },
+  "queries": [
+    "chicken souvlaki pita",
+    "souvlaki pita",
+    "chicken gyros pita"
+  ]
+}

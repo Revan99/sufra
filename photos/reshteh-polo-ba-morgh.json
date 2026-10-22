@@ -1,0 +1,35 @@
+{
+  "id": "reshteh-polo-ba-morgh",
+  "photo": {
+    "src": "images/reshteh-polo-ba-morgh.webp",
+    "thumb": "images/reshteh-polo-ba-morgh-thumb.webp",
+    "width": 960,
+    "height": 959,
+    "alt": "Plate of rice mixed with toasted noodles on a rose-patterned dish",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Reshteh pelu 3",
+      "author": "Shams948",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Shams948",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reshteh_pelu_3.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Reshteh_pelu_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Reshteh Polo"
+  },
+  "queries": [
+    "Persian Noodle Rice with Chicken and Dates",
+    "Reshteh Polo",
+    "رشته پلو",
+    "reshteh polo"
+  ]
+}

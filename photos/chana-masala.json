@@ -1,0 +1,36 @@
+{
+  "id": "chana-masala",
+  "photo": {
+    "src": "images/chana-masala.webp",
+    "thumb": "images/chana-masala-thumb.webp",
+    "width": 960,
+    "height": 1280,
+    "alt": "Glass dish of chickpea curry with turmeric and spices on a wooden board",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Chana Masala in Paulínia, 2023-10-16",
+      "author": "Parzeus",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Parzeus",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chana_Masala_in_Paul%C3%ADnia,_2023-10-16.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c14",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Chana_Masala_in_Paul%C3%ADnia%2C_2023-10-16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chana masala"
+  },
+  "queries": [
+    "chana masala",
+    "chole",
+    "chana masala",
+    "chickpea curry",
+    "chana masala rice"
+  ]
+}

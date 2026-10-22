@@ -1,0 +1,32 @@
+{
+  "id": "huli-huli-chicken",
+  "photo": {
+    "src": "images/huli-huli-chicken.webp",
+    "thumb": "images/huli-huli-chicken-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Glazed grilled huli huli chicken thighs over rice with grilled pineapple and vegetable skewers",
+    "focus": [
+      40,
+      62
+    ],
+    "credit": {
+      "title": "MyPlate gov Cultural Food (20241025-USDA-FNS-UNK-0036)",
+      "author": "USDAgov",
+      "authorUrl": "https://www.flickr.com/people/usdagov/",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MyPlate_gov_Cultural_Food_(20241025-USDA-FNS-UNK-0036).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/MyPlate_gov_Cultural_Food_%2820241025-USDA-FNS-UNK-0036%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Hawaiian Huli Huli Chicken"
+  },
+  "queries": [
+    "Hawaiian Huli Huli Chicken"
+  ]
+}

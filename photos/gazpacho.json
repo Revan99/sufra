@@ -1,0 +1,33 @@
+{
+  "id": "gazpacho",
+  "photo": {
+    "src": "images/gazpacho.webp",
+    "thumb": "images/gazpacho-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Bowl of gazpacho with a drizzle of olive oil, served with croutons and diced peppers and onion on the side",
+    "focus": [
+      35,
+      30
+    ],
+    "credit": {
+      "title": "Sopa fría española. Gazpacho andaluz con su guarnición",
+      "author": "Juan Emilio Prades Bel",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Juan_Emilio_Prades_Bel",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sopa_fr%C3%ADa_espa%C3%B1ola._Gazpacho_andaluz_con_su_guarnici%C3%B3n.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c13",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Sopa_fr%C3%ADa_espa%C3%B1ola._Gazpacho_andaluz_con_su_guarnici%C3%B3n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "gazpacho andaluz"
+  },
+  "queries": [
+    "gazpacho",
+    "gazpacho andaluz"
+  ]
+}

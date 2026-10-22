@@ -1,0 +1,32 @@
+{
+  "id": "irmik-helvasi",
+  "photo": {
+    "src": "images/irmik-helvasi.webp",
+    "thumb": "images/irmik-helvasi-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Three squares of semolina halva topped with hazelnuts and crushed pistachio on a white plate",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "İrmik Helvası",
+      "author": "Garrett Ziegler",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C4%B0rmik_Helvas%C4%B1.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/%C4%B0rmik_Helvas%C4%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "İrmik Helvası"
+  },
+  "queries": [
+    "Lighter Turkish Semolina Halva",
+    "İrmik Helvası"
+  ]
+}

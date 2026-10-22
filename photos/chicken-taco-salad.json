@@ -1,0 +1,33 @@
+{
+  "id": "chicken-taco-salad",
+  "photo": {
+    "src": "images/chicken-taco-salad.webp",
+    "thumb": "images/chicken-taco-salad-thumb.webp",
+    "width": 960,
+    "height": 973,
+    "alt": "Bowl of taco salad with shredded lettuce, crumbled cheese, pico de gallo, guacamole and sour cream",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "La Casa Restaurant - August 2022 - Sarah Stierch 03",
+      "author": "Missvain",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Missvain",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_Casa_Restaurant_-_August_2022_-_Sarah_Stierch_03.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c08",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/La_Casa_Restaurant_-_August_2022_-_Sarah_Stierch_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "taco salad"
+  },
+  "queries": [
+    "taco salad",
+    "chicken taco salad"
+  ]
+}

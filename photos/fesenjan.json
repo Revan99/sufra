@@ -1,0 +1,33 @@
+{
+  "id": "fesenjan",
+  "photo": {
+    "src": "images/fesenjan.webp",
+    "thumb": "images/fesenjan-thumb.webp",
+    "width": 960,
+    "height": 638,
+    "alt": "Cast-iron pan of dark walnut and pomegranate chicken stew with a crisp rice tahdig behind",
+    "focus": [
+      45,
+      65
+    ],
+    "credit": {
+      "title": "Khoresht-e fesenjan",
+      "author": "stringparts",
+      "authorUrl": "https://www.flickr.com/photos/88556713@N00",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khoresht-e_fesenjan.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Khoresht-e_fesenjan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Khoresh-e Fesenjan"
+  },
+  "queries": [
+    "Lighter Chicken Fesenjan",
+    "Khoresh-e Fesenjan"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "kashmiri-chicken-yakhni",
+  "photo": {
+    "src": "images/kashmiri-chicken-yakhni.webp",
+    "thumb": "images/kashmiri-chicken-yakhni-thumb.webp",
+    "width": 960,
+    "height": 960,
+    "alt": "White bowl of chicken pieces in a pale spiced yogurt gravy",
+    "focus": [
+      55,
+      50
+    ],
+    "credit": {
+      "title": "Yakhni style chicken",
+      "author": "TabassumJawed",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:TabassumJawed?action=edit&redlink=1",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yakhni_style_chicken.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Yakhni_style_chicken.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Kashmiri Chicken Yakhni"
+  },
+  "queries": [
+    "Kashmiri Chicken Yakhni",
+    "Kashmiri Yakhni"
+  ]
+}

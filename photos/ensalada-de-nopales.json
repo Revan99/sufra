@@ -1,0 +1,33 @@
+{
+  "id": "ensalada-de-nopales",
+  "photo": {
+    "src": "images/ensalada-de-nopales.webp",
+    "thumb": "images/ensalada-de-nopales-thumb.webp",
+    "width": 960,
+    "height": 606,
+    "alt": "Glass dish of nopales salad with strips of cooked cactus paddle, sliced white onion and cilantro",
+    "focus": [
+      50,
+      60
+    ],
+    "credit": {
+      "title": "EnsaladaNopales",
+      "author": "Fernando González del Cueto",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:EnsaladaNopales.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c16",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/EnsaladaNopales.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "nopales salad"
+  },
+  "queries": [
+    "ensalada de nopales",
+    "nopales salad",
+    "nopalitos"
+  ]
+}

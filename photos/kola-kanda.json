@@ -1,0 +1,34 @@
+{
+  "id": "kola-kanda",
+  "photo": {
+    "src": "images/kola-kanda.webp",
+    "thumb": "images/kola-kanda-thumb.webp",
+    "width": 960,
+    "height": 617,
+    "alt": "Cup of bright green kola kanda herbal rice porridge with a small sprig of leaves on a black background",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Kola kanda",
+      "author": "AntanO",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:AntanO",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kola_kanda.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Kola_kanda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "kola kanda"
+  },
+  "queries": [
+    "kola kanda",
+    "කොළ කැඳ",
+    "herbal porridge Sri Lanka"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "coronation-chicken-cups",
+  "photo": {
+    "src": "images/coronation-chicken-cups.webp",
+    "thumb": "images/coronation-chicken-cups-thumb.webp",
+    "width": 960,
+    "height": 735,
+    "alt": "Creamy yellow curried coronation chicken on salad leaves",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Coronation Chicken",
+      "author": "James F. Carter",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Jamesfcarter",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coronation_Chicken.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Coronation_Chicken.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "coronation chicken"
+  },
+  "queries": [
+    "coronation chicken",
+    "chicken lettuce cups"
+  ]
+}

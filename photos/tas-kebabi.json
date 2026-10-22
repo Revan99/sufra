@@ -1,0 +1,33 @@
+{
+  "id": "tas-kebabi",
+  "photo": {
+    "src": "images/tas-kebabi.webp",
+    "thumb": "images/tas-kebabi-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Turkish tas kebabı beef stew with carrots in tomato sauce served beside rice pilaf on a white plate",
+    "focus": [
+      45,
+      55
+    ],
+    "credit": {
+      "title": "Tas kebap and Turkish pilav",
+      "author": "E4024",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:E4024",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tas_kebap_and_Turkish_pilav.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c14",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Tas_kebap_and_Turkish_pilav.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "tas kebab"
+  },
+  "queries": [
+    "tas kebabı",
+    "tas kebab"
+  ]
+}

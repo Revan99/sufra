@@ -1,0 +1,34 @@
+{
+  "id": "djej-mqualli",
+  "photo": {
+    "src": "images/djej-mqualli.webp",
+    "thumb": "images/djej-mqualli-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Chicken pieces braised with preserved lemon strips, green olives and parsley in a golden sauce",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Moroccan food-Chicken tagine with preserved lemons and olives-02",
+      "author": "Foodista",
+      "authorUrl": "https://www.flickr.com/photos/23766209@N04",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moroccan_food-Chicken_tagine_with_preserved_lemons_and_olives-02.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Moroccan_food-Chicken_tagine_with_preserved_lemons_and_olives-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken tagine lemon olives"
+  },
+  "queries": [
+    "chicken tagine lemon olives",
+    "tajine poulet citron olives",
+    "preserved lemon chicken tagine"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "pad-thai-chicken",
+  "photo": {
+    "src": "images/pad-thai-chicken.webp",
+    "thumb": "images/pad-thai-chicken-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Plate of chicken pad thai noodles topped with coriander, red chilli and a lime wedge",
+    "focus": [
+      48,
+      50
+    ],
+    "credit": {
+      "title": "Chicken Pad Thai dish served at Indooroopilly Shopping Centre, Brisbane",
+      "author": "Chris Olszewski",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Kgbo",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Pad_Thai_dish_served_at_Indooroopilly_Shopping_Centre,_Brisbane.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c06",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Chicken_Pad_Thai_dish_served_at_Indooroopilly_Shopping_Centre%2C_Brisbane.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Chicken Pad Thai"
+  },
+  "queries": [
+    "Chicken Pad Thai",
+    "Phat Thai"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ven-pongal",
+  "photo": {
+    "src": "images/ven-pongal.webp",
+    "thumb": "images/ven-pongal-thumb.webp",
+    "width": 960,
+    "height": 644,
+    "alt": "Mound of ven pongal studded with cashews and curry leaves, served with sambar and coconut chutney",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Ven pongal with sambar and chutney",
+      "author": "Shafana jasmine",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Shafana_jasmine",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ven_pongal_with_sambar_and_chutney.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Ven_pongal_with_sambar_and_chutney.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "ven pongal"
+  },
+  "queries": [
+    "ven pongal",
+    "pongal",
+    "வெண் பொங்கல்"
+  ]
+}

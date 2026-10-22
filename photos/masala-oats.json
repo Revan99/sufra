@@ -1,0 +1,34 @@
+{
+  "id": "masala-oats",
+  "photo": {
+    "src": "images/masala-oats.webp",
+    "thumb": "images/masala-oats-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Plate of masala oats cooked with carrot, corn, beans and spices on a wooden table",
+    "focus": [
+      55,
+      50
+    ],
+    "credit": {
+      "title": "Masala Oats by Dr. Raju Kasambe DSCN7840 (4)",
+      "author": "Dr. Raju Kasambe",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Dr._Raju_Kasambe",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Masala_Oats_by_Dr._Raju_Kasambe_DSCN7840_(4).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c04",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Masala_Oats_by_Dr._Raju_Kasambe_DSCN7840_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "masala oats"
+  },
+  "queries": [
+    "masala oats",
+    "oats upma",
+    "savory oatmeal"
+  ]
+}

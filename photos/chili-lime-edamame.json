@@ -1,0 +1,37 @@
+{
+  "id": "chili-lime-edamame",
+  "photo": {
+    "src": "images/chili-lime-edamame.webp",
+    "thumb": "images/chili-lime-edamame-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "White bowl of bright green edamame pods with a few scattered around",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Edamame khas Jember 2",
+      "author": "Herreads",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Herreads",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edamame_khas_Jember_2.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c11",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Edamame_khas_Jember_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "edamame"
+  },
+  "queries": [
+    "edamame",
+    "edamame chili",
+    "edamame",
+    "edamame beans bowl",
+    "spicy edamame",
+    "枝豆"
+  ]
+}

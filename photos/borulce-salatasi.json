@@ -1,0 +1,33 @@
+{
+  "id": "borulce-salatasi",
+  "photo": {
+    "src": "images/borulce-salatasi.webp",
+    "thumb": "images/borulce-salatasi-thumb.webp",
+    "width": 960,
+    "height": 638,
+    "alt": "White bowl of black-eyed pea salad with diced red pepper and herbs on a wooden table",
+    "focus": [
+      55,
+      50
+    ],
+    "credit": {
+      "title": "JazzyBlackEyedPeaSalad-0927",
+      "author": "DC Central Kitchen",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:JazzyBlackEyedPeaSalad-0927.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c04",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/JazzyBlackEyedPeaSalad-0927.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "black-eyed pea salad"
+  },
+  "queries": [
+    "börülce salatası",
+    "black-eyed pea salad",
+    "börülce"
+  ]
+}

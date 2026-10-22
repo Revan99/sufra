@@ -1,0 +1,34 @@
+{
+  "id": "cuscuz-nordestino",
+  "photo": {
+    "src": "images/cuscuz-nordestino.webp",
+    "thumb": "images/cuscuz-nordestino-thumb.webp",
+    "width": 960,
+    "height": 960,
+    "alt": "Freshly steamed yellow cuscuz nordestino cut into wedges inside an aluminium cuscuzeira steamer",
+    "focus": [
+      45,
+      50
+    ],
+    "credit": {
+      "title": "Cuscuz nordestino",
+      "author": "André Koehne",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Andr%C3%A9_Koehne",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cuscuz_nordestino.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Cuscuz_nordestino.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "cuscuz nordestino"
+  },
+  "queries": [
+    "cuscuz nordestino",
+    "cuscuz com ovo",
+    "cuscuz de milho"
+  ]
+}

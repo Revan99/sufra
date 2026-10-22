@@ -1,0 +1,33 @@
+{
+  "id": "gai-pad-khing",
+  "photo": {
+    "src": "images/gai-pad-khing.webp",
+    "thumb": "images/gai-pad-khing-thumb.webp",
+    "width": 960,
+    "height": 764,
+    "alt": "Plate of chicken stir-fried with ginger strips, wood ear mushrooms, red chilli and spring onion",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Kai phat khing",
+      "author": "Takeaway",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Takeaway",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kai_phat_khing.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Kai_phat_khing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Thai Ginger Chicken Stir-Fry"
+  },
+  "queries": [
+    "Thai Ginger Chicken Stir-Fry",
+    "Kai Phat Khing"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "sfeeha-baalbakiyeh",
+  "photo": {
+    "src": "images/sfeeha-baalbakiyeh.webp",
+    "thumb": "images/sfeeha-baalbakiyeh-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Paper-lined tray of small square Baalbek meat pies with pinched corners, served with lemon halves",
+    "focus": [
+      45,
+      55
+    ],
+    "credit": {
+      "title": "Safeha, a Lebanese dish of Baalbek, 2017",
+      "author": "Bdx",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Bdx",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Safeha,_a_Lebanese_dish_of_Baalbek,_2017.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c05",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Safeha%2C_a_Lebanese_dish_of_Baalbek%2C_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "sfiha"
+  },
+  "queries": [
+    "sfiha",
+    "صفيحة بعلبكية",
+    "sfeeha"
+  ]
+}

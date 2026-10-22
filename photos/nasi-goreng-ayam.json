@@ -1,0 +1,33 @@
+{
+  "id": "nasi-goreng-ayam",
+  "photo": {
+    "src": "images/nasi-goreng-ayam.webp",
+    "thumb": "images/nasi-goreng-ayam-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Nasi goreng with shredded chicken, a fried egg, cabbage and a cracker on a banana leaf",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Fried rice and chicken, Banaran9 Cafe, 2014-06-16",
+      "author": "Crisco 1492",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Crisco_1492",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fried_rice_and_chicken,_Banaran9_Cafe,_2014-06-16.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c05",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Fried_rice_and_chicken%2C_Banaran9_Cafe%2C_2014-06-16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Indonesian Chicken Fried Rice"
+  },
+  "queries": [
+    "Indonesian Chicken Fried Rice",
+    "Nasi Goreng Ayam"
+  ]
+}

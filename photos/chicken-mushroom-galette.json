@@ -1,0 +1,37 @@
+{
+  "id": "chicken-mushroom-galette",
+  "photo": {
+    "src": "images/chicken-mushroom-galette.webp",
+    "thumb": "images/chicken-mushroom-galette-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Buckwheat galette with sautéed mushrooms, a runny egg yolk and green salad on top",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Galette de sarrasin",
+      "author": "Melinda Legendre",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Melindaoba",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Galette_de_sarrasin.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c12",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Galette_de_sarrasin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "galette champignons"
+  },
+  "queries": [
+    "Buckwheat Galette with Chicken and Mushrooms",
+    "Galette Complète",
+    "galette poulet champignons",
+    "galette champignons",
+    "buckwheat galette mushroom",
+    "galette sarrasin poulet"
+  ]
+}

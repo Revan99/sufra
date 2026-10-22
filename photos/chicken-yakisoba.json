@@ -1,0 +1,34 @@
+{
+  "id": "chicken-yakisoba",
+  "photo": {
+    "src": "images/chicken-yakisoba.webp",
+    "thumb": "images/chicken-yakisoba-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Blue bowl of chicken yakisoba noodles with cabbage, peppers, spring onion and sesame seeds",
+    "focus": [
+      52,
+      50
+    ],
+    "credit": {
+      "title": "Chicken yakisoba - Korpan",
+      "author": "Andy Li",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Onthewings",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_yakisoba_-_Korpan.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Chicken_yakisoba_-_Korpan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "yakisoba"
+  },
+  "queries": [
+    "yakisoba",
+    "焼きそば",
+    "chicken yakisoba"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ayam-masak-merah",
+  "photo": {
+    "src": "images/ayam-masak-merah.webp",
+    "thumb": "images/ayam-masak-merah-thumb.webp",
+    "width": 960,
+    "height": 1280,
+    "alt": "White dish of chicken pieces in a glossy red chilli-tomato sauce topped with spring onion",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Ayam masak merah",
+      "author": "Ahmad Shazlan",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Ahmad_Shazlan",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ayam_masak_merah.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Ayam_masak_merah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Ayam Masak Merah"
+  },
+  "queries": [
+    "Malaysian Chicken in Spiced Tomato Sauce",
+    "Ayam Masak Merah"
+  ]
+}

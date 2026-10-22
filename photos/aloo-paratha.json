@@ -1,0 +1,34 @@
+{
+  "id": "aloo-paratha",
+  "photo": {
+    "src": "images/aloo-paratha.webp",
+    "thumb": "images/aloo-paratha-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Wedges of aloo paratha arranged around a glass bowl of raita garnished with dill",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Alu paratha with raita",
+      "author": "Tasnia Jahan Fariha",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Tasnia_Jahan_Fariha",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alu_paratha_with_raita.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c18",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Alu_paratha_with_raita.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "paratha raita"
+  },
+  "queries": [
+    "aloo paratha",
+    "आलू पराठा",
+    "paratha raita"
+  ]
+}

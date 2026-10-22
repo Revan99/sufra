@@ -1,0 +1,33 @@
+{
+  "id": "soto-ayam",
+  "photo": {
+    "src": "images/soto-ayam.webp",
+    "thumb": "images/soto-ayam-thumb.webp",
+    "width": 960,
+    "height": 840,
+    "alt": "Wide white bowl of yellow turmeric chicken soup with shredded chicken, egg, tomato, spring onion and fried shallots",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Soto Ayam Savoy Homann Hotel",
+      "author": "Gunawan Kartapranata",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Gunkarta",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Soto_Ayam_Savoy_Homann_Hotel.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Soto_Ayam_Savoy_Homann_Hotel.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Indonesian Turmeric Chicken Soup"
+  },
+  "queries": [
+    "Indonesian Turmeric Chicken Soup",
+    "Soto Ayam"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "amlou",
+  "photo": {
+    "src": "images/amlou.webp",
+    "thumb": "images/amlou-thumb.webp",
+    "width": 960,
+    "height": 637,
+    "alt": "White bowl of smooth amlou almond and honey spread beside slices of cake and boiled eggs",
+    "focus": [
+      47,
+      58
+    ],
+    "credit": {
+      "title": "Amlo zgh-ⴰⵎⵍⵓ oûs cûts deurs",
+      "author": "Lucyin",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Lucyin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amlo_zgh-%E2%B4%B0%E2%B5%8E%E2%B5%8D%E2%B5%93_o%C3%BBs_c%C3%BBts_deurs.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Amlo_zgh-%E2%B4%B0%E2%B5%8E%E2%B5%8D%E2%B5%93_o%C3%BBs_c%C3%BBts_deurs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Amlou"
+  },
+  "queries": [
+    "Moroccan Almond Honey Spread with Apple",
+    "Amlou"
+  ]
+}

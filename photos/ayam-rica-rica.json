@@ -1,0 +1,33 @@
+{
+  "id": "ayam-rica-rica",
+  "photo": {
+    "src": "images/ayam-rica-rica.webp",
+    "thumb": "images/ayam-rica-rica-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Close-up of chicken pieces stir-fried with sliced red chillies, shallots and turmeric spice paste",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Ayam rica-rica 1",
+      "author": "Gunawan Kartapranata",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Gunkarta",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ayam_rica-rica_1.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Ayam_rica-rica_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Manado Spicy Chicken"
+  },
+  "queries": [
+    "Manado Spicy Chicken",
+    "Ayam Rica-Rica"
+  ]
+}

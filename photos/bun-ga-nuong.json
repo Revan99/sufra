@@ -1,0 +1,35 @@
+{
+  "id": "bun-ga-nuong",
+  "photo": {
+    "src": "images/bun-ga-nuong.webp",
+    "thumb": "images/bun-ga-nuong-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Bowl of rice vermicelli topped with grilled chicken, lettuce, carrot, jalapeño and peanuts",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Bún with Lemongrass Chicken",
+      "author": "Steve Dunham",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_with_Lemongrass_Chicken.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/B%C3%BAn_with_Lemongrass_Chicken.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Bún with Lemongrass Chicken"
+  },
+  "queries": [
+    "bún gà nướng",
+    "bun ga nuong",
+    "grilled chicken vermicelli bowl",
+    "bún thịt nướng gà",
+    "Bún with Lemongrass Chicken"
+  ]
+}

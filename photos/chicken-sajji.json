@@ -1,0 +1,34 @@
+{
+  "id": "chicken-sajji",
+  "photo": {
+    "src": "images/chicken-sajji.webp",
+    "thumb": "images/chicken-sajji-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Whole roasted sajji chicken on a white plate with tomato, lemon slices and green chilies",
+    "focus": [
+      45,
+      50
+    ],
+    "credit": {
+      "title": "Sajji",
+      "author": "Miansari66",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Miansari66",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sajji.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Sajji.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "sajji"
+  },
+  "queries": [
+    "sajji",
+    "chicken sajji",
+    "سجی"
+  ]
+}

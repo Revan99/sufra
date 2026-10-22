@@ -1,0 +1,32 @@
+{
+  "id": "paella-valenciana-chicken",
+  "photo": {
+    "src": "images/paella-valenciana-chicken.webp",
+    "thumb": "images/paella-valenciana-chicken-thumb.webp",
+    "width": 960,
+    "height": 641,
+    "alt": "Paella valenciana in a wide pan with saffron rice, chicken pieces, flat green beans and butter beans",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "01 Paella Valenciana original",
+      "author": "Jan Harenburg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:01_Paella_Valenciana_original.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/01_Paella_Valenciana_original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "paella valenciana"
+  },
+  "queries": [
+    "paella valenciana",
+    "paella chicken green beans"
+  ]
+}

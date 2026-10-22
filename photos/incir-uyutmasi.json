@@ -1,0 +1,33 @@
+{
+  "id": "incir-uyutmasi",
+  "photo": {
+    "src": "images/incir-uyutmasi.webp",
+    "thumb": "images/incir-uyutmasi-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Glass of creamy fig and milk pudding speckled with fig seeds",
+    "focus": [
+      50,
+      45
+    ],
+    "credit": {
+      "title": "Uyutma dessert",
+      "author": "E4024",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:E4024",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Uyutma_dessert.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Uyutma_dessert.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "İncir Uyutması"
+  },
+  "queries": [
+    "Turkish Fig and Milk Pudding",
+    "İncir Uyutması"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "chicken-rendang",
+  "photo": {
+    "src": "images/chicken-rendang.webp",
+    "thumb": "images/chicken-rendang-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Plate of chicken rendang pieces in spiced sauce with sliced kaffir lime leaf and pressed rice cubes",
+    "focus": [
+      55,
+      60
+    ],
+    "credit": {
+      "title": "Rendang Ayam Cili Api Negeri Sembilan",
+      "author": "Mdsheth1986",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Mdsheth1986",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rendang_Ayam_Cili_Api_Negeri_Sembilan.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Rendang_Ayam_Cili_Api_Negeri_Sembilan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "rendang ayam"
+  },
+  "queries": [
+    "rendang ayam",
+    "chicken rendang",
+    "Lighter Malaysian Chicken Rendang"
+  ]
+}

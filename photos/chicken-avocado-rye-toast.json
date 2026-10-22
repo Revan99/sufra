@@ -1,0 +1,34 @@
+{
+  "id": "chicken-avocado-rye-toast",
+  "photo": {
+    "src": "images/chicken-avocado-rye-toast.webp",
+    "thumb": "images/chicken-avocado-rye-toast-thumb.webp",
+    "width": 960,
+    "height": 1280,
+    "alt": "Plate of toasted bread with sliced avocado, shredded chicken and halved boiled eggs",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Toast with eggs, shredded chicken and avocados",
+      "author": "Hills28",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Hills28",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toast_with_eggs,_shredded_chicken_and_avocados.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Toast_with_eggs%2C_shredded_chicken_and_avocados.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken avocado toast"
+  },
+  "queries": [
+    "avocado toast egg",
+    "avocado rye toast",
+    "chicken avocado toast"
+  ]
+}

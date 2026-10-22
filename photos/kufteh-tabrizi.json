@@ -1,0 +1,34 @@
+{
+  "id": "kufteh-tabrizi",
+  "photo": {
+    "src": "images/kufteh-tabrizi.webp",
+    "thumb": "images/kufteh-tabrizi-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Three large kufteh tabrizi meatballs in tomato sauce, beside a platter of fresh herbs and radishes",
+    "focus": [
+      45,
+      55
+    ],
+    "credit": {
+      "title": "Koofteh tabrizi",
+      "author": "Fabienkhan",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Fabienkhan",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Koofteh_tabrizi.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Koofteh_tabrizi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "kufteh tabrizi"
+  },
+  "queries": [
+    "kufteh tabrizi",
+    "koofteh tabrizi",
+    "کوفته تبریزی"
+  ]
+}

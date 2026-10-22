@@ -1,0 +1,34 @@
+{
+  "id": "soya-keema-matar",
+  "photo": {
+    "src": "images/soya-keema-matar.webp",
+    "thumb": "images/soya-keema-matar-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Dish of spiced soya keema garnished with pepper ribbons and herbs, served with small parathas",
+    "focus": [
+      50,
+      65
+    ],
+    "credit": {
+      "title": "Ghee Roast Soya Keema with Mini Parathas",
+      "author": "SaurWiki",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:SaurWiki",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ghee_Roast_Soya_Keema_with_Mini_Parathas.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Ghee_Roast_Soya_Keema_with_Mini_Parathas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "soya keema"
+  },
+  "queries": [
+    "soya keema",
+    "soya chunks keema",
+    "keema matar"
+  ]
+}

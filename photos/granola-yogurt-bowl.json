@@ -1,0 +1,34 @@
+{
+  "id": "granola-yogurt-bowl",
+  "photo": {
+    "src": "images/granola-yogurt-bowl.webp",
+    "thumb": "images/granola-yogurt-bowl-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Glass bowl of yogurt topped with crunchy granola and fresh apple slices",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Yogurt, fruit, granola bowl (34999358091)",
+      "author": "T.Tseng",
+      "authorUrl": "https://www.flickr.com/people/68147320@N02",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yogurt,_fruit,_granola_bowl_(34999358091).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c11",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Yogurt%2C_fruit%2C_granola_bowl_%2834999358091%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "yogurt granola bowl"
+  },
+  "queries": [
+    "granola yogurt",
+    "yogurt granola bowl",
+    "granola parfait"
+  ]
+}

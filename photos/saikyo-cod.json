@@ -1,0 +1,34 @@
+{
+  "id": "saikyo-cod",
+  "photo": {
+    "src": "images/saikyo-cod.webp",
+    "thumb": "images/saikyo-cod-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Glossy miso-glazed cod fillet on a dark plate",
+    "focus": [
+      45,
+      45
+    ],
+    "credit": {
+      "title": "Miso cod (5441609643)",
+      "author": "Jeremy Keith from Brighton & Hove, United Kingdom",
+      "authorUrl": "https://www.flickr.com/people/74105777@N00",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Miso_cod_(5441609643).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Miso_cod_%285441609643%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "miso cod"
+  },
+  "queries": [
+    "miso cod",
+    "saikyo yaki",
+    "西京焼き"
+  ]
+}

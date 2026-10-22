@@ -1,0 +1,35 @@
+{
+  "id": "gavurdagi-salatasi",
+  "photo": {
+    "src": "images/gavurdagi-salatasi.webp",
+    "thumb": "images/gavurdagi-salatasi-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "White bowl of salad with tomato wedges, walnuts, pomegranate seeds and lettuce",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Salad from Turkey",
+      "author": "E4024",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:E4024",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salad_from_Turkey.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Salad_from_Turkey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Gavurdağı Salatası"
+  },
+  "queries": [
+    "Turkish Tomato, Walnut and Pomegranate Salad",
+    "Gavurdağı Salatası",
+    "Gavurdağı salad",
+    "gavurdag salad walnut"
+  ]
+}

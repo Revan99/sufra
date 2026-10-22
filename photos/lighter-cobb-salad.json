@@ -1,0 +1,32 @@
+{
+  "id": "lighter-cobb-salad",
+  "photo": {
+    "src": "images/lighter-cobb-salad.webp",
+    "thumb": "images/lighter-cobb-salad-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Bowl of Cobb salad arranged in rows of diced chicken, cheddar, chives, egg, tomato and avocado",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Cobb salad, 21 July 2008",
+      "author": "Marilyn C. Cole",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cobb_salad,_21_July_2008.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c10",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Cobb_salad%2C_21_July_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Cobb salad"
+  },
+  "queries": [
+    "Cobb salad",
+    "Lighter Cobb Salad"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "huevos-con-nopales",
+  "photo": {
+    "src": "images/huevos-con-nopales.webp",
+    "thumb": "images/huevos-con-nopales-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Clay plate of eggs scrambled with nopal cactus strips, tomato and red onion, with refried beans",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Nopales con huevo (33798458511)",
+      "author": "T.Tseng",
+      "authorUrl": "https://www.flickr.com/people/68147320@N02",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nopales_con_huevo_(33798458511).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Nopales_con_huevo_%2833798458511%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "huevos con nopales"
+  },
+  "queries": [
+    "huevos con nopales",
+    "nopales con huevo"
+  ]
+}

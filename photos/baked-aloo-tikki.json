@@ -1,0 +1,33 @@
+{
+  "id": "baked-aloo-tikki",
+  "photo": {
+    "src": "images/baked-aloo-tikki.webp",
+    "thumb": "images/baked-aloo-tikki-thumb.webp",
+    "width": 960,
+    "height": 719,
+    "alt": "Plate of browned potato patties with ketchup and a mint sprig beside a glass of juice",
+    "focus": [
+      45,
+      50
+    ],
+    "credit": {
+      "title": "Aloo Tikki - Homemade - Assam - DSC 002",
+      "author": "Gitika Gayan",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Gitika_Gayan",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aloo_Tikki_-_Homemade_-_Assam_-_DSC_002.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Aloo_Tikki_-_Homemade_-_Assam_-_DSC_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Aloo Tikki"
+  },
+  "queries": [
+    "Baked Potato and Pea Patties",
+    "Aloo Tikki"
+  ]
+}

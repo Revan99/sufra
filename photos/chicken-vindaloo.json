@@ -1,0 +1,34 @@
+{
+  "id": "chicken-vindaloo",
+  "photo": {
+    "src": "images/chicken-vindaloo.webp",
+    "thumb": "images/chicken-vindaloo-thumb.webp",
+    "width": 960,
+    "height": 639,
+    "alt": "Chicken vindaloo with green chillies over brown rice in a white bowl, with a dish of yogurt beside",
+    "focus": [
+      60,
+      55
+    ],
+    "credit": {
+      "title": "chicken vindaloo-2",
+      "author": "jules:stonesoup",
+      "authorUrl": "https://www.flickr.com/photos/58367355@N00",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "sourceUrl": "https://www.flickr.com/photos/58367355@N00/5383717264",
+      "source": "Flickr",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c12",
+    "imageUrl": "https://live.staticflickr.com/5289/5383717264_291ffa8af1_b.jpg",
+    "query": "Chicken Vindaloo"
+  },
+  "queries": [
+    "Chicken Vindaloo",
+    "vindaloo",
+    "Goan vindaloo"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "laboo",
+  "photo": {
+    "src": "images/laboo.webp",
+    "thumb": "images/laboo-thumb.webp",
+    "width": 800,
+    "height": 487,
+    "alt": "Copper pot of cooked whole and halved beetroots in their dark red juice",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Laboo in a copper pot",
+      "author": "Siamak Ebrahimi",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Laboo_in_a_copper_pot.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Laboo_in_a_copper_pot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "laboo"
+  },
+  "queries": [
+    "laboo",
+    "لبو",
+    "beetroot street food iran"
+  ]
+}

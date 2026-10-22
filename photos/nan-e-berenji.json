@@ -1,0 +1,34 @@
+{
+  "id": "nan-e-berenji",
+  "photo": {
+    "src": "images/nan-e-berenji.webp",
+    "thumb": "images/nan-e-berenji-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Pale Persian rice flour cookies sprinkled with poppy seeds on a glass plate",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Shirini-Nan Berenji",
+      "author": "Roozitaa",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Roozitaa",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shirini-Nan_Berenji.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c12",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Shirini-Nan_Berenji.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "nan berenji"
+  },
+  "queries": [
+    "nan-e berenji",
+    "نان برنجی",
+    "nan berenji"
+  ]
+}

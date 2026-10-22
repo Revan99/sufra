@@ -1,0 +1,32 @@
+{
+  "id": "chicken-jalfrezi",
+  "photo": {
+    "src": "images/chicken-jalfrezi.webp",
+    "thumb": "images/chicken-jalfrezi-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Red plate of chicken jalfrezi curry with coriander beside basmati rice",
+    "focus": [
+      55,
+      50
+    ],
+    "credit": {
+      "title": "Chicken Jalfrezi (2103956162)",
+      "author": "David Pursehouse from Kawasaki, Japan",
+      "authorUrl": "https://www.flickr.com/people/58246614@N00",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Jalfrezi_(2103956162).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Chicken_Jalfrezi_%282103956162%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Chicken Jalfrezi"
+  },
+  "queries": [
+    "Chicken Jalfrezi"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "ash-e-anar",
+  "photo": {
+    "src": "images/ash-e-anar.webp",
+    "thumb": "images/ash-e-anar-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Bowl of ash-e anar: red pomegranate soup with herby meatballs and fresh pomegranate seeds",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Asheanar",
+      "author": "Danielle E. Sucher",
+      "authorUrl": "https://flickr.com/photos/40122693@N00/",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asheanar.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Asheanar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "ash-e anar"
+  },
+  "queries": [
+    "ash-e anar",
+    "آش انار",
+    "ash anar",
+    "pomegranate soup"
+  ]
+}

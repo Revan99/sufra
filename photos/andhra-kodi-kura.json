@@ -1,0 +1,34 @@
+{
+  "id": "andhra-kodi-kura",
+  "photo": {
+    "src": "images/andhra-kodi-kura.webp",
+    "thumb": "images/andhra-kodi-kura-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Pot of Andhra chicken curry in red-brown gravy garnished with coriander and lemon slices",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Andhra kodi kura (chicken gravy)",
+      "author": "Karteeki4u",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Karteeki4u",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andhra_kodi_kura_(chicken_gravy).JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c04",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Andhra_kodi_kura_%28chicken_gravy%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "andhra chicken curry"
+  },
+  "queries": [
+    "andhra chicken curry",
+    "kodi kura",
+    "కోడి కూర"
+  ]
+}

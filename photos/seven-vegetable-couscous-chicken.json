@@ -1,0 +1,34 @@
+{
+  "id": "seven-vegetable-couscous-chicken",
+  "photo": {
+    "src": "images/seven-vegetable-couscous-chicken.webp",
+    "thumb": "images/seven-vegetable-couscous-chicken-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Plate of Moroccan couscous topped with carrots, squash, pumpkin, courgette and chickpeas",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Couscous marocain 2014",
+      "author": "moncif ait ahmed",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:7amosatv",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Couscous_marocain_2014.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c13",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Couscous_marocain_2014.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "couscous marocain"
+  },
+  "queries": [
+    "couscous seven vegetables",
+    "couscous chicken vegetables",
+    "couscous marocain"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "khoresh-karafs-morgh",
+  "photo": {
+    "src": "images/khoresh-karafs-morgh.webp",
+    "thumb": "images/khoresh-karafs-morgh-thumb.webp",
+    "width": 960,
+    "height": 665,
+    "alt": "Bowl of green celery and herb stew served with white rice, orange slices and yogurt",
+    "focus": [
+      40,
+      45
+    ],
+    "credit": {
+      "title": "Celery stew",
+      "author": "مانفی",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:%D9%85%D8%A7%D9%86%D9%81%DB%8C",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Celery_stew.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Celery_stew.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Khoresh-e Karafs"
+  },
+  "queries": [
+    "Persian Celery and Herb Stew with Chicken",
+    "Khoresh-e Karafs"
+  ]
+}

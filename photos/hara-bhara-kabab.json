@@ -1,0 +1,33 @@
+{
+  "id": "hara-bhara-kabab",
+  "photo": {
+    "src": "images/hara-bhara-kabab.webp",
+    "thumb": "images/hara-bhara-kabab-thumb.webp",
+    "width": 960,
+    "height": 802,
+    "alt": "Four green hara bhara kababs topped with cashews, served with green chutney and a lime wedge",
+    "focus": [
+      40,
+      55
+    ],
+    "credit": {
+      "title": "Cuisine (82) 42",
+      "author": "AmanAgrahari01",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:AmanAgrahari01",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cuisine_(82)_42.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c06",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Cuisine_%2882%29_42.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "hara bhara kabab"
+  },
+  "queries": [
+    "hara bhara kabab",
+    "hara bhara kebab"
+  ]
+}

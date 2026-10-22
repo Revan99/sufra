@@ -1,0 +1,33 @@
+{
+  "id": "cock-a-leekie",
+  "photo": {
+    "src": "images/cock-a-leekie.webp",
+    "thumb": "images/cock-a-leekie-thumb.webp",
+    "width": 960,
+    "height": 719,
+    "alt": "Bowl of clear cock-a-leekie soup with shredded chicken, sliced leeks and prunes",
+    "focus": [
+      45,
+      55
+    ],
+    "credit": {
+      "title": "Cock-a-leekie Soup",
+      "author": "Laurel F",
+      "authorUrl": "https://www.flickr.com/photos/18295242@N00",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cock-a-leekie_Soup.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Cock-a-leekie_Soup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "cock-a-leekie"
+  },
+  "queries": [
+    "cock-a-leekie",
+    "cock a leekie soup"
+  ]
+}

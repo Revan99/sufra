@@ -1,0 +1,34 @@
+{
+  "id": "chicken-momo",
+  "photo": {
+    "src": "images/chicken-momo.webp",
+    "thumb": "images/chicken-momo-thumb.webp",
+    "width": 960,
+    "height": 1280,
+    "alt": "Steamed chicken momo dumplings garnished with coriander and spring onion around a bowl of tomato achar",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Chicken Momo with Sauce",
+      "author": "Gaurav Dhwaj Khadka",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Gaurav_Dhwaj_Khadka",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Momo_with_Sauce.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c04",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Chicken_Momo_with_Sauce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken momo"
+  },
+  "queries": [
+    "chicken momo",
+    "momo dumplings",
+    "Nepali momo"
+  ]
+}

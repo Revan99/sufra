@@ -1,0 +1,35 @@
+{
+  "id": "larb-gai",
+  "photo": {
+    "src": "images/larb-gai.webp",
+    "thumb": "images/larb-gai-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Plate of chicken larb with herbs beside steamed rice, lettuce and cucumber slices",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Day 224- Chicken Larb (7947748382)",
+      "author": "Sodanie Chea from Norwalk, Ca, United States",
+      "authorUrl": "https://www.flickr.com/people/41942551@N02",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Day_224-_Chicken_Larb_(7947748382).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c05",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Day_224-_Chicken_Larb_%287947748382%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "larb"
+  },
+  "queries": [
+    "larb gai",
+    "laab gai",
+    "ลาบไก่",
+    "larb"
+  ]
+}

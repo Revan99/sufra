@@ -1,0 +1,33 @@
+{
+  "id": "banana-nice-cream",
+  "photo": {
+    "src": "images/banana-nice-cream.webp",
+    "thumb": "images/banana-nice-cream-thumb.webp",
+    "width": 960,
+    "height": 658,
+    "alt": "Bowl of soft-serve banana nice cream topped with chocolate pieces, a banana alongside",
+    "focus": [
+      40,
+      55
+    ],
+    "credit": {
+      "title": "Vegan ice cream, banana nice cream",
+      "author": "Nitsan Simantov",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:NitsanS",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vegan_ice_cream,_banana_nice_cream.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Vegan_ice_cream%2C_banana_nice_cream.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "nice cream banana"
+  },
+  "queries": [
+    "nice cream banana",
+    "banana ice cream"
+  ]
+}

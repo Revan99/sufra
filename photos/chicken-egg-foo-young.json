@@ -1,0 +1,34 @@
+{
+  "id": "chicken-egg-foo-young",
+  "photo": {
+    "src": "images/chicken-egg-foo-young.webp",
+    "thumb": "images/chicken-egg-foo-young-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Two golden egg foo young omelettes beside a mound of white rice on a white plate",
+    "focus": [
+      40,
+      55
+    ],
+    "credit": {
+      "title": "At Long Island 2023 270",
+      "author": "Photograph by Mike Peel ( www.mikepeel.net ).",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Mike_Peel",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:At_Long_Island_2023_270.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c07",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/At_Long_Island_2023_270.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "egg foo young"
+  },
+  "queries": [
+    "egg foo young",
+    "芙蓉蛋",
+    "egg foo yong"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "kalam-polo-shirazi",
+  "photo": {
+    "src": "images/kalam-polo-shirazi.webp",
+    "thumb": "images/kalam-polo-shirazi-thumb.webp",
+    "width": 960,
+    "height": 1440,
+    "alt": "Platter of herbed cabbage rice with small meatballs and crisp potato tahdig, with a side of salad",
+    "focus": [
+      45,
+      40
+    ],
+    "credit": {
+      "title": "کلم . پلو",
+      "author": "Mahrokh.vz",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Mahrokh.vz",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%DA%A9%D9%84%D9%85_._%D9%BE%D9%84%D9%88.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/%DA%A9%D9%84%D9%85_._%D9%BE%D9%84%D9%88.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "کلم پلو شیرازی"
+  },
+  "queries": [
+    "کلم پلو شیرازی",
+    "کلم پلو",
+    "kalam polo"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "pan-con-tomate-egg",
+  "photo": {
+    "src": "images/pan-con-tomate-egg.webp",
+    "thumb": "images/pan-con-tomate-egg-thumb.webp",
+    "width": 960,
+    "height": 874,
+    "alt": "Fried egg on wholemeal toast spread with chopped tomato, sprinkled with herbs",
+    "focus": [
+      50,
+      45
+    ],
+    "credit": {
+      "title": "-2019-01-13 Fried egg with tomato fondue on wholemeal toast, Cromer",
+      "author": "Kolforn ( Kolforn ) I'd appreciate if you could mail me (Kolforn@gmail.com) if you want to use this picture out of the Wikimedia project scope. This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license. You are free: to share – to copy, distribute and transmit the work to remix – to adapt the work Under the following conditions: attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original. https://creativecommons.org/licenses/by-sa/4.0 CC BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 true true",
+      "authorUrl": "https://commons.wikimedia.org/wiki/File:Flag-globe-2.gif",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:-2019-01-13_Fried_egg_with_tomato_fondue_on_wholemeal_toast,_Cromer.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/-2019-01-13_Fried_egg_with_tomato_fondue_on_wholemeal_toast%2C_Cromer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "tomato toast fried egg"
+  },
+  "queries": [
+    "tomato toast fried egg",
+    "pan con tomate huevo",
+    "tostada con tomate y huevo"
+  ]
+}

@@ -66,6 +66,7 @@ export function useSlideSelect(axis: SlideAxis, active: number, onPick: (index: 
   const [rest, setRest] = useState<{ pos: number; size: number } | null>(null);
   const [slide, setSlide] = useState<{ pos: number; over: number } | null>(null);
   const [pressed, setPressed] = useState(false);
+  const [moving, setMoving] = useState(false);
 
   const start = (r: DOMRect) => (axis === 'x' ? r.left : r.top);
   const extent = (r: DOMRect) => (axis === 'x' ? r.width : r.height);
@@ -101,13 +102,41 @@ export function useSlideSelect(axis: SlideAxis, active: number, onPick: (index: 
     const p = press.current;
     press.current = null;
     setPressed(false);
+    setMoving(false);
     if (p?.sliding && slide) {
       // The press became a slide: open the item under the lens, and ignore the click the release may fire.
       swallowClick.current = true;
       window.setTimeout(() => (swallowClick.current = false), 0);
       if (go && slide.over !== active) onPick(slide.over);
+      setSlide(null);
+    } else {
+      // A tap: the link opens the item, and the lens stays under the finger until the new item becomes current
+      // (see the effect below), so it doesn't spring back to the old one first.
+      window.setTimeout(() => setSlide(null), 400);
     }
-    setSlide(null);
+  };
+
+  // A new current item: the lens settles on it.
+  useLayoutEffect(() => setSlide(null), [active]);
+
+  /** Puts the lens under the pointer and lights the item it is over. */
+  const follow = (e: { clientX: number; clientY: number }) => {
+    const list = listRef.current;
+    if (!list) return;
+    const box = list.getBoundingClientRect();
+    const parent = list.parentElement?.getBoundingClientRect() ?? box;
+    const over = nearestIndex(
+      items().map((el) => {
+        const r = el.getBoundingClientRect();
+        return start(r) + extent(r) / 2;
+      }),
+      coord(e),
+    );
+    const size = itemSize();
+    setSlide((prev) => {
+      if (prev && prev.over !== over) navigator.vibrate?.(8);
+      return { pos: start(box) - start(parent) + lensStart(coord(e) - start(box), size, extent(box)), over };
+    });
   };
 
   const listProps: SlideSelect['listProps'] = {
@@ -115,6 +144,8 @@ export function useSlideSelect(axis: SlideAxis, active: number, onPick: (index: 
       if (e.button !== 0 || !e.isPrimary) return;
       press.current = { pointerId: e.pointerId, start: coord(e), sliding: false };
       setPressed(true);
+      // The lens lifts under the finger straight away, as on iOS, rather than over the current item.
+      follow(e);
     },
     onPointerMove: (e) => {
       const p = press.current;
@@ -123,22 +154,10 @@ export function useSlideSelect(axis: SlideAxis, active: number, onPick: (index: 
       if (!p.sliding) {
         if (Math.abs(coord(e) - p.start) < SLIDE_THRESHOLD) return;
         p.sliding = true;
+        setMoving(true);
         list.setPointerCapture(e.pointerId);
       }
-      const box = list.getBoundingClientRect();
-      const parent = list.parentElement?.getBoundingClientRect() ?? box;
-      const over = nearestIndex(
-        items().map((el) => {
-          const r = el.getBoundingClientRect();
-          return start(r) + extent(r) / 2;
-        }),
-        coord(e),
-      );
-      const size = itemSize();
-      setSlide((prev) => {
-        if (prev && prev.over !== over) navigator.vibrate?.(8);
-        return { pos: start(box) - start(parent) + lensStart(coord(e) - start(box), size, extent(box)), over };
-      });
+      follow(e);
     },
     onPointerUp: () => end(true),
     onPointerCancel: () => end(false),
@@ -162,8 +181,9 @@ export function useSlideSelect(axis: SlideAxis, active: number, onPick: (index: 
     slide === null && rest === null
       ? null
       : axis === 'x'
-        ? { inlineSize: `${size}px`, transform: `translateX(${pos}px)` }
-        : { blockSize: `${size}px`, transform: `translateY(${pos}px)` };
+        ? // `translate`, not `transform`: the press lift is a `scale`, and a scale stretches a transform's offset too.
+          { inlineSize: `${size}px`, translate: `${pos}px 0` }
+        : { blockSize: `${size}px`, translate: `0 ${pos}px` };
 
-  return { listRef, listProps, lensStyle, lit: slide ? slide.over : active, pressed, sliding: slide !== null };
+  return { listRef, listProps, lensStyle, lit: slide ? slide.over : active, pressed, sliding: moving };
 }

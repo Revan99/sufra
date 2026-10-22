@@ -1,0 +1,33 @@
+{
+  "id": "spiced-popcorn",
+  "photo": {
+    "src": "images/spiced-popcorn.webp",
+    "thumb": "images/spiced-popcorn-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Pink bowl of popcorn dusted with orange chilli-lime seasoning, with a cup of orange pieces",
+    "focus": [
+      50,
+      65
+    ],
+    "credit": {
+      "title": "Oranges and popcorn in tajin",
+      "author": "Oredgieno",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Oredgieno",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oranges_and_popcorn_in_tajin.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Oranges_and_popcorn_in_tajin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "popcorn bowl"
+  },
+  "queries": [
+    "popcorn bowl",
+    "popcorn spiced"
+  ]
+}

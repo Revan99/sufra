@@ -1,0 +1,34 @@
+{
+  "id": "banh-mi-ga",
+  "photo": {
+    "src": "images/banh-mi-ga.webp",
+    "thumb": "images/banh-mi-ga-thumb.webp",
+    "width": 960,
+    "height": 540,
+    "alt": "Chicken banh mi baguette filled with chicken, pickled vegetables and herbs on paper",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Crispy Chicken Banh Mi, Roll’d Perth Airport, 2026 (01)",
+      "author": "Bahnfrend",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Bahnfrend",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crispy_Chicken_Banh_Mi,_Roll%E2%80%99d_Perth_Airport,_2026_(01).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Crispy_Chicken_Banh_Mi%2C_Roll%E2%80%99d_Perth_Airport%2C_2026_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "bánh mì gà"
+  },
+  "queries": [
+    "bánh mì gà",
+    "banh mi chicken",
+    "banh mi"
+  ]
+}

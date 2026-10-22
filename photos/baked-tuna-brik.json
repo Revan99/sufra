@@ -1,0 +1,33 @@
+{
+  "id": "baked-tuna-brik",
+  "photo": {
+    "src": "images/baked-tuna-brik.webp",
+    "thumb": "images/baked-tuna-brik-thumb.webp",
+    "width": 960,
+    "height": 638,
+    "alt": "Golden triangular brik pastry on a patterned plate with a spoon beside it",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "BrikALoeuf",
+      "author": "Citizen59",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Citizen59",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BrikALoeuf.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/BrikALoeuf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Brik à l’Oeuf"
+  },
+  "queries": [
+    "Baked Tunisian Tuna and Egg Brik",
+    "Brik à l’Oeuf"
+  ]
+}

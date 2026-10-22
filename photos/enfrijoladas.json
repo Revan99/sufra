@@ -1,0 +1,32 @@
+{
+  "id": "enfrijoladas",
+  "photo": {
+    "src": "images/enfrijoladas.webp",
+    "thumb": "images/enfrijoladas-thumb.webp",
+    "width": 960,
+    "height": 1187,
+    "alt": "Folded tortillas in black bean sauce topped with crumbled cheese, cream and green salsa",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Enfrijoladas",
+      "author": "German matus",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:German_matus",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Enfrijoladas.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c05",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Enfrijoladas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Mexican Enfrijoladas"
+  },
+  "queries": [
+    "Mexican Enfrijoladas"
+  ]
+}

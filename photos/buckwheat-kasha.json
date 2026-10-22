@@ -1,0 +1,35 @@
+{
+  "id": "buckwheat-kasha",
+  "photo": {
+    "src": "images/buckwheat-kasha.webp",
+    "thumb": "images/buckwheat-kasha-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "White plate of buckwheat kasha mixed with golden fried onions, with a fork",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Гречка (каша)",
+      "author": "Ijon",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Ijon",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%93%D1%80%D0%B5%D1%87%D0%BA%D0%B0_(%D0%BA%D0%B0%D1%88%D0%B0).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c06",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/%D0%93%D1%80%D0%B5%D1%87%D0%BA%D0%B0_%28%D0%BA%D0%B0%D1%88%D0%B0%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "гречневая каша"
+  },
+  "queries": [
+    "гречневая каша",
+    "buckwheat kasha",
+    "гречка с грибами",
+    "buckwheat porridge"
+  ]
+}

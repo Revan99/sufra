@@ -1,0 +1,33 @@
+{
+  "id": "cachapas",
+  "photo": {
+    "src": "images/cachapas.webp",
+    "thumb": "images/cachapas-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Golden corn cachapa topped with grated white cheese on a white plate",
+    "focus": [
+      45,
+      55
+    ],
+    "credit": {
+      "title": "Cachapa con queso rallado",
+      "author": "Seamar31 at English Wikipedia",
+      "authorUrl": "https://en.wikipedia.org/wiki/User:Seamar31",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachapa_con_queso_rallado.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c09",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Cachapa_con_queso_rallado.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Cachapas"
+  },
+  "queries": [
+    "Venezuelan Fresh Corn Pancakes",
+    "Cachapas"
+  ]
+}

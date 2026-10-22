@@ -285,7 +285,7 @@
   block-size: 2rem;
   border-radius: 50%;
   background: var(--accent-tint);
-  color: var(--accent);
+  color: var(--accent-ink);
 }
 
 .onb-calc-label {
@@ -321,7 +321,7 @@
 
 .onb-summary .icon {
   flex-shrink: 0;
-  color: var(--accent);
+  color: var(--accent-ink);
 }
 
 /* Diet: one grouped white card of choices, a check on the chosen one. */

@@ -1,0 +1,34 @@
+{
+  "id": "baja-fish-tacos",
+  "photo": {
+    "src": "images/baja-fish-tacos.webp",
+    "thumb": "images/baja-fish-tacos-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Fish tacos on corn tortillas topped with pico de gallo, shredded cabbage and creamy sauce",
+    "focus": [
+      40,
+      55
+    ],
+    "credit": {
+      "title": "Tacos de pescado en Maneadero, Ensenada, Baja California 01",
+      "author": "Isaacvp",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Isaacvp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tacos_de_pescado_en_Maneadero,_Ensenada,_Baja_California_01.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c14",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Tacos_de_pescado_en_Maneadero%2C_Ensenada%2C_Baja_California_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "tacos de pescado"
+  },
+  "queries": [
+    "fish tacos",
+    "tacos de pescado",
+    "baja fish taco"
+  ]
+}

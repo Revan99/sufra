@@ -1,0 +1,34 @@
+{
+  "id": "tamagoyaki-breakfast",
+  "photo": {
+    "src": "images/tamagoyaki-breakfast.webp",
+    "thumb": "images/tamagoyaki-breakfast-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Sliced Japanese rolled omelette on a blue-patterned plate with grated daikon and a shiso leaf",
+    "focus": [
+      45,
+      50
+    ],
+    "credit": {
+      "title": "Tamago yaki by ayustety in Tokyo",
+      "author": "ayustety from Tokyo",
+      "authorUrl": "https://www.flickr.com/photos/ayustety/",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tamago_yaki_by_ayustety_in_Tokyo.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c08",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Tamago_yaki_by_ayustety_in_Tokyo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "tamagoyaki"
+  },
+  "queries": [
+    "tamagoyaki",
+    "卵焼き",
+    "japanese breakfast tamagoyaki"
+  ]
+}

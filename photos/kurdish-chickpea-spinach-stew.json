@@ -1,0 +1,34 @@
+{
+  "id": "kurdish-chickpea-spinach-stew",
+  "photo": {
+    "src": "images/kurdish-chickpea-spinach-stew.webp",
+    "thumb": "images/kurdish-chickpea-spinach-stew-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Bowl of chickpeas and spinach in a paprika tomato broth with a spoon",
+    "focus": [
+      40,
+      50
+    ],
+    "credit": {
+      "title": "GarbanzosConEspinacas",
+      "author": "Tubamirum at French Wikipedia",
+      "authorUrl": "https://en.wikipedia.org/wiki/fr:User:Tubamirum",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:GarbanzosConEspinacas.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c06",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/GarbanzosConEspinacas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "garbanzos con espinacas"
+  },
+  "queries": [
+    "chickpea spinach stew",
+    "garbanzos con espinacas",
+    "ıspanaklı nohut"
+  ]
+}

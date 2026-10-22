@@ -1,0 +1,34 @@
+{
+  "id": "chermoula-fish-tagine",
+  "photo": {
+    "src": "images/chermoula-fish-tagine.webp",
+    "thumb": "images/chermoula-fish-tagine-thumb.webp",
+    "width": 960,
+    "height": 679,
+    "alt": "Clay tagine of fish coated in green chermoula with olives, preserved lemon and red peppers in a tomato sauce",
+    "focus": [
+      45,
+      55
+    ],
+    "credit": {
+      "title": "Tagine au poisson",
+      "author": "Hamza MACHMOUME",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Hamza.mic",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tagine_au_poisson.jpeg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c11",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Tagine_au_poisson.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "tajine poisson"
+  },
+  "queries": [
+    "fish tagine",
+    "tajine poisson",
+    "طاجين السمك"
+  ]
+}

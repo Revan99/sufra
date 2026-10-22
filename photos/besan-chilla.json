@@ -1,0 +1,34 @@
+{
+  "id": "besan-chilla",
+  "photo": {
+    "src": "images/besan-chilla.webp",
+    "thumb": "images/besan-chilla-thumb.webp",
+    "width": 960,
+    "height": 632,
+    "alt": "Tray of chickpea flour chillas topped with vegetables and herbs, with ketchup and green chutney",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Besan chilla",
+      "author": "Patelaahil",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Patelaahil",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Besan_chilla.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c04",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Besan_chilla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "besan chilla"
+  },
+  "queries": [
+    "besan chilla",
+    "cheela",
+    "बेसन चीला"
+  ]
+}

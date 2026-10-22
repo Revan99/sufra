@@ -1,0 +1,35 @@
+{
+  "id": "qing-zheng-yu",
+  "photo": {
+    "src": "images/qing-zheng-yu.webp",
+    "thumb": "images/qing-zheng-yu-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Whole steamed fish in light soy sauce topped with shredded ginger, spring onion and coriander",
+    "focus": [
+      50,
+      45
+    ],
+    "credit": {
+      "title": "Ginger Scallion Red Perch (50-366) (25058329532)",
+      "author": "Tim Sackton from Somerville, MA",
+      "authorUrl": "https://www.flickr.com/people/43581314@N08",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ginger_Scallion_Red_Perch_(50-366)_(25058329532).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Ginger_Scallion_Red_Perch_%2850-366%29_%2825058329532%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "steamed fish ginger scallion"
+  },
+  "queries": [
+    "steamed fish ginger scallion",
+    "清蒸鱼",
+    "清蒸魚",
+    "cantonese steamed fish"
+  ]
+}

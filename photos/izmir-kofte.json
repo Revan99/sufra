@@ -1,0 +1,34 @@
+{
+  "id": "izmir-kofte",
+  "photo": {
+    "src": "images/izmir-kofte.webp",
+    "thumb": "images/izmir-kofte-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Bowl of İzmir köfte: meatballs with potato chunks and peppers in a tomato sauce",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Izmir köfte (meatballs)",
+      "author": "E4024",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:E4024",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Izmir_k%C3%B6fte_(meatballs).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Izmir_k%C3%B6fte_%28meatballs%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "izmir köfte"
+  },
+  "queries": [
+    "izmir köfte",
+    "izmir kofte",
+    "köfte patates fırın"
+  ]
+}

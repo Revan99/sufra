@@ -1,0 +1,34 @@
+{
+  "id": "hara-masala-chicken",
+  "photo": {
+    "src": "images/hara-masala-chicken.webp",
+    "thumb": "images/hara-masala-chicken-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Plate of chicken pieces cooked in green herb masala with green chilies and spring onion",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Chicken Hara Masala",
+      "author": "Miansari66",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Miansari66",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Hara_Masala.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Chicken_Hara_Masala.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "hara masala chicken"
+  },
+  "queries": [
+    "hara masala chicken",
+    "green chicken curry indian",
+    "hariyali chicken"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "chicken-piccata",
+  "photo": {
+    "src": "images/chicken-piccata.webp",
+    "thumb": "images/chicken-piccata-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Golden chicken cutlet in lemon butter sauce topped with lemon slices and chopped parsley",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Chicken piccata",
+      "author": "Parkerman & Christie from San Diego, USA",
+      "authorUrl": "https://www.flickr.com/people/72939801@N00",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_piccata.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Chicken_piccata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken piccata"
+  },
+  "queries": [
+    "chicken piccata",
+    "piccata",
+    "chicken lemon caper"
+  ]
+}

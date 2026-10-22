@@ -1,0 +1,34 @@
+{
+  "id": "black-bean-sweet-potato-tacos",
+  "photo": {
+    "src": "images/black-bean-sweet-potato-tacos.webp",
+    "thumb": "images/black-bean-sweet-potato-tacos-thumb.webp",
+    "width": 960,
+    "height": 762,
+    "alt": "Flour tortillas with roasted sweet potato cubes, black beans, sour cream and cilantro on a white plate",
+    "focus": [
+      65,
+      55
+    ],
+    "credit": {
+      "title": "Roasted sweet potato + black bean tacos (7784822910)",
+      "author": "Karen and Brad Emerson",
+      "authorUrl": "https://www.flickr.com/people/10293577@N03",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roasted_sweet_potato_%2B_black_bean_tacos_(7784822910).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Roasted_sweet_potato_%2B_black_bean_tacos_%287784822910%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "sweet potato tacos"
+  },
+  "queries": [
+    "sweet potato tacos",
+    "black bean tacos",
+    "sweet potato black bean tacos"
+  ]
+}

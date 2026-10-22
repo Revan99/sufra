@@ -1,0 +1,35 @@
+{
+  "id": "macarona-bechamel-lighter",
+  "photo": {
+    "src": "images/macarona-bechamel-lighter.webp",
+    "thumb": "images/macarona-bechamel-lighter-thumb.webp",
+    "width": 960,
+    "height": 960,
+    "alt": "Square of baked penne with minced meat layer under a golden béchamel top, garnished with spring onion",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Macarona bechamel",
+      "author": "Zebi2424",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Zebi2424",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Macarona_bechamel.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Macarona_bechamel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "macarona bechamel"
+  },
+  "queries": [
+    "macarona bechamel",
+    "مكرونة بشاميل",
+    "macaroni bechamel",
+    "Egyptian pasta bake"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "shakshuka",
+  "photo": {
+    "src": "images/shakshuka.webp",
+    "thumb": "images/shakshuka-thumb.webp",
+    "width": 960,
+    "height": 638,
+    "alt": "Pan of shakshuka with four eggs in spicy tomato sauce and basil, with bread and cutlery on a dark table",
+    "focus": [
+      55,
+      65
+    ],
+    "credit": {
+      "title": "Shakshuka (Unsplash)",
+      "author": "Jarosław Ceborski jarson",
+      "authorUrl": "https://unsplash.com/@jarson",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shakshuka_(Unsplash).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c08",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Shakshuka_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "shakshuka"
+  },
+  "queries": [
+    "shakshuka",
+    "shakshouka",
+    "chakchouka"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fava-santorini",
+  "photo": {
+    "src": "images/fava-santorini.webp",
+    "thumb": "images/fava-santorini-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Bowl of yellow split pea fava drizzled with olive oil and topped with chopped red onion, a spoon resting in it",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Φάβα Σαντορίνης (4463510858)",
+      "author": "Klearchos Kapoutsis from Santorini, Greece",
+      "authorUrl": "https://www.flickr.com/people/8383084@N06",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%CE%A6%CE%AC%CE%B2%CE%B1_%CE%A3%CE%B1%CE%BD%CF%84%CE%BF%CF%81%CE%AF%CE%BD%CE%B7%CF%82_(4463510858).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/%CE%A6%CE%AC%CE%B2%CE%B1_%CE%A3%CE%B1%CE%BD%CF%84%CE%BF%CF%81%CE%AF%CE%BD%CE%B7%CF%82_%284463510858%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "φάβα Σαντορίνης"
+  },
+  "queries": [
+    "φάβα Σαντορίνης",
+    "fava dip",
+    "Greek fava puree",
+    "fava Santorini"
+  ]
+}

@@ -443,7 +443,7 @@
   display: grid;
   place-items: center;
   background: var(--accent-tint);
-  color: var(--accent);
+  color: var(--accent-ink);
 }
 
 .meal-row-text {
@@ -1046,7 +1046,7 @@
 }
 
 .side-link {
-  color: var(--accent);
+  color: var(--accent-ink);
   font-size: 0.875rem;
   font-weight: 500;
   text-decoration: none;
@@ -1221,7 +1221,7 @@
   display: grid;
   place-items: center;
   background: var(--accent-tint);
-  color: var(--accent);
+  color: var(--accent-ink);
 }
 
 .food-row-text {
@@ -1253,7 +1253,7 @@
   border: 0;
   border-radius: 50%;
   background: var(--accent-soft);
-  color: var(--accent);
+  color: var(--accent-ink);
 }
 
 .food-row-add::after {

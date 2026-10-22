@@ -1,0 +1,35 @@
+{
+  "id": "meen-pollichathu",
+  "photo": {
+    "src": "images/meen-pollichathu.webp",
+    "thumb": "images/meen-pollichathu-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Whole spiced fish cooked and served on an opened banana leaf",
+    "focus": [
+      45,
+      50
+    ],
+    "credit": {
+      "title": "Karimeen Ilayill Pollichathu",
+      "author": "Jiss Tom palelil",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Jisspalelil",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karimeen_Ilayill_Pollichathu.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Karimeen_Ilayill_Pollichathu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "fish pollichathu"
+  },
+  "queries": [
+    "meen pollichathu",
+    "fish pollichathu",
+    "മീൻ പൊള്ളിച്ചത്",
+    "karimeen pollichathu"
+  ]
+}

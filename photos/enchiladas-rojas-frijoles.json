@@ -1,0 +1,34 @@
+{
+  "id": "enchiladas-rojas-frijoles",
+  "photo": {
+    "src": "images/enchiladas-rojas-frijoles.webp",
+    "thumb": "images/enchiladas-rojas-frijoles-thumb.webp",
+    "width": 960,
+    "height": 960,
+    "alt": "Plate of enchiladas rojas in red tomato-chile sauce topped with crema, crumbled cheese and chopped cilantro",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Enchiladas con salsa roja",
+      "author": "Dahyana Yasada R. R.",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Dahyana_Yasada_R.",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Enchiladas_con_salsa_roja.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Enchiladas_con_salsa_roja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "enchiladas rojas"
+  },
+  "queries": [
+    "enchiladas rojas",
+    "bean enchiladas",
+    "enchiladas de frijol"
+  ]
+}

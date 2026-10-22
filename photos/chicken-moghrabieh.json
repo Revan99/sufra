@@ -1,0 +1,34 @@
+{
+  "id": "chicken-moghrabieh",
+  "photo": {
+    "src": "images/chicken-moghrabieh.webp",
+    "thumb": "images/chicken-moghrabieh-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Plate of pearl couscous with chickpeas, pearl onions and a piece of chicken, garnished with parsley",
+    "focus": [
+      45,
+      50
+    ],
+    "credit": {
+      "title": "Palestinian couscous",
+      "author": "Ebushnaq",
+      "authorUrl": "https://en.wikipedia.org/wiki/User:Ebushnaq",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palestinian_couscous.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c17",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Palestinian_couscous.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "maftoul chicken"
+  },
+  "queries": [
+    "moghrabieh",
+    "مغربية",
+    "maftoul chicken"
+  ]
+}

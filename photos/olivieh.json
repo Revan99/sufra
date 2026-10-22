@@ -1,0 +1,34 @@
+{
+  "id": "olivieh",
+  "photo": {
+    "src": "images/olivieh.webp",
+    "thumb": "images/olivieh-thumb.webp",
+    "width": 960,
+    "height": 480,
+    "alt": "Persian salad olivieh in a white dish decorated with carrot slices, peas, olives, red onion, egg and parsley",
+    "focus": [
+      45,
+      50
+    ],
+    "credit": {
+      "title": "Persian Salad Olivier 1",
+      "author": "Emergency doc",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Emergency_doc",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Persian_Salad_Olivier_1.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Persian_Salad_Olivier_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "salad olivieh"
+  },
+  "queries": [
+    "salad olivieh",
+    "olivier salad",
+    "سالاد الویه"
+  ]
+}

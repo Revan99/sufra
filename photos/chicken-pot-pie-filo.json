@@ -1,0 +1,34 @@
+{
+  "id": "chicken-pot-pie-filo",
+  "photo": {
+    "src": "images/chicken-pot-pie-filo.webp",
+    "thumb": "images/chicken-pot-pie-filo-thumb.webp",
+    "width": 960,
+    "height": 455,
+    "alt": "Chicken pot pie cut open to show chicken, peas, carrots and corn under a golden pastry crust",
+    "focus": [
+      50,
+      60
+    ],
+    "credit": {
+      "title": "Chicken Pot Pie, cut open",
+      "author": "MonicaVereanaWilliams",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:MonicaVereanaWilliams",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Pot_Pie,_cut_open.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Chicken_Pot_Pie%2C_cut_open.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken pot pie"
+  },
+  "queries": [
+    "chicken pot pie",
+    "phyllo chicken pie",
+    "filo pie chicken"
+  ]
+}

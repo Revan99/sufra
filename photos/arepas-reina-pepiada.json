@@ -1,0 +1,34 @@
+{
+  "id": "arepas-reina-pepiada",
+  "photo": {
+    "src": "images/arepas-reina-pepiada.webp",
+    "thumb": "images/arepas-reina-pepiada-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Arepa split and stuffed with chunky chicken and avocado salad, beside a halved avocado",
+    "focus": [
+      40,
+      55
+    ],
+    "credit": {
+      "title": "Arepa-reina-pepiada-arepasdelgringo",
+      "author": "Mitdralla",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Mitdralla",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arepa-reina-pepiada-arepasdelgringo.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Arepa-reina-pepiada-arepasdelgringo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "reina pepiada"
+  },
+  "queries": [
+    "reina pepiada",
+    "arepa reina pepiada",
+    "arepa chicken avocado"
+  ]
+}

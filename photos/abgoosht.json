@@ -1,0 +1,33 @@
+{
+  "id": "abgoosht",
+  "photo": {
+    "src": "images/abgoosht.webp",
+    "thumb": "images/abgoosht-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Pot of abgoosht with lamb pieces, chickpeas, white beans, potato and tomatoes in a red broth",
+    "focus": [
+      50,
+      45
+    ],
+    "credit": {
+      "title": "Dizi by Mardetanha",
+      "author": "Mardetanha",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Mardetanha",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dizi_by_Mardetanha.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c04",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Dizi_by_Mardetanha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Abgoosht (Dizi)"
+  },
+  "queries": [
+    "Persian Lamb, Chickpea and Bean Stew",
+    "Abgoosht (Dizi)"
+  ]
+}

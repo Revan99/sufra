@@ -1,0 +1,34 @@
+{
+  "id": "kutilk",
+  "photo": {
+    "src": "images/kutilk.webp",
+    "thumb": "images/kutilk-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Plate of round boiled bulgur kubba dumplings piled together",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Kutilk.(kurd-dish)",
+      "author": "Gomada",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Gomada",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kutilk.(kurd-dish).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c04",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Kutilk.%28kurd-dish%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "kutilk"
+  },
+  "queries": [
+    "kutilk",
+    "kubba bulgur boiled",
+    "كبة برغل"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "borani-banjan",
+  "photo": {
+    "src": "images/borani-banjan.webp",
+    "thumb": "images/borani-banjan-thumb.webp",
+    "width": 960,
+    "height": 723,
+    "alt": "Fried eggplant slices in tomato sauce drizzled with garlic yogurt and chopped herbs, with naan behind",
+    "focus": [
+      40,
+      65
+    ],
+    "credit": {
+      "title": "Eggplant borani at Naan Kabob in Toronto",
+      "author": "Sdkb",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Sdkb",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eggplant_borani_at_Naan_Kabob_in_Toronto.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Eggplant_borani_at_Naan_Kabob_in_Toronto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Afghan eggplant"
+  },
+  "queries": [
+    "borani banjan",
+    "بورانی بانجان",
+    "Afghan eggplant"
+  ]
+}

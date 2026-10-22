@@ -1,0 +1,32 @@
+{
+  "id": "pollo-alla-pizzaiola",
+  "photo": {
+    "src": "images/pollo-alla-pizzaiola.webp",
+    "thumb": "images/pollo-alla-pizzaiola-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Chicken cutlet baked under melted cheese in a chunky tomato sauce sprinkled with parsley",
+    "focus": [
+      55,
+      50
+    ],
+    "credit": {
+      "title": "Venezia Chicken Pizzaiola",
+      "author": "blynneda",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Venezia_Chicken_Pizzaiola.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Venezia_Chicken_Pizzaiola.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Chicken Pizzaiola"
+  },
+  "queries": [
+    "Chicken Pizzaiola",
+    "Pollo alla Pizzaiola"
+  ]
+}

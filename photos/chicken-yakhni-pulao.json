@@ -1,0 +1,34 @@
+{
+  "id": "chicken-yakhni-pulao",
+  "photo": {
+    "src": "images/chicken-yakhni-pulao.webp",
+    "thumb": "images/chicken-yakhni-pulao-thumb.webp",
+    "width": 960,
+    "height": 1004,
+    "alt": "Plate of chicken yakhni pulao topped with fried onions and coriander, with onion rings and green chutney",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Chicken Yakhni Pulao",
+      "author": "Vilalali",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Vilalali",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Yakhni_Pulao.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Chicken_Yakhni_Pulao.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "yakhni pulao"
+  },
+  "queries": [
+    "yakhni pulao",
+    "chicken pulao",
+    "یخنی پلاؤ"
+  ]
+}

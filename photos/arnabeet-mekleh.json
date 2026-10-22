@@ -1,0 +1,35 @@
+{
+  "id": "arnabeet-mekleh",
+  "photo": {
+    "src": "images/arnabeet-mekleh.webp",
+    "thumb": "images/arnabeet-mekleh-thumb.webp",
+    "width": 960,
+    "height": 775,
+    "alt": "Plate of golden-brown roasted cauliflower florets",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Zahra",
+      "author": "Bazel",
+      "authorUrl": "https://en.wikipedia.org/wiki/User:Basel15",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zahra.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c13",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Zahra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "قرنبيط مقلي"
+  },
+  "queries": [
+    "fried cauliflower tahini",
+    "قرنبيط مقلي",
+    "roasted cauliflower tahini",
+    "cauliflower tarator"
+  ]
+}

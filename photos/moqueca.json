@@ -1,0 +1,34 @@
+{
+  "id": "moqueca",
+  "photo": {
+    "src": "images/moqueca.webp",
+    "thumb": "images/moqueca-thumb.webp",
+    "width": 960,
+    "height": 540,
+    "alt": "Pan of moqueca: fish pieces in a golden coconut and palm-oil broth with tomato slices, onion rings and spring onion",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Moqueca de peixe",
+      "author": "Gabriel_David_R_Botelho",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Gabriel_David_R_Botelho",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moqueca_de_peixe.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c04",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Moqueca_de_peixe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "moqueca de peixe"
+  },
+  "queries": [
+    "moqueca de peixe",
+    "moqueca",
+    "moqueca baiana"
+  ]
+}

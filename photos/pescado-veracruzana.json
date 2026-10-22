@@ -1,0 +1,33 @@
+{
+  "id": "pescado-veracruzana",
+  "photo": {
+    "src": "images/pescado-veracruzana.webp",
+    "thumb": "images/pescado-veracruzana-thumb.webp",
+    "width": 960,
+    "height": 1105,
+    "alt": "Fish fillet under tomatoes, green olives, onions and pickled chillies with white rice on a white plate",
+    "focus": [
+      40,
+      55
+    ],
+    "credit": {
+      "title": "Pescado a la veracruzana",
+      "author": "German matus",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:German_matus",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pescado_a_la_veracruzana.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Pescado_a_la_veracruzana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Pescado a la Veracruzana"
+  },
+  "queries": [
+    "Fish Veracruz Style",
+    "Pescado a la Veracruzana"
+  ]
+}

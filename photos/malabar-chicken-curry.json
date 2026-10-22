@@ -1,0 +1,33 @@
+{
+  "id": "malabar-chicken-curry",
+  "photo": {
+    "src": "images/malabar-chicken-curry.webp",
+    "thumb": "images/malabar-chicken-curry-thumb.webp",
+    "width": 960,
+    "height": 1451,
+    "alt": "Pot of Kerala chicken curry in dark roasted-coconut gravy with a ladle, a bowl of vegetables below",
+    "focus": [
+      50,
+      35
+    ],
+    "credit": {
+      "title": "Kerala Chicken Curry 2024",
+      "author": "Nikolasivy13",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Nikolasivy13",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kerala_Chicken_Curry_2024.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c07",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Kerala_Chicken_Curry_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Kerala chicken curry"
+  },
+  "queries": [
+    "Malabar chicken curry",
+    "Kerala chicken curry"
+  ]
+}

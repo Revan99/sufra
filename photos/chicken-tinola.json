@@ -1,0 +1,33 @@
+{
+  "id": "chicken-tinola",
+  "photo": {
+    "src": "images/chicken-tinola.webp",
+    "thumb": "images/chicken-tinola-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Glass bowl of ginger chicken soup with green papaya chunks, leafy greens and a long green chilli",
+    "focus": [
+      50,
+      45
+    ],
+    "credit": {
+      "title": "Tinolang Manok IMG 4152",
+      "author": "Joy D. Ganaden",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Joysthick",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tinolang_Manok_IMG_4152.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Tinolang_Manok_IMG_4152.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Filipino Ginger Chicken Soup with Papaya"
+  },
+  "queries": [
+    "Filipino Ginger Chicken Soup with Papaya",
+    "Tinolang Manok"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "bang-bang-chicken-salad",
+  "photo": {
+    "src": "images/bang-bang-chicken-salad.webp",
+    "thumb": "images/bang-bang-chicken-salad-thumb.webp",
+    "width": 960,
+    "height": 960,
+    "alt": "Bowl of sliced Sichuan bang bang chicken in chilli oil sauce with sesame seeds and shredded spring onion",
+    "focus": [
+      35,
+      70
+    ],
+    "credit": {
+      "title": "Sichuan signature spicy bon bon chicken",
+      "author": "Coolli22",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Coolli22",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sichuan_signature_spicy_bon_bon_chicken.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c17",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Sichuan_signature_spicy_bon_bon_chicken.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "棒棒鸡"
+  },
+  "queries": [
+    "bang bang chicken",
+    "棒棒鸡",
+    "bang bang ji"
+  ]
+}

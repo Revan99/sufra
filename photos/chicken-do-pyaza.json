@@ -1,0 +1,32 @@
+{
+  "id": "chicken-do-pyaza",
+  "photo": {
+    "src": "images/chicken-do-pyaza.webp",
+    "thumb": "images/chicken-do-pyaza-thumb.webp",
+    "width": 960,
+    "height": 638,
+    "alt": "Hammered steel pot of chicken do pyaza curry in a rich onion gravy with a serving ladle",
+    "focus": [
+      45,
+      50
+    ],
+    "credit": {
+      "title": "Chicken Dopiaza - Mohali 2016-08-07 8545",
+      "author": "Biswarup Ganguly",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Gangulybiswarup",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Dopiaza_-_Mohali_2016-08-07_8545.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c04",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Chicken_Dopiaza_-_Mohali_2016-08-07_8545.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Chicken Do Pyaza"
+  },
+  "queries": [
+    "Chicken Do Pyaza"
+  ]
+}

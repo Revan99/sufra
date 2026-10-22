@@ -1,0 +1,33 @@
+{
+  "id": "pasta-alla-norma",
+  "photo": {
+    "src": "images/pasta-alla-norma.webp",
+    "thumb": "images/pasta-alla-norma-thumb.webp",
+    "width": 900,
+    "height": 600,
+    "alt": "Rigatoni with tomato sauce over fried eggplant slices, topped with grated ricotta salata and basil on a blue plate",
+    "focus": [
+      45,
+      50
+    ],
+    "credit": {
+      "title": "Pasta alla Norma (2563876877)",
+      "author": "Paoletta S.",
+      "authorUrl": "https://www.flickr.com/people/8268501@N05",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pasta_alla_Norma_(2563876877).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Pasta_alla_Norma_%282563876877%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "pasta alla norma"
+  },
+  "queries": [
+    "pasta alla norma",
+    "pasta alla Norma"
+  ]
+}

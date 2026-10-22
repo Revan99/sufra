@@ -1,0 +1,34 @@
+{
+  "id": "pla-neung-manao",
+  "photo": {
+    "src": "images/pla-neung-manao.webp",
+    "thumb": "images/pla-neung-manao-thumb.webp",
+    "width": 960,
+    "height": 686,
+    "alt": "Whole steamed red tilapia topped with lime, garlic and chili dressing on a plate with lettuce and spring onions",
+    "focus": [
+      55,
+      55
+    ],
+    "credit": {
+      "title": "Pla thapthim nueng manao",
+      "author": "Takeaway",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Takeaway",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pla_thapthim_nueng_manao.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Pla_thapthim_nueng_manao.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "ปลานึ่งมะนาว"
+  },
+  "queries": [
+    "ปลานึ่งมะนาว",
+    "pla neung manao",
+    "Thai steamed fish lime"
+  ]
+}

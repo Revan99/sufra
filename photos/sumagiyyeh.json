@@ -1,0 +1,34 @@
+{
+  "id": "sumagiyyeh",
+  "photo": {
+    "src": "images/sumagiyyeh.webp",
+    "thumb": "images/sumagiyyeh-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Bowl of sumaghiyyeh, a thick sumac and chard stew drizzled with olive oil",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Sumaghiyyeh",
+      "author": "Peteravivangel",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Peteravivangel",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sumaghiyyeh.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Sumaghiyyeh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "sumagiyyeh"
+  },
+  "queries": [
+    "sumagiyyeh",
+    "سماقية",
+    "sumaghiyyeh"
+  ]
+}

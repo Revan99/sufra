@@ -1,0 +1,34 @@
+{
+  "id": "chicken-tinga-tostadas",
+  "photo": {
+    "src": "images/chicken-tinga-tostadas.webp",
+    "thumb": "images/chicken-tinga-tostadas-thumb.webp",
+    "width": 960,
+    "height": 1280,
+    "alt": "Chicken tinga tostada topped with shredded cabbage, crumbled cheese, cream and an avocado slice on a blue plate",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Tostada de tinga de pollo",
+      "author": "Valemvglez",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Valemvglez",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tostada_de_tinga_de_pollo.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Tostada_de_tinga_de_pollo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "tostadas de tinga"
+  },
+  "queries": [
+    "tostadas de tinga",
+    "tinga de pollo",
+    "chicken tinga"
+  ]
+}

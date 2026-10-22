@@ -1,0 +1,33 @@
+{
+  "id": "lighter-fish-chowder",
+  "photo": {
+    "src": "images/lighter-fish-chowder.webp",
+    "thumb": "images/lighter-fish-chowder-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Bowl of creamy white fish chowder with chunks of fish and potato and flecks of dill",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Fishchowder",
+      "author": "Nate Steiner",
+      "authorUrl": "https://www.flickr.com/people/44124484443@N01",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fishchowder.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Fishchowder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "fish chowder"
+  },
+  "queries": [
+    "fish chowder",
+    "New England fish chowder"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "tofu-scramble-toast",
+  "photo": {
+    "src": "images/tofu-scramble-toast.webp",
+    "thumb": "images/tofu-scramble-toast-thumb.webp",
+    "width": 960,
+    "height": 960,
+    "alt": "Plate of turmeric tofu scramble with wilted spinach and a fork",
+    "focus": [
+      40,
+      40
+    ],
+    "credit": {
+      "title": "Tofu Scramble in New Orleans",
+      "author": "Bart Everson",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tofu_Scramble_in_New_Orleans.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Tofu_Scramble_in_New_Orleans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "tofu scramble"
+  },
+  "queries": [
+    "tofu scramble",
+    "scrambled tofu toast"
+  ]
+}

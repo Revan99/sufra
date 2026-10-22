@@ -1,0 +1,31 @@
+{
+  "id": "fish-pie",
+  "photo": {
+    "src": "images/fish-pie.webp",
+    "thumb": "images/fish-pie-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Portion of fish pie with a golden mashed potato top, served with green peas",
+    "focus": [
+      55,
+      50
+    ],
+    "credit": {
+      "title": "Fish Pie",
+      "author": "Atelier Joly",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fish_Pie.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Fish_Pie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "fish pie"
+  },
+  "queries": [
+    "fish pie"
+  ]
+}

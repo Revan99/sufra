@@ -128,7 +128,7 @@
 }
 
 .set-accent {
-  color: var(--accent);
+  color: var(--accent-ink);
   font-weight: 500;
 }
 
@@ -365,7 +365,7 @@
   block-size: 1.875rem;
   border-radius: 50%;
   background: var(--accent-soft);
-  color: var(--accent);
+  color: var(--accent-ink);
 }
 
 .set-link-text {
@@ -433,7 +433,7 @@
 
 .calc-figure .icon {
   flex-shrink: 0;
-  color: var(--accent);
+  color: var(--accent-ink);
 }
 
 .calc-use {
@@ -507,7 +507,7 @@
 
 .ing-option > .icon {
   flex-shrink: 0;
-  color: var(--accent);
+  color: var(--accent-ink);
 }
 
 .ing-option-text {

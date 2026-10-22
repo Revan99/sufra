@@ -1,0 +1,33 @@
+{
+  "id": "salad-shirazi",
+  "photo": {
+    "src": "images/salad-shirazi.webp",
+    "thumb": "images/salad-shirazi-thumb.webp",
+    "width": 960,
+    "height": 1280,
+    "alt": "Close-up of diced tomato, cucumber and red onion salad",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Persian salad (1712808743)",
+      "author": "Titanas",
+      "authorUrl": "https://www.flickr.com/people/96437548@N00",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Persian_salad_(1712808743).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Persian_salad_%281712808743%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Persian Shirazi Salad"
+  },
+  "queries": [
+    "Persian Shirazi Salad",
+    "Salad Shirazi"
+  ]
+}

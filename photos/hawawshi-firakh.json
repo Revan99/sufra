@@ -1,0 +1,33 @@
+{
+  "id": "hawawshi-firakh",
+  "photo": {
+    "src": "images/hawawshi-firakh.webp",
+    "thumb": "images/hawawshi-firakh-thumb.webp",
+    "width": 960,
+    "height": 1178,
+    "alt": "Stack of crisp baked flatbread wedges with a minced filling showing at the cut edges",
+    "focus": [
+      50,
+      40
+    ],
+    "credit": {
+      "title": "Hawawshi Main 2 Mohamed Moheyeldin",
+      "author": "Mohamed Moheyeldin",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Mohamed_Moheyeldin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hawawshi_Main_2_Mohamed_Moheyeldin.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c07",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Hawawshi_Main_2_Mohamed_Moheyeldin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Hawawshi"
+  },
+  "queries": [
+    "Egyptian Chicken-Stuffed Baked Bread",
+    "Hawawshi"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "madgooga",
+  "photo": {
+    "src": "images/madgooga.webp",
+    "thumb": "images/madgooga-thumb.webp",
+    "width": 960,
+    "height": 917,
+    "alt": "Pyramid of date balls rolled in sesame seeds on a decorated plate",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "مدكوكة",
+      "author": "Ayat Jaryan",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Ayat_Jaryan",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%AF%D9%83%D9%88%D9%83%D8%A9.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c11",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/%D9%85%D8%AF%D9%83%D9%88%D9%83%D8%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "مدكوكة"
+  },
+  "queries": [
+    "مدكوكة",
+    "مدقوقة",
+    "date sesame balls",
+    "date balls"
+  ]
+}

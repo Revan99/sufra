@@ -1,0 +1,34 @@
+{
+  "id": "hobak-juk",
+  "photo": {
+    "src": "images/hobak-juk.webp",
+    "thumb": "images/hobak-juk-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Dark stoneware bowl of smooth golden Korean pumpkin porridge",
+    "focus": [
+      50,
+      45
+    ],
+    "credit": {
+      "title": "Hobak-juk 2",
+      "author": "Hyeon-Jeong Suk",
+      "authorUrl": "https://www.flickr.com/photos/127584241@N02/",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hobak-juk_2.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Hobak-juk_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "호박죽"
+  },
+  "queries": [
+    "호박죽",
+    "hobak-juk",
+    "pumpkin porridge Korean"
+  ]
+}

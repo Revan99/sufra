@@ -1,0 +1,34 @@
+{
+  "id": "murgir-jhol",
+  "photo": {
+    "src": "images/murgir-jhol.webp",
+    "thumb": "images/murgir-jhol-thumb.webp",
+    "width": 960,
+    "height": 576,
+    "alt": "Bengali chicken and potato curry with golden potato halves in a thin spiced gravy",
+    "focus": [
+      45,
+      50
+    ],
+    "credit": {
+      "title": "Aloo diye murgir jhol (chicken-potato curry)",
+      "author": "Trisha chakraborty",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Trishahitk2012",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aloo_diye_murgir_jhol_(chicken-potato_curry).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Aloo_diye_murgir_jhol_%28chicken-potato_curry%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "murgir jhol"
+  },
+  "queries": [
+    "murgir jhol",
+    "chicken potato curry bengali",
+    "মুরগির ঝোল"
+  ]
+}

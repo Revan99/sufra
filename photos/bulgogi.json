@@ -1,0 +1,35 @@
+{
+  "id": "bulgogi",
+  "photo": {
+    "src": "images/bulgogi.webp",
+    "thumb": "images/bulgogi-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Bowl of thinly sliced beef bulgogi over rice, sprinkled with sesame seeds",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Bulgogi (불고기)",
+      "author": "debbietingzon",
+      "authorUrl": "https://www.flickr.com/photos/32031278@N03",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "sourceUrl": "https://www.flickr.com/photos/32031278@N03/6001005524",
+      "source": "Flickr",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c08",
+    "imageUrl": "https://live.staticflickr.com/6121/6001005524_236320448e_b.jpg",
+    "query": "beef bulgogi rice bowl"
+  },
+  "queries": [
+    "bulgogi lettuce wrap",
+    "불고기 쌈",
+    "beef bulgogi rice bowl",
+    "bulgogi deopbap"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "sotanghon-soup",
+  "photo": {
+    "src": "images/sotanghon-soup.webp",
+    "thumb": "images/sotanghon-soup-thumb.webp",
+    "width": 960,
+    "height": 776,
+    "alt": "Bowl of glass noodle soup with chicken, carrot, cabbage, mushrooms and spring onion",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Chicken Sotanghon",
+      "author": "flippinyank",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Sotanghon.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Chicken_Sotanghon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Chicken Sotanghon"
+  },
+  "queries": [
+    "Filipino Chicken Glass Noodle Soup",
+    "Chicken Sotanghon"
+  ]
+}

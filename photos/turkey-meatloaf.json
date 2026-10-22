@@ -1,0 +1,32 @@
+{
+  "id": "turkey-meatloaf",
+  "photo": {
+    "src": "images/turkey-meatloaf.webp",
+    "thumb": "images/turkey-meatloaf-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Whole glazed meatloaf on a platter with three slices cut and a herb garnish",
+    "focus": [
+      45,
+      50
+    ],
+    "credit": {
+      "title": "MeatloafWithSauce",
+      "author": "Renee Comet (photographer)",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MeatloafWithSauce.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/MeatloafWithSauce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "turkey meatloaf"
+  },
+  "queries": [
+    "turkey meatloaf",
+    "meatloaf"
+  ]
+}

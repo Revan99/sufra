@@ -1,0 +1,34 @@
+{
+  "id": "lighter-mango-sticky-rice",
+  "photo": {
+    "src": "images/lighter-mango-sticky-rice.webp",
+    "thumb": "images/lighter-mango-sticky-rice-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Mound of sticky rice on a banana leaf beside slices of ripe mango on a white plate",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Mango sticy rice (3859549574)",
+      "author": "Dennis Wong from Hong Kong, Hong Kong",
+      "authorUrl": "https://www.flickr.com/people/97247234@N00",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mango_sticy_rice_(3859549574).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Mango_sticy_rice_%283859549574%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "mango sticky rice"
+  },
+  "queries": [
+    "mango sticky rice",
+    "ข้าวเหนียวมะม่วง",
+    "khao niao mamuang"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "chicken-shami-kebab",
+  "photo": {
+    "src": "images/chicken-shami-kebab.webp",
+    "thumb": "images/chicken-shami-kebab-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Round golden chicken shami kebabs with a mint leaf on a patterned plate over a rose-print cloth",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Chicken Shami Kabab",
+      "author": "Miansari66",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Miansari66",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Shami_Kabab.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c09",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Chicken_Shami_Kabab.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "shami kebab"
+  },
+  "queries": [
+    "shami kebab",
+    "شامی کباب",
+    "x_nonexistent_zzq"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "encebollado",
+  "photo": {
+    "src": "images/encebollado.webp",
+    "thumb": "images/encebollado-thumb.webp",
+    "width": 960,
+    "height": 1280,
+    "alt": "Bowl of Ecuadorian encebollado fish soup topped with pickled onion and coriander, with lime and toasted corn on the side",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Encebollado.",
+      "author": "Maryte Peralta",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Maryte_Peralta",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Encebollado..jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c08",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Encebollado..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "encebollado"
+  },
+  "queries": [
+    "encebollado",
+    "encebollado ecuatoriano"
+  ]
+}

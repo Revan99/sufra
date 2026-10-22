@@ -1,0 +1,34 @@
+{
+  "id": "chicken-bhuna",
+  "photo": {
+    "src": "images/chicken-bhuna.webp",
+    "thumb": "images/chicken-bhuna-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Red bowl of chicken bhuna, chicken pieces coated in a thick dry spiced masala",
+    "focus": [
+      45,
+      50
+    ],
+    "credit": {
+      "title": "Bhuna Murgh",
+      "author": "Miansari66",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Miansari66",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bhuna_Murgh.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c09",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Bhuna_Murgh.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken bhuna"
+  },
+  "queries": [
+    "chicken bhuna",
+    "murgi bhuna",
+    "মুরগি ভুনা"
+  ]
+}

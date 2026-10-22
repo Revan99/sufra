@@ -1,0 +1,33 @@
+{
+  "id": "tropical-fruit-salad",
+  "photo": {
+    "src": "images/tropical-fruit-salad.webp",
+    "thumb": "images/tropical-fruit-salad-thumb.webp",
+    "width": 960,
+    "height": 597,
+    "alt": "Platter of chopped papaya, pineapple, watermelon and banana fruit salad",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Ensalada de Frutas",
+      "author": "Ealmagro",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Ealmagro",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ensalada_de_Frutas.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c07",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Ensalada_de_Frutas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "tropical fruit salad"
+  },
+  "queries": [
+    "tropical fruit salad",
+    "fruit salad mango pineapple"
+  ]
+}

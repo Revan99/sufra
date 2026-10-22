@@ -1,0 +1,33 @@
+{
+  "id": "white-bean-avocado-toast",
+  "photo": {
+    "src": "images/white-bean-avocado-toast.webp",
+    "thumb": "images/white-bean-avocado-toast-thumb.webp",
+    "width": 960,
+    "height": 960,
+    "alt": "Two slices of toast spread with smashed avocado, topped with chilli flakes and seeds",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Avocado toast with sesame seeds",
+      "author": "Jami430",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Jami430",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Avocado_toast_with_sesame_seeds.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c09",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Avocado_toast_with_sesame_seeds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "avocado toast"
+  },
+  "queries": [
+    "avocado toast beans",
+    "avocado toast"
+  ]
+}

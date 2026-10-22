@@ -1,0 +1,32 @@
+{
+  "id": "pancit-bihon",
+  "photo": {
+    "src": "images/pancit-bihon.webp",
+    "thumb": "images/pancit-bihon-thumb.webp",
+    "width": 960,
+    "height": 636,
+    "alt": "Plate of stir-fried rice vermicelli with chicken, carrot and cabbage, with calamansi on the side",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Pancit bihon 3",
+      "author": "lynetao",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pancit_bihon_3.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c06",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Pancit_bihon_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Pancit Bihon"
+  },
+  "queries": [
+    "Filipino Rice Noodles with Chicken and Vegetables",
+    "Pancit Bihon"
+  ]
+}

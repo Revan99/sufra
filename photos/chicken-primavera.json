@@ -1,0 +1,34 @@
+{
+  "id": "chicken-primavera",
+  "photo": {
+    "src": "images/chicken-primavera.webp",
+    "thumb": "images/chicken-primavera-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Bowl of pasta primavera with chicken, red pepper and courgette in a light sauce, topped with grated cheese",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "POLLO PESTO PRIMAVERA (27230443866)",
+      "author": "Prayitno / Thank you for (12 millions +) view from Los Angeles, USA",
+      "authorUrl": "https://www.flickr.com/people/34128007@N04",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:POLLO_PESTO_PRIMAVERA_(27230443866).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c05",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/POLLO_PESTO_PRIMAVERA_%2827230443866%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "pasta primavera"
+  },
+  "queries": [
+    "pasta primavera",
+    "chicken pasta primavera",
+    "chicken pasta vegetables"
+  ]
+}

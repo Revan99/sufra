@@ -1,0 +1,33 @@
+{
+  "id": "berry-overnight-oats",
+  "photo": {
+    "src": "images/berry-overnight-oats.webp",
+    "thumb": "images/berry-overnight-oats-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Blue bowl of pink overnight oats mixed with berries beside a spoon",
+    "focus": [
+      40,
+      50
+    ],
+    "credit": {
+      "title": "Child Care Recipes (Team Nutiriton) (20230123-FNS-UNK-018)",
+      "author": "USDAgov",
+      "authorUrl": "https://www.flickr.com/people/usdagov/",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Child_Care_Recipes_(Team_Nutiriton)_(20230123-FNS-UNK-018).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Child_Care_Recipes_%28Team_Nutiriton%29_%2820230123-FNS-UNK-018%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "overnight oats berries"
+  },
+  "queries": [
+    "overnight oats berries",
+    "overnight oats"
+  ]
+}

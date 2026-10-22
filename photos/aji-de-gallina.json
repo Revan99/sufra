@@ -1,0 +1,32 @@
+{
+  "id": "aji-de-gallina",
+  "photo": {
+    "src": "images/aji-de-gallina.webp",
+    "thumb": "images/aji-de-gallina-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Ají de gallina in a yellow chilli cream sauce with egg slices and olives, beside a dome of rice",
+    "focus": [
+      55,
+      55
+    ],
+    "credit": {
+      "title": "Aji de Gallina",
+      "author": "ajax15",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aji_de_Gallina.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c06",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Aji_de_Gallina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "aji de gallina"
+  },
+  "queries": [
+    "ají de gallina",
+    "aji de gallina"
+  ]
+}

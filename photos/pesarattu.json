@@ -1,0 +1,33 @@
+{
+  "id": "pesarattu",
+  "photo": {
+    "src": "images/pesarattu.webp",
+    "thumb": "images/pesarattu-thumb.webp",
+    "width": 960,
+    "height": 639,
+    "alt": "Folded green moong dosa on a floral paper plate with ginger chutney",
+    "focus": [
+      50,
+      62
+    ],
+    "credit": {
+      "title": "Pesarattu with ginger pickel",
+      "author": "NAVYA",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:NAVYA",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pesarattu_with_ginger_pickel.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c05",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Pesarattu_with_ginger_pickel.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Pesarattu"
+  },
+  "queries": [
+    "Andhra Green Moong Dosa",
+    "Pesarattu"
+  ]
+}

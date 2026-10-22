@@ -1,0 +1,32 @@
+{
+  "id": "huevos-rancheros",
+  "photo": {
+    "src": "images/huevos-rancheros.webp",
+    "thumb": "images/huevos-rancheros-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Fried eggs on corn tortillas with tomato salsa and grated cheese",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Huevos Rancheros (11494813583)",
+      "author": "Luca Nebuloni from Milan, Italy",
+      "authorUrl": "https://www.flickr.com/people/7897906@N06",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Huevos_Rancheros_(11494813583).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c05",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Huevos_Rancheros_%2811494813583%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "huevos rancheros"
+  },
+  "queries": [
+    "huevos rancheros"
+  ]
+}

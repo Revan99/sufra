@@ -1,0 +1,34 @@
+{
+  "id": "kerala-chicken-stew",
+  "photo": {
+    "src": "images/kerala-chicken-stew.webp",
+    "thumb": "images/kerala-chicken-stew-thumb.webp",
+    "width": 960,
+    "height": 642,
+    "alt": "White dish of creamy coconut Kerala chicken stew with potatoes, carrot and curry leaves",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Kerala Chicken Stew (15914732695)",
+      "author": "Yummy O Yummy",
+      "authorUrl": "https://www.flickr.com/people/127963413@N05",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kerala_Chicken_Stew_(15914732695).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Kerala_Chicken_Stew_%2815914732695%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "kerala chicken stew"
+  },
+  "queries": [
+    "kerala chicken stew",
+    "chicken ishtu",
+    "kerala stew"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "kebab-karaz",
+  "photo": {
+    "src": "images/kebab-karaz.webp",
+    "thumb": "images/kebab-karaz-thumb.webp",
+    "width": 960,
+    "height": 723,
+    "alt": "Dish of lamb meatballs in deep red cherry sauce over flatbread, topped with parsley and cashews",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Cherry Kebab",
+      "author": "Elfenbeinturm",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Elfenbeinturm",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cherry_Kebab.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Cherry_Kebab.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "kebab karaz"
+  },
+  "queries": [
+    "kebab karaz",
+    "كباب كرز",
+    "cherry kebab Aleppo"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "kisir",
+  "photo": {
+    "src": "images/kisir.webp",
+    "thumb": "images/kisir-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Oval dish of kısır: red bulgur salad with cucumber, tomato and spring onion",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Kısır in Ankara",
+      "author": "E4024",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:E4024",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:K%C4%B1s%C4%B1r_in_Ankara.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/K%C4%B1s%C4%B1r_in_Ankara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "kısır"
+  },
+  "queries": [
+    "kısır",
+    "kisir",
+    "bulgur salad turkish"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "dal-dhokli",
+  "photo": {
+    "src": "images/dal-dhokli.webp",
+    "thumb": "images/dal-dhokli-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Bowl of dal dhokli with peanuts, onion and a dried red chilli beside rotlis, pickle and lime",
+    "focus": [
+      75,
+      30
+    ],
+    "credit": {
+      "title": "Dal dhokli",
+      "author": "Kanikatwl",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Kanikatwl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dal_dhokli.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Dal_dhokli.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Gujarati Dal Dhokli"
+  },
+  "queries": [
+    "Gujarati Dal Dhokli"
+  ]
+}

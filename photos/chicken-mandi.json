@@ -1,0 +1,33 @@
+{
+  "id": "chicken-mandi",
+  "photo": {
+    "src": "images/chicken-mandi.webp",
+    "thumb": "images/chicken-mandi-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Platter of spiced yellow mandi rice topped with roast chicken pieces and a green chilli",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Chicken Mandi Rice مندي دجاج",
+      "author": "Miansari66",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Miansari66",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Mandi_Rice_%D9%85%D9%86%D8%AF%D9%8A_%D8%AF%D8%AC%D8%A7%D8%AC.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Chicken_Mandi_Rice_%D9%85%D9%86%D8%AF%D9%8A_%D8%AF%D8%AC%D8%A7%D8%AC.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Yemeni Chicken Mandi"
+  },
+  "queries": [
+    "Yemeni Chicken Mandi",
+    "Mandi Dajaj"
+  ]
+}

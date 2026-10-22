@@ -1,0 +1,34 @@
+{
+  "id": "siniyat-dijaj",
+  "photo": {
+    "src": "images/siniyat-dijaj.webp",
+    "thumb": "images/siniyat-dijaj-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Oven tray of roast chicken with potato slices, tomatoes and red peppers",
+    "focus": [
+      50,
+      45
+    ],
+    "credit": {
+      "title": "Pollastre al forn",
+      "author": "E4024",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:E4024",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pollastre_al_forn.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Pollastre_al_forn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken potato tray bake"
+  },
+  "queries": [
+    "chicken potato tray bake",
+    "صينية دجاج",
+    "roast chicken potatoes oven"
+  ]
+}

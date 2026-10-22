@@ -1,0 +1,36 @@
+{
+  "id": "elote-lighter",
+  "photo": {
+    "src": "images/elote-lighter.webp",
+    "thumb": "images/elote-lighter-thumb.webp",
+    "width": 960,
+    "height": 1280,
+    "alt": "Grilled corn on a stick coated in crumbled cheese and chilli powder, held up on a street",
+    "focus": [
+      50,
+      45
+    ],
+    "credit": {
+      "title": "Mexican Corn Cob",
+      "author": "Alexisromeromar",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Alexisromeromar",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mexican_Corn_Cob.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c11",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Mexican_Corn_Cob.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Mexican street corn"
+  },
+  "queries": [
+    "Lighter Mexican Street Corn",
+    "Elote",
+    "Mexican street corn",
+    "elote preparado",
+    "elote con mayonesa queso"
+  ]
+}

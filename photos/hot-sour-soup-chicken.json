@@ -1,0 +1,33 @@
+{
+  "id": "hot-sour-soup-chicken",
+  "photo": {
+    "src": "images/hot-sour-soup-chicken.webp",
+    "thumb": "images/hot-sour-soup-chicken-thumb.webp",
+    "width": 960,
+    "height": 1703,
+    "alt": "White bowl of dark hot and sour chicken soup with shredded vegetables and a spoon",
+    "focus": [
+      45,
+      60
+    ],
+    "credit": {
+      "title": "Hot and Sour Chicken soup IMG20260606215305",
+      "author": "SijiR",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:SijiR",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hot_and_Sour_Chicken_soup_IMG20260606215305.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Hot_and_Sour_Chicken_soup_IMG20260606215305.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Hot and Sour Soup with Chicken"
+  },
+  "queries": [
+    "Hot and Sour Soup with Chicken",
+    "Suānlà Tāng"
+  ]
+}

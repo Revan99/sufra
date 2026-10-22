@@ -1,0 +1,33 @@
+{
+  "id": "pollo-al-ajillo",
+  "photo": {
+    "src": "images/pollo-al-ajillo.webp",
+    "thumb": "images/pollo-al-ajillo-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Plate of browned garlic chicken pieces with whole garlic cloves and fried potatoes",
+    "focus": [
+      55,
+      55
+    ],
+    "credit": {
+      "title": "Pollo al ajillo",
+      "author": "Juan Emilio Prades Bel",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Juan_Emilio_Prades_Bel",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pollo_al_ajillo.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Pollo_al_ajillo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "pollo al ajillo"
+  },
+  "queries": [
+    "pollo al ajillo",
+    "garlic chicken spanish"
+  ]
+}

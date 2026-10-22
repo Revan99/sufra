@@ -1,0 +1,34 @@
+{
+  "id": "gyeran-jjim",
+  "photo": {
+    "src": "images/gyeran-jjim.webp",
+    "thumb": "images/gyeran-jjim-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Fluffy Korean steamed egg in a black earthenware pot topped with sliced green onion and chili flakes",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Korean.Banchan-Gyeran.jjim-01",
+      "author": "stuart_spivack (a flickr user)",
+      "authorUrl": "https://www.flickr.com/photos/stuart_spivack/",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korean.Banchan-Gyeran.jjim-01.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c04",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Korean.Banchan-Gyeran.jjim-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "계란찜"
+  },
+  "queries": [
+    "계란찜",
+    "gyeran-jjim",
+    "Korean steamed egg"
+  ]
+}

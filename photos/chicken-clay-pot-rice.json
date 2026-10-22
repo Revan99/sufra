@@ -1,0 +1,35 @@
+{
+  "id": "chicken-clay-pot-rice",
+  "photo": {
+    "src": "images/chicken-clay-pot-rice.webp",
+    "thumb": "images/chicken-clay-pot-rice-thumb.webp",
+    "width": 960,
+    "height": 638,
+    "alt": "Clay pot of rice with chicken pieces and sliced shiitake mushrooms in a soy glaze",
+    "focus": [
+      30,
+      55
+    ],
+    "credit": {
+      "title": "Claypot Rice",
+      "author": "jh_tan84",
+      "authorUrl": "https://www.flickr.com/photos/21045446@N00",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "sourceUrl": "https://www.flickr.com/photos/21045446@N00/6553327777",
+      "source": "Flickr",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c13",
+    "imageUrl": "https://live.staticflickr.com/7174/6553327777_c4e15c9898_b.jpg",
+    "query": "chicken mushroom claypot rice"
+  },
+  "queries": [
+    "滑雞煲仔飯",
+    "冬菇滑雞煲仔飯",
+    "chicken mushroom claypot rice",
+    "claypot rice chicken"
+  ]
+}

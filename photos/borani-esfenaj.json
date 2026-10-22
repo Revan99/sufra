@@ -1,0 +1,35 @@
+{
+  "id": "borani-esfenaj",
+  "photo": {
+    "src": "images/borani-esfenaj.webp",
+    "thumb": "images/borani-esfenaj-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Round tray of spinach mixed with yogurt drizzled with red pepper butter",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Ispanaklı boranı",
+      "author": "Maderibeyza",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Maderibeyza",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ispanakl%C4%B1_boran%C4%B1.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Ispanakl%C4%B1_boran%C4%B1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "borani"
+  },
+  "queries": [
+    "بورانی اسفناج",
+    "borani",
+    "spinach yogurt dip",
+    "borani esfenaj"
+  ]
+}

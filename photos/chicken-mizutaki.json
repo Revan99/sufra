@@ -1,0 +1,35 @@
+{
+  "id": "chicken-mizutaki",
+  "photo": {
+    "src": "images/chicken-mizutaki.webp",
+    "thumb": "images/chicken-mizutaki-thumb.webp",
+    "width": 955,
+    "height": 717,
+    "alt": "Pot of mizutaki: clear chicken broth with chicken pieces topped with mizuna greens, with a bowl of rice behind",
+    "focus": [
+      60,
+      55
+    ],
+    "credit": {
+      "title": "Mizutaki 20080620",
+      "author": "tkudo",
+      "authorUrl": "https://www.flickr.com/photos/68029429@N00",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "sourceUrl": "https://www.flickr.com/photos/68029429@N00/2603521449",
+      "source": "Flickr",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://live.staticflickr.com/3068/2603521449_049264bb00_b.jpg",
+    "query": "mizutaki"
+  },
+  "queries": [
+    "mizutaki",
+    "水炊き",
+    "博多水炊き",
+    "chicken hot pot japanese"
+  ]
+}

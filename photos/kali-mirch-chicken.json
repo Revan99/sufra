@@ -1,0 +1,34 @@
+{
+  "id": "kali-mirch-chicken",
+  "photo": {
+    "src": "images/kali-mirch-chicken.webp",
+    "thumb": "images/kali-mirch-chicken-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Black pepper chicken pieces coated in cracked pepper masala with coriander on a white plate",
+    "focus": [
+      50,
+      45
+    ],
+    "credit": {
+      "title": "Chicken Kali Mirch",
+      "author": "Aditya Saran",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Mail4aditya10",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Kali_Mirch.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Chicken_Kali_Mirch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "kali mirch chicken"
+  },
+  "queries": [
+    "kali mirch chicken",
+    "black pepper chicken",
+    "pepper chicken"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "lamb-shepherds-pie",
+  "photo": {
+    "src": "images/lamb-shepherds-pie.webp",
+    "thumb": "images/lamb-shepherds-pie-thumb.webp",
+    "width": 960,
+    "height": 723,
+    "alt": "Slice of shepherd's pie with mashed potato top over minced meat and vegetables, with a green side salad",
+    "focus": [
+      55,
+      60
+    ],
+    "credit": {
+      "title": "Shepherds pie - The Kew Greenhouse Cafe 2025-05-14",
+      "author": "Andy Li",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Onthewings",
+      "license": "CC0 1.0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shepherds_pie_-_The_Kew_Greenhouse_Cafe_2025-05-14.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c03",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Shepherds_pie_-_The_Kew_Greenhouse_Cafe_2025-05-14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "shepherd's pie"
+  },
+  "queries": [
+    "shepherd's pie",
+    "shepherds pie",
+    "cottage pie"
+  ]
+}

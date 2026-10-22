@@ -1,0 +1,33 @@
+{
+  "id": "chicken-waldorf-salad",
+  "photo": {
+    "src": "images/chicken-waldorf-salad.webp",
+    "thumb": "images/chicken-waldorf-salad-thumb.webp",
+    "width": 960,
+    "height": 863,
+    "alt": "Glass bowl of Waldorf salad with green grapes, celery, apple and walnut halves in a creamy dressing",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Waldorfsalat",
+      "author": "Nillerdk",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Nillerdk",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waldorfsalat.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Waldorfsalat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "waldorf salad"
+  },
+  "queries": [
+    "waldorf salad",
+    "chicken waldorf salad"
+  ]
+}

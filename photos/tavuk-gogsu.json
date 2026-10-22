@@ -1,0 +1,33 @@
+{
+  "id": "tavuk-gogsu",
+  "photo": {
+    "src": "images/tavuk-gogsu.webp",
+    "thumb": "images/tavuk-gogsu-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Slice of white tavuk göğsü milk pudding dusted with cinnamon on a plate",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Tavuk Göğsü Dessert",
+      "author": "Garrett Ziegler",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tavuk_G%C3%B6%C4%9Fs%C3%BC_Dessert.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Tavuk_G%C3%B6%C4%9Fs%C3%BC_Dessert.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "tavuk göğsü"
+  },
+  "queries": [
+    "tavuk göğsü",
+    "tavuk gogsu",
+    "turkish milk pudding"
+  ]
+}

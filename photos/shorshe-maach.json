@@ -1,0 +1,33 @@
+{
+  "id": "shorshe-maach",
+  "photo": {
+    "src": "images/shorshe-maach.webp",
+    "thumb": "images/shorshe-maach-thumb.webp",
+    "width": 960,
+    "height": 961,
+    "alt": "Two pieces of fish in yellow mustard sauce with a green chilli in a white bowl",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Catla fish in mustard curry - Kolkata - West Bengal",
+      "author": "Pkd2512",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Pkd2512",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catla_fish_in_mustard_curry_-_Kolkata_-_West_Bengal.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c04",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Catla_fish_in_mustard_curry_-_Kolkata_-_West_Bengal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Bengali Mustard Fish"
+  },
+  "queries": [
+    "Bengali Mustard Fish",
+    "Shorshe Maach"
+  ]
+}

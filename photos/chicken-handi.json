@@ -1,0 +1,33 @@
+{
+  "id": "chicken-handi",
+  "photo": {
+    "src": "images/chicken-handi.webp",
+    "thumb": "images/chicken-handi-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Bowl of chicken handi curry with a drumstick, beside sliced red onion, lemon and green chillies, with flatbread",
+    "focus": [
+      40,
+      45
+    ],
+    "credit": {
+      "title": "Handi-chicken-recipe",
+      "author": "Vivekpat30",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Vivekpat30",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Handi-chicken-recipe.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Handi-chicken-recipe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Chicken Handi"
+  },
+  "queries": [
+    "Chicken Handi",
+    "Murgh Handi"
+  ]
+}

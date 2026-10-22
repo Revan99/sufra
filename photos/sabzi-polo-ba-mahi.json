@@ -1,0 +1,34 @@
+{
+  "id": "sabzi-polo-ba-mahi",
+  "photo": {
+    "src": "images/sabzi-polo-ba-mahi.webp",
+    "thumb": "images/sabzi-polo-ba-mahi-thumb.webp",
+    "width": 960,
+    "height": 744,
+    "alt": "Green herb rice in a white dish beside pan-fried fish fillets with lemon halves",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "Sabzi polo",
+      "author": "مانفی",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:%D9%85%D8%A7%D9%86%D9%81%DB%8C",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sabzi_polo.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Sabzi_polo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "سبزی پلو با ماهی"
+  },
+  "queries": [
+    "sabzi polo mahi",
+    "سبزی پلو با ماهی",
+    "sabzi polo"
+  ]
+}

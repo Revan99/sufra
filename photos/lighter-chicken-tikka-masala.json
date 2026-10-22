@@ -1,0 +1,32 @@
+{
+  "id": "lighter-chicken-tikka-masala",
+  "photo": {
+    "src": "images/lighter-chicken-tikka-masala.webp",
+    "thumb": "images/lighter-chicken-tikka-masala-thumb.webp",
+    "width": 960,
+    "height": 1440,
+    "alt": "White dish of chicken tikka masala in an orange sauce with coriander, naan behind",
+    "focus": [
+      50,
+      60
+    ],
+    "credit": {
+      "title": "Chicken tikka masala",
+      "author": "Michael Hays",
+      "authorUrl": "https://www.flickr.com/photos/15154907@N06",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_tikka_masala.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Chicken_tikka_masala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "chicken tikka masala"
+  },
+  "queries": [
+    "chicken tikka masala"
+  ]
+}

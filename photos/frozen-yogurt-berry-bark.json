@@ -1,0 +1,33 @@
+{
+  "id": "frozen-yogurt-berry-bark",
+  "photo": {
+    "src": "images/frozen-yogurt-berry-bark.webp",
+    "thumb": "images/frozen-yogurt-berry-bark-thumb.webp",
+    "width": 960,
+    "height": 629,
+    "alt": "Frozen Greek yogurt bark studded with strawberries, blueberries, peaches and coconut on a checked cloth",
+    "focus": [
+      50,
+      55
+    ],
+    "credit": {
+      "title": "Greek Yogurt Fruit Bark - Lansing Farmers Market at the Capitol (28915624870)",
+      "author": "A Healthier Michigan from Detroit, United States",
+      "authorUrl": "https://www.flickr.com/people/54781600@N05",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greek_Yogurt_Fruit_Bark_-_Lansing_Farmers_Market_at_the_Capitol_(28915624870).jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c02",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Greek_Yogurt_Fruit_Bark_-_Lansing_Farmers_Market_at_the_Capitol_%2828915624870%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "yogurt bark"
+  },
+  "queries": [
+    "frozen yogurt bark",
+    "yogurt bark"
+  ]
+}

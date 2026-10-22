@@ -1,0 +1,34 @@
+{
+  "id": "white-bean-dip-crudites",
+  "photo": {
+    "src": "images/white-bean-dip-crudites.webp",
+    "thumb": "images/white-bean-dip-crudites-thumb.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Square white bowl of creamy white bean dip garnished with fresh parsley on a wooden table",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "White bean dip with garnish",
+      "author": "Didriks from Cambridge, MA, USA",
+      "authorUrl": "https://www.flickr.com/people/49889671@N03",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:White_bean_dip_with_garnish.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/White_bean_dip_with_garnish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "white bean dip"
+  },
+  "queries": [
+    "white bean dip",
+    "cannellini dip",
+    "bean dip crudités"
+  ]
+}

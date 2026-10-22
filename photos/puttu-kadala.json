@@ -1,0 +1,34 @@
+{
+  "id": "puttu-kadala",
+  "photo": {
+    "src": "images/puttu-kadala.webp",
+    "thumb": "images/puttu-kadala-thumb.webp",
+    "width": 960,
+    "height": 579,
+    "alt": "Cylinder of steamed puttu on a white plate beside a bowl of black chickpea kadala curry",
+    "focus": [
+      50,
+      50
+    ],
+    "credit": {
+      "title": "GKN Puttu Kadala DSC 0555",
+      "author": "Pranchiyettan",
+      "authorUrl": "https://ml.wikipedia.org/wiki/User:Pranchiyettan",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/in/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:GKN_Puttu_Kadala_DSC_0555.JPG",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c01",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/GKN_Puttu_Kadala_DSC_0555.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "puttu kadala"
+  },
+  "queries": [
+    "puttu kadala",
+    "puttu",
+    "പുട്ട്"
+  ]
+}

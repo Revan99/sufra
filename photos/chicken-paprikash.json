@@ -1,0 +1,33 @@
+{
+  "id": "chicken-paprikash",
+  "photo": {
+    "src": "images/chicken-paprikash.webp",
+    "thumb": "images/chicken-paprikash-thumb.webp",
+    "width": 960,
+    "height": 621,
+    "alt": "Chicken leg in paprika cream sauce with a dollop of sour cream beside egg dumplings",
+    "focus": [
+      55,
+      50
+    ],
+    "credit": {
+      "title": "Paprikás Csirke Galuskával",
+      "author": "Sumit Surai",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Sumitsurai",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paprik%C3%A1s_Csirke_Galusk%C3%A1val.jpg",
+      "source": "Wikimedia Commons",
+      "changes": "Resized and converted to WebP"
+    }
+  },
+  "chosen": {
+    "key": "c06",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Paprik%C3%A1s_Csirke_Galusk%C3%A1val.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "query": "Hungarian Chicken Paprikash"
+  },
+  "queries": [
+    "Hungarian Chicken Paprikash",
+    "Paprikás Csirke"
+  ]
+}
